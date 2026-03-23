@@ -552,10 +552,10 @@ Znfin
 r=2*Zefin+2*Znfin/.{GaugeXi[W]->\[Xi]w,GaugeXi[Z]->\[Xi]z}/.SMP["m_Z"]:>mz/.SMP["m_W"]:>mw/.SMP["m_H"]:>mH/.SMP["m_t"]:>mt/.SMP["e"]:>el(*+Zufin+Zdfin*)//Expand
 
 
-Export["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/results/Zmuonfin.m",r]
+(*Export["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/results/Zmuonfin.m",r]*)
 
 
-Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zmuonfin.m",r]
+(*Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zmuonfin.m",r]*)
 
 
 r1=(2*Ze+2*Zn(*+Zd+Zu*))//Expand
@@ -567,16 +567,16 @@ Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zmuond
 rqfin=(Zefin+Znfin+Zdfin+Zufin)/.{GaugeXi[W]->\[Xi]w,GaugeXi[Z]->\[Xi]z}/.SMP["m_Z"]:>mz/.SMP["m_W"]:>mw/.SMP["m_H"]:>mH/.SMP["m_t"]:>mt/.SMP["e"]:>el(*+Zufin+Zdfin*)//Expand
 
 
-Export["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/results/Zquarkfin.m",rqfin]
+(*Export["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/results/Zquarkfin.m",rqfin]*)
 
 
-Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zquarkfin.m",rqfin]
+(*Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zquarkfin.m",rqfin]*)
 
 
 rqdiv=(Ze+Zn+Zd+Zu)//Expand
 
 
-Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zquarkdiv.m",rqdiv]
+(*Export["/Users/anaisabelcostapereira/Desktop/full_theory/Leptonic/results/Zquarkdiv.m",rqdiv]*)
 
 
 (* ::Section:: *)

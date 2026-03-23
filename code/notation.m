@@ -1,8 +1,5 @@
 (* ::Package:: *)
 
-Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/test on 1 loop/fermionline_1loop.m"]
-
-
 (* ::Section:: *)
 (*Functions*)
 
@@ -354,9 +351,3 @@ mmDot /: mmDot[a___, mmDot[b___], c___] := mmDot[a, b, c]
 pslash /: pslash[i_] . x_ := mDot[pslash[i], x]
 gamma /: gamma[a_] . x_ := mDot[gamma[a], x]
 *)
-
-
-nonComQ[gamma[1]]
-nonComQ[gamma[L]]
-nonComQ[q[1]]
-
