@@ -1,5 +1,12 @@
 (* ::Package:: *)
 
+(* ::Section:: *)
+(*set up directory*)
+
+
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
+
+
 (* ::Section::Closed:: *)
 (*phi*)
 
@@ -53,22 +60,22 @@ Get["/home/ana/.Mathematica/Applications/FeynCalc/FeynCalc.m"];
 $FAVerbose=0;*)
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/QFTSymbols.m"]
+Get[direc <> "/code/QFTSymbols.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/MassiveTadpole.m"]
+Get[direc <> "/code/MassiveTadpole.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/notation.m"]
+Get[direc <> "/code/notation.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/fermionline.m"]
+Get[direc <> "/code/fermionline.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/tensred.m"]
+Get[direc <> "/code/tensred.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/integration_2loop.m"]
+Get[direc <> "/code/integration_2loop.m"]
 
 
 (* ::Input:: *)
@@ -218,77 +225,40 @@ mtad/: mtad[{i_,j_,k_},{a_,0,c_}]:=mtad[{i,0,k},{a,0,c}]/;j=!=0
 mtad/: mtad[{i_,j_,k_},{a_,b_,0}]:=mtad[{i,j,0},{a,b,0}]/;k=!=0
 
 
-(*mf1=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf1.m"]/.
+mf1=Get[direc <> "/masters/mastersf1.m"]/.
 {G[a_,b_]->mtad[{m1,0,0},b]};
 
-mf2=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf2.m"]/.
+mf2=Get[direc <> "/masters/mastersf2.m"]/.
 {G[a_,b_]->mtad[{0,m1,0},b]};
 
-mf3=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf3.m"]/.
+mf3=Get[direc <> "/masters/mastersf3.m"]/.
 {G[a_,b_]->mtad[{0,0,m1},b]};
 
-mf4=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf4.m"]/.
+mf4=Get[direc <> "/masters/mastersf4.m"]/.
 {G[a_,b_]->mtad[{m1,m1,0},b]};
 
-mf5=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf5.m"]/.
+mf5=Get[direc <> "/masters/mastersf5.m"]/.
 {G[a_,b_]->mtad[{0,m1,m1},b]};
 
-mf6=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf6.m"]/.
+mf6=Get[direc <> "/masters/mastersf6.m"]/.
 {G[a_,b_]->mtad[{m1,0,m1},b]};
 
-mf7=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf7.m"]/.
+mf7=Get[direc <> "/masters/mastersf7.m"]/.
 {G[a_,b_]->mtad[{m1,m2,0},b]};
 
-mf8=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf8.m"]/.
+mf8=Get[direc <> "/masters/mastersf8.m"]/.
 {G[a_,b_]->mtad[{0,m1,m2},b]};
 
-mf9=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf9.m"]/.
+mf9=Get[direc <> "/masters/mastersf9.m"]/.
 {G[a_,b_]->mtad[{m1,0,m2},b]};
 
-mf10=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf10.m"]/.
+mf10=Get[direc <> "/masters/mastersf10.m"]/.
 {G[a_,b_]->mtad[{m1,m1,m2},b]};
 
-mf12=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf12.m"]/.
+mf12=Get[direc <> "/masters/mastersf12.m"]/.
 {G[a_,b_]->mtad[{m1,m2,m1},b]};
 
-mf13=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf13.m"]/.
-{G[a_,b_]->mtad[{m1,m2,m3},b]};*)
-
-
-mf1=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf1.m"]/.
-{G[a_,b_]->mtad[{m1,0,0},b]};
-
-mf2=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf2.m"]/.
-{G[a_,b_]->mtad[{0,m1,0},b]};
-
-mf3=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf3.m"]/.
-{G[a_,b_]->mtad[{0,0,m1},b]};
-
-mf4=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf4.m"]/.
-{G[a_,b_]->mtad[{m1,m1,0},b]};
-
-mf5=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf5.m"]/.
-{G[a_,b_]->mtad[{0,m1,m1},b]};
-
-mf6=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf6.m"]/.
-{G[a_,b_]->mtad[{m1,0,m1},b]};
-
-mf7=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf7.m"]/.
-{G[a_,b_]->mtad[{m1,m2,0},b]};
-
-mf8=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf8.m"]/.
-{G[a_,b_]->mtad[{0,m1,m2},b]};
-
-mf9=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf9.m"]/.
-{G[a_,b_]->mtad[{m1,0,m2},b]};
-
-mf10=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf10.m"]/.
-{G[a_,b_]->mtad[{m1,m1,m2},b]};
-
-mf12=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf12.m"]/.
-{G[a_,b_]->mtad[{m1,m2,m1},b]};
-
-mf13=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/masters/mastersf13.m"]/.
+mf13=Get[direc <> "/masters/mastersf13.m"]/.
 {G[a_,b_]->mtad[{m1,m2,m3},b]};
 
 
@@ -362,12 +332,8 @@ mf14a=Table[
 ];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*substitution  in  the  amplitude*)
-
-
-(* ::Input:: *)
-(**)
 
 
 diag19=Table[If[Head[diag18[[i]]]===List,Total@diag18[[i]],diag18[[i]]],{i,Length[diag18]}];
@@ -379,14 +345,6 @@ tad[{i_,Null,k_},{a_,b_,c_}]:>tad[{i,0,k},{a,b,c}]/.
 tad[{i_,j_,Null},{a_,b_,c_}]:>tad[{i,j,0},{a,b,c}]/.tad->mtad;
 
 
-(* ::Input:: *)
-(**)
-
-
-(* ::Input:: *)
-(*(*Union@Cases[diag20,_mtad,Infinity]//TableForm;*)*)
-
-
 diag21 = diag20/.mf1a/.mf2a/.mf3a/.mf4a/.mf5a/.mf6a/.mf7a/.mf8a/.mf9a/.mf10a/.mf12a/.mf13a/.mf14a/.{mtad[{0,0,0},{a_,b_,c_}]->0};
 
 
@@ -394,11 +352,4 @@ Union@Cases[diag21, mtad[__], Infinity];
 %/.mtad[__, {a_,b_,c_}]:>{a,b,c}
 
 
-(* ::Input:: *)
-(*(*Union@Cases[diag21,_mtad,Infinity]//TableForm;*)*)
-
-
-(*Export["/home/ana/Desktop/code m/diagsmuonrgaugewithtad.m",diag21]*)
-
-
-(*Export["/home/ana/Desktop/code m/diagsquarkrgaugewithtad.m",diag21]*)
+Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]
