@@ -39,7 +39,7 @@ Get[direc <> "/code/integration_2loop.m"]
 
 
 (*list with add diagrams*)
-diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"];
+diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"]/.mass[x_]:>x;
 
 
 (*separate each element of the list into a seperate file - this inly needs to be runned once and then commented*)
@@ -51,7 +51,7 @@ Table[
     diag22[[i]]
   ],
   {i, Length[diag22]}
-]
+];
 
 
 (* ::Section:: *)
@@ -127,10 +127,10 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
-diag22=diag21/.mass[x_]:>x/.d->4-2e/.mtad->sorttad;
+(*diag22=diag21/.mass[x_]:>x/.d->4-2e/.mtad->sorttad;*)
 
 
-rule1 = Union@Cases[diag22, _sorttad, Infinity];
+rule1 = Union@Cases[diag22, _mtad, Infinity]/.mtad->sorttad;
 
 
 rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
@@ -139,17 +139,15 @@ rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
 rule = Dispatch[Thread[rule1 -> rules2]];
 
 
-diag23 = diag22/.rule;
-
-
 (*FIXING*)
 
 
-ana=Do[
+Do[
   diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
-  diagram1 = diagram/.mtad->sorttad;
-  res = Normal@Series[diagram, {e, 0, 0}];
-  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res],
+  diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
+  res = Normal[Series[diagram1, {e, 0, 0}]];
+  res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res1],
   {i, 1,Length[diag22]}
 ];
 
