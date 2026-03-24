@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Load packages*)
 
 
@@ -62,7 +62,7 @@ tomass[x_]:=x/.{sw->Sqrt[1-cw^2]}/.cw->MW/MZ
 (*diagrams*)
 
 
-diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrections, Tadpoles}], 
+(*diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrections, Tadpoles}], 
 	F[3,{1,o}] -> {F[3,{1,o}]}, 
 	InsertionLevel ->{Particles}, 
 	Model->"SM",
@@ -72,7 +72,46 @@ diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrecti
 draw = Paint[diagsup, ColumnsXRows -> {3, 1}, 
 Numbering -> Simple,
 SheetHeader->None
-];
+];*)
+
+
+(*diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrections, Tadpoles}], 
+	F[4,{1,o}] -> {F[4,{1,o}]}, 
+	InsertionLevel ->{Particles}, 
+	Model->"SM",
+	Restrictions -> NoLightFHCoupling
+	];
+
+draw = Paint[diagsup, ColumnsXRows -> {3, 1}, 
+Numbering -> Simple,
+SheetHeader->None
+];*)
+
+
+(*diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrections, Tadpoles}], 
+	F[2,{1}] -> {F[2,{1}]}, 
+	InsertionLevel ->{Particles}, 
+	Model->"SM",
+	Restrictions -> NoLightFHCoupling
+	];
+
+draw = Paint[diagsup, ColumnsXRows -> {3, 1}, 
+Numbering -> Simple,
+SheetHeader->None
+];*)
+
+
+(*diagsup = InsertFields[CreateTopologies[1,1 -> 1,ExcludeTopologies-> {WFCorrections, Tadpoles}], 
+	F[1,{1}] -> {F[1,{1}]}, 
+	InsertionLevel ->{Particles}, 
+	Model->"SM",
+	Restrictions -> NoLightFHCoupling
+	];
+
+draw = Paint[diagsup, ColumnsXRows -> {3, 1}, 
+Numbering -> Simple,
+SheetHeader->None
+];*)
 
 
 (* ::Section::Closed:: *)
@@ -238,7 +277,7 @@ tad[{i_,j_,Null},{a_,b_,c_}]:>tad[{i,j,0},{a,b,c}]/.tad->mtad;
 amp20a = amp20/.mass[x_]:>x/.Sqrt[M_^2]:>M;
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*analytical amplitude*)
 
 
@@ -251,5 +290,98 @@ Union@Cases[amp21, _mtad, Infinity]
 amp22 = Normal[Series[amp21/.mtad->analyticTad, {e,0,1}]];
 
 
-Series[amp22, {e,0,0}];
-%[[2]]
+amp23 = amp22/pslash[1]/.{1/e->0}//Collect[#, {1/e,Log[__]},Simplify]&
+
+
+(*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZup.m",amp23]*)
+(*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZdown.m",amp23]*)
+(*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZelect.m",amp23]*)
+(*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZneut.m",amp23]*)
+
+
+(* ::Section:: *)
+(*LSZ computation*)
+
+
+Quit[]
+
+
+(* ::Subsection::Closed:: *)
+(*functions*)
+
+
+logs[x_]:=x/.{ln[a_* b_]:>ln[a]+ln[b]}/.{ln[c_/d_]:>ln[c]-ln[d]}/.{ln[1/e_]:>-ln[e]}/.ln[1/(MW^2 \[Xi]z)]->-2ln[MW]-ln[\[Xi]z]/.
+{ln[mu^2]->2 ln[mu]}/.{ln[1/MW^2]->-2 ln[MW]}/.ln[Sqrt[v_]]:>1/2 ln[v];
+logsinv[x_]:=x/.{ln[a_]+ln[b_]:>ln[a* b]}/.{ln[c_]-ln[d_]:>ln[c/d]};
+rulesxyz[fun_]:=fun/.{MT->Sqrt[x]*MW}/.{MH->Sqrt[y]*MW}/.{MZ->Sqrt[z]*MW}
+
+
+(* ::Subsection::Closed:: *)
+(*load results*)
+
+
+lszup = Total@Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZup.m"];
+
+
+lszd = Total@Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZdown.m"];
+
+
+lszelec = Total@Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZelect.m"];
+
+
+lszneut = Total@Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZneut.m"];
+
+
+(* ::Subsection:: *)
+(*compute lsz*)
+
+
+lszsl = lszup+lszd+lszelec+lszneut;
+
+
+lszl = 2(lszelec+lszneut);
+
+
+(*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZL.m",lszl]
+Export["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/LSZSL.m",lszsl]*)
+
+
+(* ::Subsection:: *)
+(*comparison old code*)
+
+
+testl = Series[lszl*(16 \[Pi]^2)/el^2, {e,0,0}]//Normal//Collect[#, {ln[__]},Simplify]&;
+
+
+testsl = Series[lszsl*(16 \[Pi]^2)/el^2, {e,0,0}]//Normal//Collect[#, {ln[__]},Simplify]&;
+
+
+(*result computed before - old code*)
+lszmuon = (-3*mw^2)/(mw^2 - mz^2) - (3*mz^4)/(2*mw^2*(mw^2 - mz^2)) + 
+ (2*mz^2*\[Xi]w)/(mw^2 - mz^2) + (2*mw^2*\[Xi]z)/(mw^2 - mz^2) - 
+ (2*mz^2*\[Xi]z)/(mw^2 - mz^2) + (mz^4*\[Xi]z)/(mw^2*(mw^2 - mz^2)) + 
+ (2*mz^2*\[Xi]w*ln[\[Mu]^2/(mw^2*\[Xi]w)])/(mw^2 - mz^2) + 
+ (2*mw^2*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(mw^2 - mz^2) - 
+ (2*mz^2*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(mw^2 - mz^2) + 
+ (mz^4*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(mw^2*(mw^2 - mz^2))/.mw->MW/.mz->MZ;
+
+
+lszquark=(-7*mw^2)/(3*(mw^2 - mz^2)) - (4*mz^2)/(3*(mw^2 - mz^2)) - 
+ (5*mz^4)/(6*mw^2*(mw^2 - mz^2)) + (2*mz^2*\[Xi]w)/(mw^2 - mz^2) + 
+ (14*mw^2*\[Xi]z)/(9*(mw^2 - mz^2)) - (10*mz^2*\[Xi]z)/(9*(mw^2 - mz^2)) + 
+ (5*mz^4*\[Xi]z)/(9*mw^2*(mw^2 - mz^2)) + 
+ (2*mz^2*\[Xi]w*ln[\[Mu]^2/(mw^2*\[Xi]w)])/(mw^2 - mz^2) + 
+ (14*mw^2*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(9*(mw^2 - mz^2)) - 
+ (10*mz^2*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(9*(mw^2 - mz^2)) + 
+ (5*mz^4*\[Xi]z*ln[\[Mu]^2/(mz^2*\[Xi]z)])/(9*mw^2*(mw^2 - mz^2))/.mw->MW/.mz->MZ;
+
+
+logs@(lszmuon/.\[Mu]->mu)/.ln->Log/.Log[1/Power[M_, 2]]:>-2 Log[M]
+%/testl//Simplify
+
+
+logs@(lszquark/.\[Mu]->mu)/.ln->Log/.Log[1/Power[M_, 2]]:>-2 Log[M]
+%/testsl//Simplify
+
+
+
