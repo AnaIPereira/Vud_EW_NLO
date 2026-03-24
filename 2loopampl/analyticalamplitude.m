@@ -1,13 +1,13 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
 direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Load  packages*)
 
 
@@ -142,8 +142,12 @@ rule = Dispatch[Thread[rule1 -> rules2]];
 diag23 = diag22/.rule;
 
 
+(*FIXING*)
+
+
 ana=Do[
   diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
+  diagram1 = diagram/.mtad->sorttad;
   res = Normal@Series[diagram, {e, 0, 0}];
   Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res],
   {i, 1,Length[diag22]}

@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
@@ -51,7 +51,7 @@ PhiN[x_, y_] :=
    *)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Load  packages*)
 
 
@@ -82,7 +82,7 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  results*)
 
 
@@ -96,11 +96,10 @@ amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];
 Length[amp]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*dirac  line  and  traces  into  standard  order*)
 
 
-(*diag=aamp/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;*)
 diag=amp/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
 
 
@@ -161,7 +160,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -357,7 +356,7 @@ Union@Cases[diag21, mtad[__], Infinity];
 
 
 (*this are the muon 2 loop amplitudes to compare with Martin*)
-(*Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]*)
+Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]
 
 
 (*these are are all muon 2 loop amplitudes including tadpoles*)
