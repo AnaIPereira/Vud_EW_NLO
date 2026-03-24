@@ -1,7 +1,10 @@
 (* ::Package:: *)
 
-(* ::Input:: *)
-(* *)
+(* ::Section:: *)
+(*set up directory*)
+
+
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
 (* ::Section::Closed:: *)
@@ -13,29 +16,29 @@ Get["/home/ana/.Mathematica/Applications/FeynCalc/FeynCalc.m"];
 $FAVerbose=0;*)
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/QFTSymbols.m"]
+Get[direc <> "/code/QFTSymbols.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/MassiveTadpole.m"]
+Get[direc <> "/code/MassiveTadpole.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/notation.m"]
+Get[direc <> "/code/notation.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/fermionline.m"]
+Get[direc <> "/code/fermionline.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/tensred.m"]
+Get[direc <> "/code/tensred.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/integration_2loop.m"]
+Get[direc <> "/code/integration_2loop.m"]
 
 
 (* ::Input:: *)
 (**)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*analytical*)
 
 
@@ -125,55 +128,58 @@ diag23 = diag22/.rule;
 
 ana=Do[
   res = Normal@Series[diag23[[i]], {e, 0, 0}];
-  Export[
-    "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m",
+  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",
     res
   ],
-  {i, 391,401}
+  {i, 1,401}
 ]
 
 
 (*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
 
 
-ana1 = Table[Get[ "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m"],{i,401}];
+(* ::Section::Closed:: *)
+(*comparison (*not running*)*)
 
 
-martin=Get["/home/ana/Desktop/mydiagrams/sres2munutonue.m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;
+(*ana1 = Table[Get[ "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m"],{i,401}];*)
 
 
-martinemail = Get["/home/ana/Downloads/sres2munutonue (1).m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;
+(*martin=Get["/home/ana/Desktop/mydiagrams/sres2munutonue.m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;*)
 
 
-check=Table[Simplify[martin[[i]]-martinemail[[i]]],{i, 401}];
+(*martinemail = Get["/home/ana/Downloads/sres2munutonue (1).m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;*)
 
 
-martin1 = Series[martin/.d->4 - 2 e, {e,0,0}]/.CW->cw/.SW->sw/.EL->el//Normal;
+(*check=Table[Simplify[martin[[i]]-martinemail[[i]]],{i, 401}];*)
 
 
-dif=Table[Simplify[ana1[[i]]-martin1[[i]]],{i,401}]/.NF[__]:>1;
+(*martin1 = Series[martin/.d->4 - 2 e, {e,0,0}]/.CW->cw/.SW->sw/.EL->el//Normal;*)
 
 
-Coefficient[ana1[[169]]/.NF[__]:>1,1/e]
+(*dif=Table[Simplify[ana1[[i]]-martin1[[i]]],{i,401}]/.NF[__]:>1;*)
+
+
+(*Coefficient[ana1[[169]]/.NF[__]:>1,1/e]
 Coefficient[martin1[[169]],1/e]
-%/%%//Simplify
+%/%%//Simplify*)
 
 
-Table[If[dif[[i]]===0, 0,i],{i, Length[dif]}]
+(*Table[If[dif[[i]]===0, 0,i],{i, Length[dif]}]*)
 
 
-Coefficient[ana1[[183]],1/e^2]
+(*Coefficient[ana1[[183]],1/e^2]
 Coefficient[martin1[[183]],1/e^2]
-%/%%
+%/%%*)
 
 
-diag21[[183]]/.mass[x_]:>x//Simplify
+(*diag21[[183]]/.mass[x_]:>x//Simplify
 Coefficient[%, Ev3]
 Union@Cases[%, _mtad, Infinity]
 %/.mtad->sorttad
-%/.sorttad->analyticTad//TableForm
+%/.sorttad->analyticTad//TableForm*)
 
 
-Union@Cases[diag21[[10]]/.mass[x_]:>x, _mtad, Infinity]
+(*Union@Cases[diag21[[10]]/.mass[x_]:>x, _mtad, Infinity]
 %/.mtad->sorttad//TableForm
-
+*)

@@ -1,5 +1,12 @@
 (* ::Package:: *)
 
+(* ::Section:: *)
+(*set up directory*)
+
+
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
+
+
 (* ::Section::Closed:: *)
 (*phi*)
 
@@ -53,39 +60,33 @@ Get["/home/ana/.Mathematica/Applications/FeynCalc/FeynCalc.m"];
 $FAVerbose=0;*)
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/QFTSymbols.m"]
+Get[direc <> "/code/QFTSymbols.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/MassiveTadpole.m"]
+Get[direc <> "/code/MassiveTadpole.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/notation.m"]
+Get[direc <> "/code/notation.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/fermionline.m"]
+Get[direc <> "/code/fermionline.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/tensred.m"]
+Get[direc <> "/code/tensred.m"]
 
 
-Get["/home/ana/Documents/GitHub/Vud_EW_NLO/code/integration_2loop.m"]
+Get[direc <> "/code/integration_2loop.m"]
 
 
 (* ::Input:: *)
 (**)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  results*)
 
 
-(*amp=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/ampconvertedwithtad.m"];*)
-
-
-(*amp=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/ampconvertedpionwithtad.m"];*)
-
-
-amp = Get["/home/ana/Desktop/muon/feynman gauge/resultsfeyngauge/convertednotfeyngauge.m"];
+amp = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/2loop/convertednotfeyngauge.m"];
 
 
 Length[amp]
@@ -143,35 +144,14 @@ Union@Cases[%,_sampden,Infinity]
 (*diag8 =  If[MemberQ[diag7, sampden[q[1] + q[2],___], Infinity],diag7/.{q[2]-> -q[2], q[2,ind_]-> -q[2,ind]}, diag7];*)
 
 
-Clear[diag8];
 diag8 = Table[
-  With[{dia = diag7[[i]]},
-   If[MemberQ[dia, \!\(\*
-TagBox[
-StyleBox[
-RowBox[{"sampden", "[", 
-RowBox[{
-RowBox[{
-RowBox[{"q", "[", "1", "]"}], " ", "+", " ", 
-RowBox[{"q", "[", "2", "]"}]}], ",", "___"}], "]"}],
-ShowSpecialCharacters->False,
-ShowStringCharacters->True,
-NumberMarks->True],
-FullForm]\), Infinity], 
-   diag7[[i]]/.{q[2]-> -q[2], q[2,ind_]-> -q[2,ind]}, diag7[[i]]]
+  If[
+   MemberQ[diag7[[i]], sampden[q[1] + q[2], ___], Infinity],
+   diag7[[i]] /. {q[2] -> -q[2], q[2, ind_] -> -q[2, ind]},
+   diag7[[i]]
   ],
   {i, Length[diag7]}
 ];
-
-
-(* ::Input:: *)
-(*(*diag8a=diag8/.{q[2]^2->q[1]^2+q[2]^2-2sp[q[1],q[2]],q[2,ind_]->q[1,ind]-q[2,ind],*)
-(*q[2]^n:>(q[1]^2+q[2]^2-2sp[q[1],q[2]])^(n/2)/; n>2,sampden[q[2],m__]->sampden[q[1]-q[2],m],sampden[q[1]-q[2],m__]->sampden[q[2],m],sp[q[1],q[2]]->sp[q[1],q[1]-q[2]]};*)*)
-
-
-(* ::Input:: *)
-(*(*diag8;*)
-(*Union@Cases[%,_sampden,Infinity]*)*)
 
 
 Union@Cases[diag8,_sampden,Infinity]
@@ -217,10 +197,6 @@ standint@dens;
 dens1=%/.{q12->qs[1],q22->qs[2],q122->qs[3]};
 
 
-(* ::Input:: *)
-(*(*dens1;*)*)
-
-
 dens2 = Table[ apartMom[dens1[[i]],3],
    {i, Length[dens1]}
 ];
@@ -238,7 +214,7 @@ rules = Dispatch[Thread[dens -> dens4]];
 diag18 = diag17a/. rules;
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load the rules generated in FIRE*)
 
 
@@ -249,40 +225,40 @@ mtad/: mtad[{i_,j_,k_},{a_,0,c_}]:=mtad[{i,0,k},{a,0,c}]/;j=!=0
 mtad/: mtad[{i_,j_,k_},{a_,b_,0}]:=mtad[{i,j,0},{a,b,0}]/;k=!=0
 
 
-mf1=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf1.m"]/.
+mf1=Get[direc <> "/masters/mastersf1.m"]/.
 {G[a_,b_]->mtad[{m1,0,0},b]};
 
-mf2=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf2.m"]/.
+mf2=Get[direc <> "/masters/mastersf2.m"]/.
 {G[a_,b_]->mtad[{0,m1,0},b]};
 
-mf3=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf3.m"]/.
+mf3=Get[direc <> "/masters/mastersf3.m"]/.
 {G[a_,b_]->mtad[{0,0,m1},b]};
 
-mf4=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf4.m"]/.
+mf4=Get[direc <> "/masters/mastersf4.m"]/.
 {G[a_,b_]->mtad[{m1,m1,0},b]};
 
-mf5=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf5.m"]/.
+mf5=Get[direc <> "/masters/mastersf5.m"]/.
 {G[a_,b_]->mtad[{0,m1,m1},b]};
 
-mf6=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf6.m"]/.
+mf6=Get[direc <> "/masters/mastersf6.m"]/.
 {G[a_,b_]->mtad[{m1,0,m1},b]};
 
-mf7=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf7.m"]/.
+mf7=Get[direc <> "/masters/mastersf7.m"]/.
 {G[a_,b_]->mtad[{m1,m2,0},b]};
 
-mf8=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf8.m"]/.
+mf8=Get[direc <> "/masters/mastersf8.m"]/.
 {G[a_,b_]->mtad[{0,m1,m2},b]};
 
-mf9=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf9.m"]/.
+mf9=Get[direc <> "/masters/mastersf9.m"]/.
 {G[a_,b_]->mtad[{m1,0,m2},b]};
 
-mf10=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf10.m"]/.
+mf10=Get[direc <> "/masters/mastersf10.m"]/.
 {G[a_,b_]->mtad[{m1,m1,m2},b]};
 
-mf12=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf12.m"]/.
+mf12=Get[direc <> "/masters/mastersf12.m"]/.
 {G[a_,b_]->mtad[{m1,m2,m1},b]};
 
-mf13=Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/2loop/new trial_currently working on it/mastersf13.m"]/.
+mf13=Get[direc <> "/masters/mastersf13.m"]/.
 {G[a_,b_]->mtad[{m1,m2,m3},b]};
 
 
@@ -356,12 +332,8 @@ mf14a=Table[
 ];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*substitution  in  the  amplitude*)
-
-
-(* ::Input:: *)
-(**)
 
 
 diag19=Table[If[Head[diag18[[i]]]===List,Total@diag18[[i]],diag18[[i]]],{i,Length[diag18]}];
@@ -373,14 +345,6 @@ tad[{i_,Null,k_},{a_,b_,c_}]:>tad[{i,0,k},{a,b,c}]/.
 tad[{i_,j_,Null},{a_,b_,c_}]:>tad[{i,j,0},{a,b,c}]/.tad->mtad;
 
 
-(* ::Input:: *)
-(**)
-
-
-(* ::Input:: *)
-(*(*Union@Cases[diag20,_mtad,Infinity]//TableForm;*)*)
-
-
 diag21 = diag20/.mf1a/.mf2a/.mf3a/.mf4a/.mf5a/.mf6a/.mf7a/.mf8a/.mf9a/.mf10a/.mf12a/.mf13a/.mf14a/.{mtad[{0,0,0},{a_,b_,c_}]->0};
 
 
@@ -388,155 +352,4 @@ Union@Cases[diag21, mtad[__], Infinity];
 %/.mtad[__, {a_,b_,c_}]:>{a,b,c}
 
 
-(* ::Input:: *)
-(*(*Union@Cases[diag21,_mtad,Infinity]//TableForm;*)*)
-
-
-(*Export["/home/ana/Desktop/code m/diagsmuonrgaugewithtad.m",diag21]*)
-
-
-(*Export["/home/ana/Desktop/code m/diagsquarkrgaugewithtad.m",diag21]*)
-
-
-(* ::Section:: *)
-(*analytical*)
-
-
-(*Clear[sorttad]
-sorttad/: sorttad[{0,MW,0},{1,1,1}]:=sorttad[{0,0,MW},{1,1,1}]
-sorttad/: sorttad[{0,MZ,0},{1,1,1}]:=sorttad[{0,0,MZ},{1,1,1}]
-sorttad/: sorttad[{MW,0,0},{1,1,1}]:=sorttad[{0,0,MW},{1,1,1}]
-analyticTad[{MW,0,MZ},{1,0,1}]:=analyticTad[{0,MW,MZ},{0,1,1}]
-analyticTad[{MW,0,MZ},{1,1,1}]:=analyticTad[{0,MW,MZ},{1,1,1}]
-analyticTad[{MW,MZ,0},{1,1,0}]:=analyticTad[{0,MW,MZ},{0,1,1}]
-analyticTad[{MW,MZ,0},{1,1,1}]:=analyticTad[{0,MW,MZ},{1,1,1}]*)
-
-
-(*Clear[sorttad]
-sorttad[{a_,0,0},{1,1,1}]:=sorttad[{0,0,a},{1,1,1}]/;a=!=0;
-sorttad[{0,a_,0},{1,1,1}]:=sorttad[{0,0,a},{1,1,1}]/;a=!=0;
-sorttad[{a_,0,b_},{1,0,1}]:=sorttad[{0,a,b},{0,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,0,b_},{1,1,1}]:=sorttad[{0,a,b},{1,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,b_,0},{1,1,0}]:=sorttad[{0,a,b},{0,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,b_,0},{1,1,1}]:=sorttad[{0,a,b},{1,1,1}]/;(a=!=0&&b=!=0);*)
-
-
-Clear[sorttad]
-sorttad[{a_,0,0},{1,1,1}]:=sorttad[{0,0,a},{1,1,1}]/;a=!=0;
-sorttad[{0,a_,0},{1,1,1}]:=sorttad[{0,0,a},{1,1,1}]/;a=!=0;
-sorttad[{a_,0,b_},{1,0,1}]:=sorttad[{0,a,b},{0,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,0,b_},{1,1,1}]:=sorttad[{0,a,b},{1,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,b_,0},{1,1,0}]:=sorttad[{0,a,b},{0,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{a_,b_,0},{1,1,1}]:=sorttad[{0,a,b},{1,1,1}]/;(a=!=0&&b=!=0);
-sorttad[{0,MZ,MW},{0,1,1}]:=sorttad[{0,MW,MZ},{0,1,1}];
-sorttad[{0,MZ,MW},{1,1,1}]:=sorttad[{0,MW,MZ},{1,1,1}];
-sorttad[{0,MW,MH},{1,1,1}]:=sorttad[{0,MH,MW},{1,1,1}];
-sorttad[{0,MZ,MH},{1,1,1}]:=sorttad[{0,MH,MZ},{1,1,1}];
-sorttad[{MW,MZ,MW},{1,1,1}]:=sorttad[{MW,MW,MZ},{1,1,1}];
-sorttad[{MZ,MZ,MW},{1,1,1}]:=sorttad[{MW,MZ,MZ},{1,1,1}];
-sorttad[{MZ,MW,MH},{1,1,1}]:=sorttad[{MW,MZ,MH},{1,1,1}];
-
-sorttad[{0,a_ MZ,MW},{0,1,1}]:=sorttad[{0,MW,a MZ},{0,1,1}];
-sorttad[{0, MZ, a_ MW},{0,1,1}]:=sorttad[{0,a MW, MZ},{0,1,1}];
-
-sorttad[{0,MZ,MW},{1,1,1}]:=sorttad[{0,MW,MZ},{1,1,1}];
-sorttad[{0,a_ MZ,MW},{1,1,1}]:=sorttad[{0,MW,a MZ},{1,1,1}];
-sorttad[{0,MZ,a_ MW},{1,1,1}]:=sorttad[{0,a MW,MZ},{1,1,1}];
-sorttad[{0,a_ MZ,b_ MW},{1,1,1}]:=sorttad[{0,b MW,a MZ},{1,1,1}];
-
-sorttad[{0,MW,MH},{1,1,1}]:=sorttad[{0,MH,MW},{1,1,1}];
-sorttad[{0,a_ MW,MH},{1,1,1}]:=sorttad[{0,MH,a MW},{1,1,1}];
-
-sorttad[{0,MZ,MH},{1,1,1}]:=sorttad[{0,MH,MZ},{1,1,1}];
-sorttad[{0,a_ MZ,MH},{1,1,1}]:=sorttad[{0,MH,a MZ},{1,1,1}];
-
-sorttad[{MW,MZ,MW},{1,1,1}]:=sorttad[{MW,MW,MZ},{1,1,1}];
-sorttad[{a_ MW,MZ,MW},{1,1,1}]:=sorttad[{a MW,MW,MZ},{1,1,1}];
-sorttad[{MW,MZ,a_ MW},{1,1,1}]:=sorttad[{a MW,MW,MZ},{1,1,1}];
-sorttad[{a_ MW,MZ,b_ MW},{1,1,1}]:=sorttad[{a MW,b MW,MZ},{1,1,1}];
-sorttad[{MW,a_ MZ,MW},{1,1,1}]:=sorttad[{MW,MW,a MZ},{1,1,1}];
-sorttad[{a_ MW,b_ MZ,MW},{1,1,1}]:=sorttad[{a MW,MW,b MZ},{1,1,1}];
-sorttad[{MW,b_ MZ,a_ MW},{1,1,1}]:=sorttad[{a MW,MW,b MZ},{1,1,1}];
-
-sorttad[{MZ,MZ,MW},{1,1,1}]:=sorttad[{MW,MZ,MZ},{1,1,1}];
-sorttad[{a_ MZ,MZ,MW},{1,1,1}]:=sorttad[{MW,MZ,a MZ},{1,1,1}];
-sorttad[{MZ,a_ MZ,MW},{1,1,1}]:=sorttad[{MW,MZ,a MZ},{1,1,1}];
-sorttad[{a_ MZ,b_ MZ,MW},{1,1,1}]:=sorttad[{MW,a MZ,b MZ},{1,1,1}];
-sorttad[{MZ,a_ MZ,b_ MW},{1,1,1}]:=sorttad[{b MW,MZ,a MZ},{1,1,1}];
-sorttad[{a_ MZ,MZ,b_ MW},{1,1,1}]:=sorttad[{b MW,MZ,a MZ},{1,1,1}];
-sorttad[{a_ MZ,b_ MZ,c_ MW},{1,1,1}]:=sorttad[{c MW,a MZ,b MZ},{1,1,1}];
-
-sorttad[{MZ,MW,MH},{1,1,1}]:=sorttad[{MW,MZ,MH},{1,1,1}];
-sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
-sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
-
-
-diag22=diag21/.mass[x_]:>x/.d->4-2e/.mtad->sorttad;
-
-
-rule1 = Union@Cases[diag22, _sorttad, Infinity];
-
-
-rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
-
-
-rule = Dispatch[Thread[rule1 -> rules2]];
-
-
-diag23 = diag22/.rule;
-
-
-ana=Do[
-  res = Normal@Series[diag23[[i]], {e, 0, 0}];
-  Export[
-    "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m",
-    res
-  ],
-  {i, 391,401}
-]
-
-
-(*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
-
-
-ana1 = Table[Get[ "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m"],{i,401}];
-
-
-martin=Get["/home/ana/Desktop/mydiagrams/sres2munutonue.m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;
-
-
-martinemail = Get["/home/ana/Downloads/sres2munutonue (1).m"]/.g[1,31]->Op/.g[3,31]->Ev3/.g[5,31]->Ev5;
-
-
-check=Table[Simplify[martin[[i]]-martinemail[[i]]],{i, 401}];
-
-
-martin1 = Series[martin/.d->4 - 2 e, {e,0,0}]/.CW->cw/.SW->sw/.EL->el//Normal;
-
-
-dif=Table[Simplify[ana1[[i]]-martin1[[i]]],{i,401}]/.NF[__]:>1;
-
-
-Coefficient[ana1[[169]]/.NF[__]:>1,1/e]
-Coefficient[martin1[[169]],1/e]
-%/%%//Simplify
-
-
-Table[If[dif[[i]]===0, 0,i],{i, Length[dif]}]
-
-
-Coefficient[ana1[[183]],1/e^2]
-Coefficient[martin1[[183]],1/e^2]
-%/%%
-
-
-diag21[[183]]/.mass[x_]:>x//Simplify
-Coefficient[%, Ev3]
-Union@Cases[%, _mtad, Infinity]
-%/.mtad->sorttad
-%/.sorttad->analyticTad//TableForm
-
-
-Union@Cases[diag21[[10]]/.mass[x_]:>x, _mtad, Infinity]
-%/.mtad->sorttad//TableForm
-
+Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]
