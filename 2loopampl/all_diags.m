@@ -51,7 +51,7 @@ PhiN[x_, y_] :=
    *)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*Load  packages*)
 
 
@@ -82,11 +82,15 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load  results*)
 
 
-amp = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/2loop/convertednotfeyngauge.m"];
+(*this are the amplitudes to compare with martin*)
+amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];
+
+
+(*this are all amplitudes including tadpoles*)
 
 
 Length[amp]
@@ -157,7 +161,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -214,7 +218,7 @@ rules = Dispatch[Thread[dens -> dens4]];
 diag18 = diag17a/. rules;
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load the rules generated in FIRE*)
 
 
@@ -352,4 +356,8 @@ Union@Cases[diag21, mtad[__], Infinity];
 %/.mtad[__, {a_,b_,c_}]:>{a,b,c}
 
 
-Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]
+(*this are the muon 2 loop amplitudes to compare with Martin*)
+(*Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]*)
+
+
+(*these are are all muon 2 loop amplitudes including tadpoles*)

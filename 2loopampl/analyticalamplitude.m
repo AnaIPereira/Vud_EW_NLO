@@ -7,7 +7,7 @@
 direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*Load  packages*)
 
 
@@ -34,8 +34,24 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Input:: *)
-(**)
+(* ::Section:: *)
+(*load files*)
+
+
+(*list with add diagrams*)
+diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"];
+
+
+(*separate each element of the list into a seperate file - this inly needs to be runned once and then commented*)
+
+
+Table[
+  Export[
+    direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m",
+    diag22[[i]]
+  ],
+  {i, Length[diag22]}
+]
 
 
 (* ::Section:: *)
@@ -127,12 +143,11 @@ diag23 = diag22/.rule;
 
 
 ana=Do[
-  res = Normal@Series[diag23[[i]], {e, 0, 0}];
-  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",
-    res
-  ],
-  {i, 1,401}
-]
+  diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
+  res = Normal@Series[diagram, {e, 0, 0}];
+  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res],
+  {i, 1,Length[diag22]}
+];
 
 
 (*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
