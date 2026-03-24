@@ -87,16 +87,20 @@ Get[direc <> "/code/integration_2loop.m"]
 
 
 (*this are the amplitudes to compare with martin*)
-amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];
+(*amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];*)
 
 
 (*this are all amplitudes including tadpoles*)
+amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];
 
 
 Length[amp]
 
 
-(* ::Section:: *)
+Union@Cases[amp, NF[__], Infinity]
+
+
+(* ::Section::Closed:: *)
 (*dirac  line  and  traces  into  standard  order*)
 
 
@@ -335,7 +339,7 @@ mf14a=Table[
 ];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*substitution  in  the  amplitude*)
 
 
@@ -356,7 +360,8 @@ Union@Cases[diag21, mtad[__], Infinity];
 
 
 (*this are the muon 2 loop amplitudes to compare with Martin*)
-Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]
+(*Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]*)
 
 
 (*these are are all muon 2 loop amplitudes including tadpoles*)
+Export[direc <> "/Results/2loop/amplitmuonmasterswithtad.m",diag21]
