@@ -8,6 +8,10 @@
 (*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
 
 
+(*ERROR - running this exact same file locally and on lcuster gives different results. locally is ok, but cluster
+has bug and output comes in terms of auxdensimp*)
+
+
 (*to run in cluster*)
 direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
@@ -126,11 +130,11 @@ checked for muon, need to check for quark. A good solution whould be seeting the
 the begging but we need to check the amplitudes to make sure we can take this limit*)
 
 
-(* ::Section:: *)
+test = amp0[[1;;10]]
+
+
+(* ::Section::Closed:: *)
 (*dirac  line  and  traces  into  standard  order*)
-
-
-test=amp0[[1;;10]]
 
 
 diag=test/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
@@ -244,7 +248,7 @@ dens3=dens2/.{qs[1]->q12,qs[2]->q22,qs[3]->q122};
 dens4=totad@dens3;
 
 
-rules = Dispatch[Thread[dens -> dens4]];
+rules = Thread[dens -> dens4];
 
 
 diag18 = diag17a/. rules;
