@@ -1,146 +1,48 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-Op*(-1/1536*el^6/((-MW^2 + MZ^2)*Pi^4*sw^6) + 
-   (el^6*MW^2)/(1536*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   el^6/(13824*(MW^2 - MZ^2)*Pi^2*sw^6) + 
-   (el^6*MW^2)/(13824*MZ^2*(MW^2 - MZ^2)*Pi^2*sw^6) - 
-   (23*el^6)/(110592*(-MW^2 + MZ^2)*Pi^2*sw^6) - 
-   (el^6*MW^4)/(9216*MZ^4*(-MW^2 + MZ^2)*Pi^2*sw^6) + 
-   (35*el^6*MW^2)/(110592*MZ^2*(-MW^2 + MZ^2)*Pi^2*sw^6) + 
-   el^6/(768*(-MW^2 + MZ^2)*Pi^4*sw^4) - 
-   (el^6*MW^2)/(768*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   el^6/(6912*(MW^2 - MZ^2)*Pi^2*sw^4) - 
-   (el^6*MW^2)/(6912*MZ^2*(MW^2 - MZ^2)*Pi^2*sw^4) + 
-   (23*el^6)/(55296*(-MW^2 + MZ^2)*Pi^2*sw^4) + 
-   (el^6*MW^4)/(4608*MZ^4*(-MW^2 + MZ^2)*Pi^2*sw^4) - 
-   (35*el^6*MW^2)/(55296*MZ^2*(-MW^2 + MZ^2)*Pi^2*sw^4) + 
-   (-1/768*el^6/((MW^2 - MZ^2)*Pi^4*sw^6) - 
-     el^6/(768*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     el^6/(384*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     el^6/(384*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MW]^2 + 
-   (-1/1152*el^6/((MW^2 - MZ^2)*Pi^4*sw^6) - 
-     (11*el^6)/(9216*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     (el^6*MW^2)/(768*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     el^6/(576*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     (11*el^6)/(4608*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-     (el^6*MW^2)/(384*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ] + 
-   (-1/576*el^6/((MW^2 - MZ^2)*Pi^4*sw^6) - 
-     el^6/(576*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     el^6/(288*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     el^6/(288*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[mu]*Log[MZ] + 
-   (el^6/(2304*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-     el^6/(2304*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     el^6/(1152*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-     el^6/(1152*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ]^2 + 
-   Log[MW]*(el^6/(1152*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-     (11*el^6)/(9216*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     (el^6*MW^2)/(768*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     el^6/(576*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-     (11*el^6)/(4608*(-MW^2 + MZ^2)*Pi^4*sw^4) - 
-     (el^6*MW^2)/(384*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-     (el^6/(576*(MW^2 - MZ^2)*Pi^4*sw^6) + el^6/(576*(-MW^2 + MZ^2)*Pi^4*
-         sw^6) - el^6/(288*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-       el^6/(288*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[mu] + 
-     (el^6/(1152*(MW^2 - MZ^2)*Pi^4*sw^6) + el^6/(1152*(-MW^2 + MZ^2)*Pi^4*
-         sw^6) - el^6/(576*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-       el^6/(576*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ]) + 
-   (el^6*Phi[1/4])/(3072*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-   (el^6*Phi[1/4])/(768*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (el^6*Phi[1/4])/(1536*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-   (el^6*Phi[1/4])/(384*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (el^6*Phi[MZ^2/(4*MW^2)])/(9216*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(2304*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-   (el^6*Phi[MZ^2/(4*MW^2)])/(2304*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(576*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (el^6*Phi[MZ^2/(4*MW^2)])/(4608*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-   (el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(1152*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-   (el^6*Phi[MZ^2/(4*MW^2)])/(1152*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(288*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (el^6*PolyLog[2, 1 - MZ^2/MW^2])/(2304*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/(2304*MZ^2*(MW^2 - MZ^2)*Pi^4*
-     sw^6) + (23*el^6*PolyLog[2, 1 - MZ^2/MW^2])/(18432*(-MW^2 + MZ^2)*Pi^4*
-     sw^6) + (el^6*MW^4*PolyLog[2, 1 - MZ^2/MW^2])/
-    (1536*MZ^4*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (35*el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/(18432*MZ^2*(-MW^2 + MZ^2)*Pi^4*
-     sw^6) - (el^6*PolyLog[2, 1 - MZ^2/MW^2])/(1152*(MW^2 - MZ^2)*Pi^4*
-     sw^4) + (el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/
-    (1152*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^4) - (23*el^6*PolyLog[2, 1 - MZ^2/MW^2])/
-    (9216*(-MW^2 + MZ^2)*Pi^4*sw^4) - (el^6*MW^4*PolyLog[2, 1 - MZ^2/MW^2])/
-    (768*MZ^4*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (35*el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/(9216*MZ^2*(-MW^2 + MZ^2)*Pi^4*
-     sw^4) + (el^6*(3*MW^2*Phi[1/4] - 4*MW^2*Phi[MZ^2/(4*MW^2)] + 
-      MZ^2*Phi[MZ^2/(4*MW^2)] - 2*MW^2*PolyLog[2, 1 - MZ^2/MW^2] + 
-      2*MZ^2*PolyLog[2, 1 - MZ^2/MW^2]))/(12288*MW^2*(MW^2 - MZ^2)*Pi^4*
-     sw^6) - (el^6*(3*MW^2*Phi[1/4] - 4*MW^2*Phi[MZ^2/(4*MW^2)] + 
-      MZ^2*Phi[MZ^2/(4*MW^2)] - 2*MW^2*PolyLog[2, 1 - MZ^2/MW^2] + 
-      2*MZ^2*PolyLog[2, 1 - MZ^2/MW^2]))/(6144*MW^2*(MW^2 - MZ^2)*Pi^4*
-     sw^4)) + Ev3*(el^6/(24576*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (el^6*MW^2)/(24576*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-   (7*el^6)/(294912*(MW^2 - MZ^2)*Pi^2*sw^6) + 
-   (7*el^6*MW^2)/(294912*MZ^2*(MW^2 - MZ^2)*Pi^2*sw^6) + 
-   (el^6*MW^4)/(147456*MZ^4*(-MW^2 + MZ^2)*Pi^2*sw^6) - 
-   (el^6*MW^2)/(147456*MZ^2*(-MW^2 + MZ^2)*Pi^2*sw^6) - 
-   el^6/(12288*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (el^6*MW^2)/(12288*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-   (7*el^6)/(147456*(MW^2 - MZ^2)*Pi^2*sw^4) - 
-   (7*el^6*MW^2)/(147456*MZ^2*(MW^2 - MZ^2)*Pi^2*sw^4) - 
-   (el^6*MW^4)/(73728*MZ^4*(-MW^2 + MZ^2)*Pi^2*sw^4) + 
-   (el^6*MW^2)/(73728*MZ^2*(-MW^2 + MZ^2)*Pi^2*sw^4) + 
-   ((-5*el^6)/(2048*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-     el^6/(4096*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     (5*el^6)/(1024*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     el^6/(2048*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MW]^2 + 
-   ((-181*el^6)/(73728*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-     (13*el^6)/(73728*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     (el^6*MW^2)/(12288*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     (181*el^6)/(36864*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     (13*el^6)/(36864*(-MW^2 + MZ^2)*Pi^4*sw^4) - 
-     (el^6*MW^2)/(6144*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ] + 
-   ((-5*el^6)/(1536*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-     el^6/(3072*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-     (5*el^6)/(768*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-     el^6/(1536*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[mu]*Log[MZ] + 
-   ((5*el^6)/(6144*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-     el^6/(12288*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     (5*el^6)/(3072*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-     el^6/(6144*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ]^2 + 
-   (((3*el^6)/(4096*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-       (3*el^6)/(2048*(MW^2 - MZ^2)*Pi^4*sw^4))*Log[MW] + 
-     ((-3*el^6)/(4096*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-       (3*el^6)/(2048*(MW^2 - MZ^2)*Pi^4*sw^4))*Log[MZ])/e + 
-   Log[MW]*((181*el^6)/(73728*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-     (13*el^6)/(73728*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     (el^6*MW^2)/(12288*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-     (181*el^6)/(36864*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-     (13*el^6)/(36864*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-     (el^6*MW^2)/(6144*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) + 
-     ((5*el^6)/(1536*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-       el^6/(3072*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-       (5*el^6)/(768*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-       el^6/(1536*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[mu] + 
-     ((5*el^6)/(3072*(MW^2 - MZ^2)*Pi^4*sw^6) + 
-       el^6/(6144*(-MW^2 + MZ^2)*Pi^4*sw^6) - 
-       (5*el^6)/(1536*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-       el^6/(3072*(-MW^2 + MZ^2)*Pi^4*sw^4))*Log[MZ]) + 
-   (5*el^6*Phi[1/4])/(8192*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (5*el^6*Phi[1/4])/(4096*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-   (5*el^6*Phi[MZ^2/(4*MW^2)])/(24576*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (5*el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(6144*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (5*el^6*Phi[MZ^2/(4*MW^2)])/(12288*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-   (5*el^6*MW^2*Phi[MZ^2/(4*MW^2)])/(3072*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-   (7*el^6*PolyLog[2, 1 - MZ^2/MW^2])/(49152*(MW^2 - MZ^2)*Pi^4*sw^6) - 
-   (7*el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/(49152*MZ^2*(MW^2 - MZ^2)*Pi^4*
-     sw^6) - (el^6*MW^4*PolyLog[2, 1 - MZ^2/MW^2])/
-    (24576*MZ^4*(-MW^2 + MZ^2)*Pi^4*sw^6) + 
-   (el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/(24576*MZ^2*(-MW^2 + MZ^2)*Pi^4*
-     sw^6) - (7*el^6*PolyLog[2, 1 - MZ^2/MW^2])/(24576*(MW^2 - MZ^2)*Pi^4*
-     sw^4) + (7*el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/
-    (24576*MZ^2*(MW^2 - MZ^2)*Pi^4*sw^4) + 
-   (el^6*MW^4*PolyLog[2, 1 - MZ^2/MW^2])/(12288*MZ^4*(-MW^2 + MZ^2)*Pi^4*
-     sw^4) - (el^6*MW^2*PolyLog[2, 1 - MZ^2/MW^2])/
-    (12288*MZ^2*(-MW^2 + MZ^2)*Pi^4*sw^4) - 
-   (5*el^6*(3*MW^2*Phi[1/4] - 4*MW^2*Phi[MZ^2/(4*MW^2)] + 
-      MZ^2*Phi[MZ^2/(4*MW^2)] - 2*MW^2*PolyLog[2, 1 - MZ^2/MW^2] + 
-      2*MZ^2*PolyLog[2, 1 - MZ^2/MW^2]))/(98304*MW^2*(MW^2 - MZ^2)*Pi^4*
-     sw^6) + (5*el^6*(3*MW^2*Phi[1/4] - 4*MW^2*Phi[MZ^2/(4*MW^2)] + 
-      MZ^2*Phi[MZ^2/(4*MW^2)] - 2*MW^2*PolyLog[2, 1 - MZ^2/MW^2] + 
-      2*MZ^2*PolyLog[2, 1 - MZ^2/MW^2]))/(49152*MW^2*(MW^2 - MZ^2)*Pi^4*sw^4))
+(el^6*Op*(-72*MW^4*MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    72*MW^2*MZ^4*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    144*MW^4*MZ^2*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    144*MW^2*MZ^4*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    288*MW^2*MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+    216*MZ^4*sorttad[{0, MW, MW}, {0, 1, 1}] - 576*MW^2*MZ^2*sw^2*
+     sorttad[{0, MW, MW}, {0, 1, 1}] + 432*MZ^4*sw^2*
+     sorttad[{0, MW, MW}, {0, 1, 1}] - 72*MW^2*MZ^2*
+     sorttad[{0, MW, MZ}, {0, 1, 1}] + 144*MW^2*MZ^2*sw^2*
+     sorttad[{0, MW, MZ}, {0, 1, 1}] + 72*MW^4*MZ^2*
+     sorttad[{0, MW, MZ}, {1, 1, 1}] - 72*MW^2*MZ^4*
+     sorttad[{0, MW, MZ}, {1, 1, 1}] - 144*MW^4*MZ^2*sw^2*
+     sorttad[{0, MW, MZ}, {1, 1, 1}] + 144*MW^2*MZ^4*sw^2*
+     sorttad[{0, MW, MZ}, {1, 1, 1}] + 216*MW^2*MZ^4*
+     sorttad[{MW, MW, MW}, {1, 1, 1}] - 432*MW^2*MZ^4*sw^2*
+     sorttad[{MW, MW, MW}, {1, 1, 1}] - 288*MW^4*MZ^2*
+     sorttad[{MZ, MW, MW}, {1, 1, 1}] + 72*MW^2*MZ^4*
+     sorttad[{MZ, MW, MW}, {1, 1, 1}] + 576*MW^4*MZ^2*sw^2*
+     sorttad[{MZ, MW, MW}, {1, 1, 1}] - 144*MW^2*MZ^4*sw^2*
+     sorttad[{MZ, MW, MW}, {1, 1, 1}]))/(49152*MW^4*MZ^4*(MW^2 - MZ^2)*Pi^8*
+   sw^6) + (el^6*Ev3*(2*MW^6*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    9*MW^4*MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    7*MW^2*MZ^4*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    4*MW^6*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    18*MW^4*MZ^2*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    14*MW^2*MZ^4*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    20*MW^2*MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+    17*MZ^4*sorttad[{0, MW, MW}, {0, 1, 1}] - 40*MW^2*MZ^2*sw^2*
+     sorttad[{0, MW, MW}, {0, 1, 1}] + 34*MZ^4*sw^2*
+     sorttad[{0, MW, MW}, {0, 1, 1}] + 
+    2*MW^4*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+    5*MW^2*MZ^2*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+    4*MW^4*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+    10*MW^2*MZ^2*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+    2*MW^6*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    7*MW^4*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+    5*MW^2*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    4*MW^6*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+    14*MW^4*MZ^2*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    10*MW^2*MZ^4*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    15*MW^2*MZ^4*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+    30*MW^2*MZ^4*sw^2*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+    20*MW^4*MZ^2*sorttad[{MZ, MW, MW}, {1, 1, 1}] + 
+    5*MW^2*MZ^4*sorttad[{MZ, MW, MW}, {1, 1, 1}] + 
+    40*MW^4*MZ^2*sw^2*sorttad[{MZ, MW, MW}, {1, 1, 1}] - 
+    10*MW^2*MZ^4*sw^2*sorttad[{MZ, MW, MW}, {1, 1, 1}]))/
+  (49152*MW^4*MZ^4*(MW^2 - MZ^2)*Pi^8*sw^6)

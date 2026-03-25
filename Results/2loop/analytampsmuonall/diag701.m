@@ -1,42 +1,8 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-Ev3*(Log[mu]*Log[MZ]*((el^6*nc*Flag[selfm]*NF[{MC}])/(2304*cw^2*(MW^2 - MZ^2)*
-       Pi^4*sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/(864*cw^2*(MW^2 - MZ^2)*
-       Pi^4*sw^2)) + Log[MZ]*((19*el^6*nc*Flag[selfm]*NF[{MC}])/
-      (55296*cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) - 
-     (19*el^6*nc*Flag[selfm]*NF[{MC}])/(20736*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^2)) + Log[MW]^2*((el^6*nc*Flag[selfm]*NF[{MC}])/
-      (4608*cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/
-      (1728*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)) + 
-   Log[MZ]^2*(-1/4608*(el^6*nc*Flag[selfm]*NF[{MC}])/(cw^2*(MW^2 - MZ^2)*Pi^4*
-        sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/(1728*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^2)) + 
-   (Log[MZ]*((el^6*nc*Flag[selfm]*NF[{MC}])/(9216*cw^2*(MW^2 - MZ^2)*Pi^4*
-         sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/(3456*cw^2*(MW^2 - MZ^2)*Pi^4*
-         sw^2)) + Log[MW]*(-1/9216*(el^6*nc*Flag[selfm]*NF[{MC}])/
-         (cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/
-        (3456*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)))/e + 
-   Log[MW]*((-19*el^6*nc*Flag[selfm]*NF[{MC}])/(55296*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^4) + (19*el^6*nc*Flag[selfm]*NF[{MC}])/(20736*cw^2*(MW^2 - MZ^2)*
-       Pi^4*sw^2) + Log[mu]*(-1/2304*(el^6*nc*Flag[selfm]*NF[{MC}])/
-         (cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/
-        (864*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)))) + 
- Op*(Log[MZ]^2*((el^6*nc*Flag[selfm]*NF[{MC}])/(1152*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/(432*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^2)) + Log[MW]^2*(-1/1152*(el^6*nc*Flag[selfm]*NF[{MC}])/
-       (cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/
-      (432*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)) + 
-   Log[MZ]*(-1/864*(el^6*nc*Flag[selfm]*NF[{MC}])/(cw^2*(MW^2 - MZ^2)*Pi^4*
-        sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/(324*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^2)) + Log[mu]*Log[MZ]*(-1/576*(el^6*nc*Flag[selfm]*NF[{MC}])/
-       (cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/
-      (216*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)) + 
-   Log[MW]*((el^6*nc*Flag[selfm]*NF[{MC}])/(864*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/(324*cw^2*(MW^2 - MZ^2)*Pi^4*
-       sw^2) + Log[mu]*((el^6*nc*Flag[selfm]*NF[{MC}])/
-        (576*cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/
-        (216*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2))) + 
-   (Log[MW]*((el^6*nc*Flag[selfm]*NF[{MC}])/(2304*cw^2*(MW^2 - MZ^2)*Pi^4*
-         sw^4) - (el^6*nc*Flag[selfm]*NF[{MC}])/(864*cw^2*(MW^2 - MZ^2)*Pi^4*
-         sw^2)) + Log[MZ]*(-1/2304*(el^6*nc*Flag[selfm]*NF[{MC}])/
-         (cw^2*(MW^2 - MZ^2)*Pi^4*sw^4) + (el^6*nc*Flag[selfm]*NF[{MC}])/
-        (864*cw^2*(MW^2 - MZ^2)*Pi^4*sw^2)))/e)
+(el^6*nc*Op*(36 - 96*sw^2)*Flag[selfm]*NF[{MC}]*
+   (-(MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}]) + 
+    MW^2*sorttad[{0, 0, MZ}, {1, 1, 1}]))/(55296*cw^2*MW^2*MZ^2*(MW^2 - MZ^2)*
+   Pi^8*sw^4) + (el^6*Ev3*nc*(3 - 8*sw^2)*Flag[selfm]*NF[{MC}]*
+   (-(MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}]) + 
+    MW^2*sorttad[{0, 0, MZ}, {1, 1, 1}]))/(55296*cw^2*MW^2*MZ^2*(MW^2 - MZ^2)*
+   Pi^8*sw^4)

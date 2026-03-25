@@ -1,15 +1,57 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-Ev3*((el^6*(12*MW^2*MZ^2 - 24*MW^2*MZ^2*sw^2)*Log[MW])/
-   (49152*cw^2*MW^2*(MW - MZ)*MZ^2*(MW + MZ)*Pi^4*sw^2) + 
-  (el^6*(-12*MW^2*MZ^2 + 24*MW^2*MZ^2*sw^2)*Log[MZ])/
-   (49152*cw^2*MW^2*(MW - MZ)*MZ^2*(MW + MZ)*Pi^4*sw^2) + 
-  (el^6*(-(MW^4*Pi^2) + MW^2*MZ^2*Pi^2 + 2*MW^4*Pi^2*sw^2 - 
-     2*MW^2*MZ^2*Pi^2*sw^2 - 9*MW^2*MZ^2*Phi[1/4] + 
-     18*MW^2*MZ^2*sw^2*Phi[1/4] + 12*MW^2*MZ^2*Phi[MZ^2/(4*MW^2)] - 
-     3*MZ^4*Phi[MZ^2/(4*MW^2)] - 24*MW^2*MZ^2*sw^2*Phi[MZ^2/(4*MW^2)] + 
-     6*MZ^4*sw^2*Phi[MZ^2/(4*MW^2)] + 6*MW^4*PolyLog[2, 1 - MZ^2/MW^2] + 
-     12*MW^2*MZ^2*PolyLog[2, 1 - MZ^2/MW^2] - 
-     6*MZ^4*PolyLog[2, 1 - MZ^2/MW^2] - 12*MW^4*sw^2*
-      PolyLog[2, 1 - MZ^2/MW^2] - 24*MW^2*MZ^2*sw^2*
-      PolyLog[2, 1 - MZ^2/MW^2] + 12*MZ^4*sw^2*PolyLog[2, 1 - MZ^2/MW^2]))/
-   (49152*cw^2*MW^2*(MW - MZ)*MZ^2*(MW + MZ)*Pi^4*sw^2))
+-1/8192*(el^6*Ev3*(-(MW^6*sorttad[{0, 0, MW}, {1, 1, 1}]) + 
+     2*MW^4*MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+     MW^2*MZ^4*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+     2*MW^6*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+     4*MW^4*MZ^2*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+     2*MW^2*MZ^4*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+     2*MW^2*MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+     2*MZ^4*sorttad[{0, MW, MW}, {0, 1, 1}] + 4*MW^2*MZ^2*sw^2*
+      sorttad[{0, MW, MW}, {0, 1, 1}] - 4*MZ^4*sw^2*sorttad[{0, MW, MW}, 
+       {0, 1, 1}] - MW^4*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+     MW^2*MZ^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+     2*MW^4*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+     2*MW^2*MZ^2*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+     MW^6*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+     2*MW^4*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+     MW^2*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+     2*MW^6*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+     4*MW^4*MZ^2*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+     2*MW^2*MZ^4*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+     MW^4*MZ^2*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+     MW^2*MZ^4*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+     2*MW^4*MZ^2*sw^2*sorttad[{MW, MW, MW}, {1, 1, 1}] + 
+     2*MW^2*MZ^4*sw^2*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+     MW^4*MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+     MW^2*MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+     2*MW^4*MZ^2*sw^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+     2*MW^2*MZ^4*sw^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]))/
+   (cw^2*MW^4*(MW - MZ)^2*MZ^2*(MW + MZ)^2*Pi^8*sw^2) - 
+ (el^6*Op*(-(MW^6*sorttad[{0, 0, MW}, {1, 1, 1}]) + 
+    2*MW^4*MZ^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    MW^2*MZ^4*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    2*MW^6*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    4*MW^4*MZ^2*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] + 
+    2*MW^2*MZ^4*sw^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    2*MW^2*MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+    2*MZ^4*sorttad[{0, MW, MW}, {0, 1, 1}] + 4*MW^2*MZ^2*sw^2*
+     sorttad[{0, MW, MW}, {0, 1, 1}] - 4*MZ^4*sw^2*sorttad[{0, MW, MW}, 
+      {0, 1, 1}] - MW^4*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+    MW^2*MZ^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+    2*MW^4*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+    2*MW^2*MZ^2*sw^2*sorttad[{0, MW, MZ}, {0, 1, 1}] + 
+    MW^6*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    2*MW^4*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+    MW^2*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+    2*MW^6*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+    4*MW^4*MZ^2*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    2*MW^2*MZ^4*sw^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+    MW^4*MZ^2*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+    MW^2*MZ^4*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+    2*MW^4*MZ^2*sw^2*sorttad[{MW, MW, MW}, {1, 1, 1}] + 
+    2*MW^2*MZ^4*sw^2*sorttad[{MW, MW, MW}, {1, 1, 1}] - 
+    MW^4*MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+    MW^2*MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+    2*MW^4*MZ^2*sw^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+    2*MW^2*MZ^4*sw^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]))/
+  (512*cw^2*MW^4*(MW - MZ)^2*MZ^2*(MW + MZ)^2*Pi^8*sw^2)

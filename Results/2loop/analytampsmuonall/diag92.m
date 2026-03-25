@@ -1,4 +1,7 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(Op*(-216*el^6 + 364*el^6*Pi^2 - 1836*el^6*Phi[1/4]))/
-  (73728*MW^2*Pi^4*sw^2) + (Ev3*(54*el^6 - 43*el^6*Pi^2 + 297*el^6*Phi[1/4]))/
-  (73728*MW^2*Pi^4*sw^2)
+(el^6*Ev3*(43*MW^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    71*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+    33*MW^2*sorttad[{MW, MW, MW}, {1, 1, 1}]))/(12288*MW^6*Pi^8*sw^2) + 
+ (el^6*Op*(324*MW^2*sorttad[{0, 0, MW}, {1, 1, 1}] - 
+    648*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+    324*MW^2*sorttad[{MW, MW, MW}, {1, 1, 1}]))/(12288*MW^6*Pi^8*sw^2)

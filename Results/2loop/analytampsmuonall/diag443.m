@@ -1,33 +1,4 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-Ev3*((27*el^6*MH^2*MZ^2*Flag[tadpolem])/(32768*MW^4*Pi^4*sw^4) + 
-   (el^6*MH^2*MZ^2*Flag[tadpolem])/(8192*e^2*MW^4*Pi^4*sw^4) + 
-   (el^6*MH^2*MZ^2*Flag[tadpolem])/(49152*MW^4*Pi^2*sw^4) + 
-   (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[mu]^2)/(1024*MW^4*Pi^4*sw^4) + 
-   (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW]^2)/(4096*MW^4*Pi^4*sw^4) - 
-   (7*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(8192*MW^4*Pi^4*sw^4) + 
-   (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ]^2)/(4096*MW^4*Pi^4*sw^4) + 
-   Log[mu]*((7*el^6*MH^2*MZ^2*Flag[tadpolem])/(4096*MW^4*Pi^4*sw^4) - 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW])/(1024*MW^4*Pi^4*sw^4) - 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(1024*MW^4*Pi^4*sw^4)) + 
-   ((7*el^6*MH^2*MZ^2*Flag[tadpolem])/(16384*MW^4*Pi^4*sw^4) + 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[mu])/(2048*MW^4*Pi^4*sw^4) - 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW])/(4096*MW^4*Pi^4*sw^4) - 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(4096*MW^4*Pi^4*sw^4))/e + 
-   Log[MW]*((-7*el^6*MH^2*MZ^2*Flag[tadpolem])/(8192*MW^4*Pi^4*sw^4) + 
-     (el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(2048*MW^4*Pi^4*sw^4))) + 
- Op*((-93*el^6*MH^2*MZ^2*Flag[tadpolem])/(8192*MW^4*Pi^4*sw^4) - 
-   (5*el^6*MH^2*MZ^2*Flag[tadpolem])/(2048*e^2*MW^4*Pi^4*sw^4) - 
-   (5*el^6*MH^2*MZ^2*Flag[tadpolem])/(12288*MW^4*Pi^2*sw^4) - 
-   (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[mu]^2)/(256*MW^4*Pi^4*sw^4) - 
-   (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW]^2)/(1024*MW^4*Pi^4*sw^4) + 
-   (29*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(2048*MW^4*Pi^4*sw^4) - 
-   (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ]^2)/(1024*MW^4*Pi^4*sw^4) + 
-   Log[MW]*((29*el^6*MH^2*MZ^2*Flag[tadpolem])/(2048*MW^4*Pi^4*sw^4) - 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(512*MW^4*Pi^4*sw^4)) + 
-   ((-29*el^6*MH^2*MZ^2*Flag[tadpolem])/(4096*MW^4*Pi^4*sw^4) - 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[mu])/(512*MW^4*Pi^4*sw^4) + 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW])/(1024*MW^4*Pi^4*sw^4) + 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(1024*MW^4*Pi^4*sw^4))/e + 
-   Log[mu]*((-29*el^6*MH^2*MZ^2*Flag[tadpolem])/(1024*MW^4*Pi^4*sw^4) + 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MW])/(256*MW^4*Pi^4*sw^4) + 
-     (5*el^6*MH^2*MZ^2*Flag[tadpolem]*Log[MZ])/(256*MW^4*Pi^4*sw^4)))
+-1/8192*(el^6*Ev3*MH^2*Flag[tadpolem]*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+   (MW^6*Pi^8*sw^4) + (el^6*MH^2*Op*Flag[tadpolem]*
+   sorttad[{0, MW, MZ}, {0, 1, 1}])/(2048*MW^6*Pi^8*sw^4)
