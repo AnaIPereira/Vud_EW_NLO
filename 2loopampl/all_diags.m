@@ -91,7 +91,7 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  results*)
 
 
@@ -133,7 +133,7 @@ the begging but we need to check the amplitudes to make sure we can take this li
 (*test = amp0[[1;;10]]*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*dirac  line  and  traces  into  standard  order*)
 
 
@@ -197,7 +197,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -396,5 +396,9 @@ Union@Cases[diag21, mtad[__], Infinity];
 (*Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]*)
 
 
-(*these are are all muon 2 loop amplitudes including tadpoles*)
-Export[direc <> "/Results/2loop/amplitmuonmasterswithtad.m",diag21]
+(*these are are all muon 2 loop amplitudes including tadpoles feynman gauge*)
+(*Export[direc <> "/Results/2loop/amplitmuonmasterswithtad.m",diag21]*)
+
+
+(*these are are all muon 2 loop amplitudes including tadpoles general gauge*)
+Export[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m",diag21]
