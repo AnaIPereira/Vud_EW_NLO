@@ -1,322 +1,151 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
--1/512*(el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-      (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-      (MZ^4*(-MW^2 + MZ^2))))/(cw^4*Pi^8) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8) - 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/(32*cw^4*Pi^8) + 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/(64*cw^4*d*Pi^8) + 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(256*cw^4*Pi^8) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (16384*cw^4*Pi^8*sw^6) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (8192*cw^4*d*Pi^8*sw^6) + 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^4*Pi^8*sw^6) - 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (2048*cw^4*d*Pi^8*sw^6) - 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(8192*cw^4*Pi^8*sw^6) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (2048*cw^4*Pi^8*sw^4) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^4*d*Pi^8*sw^4) - 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (128*cw^4*Pi^8*sw^4) + 
- (el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (256*cw^4*d*Pi^8*sw^4) + (3*d*el^6*Op*Flag[selfm]*
-   (mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^4*Pi^8*sw^4) + (3*el^6*Ev3*Flag[selfm]*
-   (mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (2048*cw^4*Pi^8*sw^2) - (3*el^6*Ev3*Flag[selfm]*
-   (mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^4*d*Pi^8*sw^2) + 
- (3*el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (128*cw^4*Pi^8*sw^2) - 
- (3*el^6*Op*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (256*cw^4*d*Pi^8*sw^2) - (9*d*el^6*Op*Flag[selfm]*
-   (mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^4*Pi^8*sw^2) + (el^6*Ev3*sw^2*Flag[selfm]*
-   (mtad[{MW, 0, MZ}, {1, 0, 1}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, 0, MZ}, {1, 0, 1}]/(MZ^4*(-MW^2 + MZ^2))))/(1024*cw^4*Pi^8) - 
- (el^6*Ev3*sw^2*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(512*cw^4*d*Pi^8) + 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(64*cw^4*Pi^8) - 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(128*cw^4*d*Pi^8) - 
- (3*d*el^6*Op*sw^2*Flag[selfm]*(mtad[{MW, 0, MZ}, {1, 0, 1}]/
-     (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, 0, MZ}, {1, 0, 1}]/
-     (MZ^4*(-MW^2 + MZ^2))))/(512*cw^4*Pi^8) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*Pi^8) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(32*cw^4*Pi^8) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(64*cw^4*d*Pi^8) + 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*Pi^8) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(16384*cw^4*Pi^8*sw^6) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(8192*cw^4*d*Pi^8*sw^6) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^6) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*d*Pi^8*sw^6) - 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(8192*cw^4*Pi^8*sw^6) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*Pi^8*sw^4) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*d*Pi^8*sw^4) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*Pi^8*sw^4) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8*sw^4) + 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^4) + 
- (3*el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*Pi^8*sw^2) - 
- (3*el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*d*Pi^8*sw^2) + 
- (3*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*Pi^8*sw^2) - 
- (3*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8*sw^2) - 
- (9*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^2) + 
- (el^6*Ev3*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8) - 
- (el^6*Ev3*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*d*Pi^8) + 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(64*cw^4*Pi^8) - 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*d*Pi^8) - 
- (3*d*el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    mtad[{MW, 0, MZ}, {1, 1, 1}]/(MW^2*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*Pi^8) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*Pi^8) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(32*cw^4*Pi^8) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(64*cw^4*d*Pi^8) - 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*Pi^8) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(16384*cw^4*Pi^8*sw^6) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(8192*cw^4*d*Pi^8*sw^6) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^6) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*d*Pi^8*sw^6) + 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(8192*cw^4*Pi^8*sw^6) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*Pi^8*sw^4) - 
- (el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*d*Pi^8*sw^4) + 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*Pi^8*sw^4) - 
- (el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8*sw^4) - 
- (3*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^4) - 
- (3*el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(2048*cw^4*Pi^8*sw^2) + 
- (3*el^6*Ev3*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*d*Pi^8*sw^2) - 
- (3*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*Pi^8*sw^2) + 
- (3*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(256*cw^4*d*Pi^8*sw^2) + 
- (9*d*el^6*Op*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8*sw^2) - 
- (el^6*Ev3*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(1024*cw^4*Pi^8) + 
- (el^6*Ev3*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*d*Pi^8) - 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(64*cw^4*Pi^8) + 
- (el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(128*cw^4*d*Pi^8) + 
- (3*d*el^6*Op*sw^2*Flag[selfm]*(mtad[{0, 0, MZ}, {1, 1, 1}]/MW^4 + 
-    mtad[{0, 0, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
-    ((3 - d)*mtad[{0, 0, MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
-    (MZ^2*mtad[{MW, 0, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)) + 
-    ((-2 + d)*mtad[{MZ, 0, MZ}, {1, 0, 1}])/(2*(-3 + d)*MZ^4*
-      (-MW^2 + MZ^2))))/(512*cw^4*Pi^8)
+-1/512*(el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+     {{MZ, 1}}]*Flag[selfm])/(cw^4*Pi^8) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(32*cw^4*Pi^8) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(64*cw^4*d*Pi^8) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*Pi^8) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(16384*cw^4*Pi^8*sw^6) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(8192*cw^4*d*Pi^8*sw^6) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^6) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*d*Pi^8*sw^6) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(8192*cw^4*Pi^8*sw^6) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*Pi^8*sw^4) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*d*Pi^8*sw^4) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*Pi^8*sw^4) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8*sw^4) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^4) + 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*Pi^8*sw^2) - 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*d*Pi^8*sw^2) + 
+ (3*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*Pi^8*sw^2) - 
+ (3*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8*sw^2) - 
+ (9*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^2) + 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8) - 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(512*cw^4*d*Pi^8) + 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(64*cw^4*Pi^8) - 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*d*Pi^8) - 
+ (3*d*el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 1}, {MW, 1}, {MZ, 1}}, 
+    {{0, 1}}, {{MZ, 1}}]*Flag[selfm])/(512*cw^4*Pi^8) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(512*cw^4*Pi^8) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(256*cw^4*d*Pi^8) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(32*cw^4*Pi^8) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(64*cw^4*d*Pi^8) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*Pi^8) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(16384*cw^4*Pi^8*sw^6) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(8192*cw^4*d*Pi^8*sw^6) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(1024*cw^4*Pi^8*sw^6) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(2048*cw^4*d*Pi^8*sw^6) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(8192*cw^4*Pi^8*sw^6) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(2048*cw^4*Pi^8*sw^4) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(1024*cw^4*d*Pi^8*sw^4) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(128*cw^4*Pi^8*sw^4) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(256*cw^4*d*Pi^8*sw^4) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^4) + 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(2048*cw^4*Pi^8*sw^2) - 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(1024*cw^4*d*Pi^8*sw^2) + 
+ (3*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(128*cw^4*Pi^8*sw^2) - 
+ (3*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, {{MZ, 1}}]*
+   Flag[selfm])/(256*cw^4*d*Pi^8*sw^2) - 
+ (9*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^2) + 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8) - 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(512*cw^4*d*Pi^8) + 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(64*cw^4*Pi^8) - 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*d*Pi^8) - 
+ (3*d*el^6*Op*sw^2*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {}, 
+    {{MZ, 1}}]*Flag[selfm])/(512*cw^4*Pi^8) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(512*cw^4*Pi^8) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8) + 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(32*cw^4*Pi^8) - 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(64*cw^4*d*Pi^8) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*Pi^8) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(16384*cw^4*Pi^8*sw^6) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(8192*cw^4*d*Pi^8*sw^6) - 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^6) + 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*d*Pi^8*sw^6) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(8192*cw^4*Pi^8*sw^6) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*Pi^8*sw^4) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*d*Pi^8*sw^4) + 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*Pi^8*sw^4) - 
+ (el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8*sw^4) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^4) - 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(2048*cw^4*Pi^8*sw^2) + 
+ (3*el^6*Ev3*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*d*Pi^8*sw^2) - 
+ (3*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*Pi^8*sw^2) + 
+ (3*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(256*cw^4*d*Pi^8*sw^2) + 
+ (9*d*el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8*sw^2) - 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(1024*cw^4*Pi^8) + 
+ (el^6*Ev3*sw^2*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(512*cw^4*d*Pi^8) - 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(64*cw^4*Pi^8) + 
+ (el^6*Op*sw^2*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{0, 1}}, 
+    {{MZ, 1}}]*Flag[selfm])/(128*cw^4*d*Pi^8) + 
+ (3*d*el^6*Op*sw^2*auxdensimp[{0, 0, 1}, {{0, 2}, {MW, 1}, {MZ, 1}}, 
+    {{0, 1}}, {{MZ, 1}}]*Flag[selfm])/(512*cw^4*Pi^8)

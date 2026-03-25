@@ -1,6 +1,29 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(el^6*Ev3*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}])/(1024*MW^4*Pi^8*sw^2) - 
- (el^6*Ev3*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}])/(512*d*MW^4*Pi^8*sw^2) + 
- (el^6*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}])/(64*MW^4*Pi^8*sw^2) - 
- (el^6*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}])/(128*d*MW^4*Pi^8*sw^2) - 
- (3*d*el^6*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}])/(512*MW^4*Pi^8*sw^2)
+(el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm])/(1024*Pi^8*sw^2) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm])/(512*d*Pi^8*sw^2) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm])/(64*Pi^8*sw^2) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm])/(128*d*Pi^8*sw^2) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm])/(512*Pi^8*sw^2) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm])/(1024*Pi^8*sw^2) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm])/(512*d*Pi^8*sw^2) + 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*Flag[selfm])/
+  (64*Pi^8*sw^2) - (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, 
+    {{0, 1}}]*Flag[selfm])/(128*d*Pi^8*sw^2) - 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm])/(512*Pi^8*sw^2) - 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm])/(1024*Pi^8*sw^2) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm])/(512*d*Pi^8*sw^2) - 
+ (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*Flag[selfm])/
+  (64*Pi^8*sw^2) + (el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, 
+    {{0, 1}}, {}]*Flag[selfm])/(128*d*Pi^8*sw^2) + 
+ (3*d*el^6*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm])/(512*Pi^8*sw^2)

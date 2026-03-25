@@ -1,7 +1,5 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
--1/1024*(el^6*Ev3*Flag[selfm]*(mtad[{MW, MW, 0}, {1, 1, 0}]/
-      (MW^4*(MW^2 - MZ^2)) + mtad[{MZ, MW, 0}, {1, 1, 0}]/
-      (MZ^4*(-MW^2 + MZ^2))))/(d*Pi^8*sw^4) + 
- (el^6*Ev3*Flag[selfm]*(mtad[{MW, MW, 0}, {1, 1, 0}]/(MW^4*(MW^2 - MZ^2)) + 
-    mtad[{MZ, MW, 0}, {1, 1, 0}]/(MZ^4*(-MW^2 + MZ^2))))/
-  (1024*cw^2*d*Pi^8*sw^2)
+-1/1024*(el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, 
+     {{MW, 1}}, {}]*Flag[selfm])/(d*Pi^8*sw^4) + 
+ (el^6*Ev3*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}, {MZ, 1}}, {{MW, 1}}, {}]*
+   Flag[selfm])/(1024*cw^2*d*Pi^8*sw^2)

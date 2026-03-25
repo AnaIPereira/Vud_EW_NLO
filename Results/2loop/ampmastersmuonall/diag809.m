@@ -1,20 +1,103 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(el^6*Ev3*nc*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (2304*d*MW^4*Pi^8*sw^2) - 
- (el^6*Ev3*nc*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (2304*(-2 + d + d^2)*MW^4*Pi^8*sw^2) - 
- (el^6*Ev3*nc*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (1152*d*(-2 + d + d^2)*MW^4*Pi^8*sw^2) - 
- (el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (1152*MW^4*Pi^8*sw^2) + (el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*
-   NF[{MB}])/(288*d*MW^4*Pi^8*sw^2) - 
- (el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (576*(-2 + d + d^2)*MW^4*Pi^8*sw^2) + 
- (d*el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (576*(-2 + d + d^2)*MW^4*Pi^8*sw^2) + 
- (d^2*el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (768*(-2 + d + d^2)*MW^4*Pi^8*sw^2) - 
- (d*el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (192*(2*d + d^2)*MW^4*Pi^8*sw^2) - 
- (d^2*el^6*nc*Op*Flag[selfm]*mtad[{MW, 0, 0}, {1, 1, 1}]*NF[{MB}])/
-  (384*(2*d + d^2)*MW^4*Pi^8*sw^2)
+(el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(2304*d*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(2304*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(1152*d*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(1152*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(288*d*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(768*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(192*(2*d + d^2)*Pi^8*sw^2) - 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 2}, {MW, 1}}, {{0, 1}}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(384*(2*d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(2304*d*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(1152*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*d*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(384*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(192*d*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(144*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(384*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(192*(2*d + d^2)*Pi^8*sw^2) - 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(384*(2*d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(2304*d*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(1152*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(576*d*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(384*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(192*d*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(288*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(288*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(384*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(192*(2*d + d^2)*Pi^8*sw^2) + 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 3}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(384*(2*d + d^2)*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(1152*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(576*d*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(288*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(288*d*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(288*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(288*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 0}, {{0, 4}, {MW, 1}}, {}, {}]*Flag[selfm]*
+   NF[{MB}])/(384*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(2304*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(1152*d*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(576*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(576*d*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d*el^6*nc*Op*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 0, 1}, {{0, 4}, {MW, 1}}, {{0, 1}}, {}]*
+   Flag[selfm]*NF[{MB}])/(768*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(2304*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*Ev3*nc*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(1152*d*(-2 + d + d^2)*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*Pi^8*sw^2) + 
+ (el^6*nc*Op*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*d*Pi^8*sw^2) - 
+ (el^6*nc*Op*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d*el^6*nc*Op*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(576*(-2 + d + d^2)*Pi^8*sw^2) + 
+ (d^2*el^6*nc*Op*auxdensimp[{0, 1, 0}, {{0, 4}, {MW, 1}}, {}, {{0, 1}}]*
+   Flag[selfm]*NF[{MB}])/(768*(-2 + d + d^2)*Pi^8*sw^2)
