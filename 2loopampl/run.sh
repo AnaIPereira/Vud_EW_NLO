@@ -10,4 +10,4 @@
 
 source /z/software/mathematica/14.0/env.sh
 
-wolfram -script all_diags.m
+wolfram -script analyticalamplitude.m
