@@ -190,7 +190,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*tensor  reduction  and  metric*)
 
 
