@@ -137,7 +137,7 @@ the begging but we need to check the amplitudes to make sure we can take this li
 (*dirac  line  and  traces  into  standard  order*)
 
 
-diag=amp0/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
+diag=amp0(*/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1*);
 
 
 diag1=diag/.{gamma[Lor1]->gamma[1]}/.{gamma[Lor2]->gamma[2]}/.{gamma[Lor3]->gamma[3]}/.

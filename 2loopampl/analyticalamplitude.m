@@ -1,15 +1,15 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
 (*to run locally*)
-(*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
 (*to run in cluster*)
-direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
+(*direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];*)
 
 
 (* ::Section::Closed:: *)
@@ -39,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load files*)
 
 
@@ -66,7 +66,7 @@ Table[
 ];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*analytical*)
 
 
@@ -227,25 +227,31 @@ Union@Cases[%, _mtad, Infinity]
 *)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*comparison with 2 loop muon all diagrams*)
 
 
-(*ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];*)
+ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];
 
 
-(*ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,1,Length[diag22]}]/.
-sw->SW/.cw->CW/.el->EL;*)
+ana//Length
+
+
+ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,1,Length[diag22]}]/.
+sw->SW/.cw->CW/.el->EL;
+
+
+ana1//Length
 
 
 (*defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
 defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]*)
 
 
-(*diferenceev5=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev5]-Coefficient[defoperm2[ana1[[i]]],Ev5]], {i,1,Length[diag22]}];*)
+diferenceev5=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev5]-Coefficient[ana1[[i]],Ev5]], {i,1,Length[diag22]}]
 
 
-(*diferenceev3=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev3]-Coefficient[defoperm2[ana1[[i]]],Ev3]], {i,223}]*)
+diferenceev3=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev3]-Coefficient[ana1[[i]],Ev3]], {i,1,Length[diag22]}]
 
 
-(*diferenceop=Table[Simplify[Coefficient[ana[[i]],Op]-Coefficient[defoperm2[ana1[[i]]],Op]], {i,Length[diag22]}]*)
+diferenceop=Table[Simplify[Coefficient[ana[[i]],Op]-Coefficient[ana1[[i]],Op]], {i,1,Length[diag22]}]
