@@ -1,0 +1,33 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+Ev3*((27*el^6*MZ^2*Flag[selfm])/(32768*MW^4*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[selfm])/(8192*e^2*MW^4*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[selfm])/(49152*MW^4*Pi^2*sw^4) + 
+   (el^6*MZ^2*Flag[selfm]*Log[mu]^2)/(1024*MW^4*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[selfm]*Log[MW]^2)/(4096*MW^4*Pi^4*sw^4) - 
+   (7*el^6*MZ^2*Flag[selfm]*Log[MZ])/(8192*MW^4*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[selfm]*Log[MZ]^2)/(4096*MW^4*Pi^4*sw^4) + 
+   Log[mu]*((7*el^6*MZ^2*Flag[selfm])/(4096*MW^4*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[selfm]*Log[MW])/(1024*MW^4*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[selfm]*Log[MZ])/(1024*MW^4*Pi^4*sw^4)) + 
+   ((7*el^6*MZ^2*Flag[selfm])/(16384*MW^4*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[selfm]*Log[mu])/(2048*MW^4*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[selfm]*Log[MW])/(4096*MW^4*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[selfm]*Log[MZ])/(4096*MW^4*Pi^4*sw^4))/e + 
+   Log[MW]*((-7*el^6*MZ^2*Flag[selfm])/(8192*MW^4*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[selfm]*Log[MZ])/(2048*MW^4*Pi^4*sw^4))) + 
+ Op*((-93*el^6*MZ^2*Flag[selfm])/(8192*MW^4*Pi^4*sw^4) - 
+   (5*el^6*MZ^2*Flag[selfm])/(2048*e^2*MW^4*Pi^4*sw^4) - 
+   (5*el^6*MZ^2*Flag[selfm])/(12288*MW^4*Pi^2*sw^4) - 
+   (5*el^6*MZ^2*Flag[selfm]*Log[mu]^2)/(256*MW^4*Pi^4*sw^4) - 
+   (5*el^6*MZ^2*Flag[selfm]*Log[MW]^2)/(1024*MW^4*Pi^4*sw^4) + 
+   (29*el^6*MZ^2*Flag[selfm]*Log[MZ])/(2048*MW^4*Pi^4*sw^4) - 
+   (5*el^6*MZ^2*Flag[selfm]*Log[MZ]^2)/(1024*MW^4*Pi^4*sw^4) + 
+   Log[MW]*((29*el^6*MZ^2*Flag[selfm])/(2048*MW^4*Pi^4*sw^4) - 
+     (5*el^6*MZ^2*Flag[selfm]*Log[MZ])/(512*MW^4*Pi^4*sw^4)) + 
+   ((-29*el^6*MZ^2*Flag[selfm])/(4096*MW^4*Pi^4*sw^4) - 
+     (5*el^6*MZ^2*Flag[selfm]*Log[mu])/(512*MW^4*Pi^4*sw^4) + 
+     (5*el^6*MZ^2*Flag[selfm]*Log[MW])/(1024*MW^4*Pi^4*sw^4) + 
+     (5*el^6*MZ^2*Flag[selfm]*Log[MZ])/(1024*MW^4*Pi^4*sw^4))/e + 
+   Log[mu]*((-29*el^6*MZ^2*Flag[selfm])/(1024*MW^4*Pi^4*sw^4) + 
+     (5*el^6*MZ^2*Flag[selfm]*Log[MW])/(256*MW^4*Pi^4*sw^4) + 
+     (5*el^6*MZ^2*Flag[selfm]*Log[MZ])/(256*MW^4*Pi^4*sw^4)))
