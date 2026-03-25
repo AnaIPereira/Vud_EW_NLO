@@ -1,10 +1,17 @@
 (* ::Package:: *)
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*set up directory*)
 
 
-direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
+(*to run locally*)
+(*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+
+
+(*to run in cluster*)
+
+
+direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
 
 (* ::Section::Closed:: *)
