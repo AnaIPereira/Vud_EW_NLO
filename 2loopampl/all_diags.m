@@ -1,10 +1,15 @@
 (* ::Package:: *)
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*set up directory*)
 
 
-direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
+(*to run locally*)
+(*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+
+
+(*to run in cluster*)
+direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
 
 (* ::Section::Closed:: *)
@@ -82,7 +87,7 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load  results*)
 
 
@@ -90,7 +95,11 @@ Get[direc <> "/code/integration_2loop.m"]
 (*amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];*)
 
 
-(*this are all amplitudes including tadpoles*)
+(*this are all amplitudes including tadpoles - run locally*)
+(*amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];*)
+
+
+(*this are all amplitudes including tadpoles - run on cluster*)
 amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];
 
 
@@ -98,6 +107,23 @@ Length[amp]
 
 
 Union@Cases[amp, NF[__], Infinity]
+
+
+Union@Cases[amp, _ampden, Infinity]
+
+
+amp0 = amp/.{ampden[0, mass[x_]]:>-1/mass[x]^2};
+
+
+Union@Cases[amp0, _ampden, Infinity]
+
+
+(*Table[If[Not@FreeQ[amp[[i]],ampden[0,0]],i,0], {i, Length[amp]}]*)
+(*there are ampden[0,0] which could cause divergences and
+due to how the code is written are set to 1 when doing simplifications, which is wrong
+Nevertheless here is ok since all the amplitudes where they appear go in fact to zero - 
+checked for muon, need to check for quark. A good solution whould be seeting them to zero from
+the begging but we need to check the amplitudes to make sure we can take this limit*)
 
 
 (* ::Section::Closed:: *)
@@ -339,7 +365,7 @@ mf14a=Table[
 ];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*substitution  in  the  amplitude*)
 
 

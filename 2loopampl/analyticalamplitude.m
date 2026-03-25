@@ -9,8 +9,6 @@
 
 
 (*to run in cluster*)
-
-
 direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
 
@@ -41,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load files*)
 
 
@@ -68,7 +66,7 @@ Length[diag22]
 ];*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*analytical*)
 
 
@@ -231,7 +229,7 @@ Union@Cases[%, _mtad, Infinity]
 (*ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];*)
 
 
-(*ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,300,310}]/.
+(*ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,1,Length[diag22]}]/.
 sw->SW/.cw->CW/.el->EL;*)
 
 
@@ -239,10 +237,10 @@ sw->SW/.cw->CW/.el->EL;*)
 defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]*)
 
 
-(*diferenceev5=Table[Simplify[Coefficient[ana[[i+299]],Ev5]-Coefficient[defoperm2[ana1[[i]]],Ev5]], {i,10}]*)
+(*diferenceev5=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev5]-Coefficient[defoperm2[ana1[[i]]],Ev5]], {i,1,Length[diag22]}];*)
 
 
-(*diferenceev3=Table[Simplify[Coefficient[ana[[i+299]],Ev3]-Coefficient[defoperm2[ana1[[i]]],Ev3]], {i,10}]*)
+(*diferenceev3=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev3]-Coefficient[defoperm2[ana1[[i]]],Ev3]], {i,223}]*)
 
 
-(*diferenceop=Table[Simplify[Coefficient[ana[[i+299]],Op]-Coefficient[defoperm2[ana1[[i]]],Op]], {i,10}]*)
+(*diferenceop=Table[Simplify[Coefficient[ana[[i]],Op]-Coefficient[defoperm2[ana1[[i]]],Op]], {i,Length[diag22]}]*)
