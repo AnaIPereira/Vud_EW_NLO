@@ -1,8 +1,0 @@
-(* Created with the Wolfram Language : www.wolfram.com *)
--1/1024*(el^6*Ev3*MT^2*nc*auxdensimp[{0, 0, 0}, {{MT, 1}}, 
-     {{0, 1}, {MW, 1}, {MZ, 2}}, {}]*Flag[tadpolem]*NF[{MT}, {MW}])/
-   (cw^4*d*Pi^8*sw^6) + (3*el^6*MT^2*nc*Op*auxdensimp[{0, 0, 0}, {{MT, 1}}, 
-    {{0, 1}, {MW, 1}, {MZ, 2}}, {}]*Flag[tadpolem]*NF[{MT}, {MW}])/
-  (512*cw^4*Pi^8*sw^6) - (el^6*MT^2*nc*Op*auxdensimp[{0, 0, 0}, {{MT, 1}}, 
-    {{0, 1}, {MW, 1}, {MZ, 2}}, {}]*Flag[tadpolem]*NF[{MT}, {MW}])/
-  (256*cw^4*d*Pi^8*sw^6)
