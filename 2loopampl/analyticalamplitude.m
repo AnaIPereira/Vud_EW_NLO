@@ -66,7 +66,7 @@ Length[diag22]
 ];*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*analytical*)
 
 
@@ -162,11 +162,16 @@ rule = Dispatch[Thread[rule1 -> rules2]];
 ];*)
 
 
+defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
+defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]
+
+
 Do[
   diagram = Get[ direc <> "/Results/2loop/ampmastersmuonall/diag" <> ToString[i] <> ".m"];
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
-  res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
   Export[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[diag22]}
 ];
@@ -222,7 +227,7 @@ Union@Cases[%, _mtad, Infinity]
 *)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*comparison with 2 loop muon all diagrams*)
 
 
