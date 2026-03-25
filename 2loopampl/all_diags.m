@@ -251,7 +251,7 @@ dens4=totad@dens3;
 rules = Thread[dens -> dens4];
 
 
-diag18 = diag17a/. rules;
+diag18 = diag17a//. rules;
 
 
 (* ::Section::Closed:: *)
