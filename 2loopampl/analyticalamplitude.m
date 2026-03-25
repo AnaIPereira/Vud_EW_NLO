@@ -38,20 +38,27 @@ Get[direc <> "/code/integration_2loop.m"]
 (*load files*)
 
 
-(*list with add diagrams*)
-diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"]/.mass[x_]:>x;
+(*list with diagrams to compare with Martin*)
+(*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"]/.mass[x_]:>x;*)
+
+
+(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters*)
+diag22 = Get[direc <> "/Results/2loop/amplitmuonmasterswithtad.m"]/.mass[x_]:>x;
+
+
+Length[diag22]
 
 
 (*separate each element of the list into a seperate file - this inly needs to be runned once and then commented*)
 
 
-Table[
+(*Table[
   Export[
-    direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m",
+    direc <> "/Results/2loop/ampmastersmuonall/diag" <> ToString[i] <> ".m",
     diag22[[i]]
   ],
   {i, Length[diag22]}
-];
+];*)
 
 
 (* ::Section:: *)
@@ -139,16 +146,24 @@ rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
 rule = Dispatch[Thread[rule1 -> rules2]];
 
 
-(*FIXING*)
-
-
-Do[
+(*run this to comparison with Martin*)
+(*Do[
   diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
   res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
   Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res1],
-  {i, 1,Length[diag22]}
+  {i, 1,20}
+];*)
+
+
+Do[
+  diagram = Get[ direc <> "/Results/2loop/ampmastersmuonall/diag" <> ToString[i] <> ".m"];
+  diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
+  res = Normal[Series[diagram1, {e, 0, 0}]];
+  res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  Export[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m",res1],
+  {i,1,Length[diag22]}
 ];
 
 
@@ -156,7 +171,7 @@ Do[
 
 
 (* ::Section::Closed:: *)
-(*comparison (*not running*)*)
+(*comparison martin diags feynman (*not running*)*)
 
 
 (*ana1 = Table[Get[ "/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/res2lmuoncompmart/diag" <> ToString[i] <> ".m"],{i,401}];*)
@@ -200,3 +215,27 @@ Union@Cases[%, _mtad, Infinity]
 (*Union@Cases[diag21[[10]]/.mass[x_]:>x, _mtad, Infinity]
 %/.mtad->sorttad//TableForm
 *)
+
+
+(* ::Section:: *)
+(*comparison with 2 loop muon all diagrams*)
+
+
+(*ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];*)
+
+
+(*ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,300,310}]/.
+sw->SW/.cw->CW/.el->EL;*)
+
+
+(*defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
+defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]*)
+
+
+(*diferenceev5=Table[Simplify[Coefficient[ana[[i+299]],Ev5]-Coefficient[defoperm2[ana1[[i]]],Ev5]], {i,10}]*)
+
+
+(*diferenceev3=Table[Simplify[Coefficient[ana[[i+299]],Ev3]-Coefficient[defoperm2[ana1[[i]]],Ev3]], {i,10}]*)
+
+
+(*diferenceop=Table[Simplify[Coefficient[ana[[i+299]],Op]-Coefficient[defoperm2[ana1[[i]]],Op]], {i,10}]*)
