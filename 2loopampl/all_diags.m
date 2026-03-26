@@ -402,3 +402,21 @@ Union@Cases[diag21, mtad[__], Infinity];
 
 (*these are are all muon 2 loop amplitudes including tadpoles general gauge*)
 Export[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m",diag21]
+
+
+(*separate each element of the list into a seperate file*)
+
+
+diag21 = Get[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m"];
+
+
+diag21//Length
+
+
+Table[
+  Export[
+    direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m",
+    diag21[[i]]
+  ],
+  {i, Length[diag21]}
+];

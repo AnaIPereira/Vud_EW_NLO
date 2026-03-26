@@ -1,0 +1,8183 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+(el^6*Ev3*Flag[selfm]*(-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}]/(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Ev3*Flag[selfm]*(-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}]/(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(4096*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*(-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}]/(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(8192*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*(-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}]/(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(2048*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*(-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}]/(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(1024*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (3*d*el^6*Op*Flag[selfm]*
+   (-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-(mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+       (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+         mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+         2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+         d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+       (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+         \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+         {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+        2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+        \[Xi]w^2*mass[MW]^4))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2 - mass[MZ]^2)^2))/(8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (6*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (4*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*
+      mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-1 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/
+  (8192*cw^2*Pi^8*sw^6) - (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (6*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (4*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*
+      mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-1 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/
+  (4096*cw^2*Pi^8*sw^6) + (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (6*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (4*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*
+      mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-1 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/
+  (8192*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*((3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(2048*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*((3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(8192*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2)))/(8192*cw^2*Pi^8*sw^6) + 
+ (el^6*Ev3*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Ev3*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/(4096*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (1024*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (3*d*el^6*Op*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^4)) - 
+    (2*mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*mass[MZ]^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^4*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/(2048*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (1024*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (512*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (3*d*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/(mass[MW]^2*mass[MZ]^4)) - 
+    (2*\[Xi]w*mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (1024*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (3*d*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      mass[MZ]^4) - (2*\[Xi]w^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2 - \[Xi]w*mass[MW]^2)^2 - 
+       ((-3 + d)*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+         mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+        (mass[MH]^2 - \[Xi]w*mass[MW]^2)^2))/mass[MZ]^2 - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + (2*\[Xi]w^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^4*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (8192*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (512*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (512*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (d*el^6*Op*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (1024*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^4*mass[MZ]^2)) - 
+    (2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Ev3*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (1024*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (512*cw^2*d*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (3*d*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (2048*cw^2*(-2 + d + d^2)*Pi^8*sw^6) + 
+ (d^2*el^6*Op*Flag[selfm]*
+   (-((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+      (mass[MW]^2*mass[MZ]^2)) - (2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (2*\[Xi]w*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2 - mass[MZ]^2)^2 + 
+    (\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/(mass[MW]^2 - mass[MZ]^2) + 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2)))/
+  (4096*cw^2*(-2 + d + d^2)*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(\[Xi]w*mass[MW]^6*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) - (\[Xi]w*mass[MH]^4*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*\[Xi]w*
+      mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (mass[MH]^4*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((mass[MH]^4*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (\[Xi]w*mass[MW]^6*mass[MZ]^2) - 
+    (3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) - (\[Xi]w*mass[MH]^4*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*\[Xi]w*
+      mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (mass[MH]^4*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^4*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2) - (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (\[Xi]w*mass[MH]^2*mass[MW]^2*
+      mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(2048*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((mass[MH]^2*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^4*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2) - (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (\[Xi]w*mass[MH]^2*mass[MW]^2*
+      mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(2048*cw^2*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/(mass[MW]^2*mass[MZ]^2) - 
+    (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}]/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((\[Xi]w*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MW]^2*mass[MZ]^2) - (3*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^6*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^6*
+      (mass[MW]^2 - mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)) + 
+    mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}]/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*\[Xi]w*mass[MW]^6*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)) + (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/(mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     (mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       mass[MZ]^2))))/(4096*cw^2*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   (-((mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+       (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2)) + 
+    (\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MW]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]z*Flag[selfm]*
+   (-((mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+        {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+       (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2)) + 
+    (\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MW]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}]/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   ((-2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (2*mass[MH]^2*mass[MW]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/(4096*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((-2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (2*mass[MH]^2*mass[MW]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*((-2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (2*\[Xi]w*mass[MW]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/(4096*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((-2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (2*\[Xi]w*mass[MW]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}]/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2) + 
+    mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}]/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2)))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w^2*\[Xi]z*Flag[selfm]*
+   ((3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (6*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (4*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) + 
+    ((-1 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^4*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^4*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (2048*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (2048*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w^2*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MH]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MH]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (mass[MW]^2 - mass[MZ]^2)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 
+        mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w^2*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) - (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (4096*cw^2*d*Pi^8*sw^6) + (el^6*Op*\[Xi]w^2*\[Xi]z*Flag[selfm]*
+   ((3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^3*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^3*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^4*mass[MW]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^3*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*\[Xi]z*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^3*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^3*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    ((-2 + d)*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^4*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*\[Xi]w^5*mass[MW]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*mass[MW]^2*mass[MZ]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^4*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^3*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MZ]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^3*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^3*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^2*(mass[MH]^2 - 4*\[Xi]w*mass[MW]^2)) + 
+       ((2*mass[MH]^2 - d*mass[MH]^2 - 4*\[Xi]w*mass[MW]^2 + 
+          2*d*\[Xi]w*mass[MW]^2)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(2*\[Xi]w*mass[MH]^2*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-2 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*\[Xi]w*mass[MW]^2*(-mass[MH]^2 + 
+          4*\[Xi]w*mass[MW]^2)) + 
+       ((-3 + d)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(-mass[MH]^2 + 4*\[Xi]w*mass[MW]^2)))/
+     ((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*(mass[MW]^2 - mass[MZ]^2)^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)^2) + 
+    (\[Xi]w*\[Xi]z*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]z*(mass[MH]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2) + 
+    (\[Xi]w^2*\[Xi]z*mass[MW]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)^2)))/
+  (8192*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*
+   ((-3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((-3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((-3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((-3*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MW]^2 + \[Xi]w*mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/(2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((d*mass[MW]^2 - 2*\[Xi]w*mass[MW]^2 + d*\[Xi]w*mass[MW]^2)*
+      mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^4*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^4*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (mass[MH]^4*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (2*\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((\[Xi]w*mass[MW]^2 + mass[MZ]^2)*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + ((\[Xi]w*mass[MW]^2 + \[Xi]z*mass[MZ]^2)*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^4*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (\[Xi]w*mass[MW]^2*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(2048*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (\[Xi]w*mass[MW]^2*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(2048*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (\[Xi]w*mass[MW]^2*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(2048*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*mass[MH]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^4*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MH]^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MH]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MH]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MH]^2*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+          {0, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 0, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (\[Xi]w*mass[MW]^2 - mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - 
+       \[Xi]z*mass[MZ]^2)) - (\[Xi]w*mass[MW]^2*
+      mtad[{mass[MZ], 0, Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (mass[MH]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], 0, 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 0, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + 
+    (mass[MH]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mass[MH]^2*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(2048*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*Flag[selfm]*((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]z*mass[MZ]^2)*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]w*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]z*mass[MZ]^2)*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) - 
+ (el^6*Op*\[Xi]z*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]z*mass[MZ]^2)*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6) + 
+ (el^6*Op*\[Xi]w*\[Xi]z*Flag[selfm]*
+   ((-3*\[Xi]w*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (3*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*mtad[{mass[MW], mass[MH], 0}, 
+       {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]z*(mass[MH]^2 + mass[MW]^2)*mass[MZ]^4*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    ((-2 + d)*\[Xi]w*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     (2*(-1 + \[Xi]w)*mass[MW]^2*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    ((-2*mass[MH]^2 + d*mass[MH]^2 + d*mass[MW]^2)*
+      mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/(2*(-1 + \[Xi]w)*mass[MW]^4*
+      (mass[MW]^2 - mass[MZ]^2)*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (3*\[Xi]w^2*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^3*mass[MW]^4*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*mass[MW]^2*mass[MZ]^2*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) + 
+    (2*\[Xi]w^2*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^3*\[Xi]z*mass[MW]^2*mass[MZ]^2*
+      mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/
+     ((-1 + \[Xi]w)^2*(mass[MW]^2 - mass[MZ]^2)^2*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*\[Xi]z*mass[MZ]^4*mtad[{mass[MW], mass[MH], 
+        Sqrt[\[Xi]w]*mass[MW]}, {1, 1, 1}])/((-1 + \[Xi]w)^2*
+      (mass[MW]^2 - mass[MZ]^2)^2*(mass[MW]^2 - \[Xi]z*mass[MZ]^2)^2) - 
+    (\[Xi]w^2*mass[MW]^2*
+      (((-2 + d)*mtad[{0, mass[MH], Sqrt[\[Xi]w]*mass[MW]}, {0, 1, 1}])/
+        (mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 2*\[Xi]w*mass[MH]^2*
+          mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4) - ((-2 + d)*(mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], 0, Sqrt[\[Xi]w]*mass[MW]}, 
+          {1, 0, 1}])/(2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-2*mass[MH]^2 + d*mass[MH]^2 + 
+          2*mass[MW]^2 - d*mass[MW]^2 + 2*\[Xi]w*mass[MW]^2 - 
+          d*\[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], 0}, {1, 1, 0}])/
+        (2*mass[MW]^2*(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+          2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+          \[Xi]w^2*mass[MW]^4)) + ((-3 + d)*(-mass[MH]^2 + mass[MW]^2 - 
+          \[Xi]w*mass[MW]^2)*mtad[{mass[MW], mass[MH], Sqrt[\[Xi]w]*
+            mass[MW]}, {1, 1, 1}])/(mass[MH]^4 - 2*mass[MH]^2*mass[MW]^2 - 
+         2*\[Xi]w*mass[MH]^2*mass[MW]^2 + mass[MW]^4 - 2*\[Xi]w*mass[MW]^4 + 
+         \[Xi]w^2*mass[MW]^4)))/((-1 + \[Xi]w)*(mass[MW]^2 - mass[MZ]^2)*
+      (mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]w)^2*mass[MW]^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]w*mass[MW]^2)*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]w)^2*mass[MW]^4*(\[Xi]w*mass[MW]^2 - 
+       mass[MZ]^2)*(\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) + 
+    (\[Xi]w^2*mtad[{Sqrt[\[Xi]w]*mass[MW], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]w)^2*(\[Xi]w*mass[MW]^2 - mass[MZ]^2)*
+      (\[Xi]w*mass[MW]^2 - \[Xi]z*mass[MZ]^2)) - 
+    (\[Xi]w*mass[MW]^2*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    ((mass[MH]^2 + mass[MZ]^2)*mtad[{mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) - 
+    (\[Xi]w^2*mass[MW]^4*mtad[{mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + mass[MZ]^2)) + 
+    (\[Xi]w*mass[MW]^2*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 0}, {1, 1, 0}])/
+     ((-1 + \[Xi]z)*mass[MZ]^2*(-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*
+      (-(\[Xi]w*mass[MW]^2) + \[Xi]z*mass[MZ]^2)) + 
+    ((mass[MH]^2 + \[Xi]z*mass[MZ]^2)*mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], 
+        0}, {1, 1, 0}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2)) + (\[Xi]w^2*mass[MW]^4*
+      mtad[{Sqrt[\[Xi]z]*mass[MZ], mass[MH], Sqrt[\[Xi]w]*mass[MW]}, 
+       {1, 1, 1}])/((-1 + \[Xi]z)*mass[MZ]^2*
+      (-mass[MW]^2 + \[Xi]z*mass[MZ]^2)^2*(-(\[Xi]w*mass[MW]^2) + 
+       \[Xi]z*mass[MZ]^2))))/(4096*cw^2*d*Pi^8*sw^6)

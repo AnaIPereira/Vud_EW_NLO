@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*set up directory*)
 
 
@@ -12,7 +12,7 @@ direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 (*direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*Load  packages*)
 
 
@@ -39,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load files*)
 
 
@@ -55,18 +55,17 @@ Length[diag22]
 
 
 (*separate each element of the list into a seperate file - this inly needs to be runned once and then commented*)
-
-
-Table[
+(*I am now running this part in alldiags*)
+(*Table[
   Export[
     direc <> "/Results/2loop/ampmastersmuonall/diag" <> ToString[i] <> ".m",
     diag22[[i]]
   ],
   {i, Length[diag22]}
-];
+];*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*analytical*)
 
 
