@@ -22,7 +22,7 @@ Get["/home/ana/.Mathematica/Applications/FeynCalc/FeynCalc.m"];
 $FAVerbose=0;
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load  packages*)
 
 
@@ -167,19 +167,18 @@ Union@Cases[amp4,_exdL,Infinity];
 (*traces part missing here - but there are no traces for now*)
 
 
-(*convert to Feynman Gauge*)
-
-amp4fg = amp4/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
-
-
 (* ::Section::Closed:: *)
 (*dirac  standard  order*)
 
 
-(*amp5=amp4/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};*)
+(*convert to Feynman Gauge*)
+amp4fg = amp4/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
 
 
 amp5=amp4fg/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};
+
+
+(*amp5=amp4fg/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};*)
 
 
 Union@Cases[amp5, _q, Infinity]
@@ -243,7 +242,7 @@ Clear[t];
 t = Table[
   With[{dia = amp12[[i]]},
    If[MemberQ[dia, _mt, Infinity], i, 0]],
-  {i, Length[amp11a]}];
+  {i, Length[amp11]}];
 t
 Length[t]
 
@@ -502,22 +501,19 @@ rulesanalyt=Thread[masters -> analymaster];
 amp22=amp21/.mass[x_]:>x;
 
 
-
-
-
-Coefficient[amp22[[1]],Ev3]//Simplify
+(*Coefficient[amp22[[1]],Ev3]//Simplify*)
 
 
 (*only run this part if I want the analytical amplitudes
 before plug in the renormalization constants*)
 
-amp23analytbfren = Table[
-  (*Print[i];*)
+(*amp23analytbfren = Table[
+  Print[i];
   Normal[Series[amp22[[i]]/.d->4-2e/.rulesanalyt, {e, 0, 1 }]]
-, {i, Length[amp22]}];
+, {i, Length[amp22]}];*)
 
 
-Coefficient[amp23analytbfren, Ev3]/.Flag[__]:>1/.flag[__]:>1/.flg[__]:>1;
+(*Coefficient[amp23analytbfren, Ev3]/.Flag[__]:>1/.flag[__]:>1/.flg[__]:>1;*)
 
 
 (*plug in the renormalization constants*)
@@ -525,28 +521,32 @@ Coefficient[amp23analytbfren, Ev3]/.Flag[__]:>1/.flag[__]:>1/.flg[__]:>1;
 because the renormalization constants are xi dependent*)
 
 amp23 = renfunc@amp22/.el->EL/.mass[x__]:>x/.dZAA1->dzphoton/.dZW1:>flag[w] dzw/.dZZZ1->dzzz/.dMZsq1:> flag[mz] dzmz/.
-dZZA1:>dzza/.dZAZ1:>dzaz/.\[Alpha]->EL^2/4/Pi/.flag[w]:>1/.{\[Xi]w->1, \[Xi]z->1, \[Xi]A->1}//
+dZZA1:>dzza/.dZAZ1:>dzaz/.\[Alpha]->EL^2/4/Pi/.flag[w]:>1/.{\[Xi]w->1, \[Xi]z->1, \[Xi]A->1}/.Flag[__]:>1/.flg[__]:>1/.flagw[__]:>1/.flag[__]:>1//
 Collect[#, {Op, Ev3, EL^6, 1/e^2, 1/e, Log[__], Phi[__]}(*, Simplify*)]&;
 
 
 amp23//Length
 
 
-Table[If[Not@FreeQ[amp23[[i]], MH],i,0], {i, Length[amp22]}]
+Union@Cases[amp23, \[Xi]z, Infinity]
+
+
+(*Table[If[Not@FreeQ[amp23[[i]], MH],i,0], {i, Length[amp22]}]*)
 
 
 amp24 = Table[
   (*Print[i];*)
   res1=Normal[Series[amp23[[i]]/.d->4-2e/.rulesanalyt, {e, 0, 0}]];
   res2 = defoperm[res1];
-  res3 = res2//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}]&
+  res3 = res2//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]},Simplify]&(*;
+  Export[direc <> "/Results/Renormalisation/2loop/feyn/counterterm" <> ToString[i] <> ".m", res3]*)
 , {i, Length[amp23]}];
 
 
 amp25 = Total[amp24]//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}]&;
 
 
-amp25noflag = amp25/.Flag[__]:>1/.flg[__]:>1/.flagw[__]:>1/.flag[__]:>1;
+(*amp25noflag = amp25/.Flag[__]:>1/.flg[__]:>1/.flagw[__]:>1/.flag[__]:>1;*)
 
 
 (*Export["/home/ana/Desktop/ctmuonr.m",amp27];*)
@@ -575,19 +575,19 @@ kfeyn = k/.xiqa->1/.xiqz->1/.xiqw->1;
 
 
 Coefficient[Coefficient[kfeyn, Ev3],1/e^2];
-Coefficient[Coefficient[amp25noflag, Ev3],1/e^2];
+Coefficient[Coefficient[amp25, Ev3],1/e^2];
 tomass[%/%%]//Simplify
 
 
 Coefficient[Coefficient[kfeyn, Ev3],1/e];
-Coefficient[Coefficient[amp25noflag, Ev3],1/e];
+Coefficient[Coefficient[amp25, Ev3],1/e];
 tomass[%/%%]//Simplify
 
 
-Coefficient[kfeyn, Ev3]+tomass@Coefficient[amp25noflag, Ev3]//Simplify
+Coefficient[kfeyn, Ev3]+tomass@Coefficient[amp25, Ev3]//Simplify
 
 
-tomass@Coefficient[amp25noflag, Ev3]//Collect[#, {1/e},Simplify]&
+tomass@Coefficient[amp25, Ev3]//Collect[#, {1/e},Simplify]&
 
 
 Coefficient[kfeyn, Ev3]//Collect[#, {1/e},Simplify]&
