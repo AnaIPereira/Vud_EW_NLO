@@ -181,7 +181,7 @@ defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op 
 ];*)
 
 
-tomass[x_]:=sw->Sqrt[1-cw^2]/.cw->MW/MZ
+tomass[x_]:=x/.sw->Sqrt[1-cw^2]/.cw->MW/MZ
 
 
 (*GENERAL GAUGE*)
