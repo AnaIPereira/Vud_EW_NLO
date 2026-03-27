@@ -1,0 +1,13181 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+Ev3*((el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + 
+      MW^8*(-1 + \[Xi]z) + MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+        (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + 
+        d*(-4 + \[Xi]z^2))))/(16384*(-1 + d)*d*QFTSymbols`e^2*MW^6*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + MW^8*(-1 + \[Xi]z) + 
+      MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + 
+      MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + d*(-4 + \[Xi]z^2)))*
+     Log[MassiveTadpole`mu]^2)/(2048*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + MW^8*(-1 + \[Xi]z) + 
+      MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + 
+      MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + d*(-4 + \[Xi]z^2)))*Log[MZ]^2)/
+    (2048*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+   (el^6*MZ^6*(MW^4 + MW^2*MZ^2*(-4 + 2*d + \[Xi]w - \[Xi]z) + 
+      3*(-1 + d)*MZ^4*(-1 + \[Xi]z))*\[Xi]z*Log[\[Xi]z])/
+    (8192*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (el^6*MZ^6*(MW^4 + MW^2*MZ^2*(-4 + 2*d + \[Xi]w - \[Xi]z) + 
+      2*(-1 + d)*MZ^4*(-1 + \[Xi]z))*\[Xi]z*Log[\[Xi]z]^2)/
+    (32768*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + Log[MassiveTadpole`mu]*
+    ((el^6*MZ^6*(-3*(-1 + d)^2*MW^2*MZ^6 + 3*(-2 + d)*MZ^8 + 
+        2*MW^8*(-1 + \[Xi]z) + 2*MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+          (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + 3*MW^4*MZ^4*
+         (4 + d^2 - \[Xi]z^2 + d*(-4 + \[Xi]z^2))))/(4096*(-1 + d)*d*MW^6*
+       QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+     (el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + 
+        MW^8*(-1 + \[Xi]z) + MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+          (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + 
+          d*(-4 + \[Xi]z^2)))*Log[MZ])/(1024*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+     (el^6*MZ^6*(MW^4 + MW^2*MZ^2*(-4 + 2*d + \[Xi]w - \[Xi]z) + 
+        2*(-1 + d)*MZ^4*(-1 + \[Xi]z))*\[Xi]z*Log[\[Xi]z])/
+      (4096*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4)) + 
+   ((el^6*MZ^6*(-3*(-1 + d)^2*MW^2*MZ^6 + 3*(-2 + d)*MZ^8 + 
+        2*MW^8*(-1 + \[Xi]z) + 2*MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+          (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + 3*MW^4*MZ^4*
+         (4 + d^2 - \[Xi]z^2 + d*(-4 + \[Xi]z^2))))/(16384*(-1 + d)*d*MW^6*
+       QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+     (el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + 
+        MW^8*(-1 + \[Xi]z) + MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+          (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + 
+          d*(-4 + \[Xi]z^2)))*Log[MassiveTadpole`mu])/
+      (4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+     (el^6*MZ^6*(-((-1 + d)^2*MW^2*MZ^6) + (-2 + d)*MZ^8 + 
+        MW^8*(-1 + \[Xi]z) + MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+          (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + MW^4*MZ^4*(4 + d^2 - \[Xi]z^2 + 
+          d*(-4 + \[Xi]z^2)))*Log[MZ])/(4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+     (el^6*MZ^6*(MW^4 + MW^2*MZ^2*(-4 + 2*d + \[Xi]w - \[Xi]z) + 
+        2*(-1 + d)*MZ^4*(-1 + \[Xi]z))*\[Xi]z*Log[\[Xi]z])/
+      (16384*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4))/QFTSymbols`e + 
+   Log[MZ]*(-1/4096*(el^6*MZ^6*(-3*(-1 + d)^2*MW^2*MZ^6 + 3*(-2 + d)*MZ^8 + 
+         2*MW^8*(-1 + \[Xi]z) + 2*MW^6*MZ^2*(8 + 2*d*(-2 + \[Xi]z) + 
+           (-4 + \[Xi]w)*\[Xi]z - \[Xi]z^2) + 3*MW^4*MZ^4*
+          (4 + d^2 - \[Xi]z^2 + d*(-4 + \[Xi]z^2))))/
+       ((-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+        (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+     (el^6*MZ^6*(MW^4 + MW^2*MZ^2*(-4 + 2*d + \[Xi]w - \[Xi]z) + 
+        2*(-1 + d)*MZ^4*(-1 + \[Xi]z))*\[Xi]z*Log[\[Xi]z])/
+      (4096*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4)) - 
+   (el^6*MZ^10*(-1 + \[Xi]z)^2*PolyLog[2, 1 - \[Xi]z])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (el^6*MZ^2*(-18*MW^8*MZ^4*Pi^4 + 144*MW^6*MZ^6*Pi^4 - 
+      72*d*MW^6*MZ^6*Pi^4 + 168*MW^4*MZ^8*Pi^4 - 168*d*MW^4*MZ^8*Pi^4 + 
+      42*d^2*MW^4*MZ^8*Pi^4 - 42*MW^2*MZ^10*Pi^4 + 84*d*MW^2*MZ^10*Pi^4 - 
+      42*d^2*MW^2*MZ^10*Pi^4 - 84*MZ^12*Pi^4 + 42*d*MZ^12*Pi^4 - 
+      MW^8*MZ^4*Pi^6 + 8*MW^6*MZ^6*Pi^6 - 4*d*MW^6*MZ^6*Pi^6 + 
+      10*MW^4*MZ^8*Pi^6 - 10*d*MW^4*MZ^8*Pi^6 + 3*d^2*MW^4*MZ^8*Pi^6 - 
+      3*MW^2*MZ^10*Pi^6 + 6*d*MW^2*MZ^10*Pi^6 - 3*d^2*MW^2*MZ^10*Pi^6 - 
+      6*MZ^12*Pi^6 + 3*d*MZ^12*Pi^6 + 18*MW^8*MZ^4*Pi^4*\[Xi]z - 
+      72*MW^6*MZ^6*Pi^4*\[Xi]z + 36*d*MW^6*MZ^6*Pi^4*\[Xi]z + 
+      MW^8*MZ^4*Pi^6*\[Xi]z - 4*MW^6*MZ^6*Pi^6*\[Xi]z + 
+      2*d*MW^6*MZ^6*Pi^6*\[Xi]z + 18*MW^6*MZ^6*Pi^4*\[Xi]w*\[Xi]z + 
+      MW^6*MZ^6*Pi^6*\[Xi]w*\[Xi]z - 18*MW^6*MZ^6*Pi^4*\[Xi]z^2 - 
+      42*MW^4*MZ^8*Pi^4*\[Xi]z^2 + 42*d*MW^4*MZ^8*Pi^4*\[Xi]z^2 - 
+      MW^6*MZ^6*Pi^6*\[Xi]z^2 - MW^4*MZ^8*Pi^6*\[Xi]z^2 + 
+      d*MW^4*MZ^8*Pi^6*\[Xi]z^2 + 6*(2*(-2 + d)*MW^2*MZ^6 + (3 - 2*d)*MZ^8)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - 6*MW^2*MZ^2*
+       ((-2 + d)*MW^4 - MZ^4*(10 - 9*d + 2*d^2 + \[Xi]w) + 
+        MW^2*MZ^2*(5 - 6*d + 2*d^2 + \[Xi]w))*sorttad[{0, MW, MZ}, 
+        {0, 1, 1}] - 6*MW^10*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      42*MW^8*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      18*d*MW^8*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      84*MW^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      42*d*MW^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      12*d^2*MW^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      24*MW^4*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      30*d*MW^4*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      66*MW^2*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      18*d*MW^2*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      12*d^2*MW^2*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      42*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      24*d*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      36*MW^2*MZ^6*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      24*d*MW^2*MZ^6*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      6*MZ^8*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      6*MW^2*MZ^6*\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      6*MW^2*MZ^6*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      12*MW^6*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] + 
+      6*d*MW^6*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] - 
+      6*MW^4*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] + 
+      6*d*MW^4*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] + 
+      6*MW^4*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] - 
+      6*MW^2*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}] + 
+      6*MW^10*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*MW^8*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*d*MW^8*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      18*MW^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      18*d*MW^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*MW^8*MZ^2*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*MW^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*d*MW^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^4*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*d*MW^4*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*MW^6*MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^4*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      24*MW^6*MZ^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      12*d*MW^6*MZ^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      18*MW^4*MZ^4*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      12*d*MW^4*MZ^4*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      6*MW^6*MZ^2*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      6*MW^4*MZ^4*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      30*MW^4*MZ^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      24*d*MW^4*MZ^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      6*MW^6*MZ^2*\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      6*MW^4*MZ^4*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      12*MW^4*MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] + 
+      6*d*MW^4*MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] + 
+      12*MW^2*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+      6*d*MW^2*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+      18*MW^4*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      18*d*MW^4*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      24*MW^2*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      18*d*MW^2*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MW^6*MZ^4*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      6*d*MW^6*MZ^4*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      18*MW^4*MZ^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*d*MW^4*MZ^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      12*MW^2*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MW^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      6*MW^4*MZ^6*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MW^8*MZ^2*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - 6*MW^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 12*MW^6*MZ^4*\[Xi]w*\[Xi]z*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      12*MW^4*MZ^6*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 6*MW^4*MZ^6*\[Xi]z^2*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^2*MZ^8*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - 48*MW^4*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      48*d*MW^4*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      60*MW^2*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      36*d*MW^2*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      18*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      12*d*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      6*MW^6*MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      42*MW^4*MZ^6*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      24*d*MW^4*MZ^6*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      42*MW^2*MZ^8*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      24*d*MW^2*MZ^8*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MZ^10*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      12*MW^6*MZ^4*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      12*MW^2*MZ^8*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      6*MW^6*MZ^4*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MW^4*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      6*MW^6*MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - 12*MW^6*MZ^4*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 6*MW^6*MZ^4*\[Xi]w^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*MW^4*MZ^6*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - 12*MW^4*MZ^6*\[Xi]w*\[Xi]z*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*MW^2*MZ^8*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + 6*MW^10*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      60*MW^8*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      24*d*MW^8*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      144*MW^6*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      96*d*MW^6*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      6*MW^10*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      30*MW^8*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*d*MW^8*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      42*MW^6*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      24*d*MW^6*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      18*MW^4*MZ^6*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*d*MW^4*MZ^6*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      12*MW^8*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      12*MW^6*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      12*d*MW^6*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      24*MW^4*MZ^6*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      12*d*MW^4*MZ^6*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^6*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      6*MW^4*MZ^6*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^4*MZ^6*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + 12*MW^6*MZ^4*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 6*MW^8*MZ^2*\[Xi]w^2*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      12*MW^4*MZ^6*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + 12*MW^6*MZ^4*\[Xi]w*\[Xi]z*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      6*MW^4*MZ^6*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(98304*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8)) + 
+ Op*((-7*el^6*MZ^10)/(2048*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (35*el^6*MZ^10)/(4096*d*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - (3*a1mu*el^6*MZ^10)/
+    (16384*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (7*d*el^6*MZ^10)/(16384*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (7*(-3 + d)*d*el^6*MZ^10)/(8192*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (7*el^6*MZ^10)/
+    (2048*(2 + d)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (7*d*el^6*MZ^10)/(4096*(2 + d)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (21*el^6*MZ^10)/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (21*(-3 + d)*el^6*MZ^10)/(2048*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+   (35*el^6*MZ^10)/(1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (3*a1mu*el^6*MZ^10)/
+    (4096*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (35*(-3 + d)*el^6*MZ^10)/(1024*d*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + 
+   (3*a1mu*(-3 + d)*el^6*MZ^10)/(4096*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (35*d*el^6*MZ^10)/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (3*a1mu*d*el^6*MZ^10)/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (35*(-3 + d)*d*el^6*MZ^10)/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (3*a1mu*(-3 + d)*d*el^6*MZ^10)/(16384*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+   (7*d^2*el^6*MZ^10)/(2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - (7*(-3 + d)*d^2*el^6*MZ^10)/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (7*d^3*el^6*MZ^10)/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - (7*(-3 + d)*d^3*el^6*MZ^10)/
+    (16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (7*el^6*MZ^12)/(8192*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - (7*d*el^6*MZ^12)/
+    (16384*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - 
+   (21*el^6*MZ^12)/(2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (35*el^6*MZ^12)/
+    (1024*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (3*a1mu*el^6*MZ^12)/(4096*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) - (35*d*el^6*MZ^12)/
+    (4096*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (3*a1mu*d*el^6*MZ^12)/(16384*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (7*d^2*el^6*MZ^12)/
+    (2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) + (7*d^3*el^6*MZ^12)/(16384*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4) + (3*el^6*MZ^8)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (3*d*el^6*MZ^8)/(4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4) + (45*el^6*MZ^8)/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (a1mu*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (45*el^6*MZ^8)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (3*a1mu*el^6*MZ^8)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (51*d*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (a1mu*d*el^6*MZ^8)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (51*d^2*el^6*MZ^8)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (3*d^3*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (el^6*MZ^10)/(4096*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + 
+   (5*el^6*MZ^10)/(8192*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) + (d*el^6*MZ^10)/(32768*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + ((-3 + d)*d*el^6*MZ^10)/
+    (16384*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + 
+   (el^6*MZ^10)/(4096*(2 + d)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) + (d*el^6*MZ^10)/(8192*(2 + d)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + (3*el^6*MZ^10)/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) + (3*(-3 + d)*el^6*MZ^10)/(4096*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - 
+   (5*el^6*MZ^10)/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - (5*(-3 + d)*el^6*MZ^10)/
+    (2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) + (5*d*el^6*MZ^10)/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + (5*(-3 + d)*d*el^6*MZ^10)/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) - (d^2*el^6*MZ^10)/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - ((-3 + d)*d^2*el^6*MZ^10)/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) - (d^3*el^6*MZ^10)/(32768*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - ((-3 + d)*d^3*el^6*MZ^10)/
+    (32768*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) - (el^6*MZ^12)/(16384*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - (d*el^6*MZ^12)/
+    (32768*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2) - 
+   (3*el^6*MZ^12)/(4096*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + (5*el^6*MZ^12)/
+    (2048*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) - (5*d*el^6*MZ^12)/(8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + (d^2*el^6*MZ^12)/
+    (4096*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2) + (d^3*el^6*MZ^12)/(32768*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2) + 
+   (el^6*MZ^8)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2) + (d*el^6*MZ^8)/(24576*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (5*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) - 
+   (5*el^6*MZ^8)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (17*d*el^6*MZ^8)/(49152*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) - 
+   (17*d^2*el^6*MZ^8)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) - 
+   (d^3*el^6*MZ^8)/(49152*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (7*el^6*MZ^12)/(8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     \[Xi]w) - (7*d*el^6*MZ^12)/(16384*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w) + 
+   (el^6*MZ^12)/(16384*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     \[Xi]w) - (d*el^6*MZ^12)/(32768*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*\[Xi]w) - (3*el^6*MZ^8*\[Xi]w)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (9*el^6*MZ^8*\[Xi]w)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (a1mu*el^6*MZ^8*\[Xi]w)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (15*el^6*MZ^8*\[Xi]w)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (a1mu*el^6*MZ^8*\[Xi]w)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (9*d*el^6*MZ^8*\[Xi]w)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) + 
+   (3*d^2*el^6*MZ^8*\[Xi]w)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4) - 
+   (el^6*MZ^8*\[Xi]w)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2) - (el^6*MZ^8*\[Xi]w)/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) - 
+   (5*el^6*MZ^8*\[Xi]w)/(12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (d*el^6*MZ^8*\[Xi]w)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (d^2*el^6*MZ^8*\[Xi]w)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2) + 
+   (9*el^6*MZ^10)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)) - 
+   (3*d*el^6*MZ^10)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*MZ^10)/(32768*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^10)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (3*el^6*MZ^10*\[Xi]w)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)) + 
+   (3*d*el^6*MZ^10*\[Xi]w)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*MZ^10*\[Xi]w)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^10*\[Xi]w)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (3*el^6*MZ^10*\[Xi]w^2)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*MZ^10*\[Xi]w^2)/(98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (7*el^6*MZ^10)/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) + 
+   (7*el^6*MZ^10)/(16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^8)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)^2) - 
+   (9*el^6*MZ^8)/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^10)/(98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10)/(98304*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^8)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^8)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) + (3*el^6*MZ^8*\[Xi]w)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^8*\[Xi]w)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^10)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^10)/(49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^10*\[Xi]w)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10*\[Xi]w)/(49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MW^2*MZ^8)/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^8)/(98304*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MW^2*MZ^8*\[Xi]w)/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^8*\[Xi]w)/(98304*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (9*d*el^6*MW^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MW^2)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^6)/(8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (9*el^6*MW^2*MZ^6)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (15*el^6*MW^2*MZ^6)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (35*el^6*MZ^10)/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (a1mu*el^6*MZ^10)/(16384*(-3 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (35*el^6*MZ^10)/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (5*a1mu*el^6*MZ^10)/(16384*(-3 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (a1mu*(-2 + d)*el^6*MZ^10)/(8192*(-3 + d)*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MW^2*MZ^6)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MW^2*MZ^6)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (33*el^6*MZ^8)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (15*el^6*MZ^8)/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) + (a1mu*el^6*MZ^8)/(4096*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (21*el^6*MZ^8)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (3*a1mu*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (45*el^6*MZ^8)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (3*a1mu*el^6*MZ^8)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (21*d*el^6*MZ^8)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MZ^8)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (d*el^6*MW^2)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6)/(49152*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^6)/(12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^10)/(98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^10)/(24576*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (11*el^6*MZ^8)/(98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8)/(12288*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^8)/(24576*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - 
+   (7*d*el^6*MZ^8)/(49152*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (9*el^6*MZ^8*\[Xi]w)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (a1mu*el^6*MZ^8*\[Xi]w)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (15*el^6*MZ^8*\[Xi]w)/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (a1mu*el^6*MZ^8*\[Xi]w)/
+    (4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (9*d*el^6*MZ^8*\[Xi]w)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (3*d^2*el^6*MZ^8*\[Xi]w)/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]w)/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]w)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]w)/(12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d*el^6*MZ^8*\[Xi]w)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]w)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^10)/(4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (9*el^6*MZ^10)/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^10)/(24576*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^10)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w)/(4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w)/(24576*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w)/(49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]w^2)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MW^2*MZ^8)/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^8)/(98304*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^8*\[Xi]w)/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]w)/(98304*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^10*\[Xi]z)/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) - 
+   (7*el^6*MZ^10*\[Xi]z)/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) - 
+   (9*el^6*MZ^8*\[Xi]z)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)^2) + (27*el^6*MZ^8*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]z)/(49152*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^10*\[Xi]z)/(49152*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^8*\[Xi]z)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) + (3*el^6*MZ^8*\[Xi]z)/
+    (32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)^2) - (9*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^8*\[Xi]w*\[Xi]z)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) + 
+   (9*el^6*MZ^10*\[Xi]z)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10*\[Xi]z)/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (9*el^6*MZ^10*\[Xi]w*\[Xi]z)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - (9*el^6*MW^2*MZ^8*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^8*\[Xi]z)/
+    (32768*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (9*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/(32768*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MW^2*\[Xi]z)/(4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + (9*el^6*MW^2*\[Xi]z)/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + (15*el^6*MW^2*\[Xi]z)/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + (a1mu*el^6*MW^2*MZ^6*\[Xi]z)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MW^2*MZ^6*\[Xi]z)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (9*d*el^6*MW^2*MZ^6*\[Xi]z)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MW^2*MZ^6*\[Xi]z)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (35*el^6*MZ^10*\[Xi]z)/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (a1mu*el^6*MZ^10*\[Xi]z)/(8192*(-3 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (35*el^6*MZ^10*\[Xi]z)/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (3*a1mu*el^6*MZ^10*\[Xi]z)/(16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MZ^10*\[Xi]z)/(4096*(-3 + d)*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*(-2 + d)*el^6*MZ^10*\[Xi]z)/(8192*(-3 + d)*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (33*el^6*MZ^8*\[Xi]z)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (15*el^6*MZ^8*\[Xi]z)/
+    (1024*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) - (a1mu*el^6*MZ^8*\[Xi]z)/(2048*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (21*el^6*MZ^8*\[Xi]z)/(2048*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (5*a1mu*el^6*MZ^8*\[Xi]z)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (45*el^6*MZ^8*\[Xi]z)/(1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (5*a1mu*el^6*MZ^8*\[Xi]z)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (21*d*el^6*MZ^8*\[Xi]z)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (3*d^2*el^6*MZ^8*\[Xi]z)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z)/(24576*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + (el^6*MW^2*\[Xi]z)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + (5*el^6*MW^2*\[Xi]z)/
+    (6144*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + (d*el^6*MW^2*MZ^6*\[Xi]z)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^6*\[Xi]z)/(49152*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^10*\[Xi]z)/(98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^10*\[Xi]z)/(24576*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) - 
+   (11*el^6*MZ^8*\[Xi]z)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z)/
+    (6144*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (7*el^6*MZ^8*\[Xi]z)/(12288*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z)/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (7*d*el^6*MZ^8*\[Xi]z)/(24576*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (d^2*el^6*MZ^8*\[Xi]z)/(49152*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) + (9*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (a1mu*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (15*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (a1mu*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (9*d*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (3*d^2*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z)/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]w*\[Xi]z)/(6144*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (d*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (d^2*el^6*MZ^8*\[Xi]w*\[Xi]z)/
+    (49152*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (9*el^6*MZ^10*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (9*el^6*MZ^10*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]z)/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]z)/
+    (32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (9*el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MZ^10*\[Xi]w^2*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]w^2*\[Xi]z)/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (3*el^6*MW^2*MZ^8*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (el^6*MW^2*MZ^8*\[Xi]z)/
+    (49152*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/
+    (49152*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (9*el^6*MZ^8*\[Xi]z^2)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) - (27*el^6*MZ^8*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^8*\[Xi]z^2)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) - (3*el^6*MZ^8*\[Xi]z^2)/
+    (32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)^2) + (9*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)^2) - (3*el^6*MZ^10*\[Xi]z^2)/(4096*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]z^2)/(24576*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (24576*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + (9*el^6*MW^2*MZ^8*\[Xi]z^2)/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^8*\[Xi]z^2)/
+    (32768*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (9*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (9*d*el^6*MW^2*\[Xi]z^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MW^2*\[Xi]z^2)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^6*\[Xi]z^2)/(8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (9*el^6*MW^2*MZ^6*\[Xi]z^2)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (15*el^6*MW^2*MZ^6*\[Xi]z^2)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (35*el^6*MZ^10*\[Xi]z^2)/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (3*a1mu*el^6*MZ^10*\[Xi]z^2)/(16384*(-3 + d)*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (35*el^6*MZ^10*\[Xi]z^2)/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (9*a1mu*el^6*MZ^10*\[Xi]z^2)/(16384*(-3 + d)*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MW^2*MZ^6*\[Xi]z^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (a1mu*el^6*MW^2*MZ^6*\[Xi]z^2)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (21*el^6*MZ^8*\[Xi]z^2)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (15*el^6*MZ^8*\[Xi]z^2)/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) + (a1mu*el^6*MZ^8*\[Xi]z^2)/(4096*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^2)/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (a1mu*el^6*MZ^8*\[Xi]z^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (15*el^6*MZ^8*\[Xi]z^2)/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (a1mu*el^6*MZ^8*\[Xi]z^2)/(4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^8*\[Xi]z^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (9*d^2*el^6*MZ^8*\[Xi]z^2)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (d*el^6*MW^2*\[Xi]z^2)/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*\[Xi]z^2)/(98304*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2)/(49152*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2)/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^6*\[Xi]z^2)/(12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^10*\[Xi]z^2)/(98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^10*\[Xi]z^2)/(24576*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^8*\[Xi]z^2)/(98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z^2)/
+    (12288*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]z^2)/(24576*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z^2)/(12288*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (d*el^6*MZ^8*\[Xi]z^2)/(49152*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^8*\[Xi]z^2)/(32768*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) - (9*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (a1mu*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (15*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (a1mu*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (9*d*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (3*d^2*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (d*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (d^2*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/
+    (98304*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (3*el^6*MW^2*MZ^8*\[Xi]z^2)/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MW^2*MZ^8*\[Xi]z^2)/
+    (98304*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(98304*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (7*el^6*MZ^10*\[Xi]z^3)/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) + 
+   (7*el^6*MZ^10*\[Xi]z^3)/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^8*\[Xi]z^3)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)^2) + (9*el^6*MZ^8*\[Xi]z^3)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]z^3)/(49152*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10*\[Xi]z^3)/(49152*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^8*\[Xi]z^3)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)^2) + (el^6*MZ^8*\[Xi]z^3)/
+    (32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)^2) - (3*el^6*MZ^8*\[Xi]w*\[Xi]z^3)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^8*\[Xi]w*\[Xi]z^3)/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)^2) - (3*el^6*MZ^10*\[Xi]z^3)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]z^3)/(49152*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - (3*el^6*MW^2*MZ^8*\[Xi]z^3)/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^8*\[Xi]z^3)/
+    (98304*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^3)/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^3)/(98304*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (35*el^6*MZ^10*\[Xi]z^3)/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (35*el^6*MZ^10*\[Xi]z^3)/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) - 
+   (3*a1mu*el^6*MZ^10*\[Xi]z^3)/(16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^3)/(4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (9*el^6*MZ^8*\[Xi]z^3)/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (a1mu*el^6*MZ^8*\[Xi]z^3)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + (15*el^6*MZ^8*\[Xi]z^3)/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (a1mu*el^6*MZ^8*\[Xi]z^3)/
+    (4096*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (9*d*el^6*MZ^8*\[Xi]z^3)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (3*d^2*el^6*MZ^8*\[Xi]z^3)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - (5*el^6*MZ^10*\[Xi]z^3)/
+    (98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^10*\[Xi]z^3)/(24576*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3)/(24576*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]z^3)/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z^3)/
+    (6144*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (d*el^6*MZ^8*\[Xi]z^3)/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (d^2*el^6*MZ^8*\[Xi]z^3)/
+    (49152*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (3*el^6*MZ^10*\[Xi]z^3)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]z^3)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^4)/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2) - (7*el^6*MZ^10*\[Xi]z^4)/(16384*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10*\[Xi]z^4)/(98304*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^10*\[Xi]z^4)/(98304*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^10*\[Xi]z^4)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^10*\[Xi]z^4)/(49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^4)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]w*\[Xi]z^4)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/(8192*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (9*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (15*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (9*d*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (3*d^2*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/(16384*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/
+    (12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (d*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (d^2*el^6*MZ^8*\[Xi]z*(1 + \[Xi]z))/
+    (98304*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (3*el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (3*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/(8192*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (9*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) - 
+   (15*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) + (9*d*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^4*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/(16384*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/
+    (12288*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + (d*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^2*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]z^2*(1 + \[Xi]z))/(98304*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + (el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/
+    (98304*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z^3*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^10*\[Xi]z^3*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^3*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^4*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^10*\[Xi]w*\[Xi]z^3*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (7*el^6*MZ^10)/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^10)/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10)/(49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10)/(49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z)/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z)/
+    (98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z)/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z)/
+    (49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z)/
+    (49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z^2)/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^2)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^2)/
+    (49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^2)/
+    (49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^2)/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z^2)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^2)/
+    (49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^2)/
+    (49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z^3)/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^3)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^3)/
+    (49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^3)/
+    (49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^4)/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z^4)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^4)/
+    (49152*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^4)/
+    (49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (7*el^6*MZ^10*\[Xi]z^5)/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (7*el^6*MZ^10*\[Xi]z^5)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^5)/
+    (98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^5)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (7*el^6*MZ^12)/(16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12)/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12)/(98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12)/(49152*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12*\[Xi]w)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (7*el^6*MZ^12*\[Xi]w)/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w)/(98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w)/(49152*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (3*el^6*MW^2*MZ^8*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]z)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]z)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (3*el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12*\[Xi]z)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (21*el^6*MZ^12*\[Xi]z)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z)/(98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z)/(32768*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (7*el^6*MZ^12*\[Xi]w*\[Xi]z)/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (21*el^6*MZ^12*\[Xi]w*\[Xi]z)/(16384*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^12*\[Xi]w*\[Xi]z)/
+    (98304*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z)/(32768*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (9*el^6*MW^2*MZ^8*\[Xi]z^2)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z^2)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^8*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^2)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (9*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12*\[Xi]z^2)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (7*el^6*MZ^12*\[Xi]z^2)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z^2)/(98304*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^12*\[Xi]z^2)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (7*el^6*MZ^12*\[Xi]w*\[Xi]z^2)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (7*el^6*MZ^12*\[Xi]w*\[Xi]z^2)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z^2)/(98304*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^12*\[Xi]w*\[Xi]z^2)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (9*el^6*MW^2*MZ^8*\[Xi]z^3)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (3*el^6*MZ^10*\[Xi]z^3)/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]z^3)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^3)/
+    (24576*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (9*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^3)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^3)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^3)/
+    (24576*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (7*el^6*MZ^12*\[Xi]z^3)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (21*el^6*MZ^12*\[Xi]z^3)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z^3)/(98304*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^12*\[Xi]z^3)/
+    (32768*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12*\[Xi]w*\[Xi]z^3)/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (21*el^6*MZ^12*\[Xi]w*\[Xi]z^3)/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z^3)/(98304*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^12*\[Xi]w*\[Xi]z^3)/
+    (32768*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*MZ^8*\[Xi]z^4)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (9*el^6*MZ^10*\[Xi]z^4)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^8*\[Xi]z^4)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^4)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^4)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (9*el^6*MZ^10*\[Xi]w*\[Xi]z^4)/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^8*\[Xi]w*\[Xi]z^4)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z^4)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (7*el^6*MZ^12*\[Xi]z^4)/(16384*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^12*\[Xi]z^4)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (7*el^6*MZ^12*\[Xi]w*\[Xi]z^4)/(16384*d*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^12*\[Xi]w*\[Xi]z^4)/
+    (98304*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z^5)/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z^5)/(49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^5)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^5)/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z^2*(1 + \[Xi]z))/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z^2*(1 + \[Xi]z))/
+    (49152*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z^3*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^3*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^3*(1 + \[Xi]z))/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^3*(1 + \[Xi]z))/
+    (98304*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + (9*el^6*MZ^8*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MZ^8*\[Xi]z)/(49152*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w*\[Xi]z)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (9*el^6*MZ^8*\[Xi]z^2)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (27*el^6*MZ^8*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (9*el^6*MZ^8*\[Xi]w*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (9*el^6*MZ^8*\[Xi]z^3)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (27*el^6*MZ^8*\[Xi]z^3)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^3)/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^3)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (9*el^6*MZ^8*\[Xi]w*\[Xi]z^3)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^3)/(32768*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^4)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (9*el^6*MZ^8*\[Xi]z^4)/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^4)/(49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^4)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]w*\[Xi]z^4)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^4)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]z)/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + 
+      MZ^2*\[Xi]z)) - (9*el^6*MZ^10*\[Xi]z)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + 
+      MZ^2*\[Xi]z)) - (3*el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]w*\[Xi]z)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z)/(49152*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (3*el^6*MZ^10*\[Xi]w^2*\[Xi]z)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w^2*\[Xi]z)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - (3*el^6*MZ^10*\[Xi]z^2)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (9*el^6*MZ^10*\[Xi]z^2)/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z^2)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z^2)/(32768*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + 
+      MZ^2*\[Xi]z)) + (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z^2)/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]w*\[Xi]z^2)/
+    (49152*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z^2)/(49152*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - (3*el^6*MZ^10*\[Xi]w^2*\[Xi]z^2)/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-1 + \[Xi]z)*
+     (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w^2*\[Xi]z^2)/(98304*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^2*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*((20 - 6*d + d^2)*MW^14*\[Xi]w^3*(-1 + \[Xi]z) - 
+      (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*\[Xi]z^2 + 
+      MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + d^3*(1 + \[Xi]w + \[Xi]z - 
+          10*\[Xi]w*\[Xi]z) - 20*\[Xi]w*(2 - \[Xi]z + 
+          2*\[Xi]w*(1 + \[Xi]z)) - d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 
+          3*(1 + \[Xi]z) + 5*\[Xi]w^2*(1 + \[Xi]z)) + 
+        2*d*(1 + \[Xi]z + 15*\[Xi]w^2*(1 + \[Xi]z) - 
+          8*\[Xi]w*(-2 + 3*\[Xi]z))) + MW^12*MZ^2*\[Xi]w^2*
+       (19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+        \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+          21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+          \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+        d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+          2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+      MW^10*MZ^4*\[Xi]w*(-5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z - 
+        \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+          d*(2 + 5*\[Xi]z^2)) + \[Xi]w*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+          95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+            19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 4*\[Xi]z^3)) + 
+        \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + d^2*(42 - 25*\[Xi]z + 
+            7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 34*\[Xi]z^2 + \[Xi]z^3) + 
+          2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 8*\[Xi]z^3))) + 
+      MW^8*MZ^6*\[Xi]w*((-1 + d)*d*\[Xi]w^3*\[Xi]z + 
+        \[Xi]z*(157 - 54*\[Xi]z - 43*\[Xi]z^2 - 2*d^2*(-9 + 3*\[Xi]z + 
+            \[Xi]z^2) + 5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) - 
+        \[Xi]w^2*(24 + 78*\[Xi]z - 22*\[Xi]z^2 - 40*\[Xi]z^3 + 
+          d^4*(1 + \[Xi]z) - d^3*(11 + 9*\[Xi]z) + 
+          d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 4*\[Xi]z^3) + 
+          d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 29*\[Xi]z^3)) - 
+        \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 77*\[Xi]z^3 + 19*\[Xi]z^4 + 
+          d^4*(1 + \[Xi]z) + d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + 
+          d^2*(47 + 25*\[Xi]z - 21*\[Xi]z^2 + 6*\[Xi]z^3) + 
+          d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 38*\[Xi]z^3 - 4*\[Xi]z^4))) + 
+      MW^6*MZ^8*\[Xi]w*(-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 
+        18*\[Xi]z^4 + \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+        \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 19*\[Xi]z^4) + 
+        d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + \[Xi]w*(1 + \[Xi]z)^2) - 
+        d^3*(-1 + 10*\[Xi]z + 11*\[Xi]w^2*\[Xi]z + 
+          \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+        d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+          \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+            23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+          \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+          \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+            4*\[Xi]z^4))) + MW^4*MZ^10*(-(d*(2 - 3*d + d^2)*\[Xi]z) + 
+        5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z - \[Xi]w^2*(-38 - 21*\[Xi]z + 
+          18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+          d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+          d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) - 
+        \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+          d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+          d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+          d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4)))))/
+    (16384*(-1 + d)*d*QFTSymbols`e^2*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*((20 - 6*d + d^2)*MW^14*\[Xi]w^3*(-1 + \[Xi]z) - 
+      (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*\[Xi]z^2 + 
+      MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + d^3*(1 + \[Xi]w + \[Xi]z - 
+          10*\[Xi]w*\[Xi]z) - 20*\[Xi]w*(2 - \[Xi]z + 
+          2*\[Xi]w*(1 + \[Xi]z)) - d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 
+          3*(1 + \[Xi]z) + 5*\[Xi]w^2*(1 + \[Xi]z)) + 
+        2*d*(1 + \[Xi]z + 15*\[Xi]w^2*(1 + \[Xi]z) - 
+          8*\[Xi]w*(-2 + 3*\[Xi]z))) + MW^12*MZ^2*\[Xi]w^2*
+       (19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+        \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+          21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+          \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+        d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+          2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+      MW^10*MZ^4*\[Xi]w*(-5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z - 
+        \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+          d*(2 + 5*\[Xi]z^2)) + \[Xi]w*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+          95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+            19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 4*\[Xi]z^3)) + 
+        \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + d^2*(42 - 25*\[Xi]z + 
+            7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 34*\[Xi]z^2 + \[Xi]z^3) + 
+          2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 8*\[Xi]z^3))) + 
+      MW^8*MZ^6*\[Xi]w*((-1 + d)*d*\[Xi]w^3*\[Xi]z + 
+        \[Xi]z*(157 - 54*\[Xi]z - 43*\[Xi]z^2 - 2*d^2*(-9 + 3*\[Xi]z + 
+            \[Xi]z^2) + 5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) - 
+        \[Xi]w^2*(24 + 78*\[Xi]z - 22*\[Xi]z^2 - 40*\[Xi]z^3 + 
+          d^4*(1 + \[Xi]z) - d^3*(11 + 9*\[Xi]z) + 
+          d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 4*\[Xi]z^3) + 
+          d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 29*\[Xi]z^3)) - 
+        \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 77*\[Xi]z^3 + 19*\[Xi]z^4 + 
+          d^4*(1 + \[Xi]z) + d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + 
+          d^2*(47 + 25*\[Xi]z - 21*\[Xi]z^2 + 6*\[Xi]z^3) + 
+          d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 38*\[Xi]z^3 - 4*\[Xi]z^4))) + 
+      MW^6*MZ^8*\[Xi]w*(-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 
+        18*\[Xi]z^4 + \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+        \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 19*\[Xi]z^4) + 
+        d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + \[Xi]w*(1 + \[Xi]z)^2) - 
+        d^3*(-1 + 10*\[Xi]z + 11*\[Xi]w^2*\[Xi]z + 
+          \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+        d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+          \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+            23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+          \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+          \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+            4*\[Xi]z^4))) + MW^4*MZ^10*(-(d*(2 - 3*d + d^2)*\[Xi]z) + 
+        5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z - \[Xi]w^2*(-38 - 21*\[Xi]z + 
+          18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+          d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+          d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) - 
+        \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+          d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+          d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+          d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4))))*
+     Log[MassiveTadpole`mu]^2)/(2048*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*((20 - 6*d + d^2)*MW^14*\[Xi]w^3*(-1 + \[Xi]z) - 
+      (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*\[Xi]z^2 + 
+      MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + d^3*(1 + \[Xi]w + \[Xi]z - 
+          10*\[Xi]w*\[Xi]z) - 20*\[Xi]w*(2 - \[Xi]z + 
+          2*\[Xi]w*(1 + \[Xi]z)) - d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 
+          3*(1 + \[Xi]z) + 5*\[Xi]w^2*(1 + \[Xi]z)) + 
+        2*d*(1 + \[Xi]z + 15*\[Xi]w^2*(1 + \[Xi]z) - 
+          8*\[Xi]w*(-2 + 3*\[Xi]z))) + MW^12*MZ^2*\[Xi]w^2*
+       (19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+        \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+          21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+          \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+        d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+          2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+      MW^10*MZ^4*\[Xi]w*(-5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z - 
+        \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+          d*(2 + 5*\[Xi]z^2)) + \[Xi]w*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+          95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+            19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 4*\[Xi]z^3)) + 
+        \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + d^2*(42 - 25*\[Xi]z + 
+            7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 34*\[Xi]z^2 + \[Xi]z^3) + 
+          2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 8*\[Xi]z^3))) + 
+      MW^8*MZ^6*\[Xi]w*((-1 + d)*d*\[Xi]w^3*\[Xi]z + 
+        \[Xi]z*(157 - 54*\[Xi]z - 43*\[Xi]z^2 - 2*d^2*(-9 + 3*\[Xi]z + 
+            \[Xi]z^2) + 5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) - 
+        \[Xi]w^2*(24 + 78*\[Xi]z - 22*\[Xi]z^2 - 40*\[Xi]z^3 + 
+          d^4*(1 + \[Xi]z) - d^3*(11 + 9*\[Xi]z) + 
+          d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 4*\[Xi]z^3) + 
+          d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 29*\[Xi]z^3)) - 
+        \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 77*\[Xi]z^3 + 19*\[Xi]z^4 + 
+          d^4*(1 + \[Xi]z) + d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + 
+          d^2*(47 + 25*\[Xi]z - 21*\[Xi]z^2 + 6*\[Xi]z^3) + 
+          d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 38*\[Xi]z^3 - 4*\[Xi]z^4))) + 
+      MW^6*MZ^8*\[Xi]w*(-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 
+        18*\[Xi]z^4 + \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+        \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 19*\[Xi]z^4) + 
+        d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + \[Xi]w*(1 + \[Xi]z)^2) - 
+        d^3*(-1 + 10*\[Xi]z + 11*\[Xi]w^2*\[Xi]z + 
+          \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+        d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+          \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+            23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+          \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+          \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+            4*\[Xi]z^4))) + MW^4*MZ^10*(-(d*(2 - 3*d + d^2)*\[Xi]z) + 
+        5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z - \[Xi]w^2*(-38 - 21*\[Xi]z + 
+          18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+          d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+          d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) - 
+        \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+          d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+          d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+          d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4))))*
+     Log[MZ]^2)/(2048*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*((a1mu - 2*(20 - 6*d + d^2))*MW^10*\[Xi]w^2 - 
+      2*(-1 + d)*MZ^10*(-1 + \[Xi]z)*(6 + 3*\[Xi]w*(-2 + \[Xi]z) - 9*\[Xi]z - 
+        60*\[Xi]z^2 + a1mu*\[Xi]z^2 + 3*d*(-1 + \[Xi]w + 2*\[Xi]z + 
+          5*\[Xi]z^2)) + MW^6*MZ^4*(2 - 42*\[Xi]z + a1mu*\[Xi]z - 
+        \[Xi]w^3*(4 + (-42 + a1mu)*\[Xi]z) + 2*\[Xi]w*(-69 - 118*\[Xi]z - 
+          50*\[Xi]z^2 + a1mu*(2 + 3*\[Xi]z + \[Xi]z^2)) + 
+        2*d^2*\[Xi]w*(\[Xi]w*(-19 + 2*\[Xi]z^2) - 
+          2*(2 + 6*\[Xi]z + 3*\[Xi]z^2)) - 2*d*(1 - 6*\[Xi]z + 
+          \[Xi]w^3*(-2 + 6*\[Xi]z) + \[Xi]w*(-43 + a1mu - 70*\[Xi]z + 
+            a1mu*\[Xi]z - 26*\[Xi]z^2) + \[Xi]w^2*(-81 + a1mu + 11*\[Xi]z + 
+            6*\[Xi]z^2)) + \[Xi]w^2*(a1mu*(1 + \[Xi]z + \[Xi]z^2) - 
+          2*(47 + 4*\[Xi]z + 11*\[Xi]z^2))) + 
+      MW^4*MZ^6*(2*\[Xi]w^3 + \[Xi]w^2*(34 - (-54 + a1mu)*\[Xi]z + 
+          3*(-54 + a1mu)*\[Xi]z^2) - 2*(5 + 2*(-37 + a1mu)*\[Xi]z + 
+          (-48 + a1mu)*\[Xi]z^2) - 2*d*(-7 + \[Xi]w^3 + 50*\[Xi]z - 
+          a1mu*\[Xi]z + 22*\[Xi]z^2 - \[Xi]w*(-67 + a1mu - 74*\[Xi]z + 
+            a1mu*\[Xi]z + 12*\[Xi]z^2) + \[Xi]w^2*(28 - (-49 + a1mu)*\[Xi]z + 
+            (-80 + a1mu)*\[Xi]z^2)) + d^2*(-4 + 12*\[Xi]z + 8*\[Xi]z^2 + 
+          \[Xi]w^2*(22 + 14*\[Xi]z - 28*\[Xi]z^2) + 
+          \[Xi]w*(26 + 34*\[Xi]z - 6*\[Xi]z^2 - 4*\[Xi]z^3)) + 
+        \[Xi]w*(-(a1mu*(2 + 3*\[Xi]z + 3*\[Xi]z^2 + \[Xi]z^3)) + 
+          2*(54 + 72*\[Xi]z + 36*\[Xi]z^2 + 17*\[Xi]z^3))) + 
+      MW^2*MZ^8*(20 - 136*\[Xi]z + 2*a1mu*\[Xi]z - 46*\[Xi]z^2 + 
+        2*a1mu*\[Xi]z^2 - 32*\[Xi]z^3 + a1mu*\[Xi]z^3 - 
+        2*\[Xi]w^2*(7 - 9*\[Xi]z + 3*\[Xi]z^2) - 
+        \[Xi]w*(18 - 2*(-62 + a1mu)*\[Xi]z + (-60 + a1mu)*\[Xi]z^2 + 
+          2*(-59 + a1mu)*\[Xi]z^3) + 2*d^2*(5 + 3*\[Xi]w^2*(-1 + \[Xi]z) - 
+          19*\[Xi]z + 3*\[Xi]z^2 + 3*\[Xi]z^3 + \[Xi]w*(-8 - 15*\[Xi]z + 
+            5*\[Xi]z^2 + 14*\[Xi]z^3)) + 2*d*(-15 + 87*\[Xi]z - a1mu*\[Xi]z - 
+          10*\[Xi]z^2 - 2*\[Xi]z^3 + \[Xi]w^2*(10 - 12*\[Xi]z + 3*\[Xi]z^2) + 
+          \[Xi]w*(17 - (-77 + a1mu)*\[Xi]z - 20*\[Xi]z^2 + 
+            (-73 + a1mu)*\[Xi]z^3))) + MW^8*MZ^2*\[Xi]w*
+       (a1mu*(-1 + \[Xi]w^2 + 2*\[Xi]w*(-2 + d - \[Xi]z) - \[Xi]z) + 
+        2*(18 + 22*\[Xi]z - 2*\[Xi]w^2*(9 + \[Xi]z) + 
+          \[Xi]w*(76 + 44*\[Xi]z) + d^2*(\[Xi]z + \[Xi]w*(8 + 6*\[Xi]z)) + 
+          d*(-3 - 8*\[Xi]z + \[Xi]w^2*(3 + 2*\[Xi]z) - 
+            2*\[Xi]w*(27 + 10*\[Xi]z)))))*Log[\[Xi]z])/
+    (16384*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*((20 - 6*d + d^2)*MW^10*\[Xi]w^2*\[Xi]z + 
+      2*(-1 + d)*MZ^10*(-1 + \[Xi]z)*(-2 + 7*\[Xi]z - 5*\[Xi]z^2 - 
+        21*\[Xi]z^3 + \[Xi]w*(2 - 5*\[Xi]z + 2*\[Xi]z^2) + 
+        d*(1 - 4*\[Xi]z + 3*\[Xi]z^2 + 6*\[Xi]z^3 + 
+          \[Xi]w*(-1 + 2*\[Xi]z))) - MW^8*MZ^2*\[Xi]w*\[Xi]z*
+       (-2*\[Xi]w^2*(9 + 2*\[Xi]z) + 6*(3 + 4*\[Xi]z) + 
+        \[Xi]w*(76 + 48*\[Xi]z) + d^2*(\[Xi]z + 2*\[Xi]w*(4 + 5*\[Xi]z)) + 
+        d*(-3 - 10*\[Xi]z + \[Xi]w^2*(3 + 4*\[Xi]z) - 
+          2*\[Xi]w*(27 + 14*\[Xi]z))) + MW^6*MZ^4*
+       (\[Xi]z*(-1 + d + 23*\[Xi]z - 8*d*\[Xi]z) + \[Xi]w^3*\[Xi]z*
+         (2 - 23*\[Xi]z + d*(-2 + 8*\[Xi]z)) + \[Xi]w*\[Xi]z*
+         (69 + 124*\[Xi]z + 60*\[Xi]z^2 + 2*d^2*(2 + 8*\[Xi]z + 5*\[Xi]z^2) - 
+          d*(43 + 80*\[Xi]z + 40*\[Xi]z^2)) + \[Xi]w^2*(-4 + 32*\[Xi]z + 
+          26*\[Xi]z^2 + 4*\[Xi]z^3 + d^2*(-4 + 19*\[Xi]z + 9*\[Xi]z^2 - 
+            3*\[Xi]z^3) + 2*d*(4 - 33*\[Xi]z - 10*\[Xi]z^2 + 7*\[Xi]z^3))) + 
+      MW^4*MZ^6*(-(\[Xi]w^3*\[Xi]z) + \[Xi]z*(5 - 76*\[Xi]z - 58*\[Xi]z^2) - 
+        \[Xi]w*\[Xi]z*(27 + 86*\[Xi]z + 58*\[Xi]z^2 + 16*\[Xi]z^3) + 
+        \[Xi]w^2*(8 - 29*\[Xi]z - 2*\[Xi]z^2 + 68*\[Xi]z^3) + 
+        d*(\[Xi]w^3*\[Xi]z + \[Xi]z*(-7 + 52*\[Xi]z + 36*\[Xi]z^2) + 
+          \[Xi]w^2*(-14 + 47*\[Xi]z + 20*\[Xi]z^2 - 64*\[Xi]z^3) + 
+          \[Xi]w*(-2 + 33*\[Xi]z + 98*\[Xi]z^2 + 18*\[Xi]z^3 - 2*\[Xi]z^4)) + 
+        d^2*(-2*\[Xi]z*(-1 + 3*\[Xi]z + 4*\[Xi]z^2) + 
+          \[Xi]w^2*(6 - 18*\[Xi]z - 3*\[Xi]z^2 + 11*\[Xi]z^3) + 
+          \[Xi]w*(2 - 6*\[Xi]z - 27*\[Xi]z^2 - 5*\[Xi]z^3 + 3*\[Xi]z^4))) + 
+      MW^2*MZ^8*(4 - 22*\[Xi]z + 58*\[Xi]z^2 + 52*\[Xi]z^3 + 15*\[Xi]z^4 + 
+        \[Xi]w^2*(-4 + 15*\[Xi]z - 14*\[Xi]z^2 + 4*\[Xi]z^3) + 
+        \[Xi]w*(-4 + 9*\[Xi]z + 48*\[Xi]z^2 - 36*\[Xi]z^3 - 41*\[Xi]z^4) + 
+        d^2*(2 - 12*\[Xi]z + 20*\[Xi]z^2 + 6*\[Xi]z^3 - 4*\[Xi]z^4 + 
+          \[Xi]w^2*(-2 + 6*\[Xi]z - 4*\[Xi]z^2) + 
+          \[Xi]w*(-4 + 8*\[Xi]z + 16*\[Xi]z^2 - 5*\[Xi]z^3 - 11*\[Xi]z^4)) + 
+        d*(-6 + 34*\[Xi]z - 78*\[Xi]z^2 - 28*\[Xi]z^3 + 4*\[Xi]z^4 + 
+          \[Xi]w^2*(6 - 21*\[Xi]z + 18*\[Xi]z^2 - 4*\[Xi]z^3) + 
+          \[Xi]w*(8 - 17*\[Xi]z - 64*\[Xi]z^2 + 26*\[Xi]z^3 + 52*\[Xi]z^4))))*
+     Log[\[Xi]z]^2)/(32768*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   Log[MassiveTadpole`mu]*
+    ((el^6*MZ^6*(-((a1mu - 2*(20 - 6*d + d^2))*MW^14*\[Xi]w^3*
+          (-1 + \[Xi]z)) - (-2 + d)*MZ^14*(3*d^2 - (-60 + a1mu)*\[Xi]w - 
+          3*d*(1 + 5*\[Xi]w))*\[Xi]z^2 + MW^2*MZ^12*\[Xi]z*
+         (3*d^4*\[Xi]w*\[Xi]z + 3*d^3*(1 + \[Xi]w + \[Xi]z - 
+            10*\[Xi]w*\[Xi]z) + (-60 + a1mu)*\[Xi]w*(2 - \[Xi]z + 
+            2*\[Xi]w*(1 + \[Xi]z)) - d^2*(9*(1 + \[Xi]z) + 
+            15*\[Xi]w^2*(1 + \[Xi]z) + \[Xi]w*(24 + (-111 + a1mu)*\[Xi]z)) + 
+          d*(6*(1 + \[Xi]z) - (-90 + a1mu)*\[Xi]w^2*(1 + \[Xi]z) + 
+            \[Xi]w*(96 - a1mu - 144*\[Xi]z + 2*a1mu*\[Xi]z))) - 
+        MW^12*MZ^2*\[Xi]w^2*(-38 + a1mu - 316*\[Xi]w + 4*d^3*\[Xi]w - 
+          2*\[Xi]w^2 - 4*\[Xi]z + 112*\[Xi]w*\[Xi]z - 36*\[Xi]w^2*\[Xi]z + 
+          a1mu*\[Xi]w^2*\[Xi]z + 42*\[Xi]z^2 - a1mu*\[Xi]z^2 + 
+          84*\[Xi]w*\[Xi]z^2 - 2*\[Xi]w^2*\[Xi]z^2 + a1mu*\[Xi]w*
+           (8 + 2*d*(-2 + \[Xi]z) - 3*\[Xi]z - 2*\[Xi]z^2) - 
+          2*d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + \[Xi]w*(26 - 7*\[Xi]z - 
+              4*\[Xi]z^2)) + 2*d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + 
+            \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-61 + 24*\[Xi]z + 
+              8*\[Xi]z^2))) + MW^8*MZ^6*\[Xi]w*(2*(-1 + d)*d*\[Xi]w^3*
+           \[Xi]z + \[Xi]w*(-237 + 71*\[Xi]z + 254*\[Xi]z^2 - 131*\[Xi]z^3 - 
+            37*\[Xi]z^4 - 3*d^4*(1 + \[Xi]z) + d^3*(30 + 29*\[Xi]z - 
+              4*\[Xi]z^2) + d^2*(-141 - 102*\[Xi]z + 46*\[Xi]z^2 - 
+              5*\[Xi]z^3 + \[Xi]z^4) + d*(306 + 80*\[Xi]z - 206*\[Xi]z^2 + 
+              46*\[Xi]z^3 + 6*\[Xi]z^4) + a1mu*(4 - 4*\[Xi]z - 6*\[Xi]z^2 + 
+              4*\[Xi]z^3 + \[Xi]z^4 + d^2*(1 + \[Xi]z) - d*(-2 + \[Xi]z)^2*(
+                1 + \[Xi]z))) + \[Xi]z*(a1mu*(-8 - 2*d*(-2 + \[Xi]z) + 
+              3*\[Xi]z + 2*\[Xi]z^2) - 2*(-157 + 54*\[Xi]z + 43*\[Xi]z^2 + 
+              2*d^2*(-9 + 3*\[Xi]z + \[Xi]z^2) - 5*d*(-23 + 9*\[Xi]z + 
+                3*\[Xi]z^2))) + \[Xi]w^2*(-72 - 235*\[Xi]z + 48*\[Xi]z^2 + 
+            99*\[Xi]z^3 - 3*d^4*(1 + \[Xi]z) + d^3*(33 + 29*\[Xi]z) + 
+            d*(171 + 298*\[Xi]z - 27*\[Xi]z^2 - 82*\[Xi]z^3) + 
+            d^2*(-129 - 134*\[Xi]z + 9*\[Xi]z^2 + 13*\[Xi]z^3) + 
+            a1mu*(1 + 4*\[Xi]z - \[Xi]z^2 - 2*\[Xi]z^3 + d^2*(1 + \[Xi]z) + 
+              d*(-2 - 4*\[Xi]z + \[Xi]z^3)))) + MW^4*MZ^10*
+         (-3*d*(2 - 3*d + d^2)*\[Xi]z + (a1mu + 15*(-4 + d))*(-2 + d)*
+           \[Xi]w^3*\[Xi]z + \[Xi]w*(6 + (-69 + a1mu)*\[Xi]z + 
+            (-246 + 4*a1mu)*\[Xi]z^2 + 9*\[Xi]z^3 - (-60 + a1mu)*\[Xi]z^4 - 
+            3*d^4*\[Xi]z*(1 + \[Xi]z) + 3*d^3*(-1 + 9*\[Xi]z + 10*\[Xi]z^2) + 
+            d^2*(12 + (-108 + a1mu)*\[Xi]z + (-144 + a1mu)*\[Xi]z^2 + 
+              6*\[Xi]z^3 + 15*\[Xi]z^4) + d*(-15 + (153 - 2*a1mu)*\[Xi]z + 
+              (318 - 4*a1mu)*\[Xi]z^2 - 15*\[Xi]z^3 + (-75 + a1mu)*\[Xi]z^
+                4)) + \[Xi]w^2*(a1mu*(1 + \[Xi]z)*(-2 + d + \[Xi]z - 
+              2*d*\[Xi]z + d^2*\[Xi]z) - 3*(-38 - 21*\[Xi]z + 18*\[Xi]z^2 + 
+              \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - d^3*\[Xi]z*(10 + 
+                11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+              d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)))) + 
+        MW^10*MZ^4*\[Xi]w*(-((a1mu + 10*(-4 + d))*(-1 + \[Xi]z)*\[Xi]z) + 
+          \[Xi]w^3*(-2 + 2*\[Xi]z + (-40 + a1mu)*\[Xi]z^2 - 
+            2*d^2*(1 + \[Xi]z) + 2*d*(2 + 5*\[Xi]z^2)) - 
+          \[Xi]w^2*(-233 - 3*d^4 + d^3*(29 - 4*\[Xi]z) + 347*\[Xi]z - 
+            63*\[Xi]z^2 - 31*\[Xi]z^3 + d*(297 - 242*\[Xi]z + 41*\[Xi]z^2) + 
+            d^2*(-135 + 49*\[Xi]z - 8*\[Xi]z^2 + \[Xi]z^3) + 
+            a1mu*(4 + d^2 - d*(-2 + \[Xi]z)^2 - 9*\[Xi]z + 2*\[Xi]z^2 + 
+              \[Xi]z^3)) + \[Xi]w*(a1mu*(1 + \[Xi]z)*(8 + 2*d*(-2 + \[Xi]z) - 
+              3*\[Xi]z - 2*\[Xi]z^2) + 2*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+              95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+                19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 
+                4*\[Xi]z^3)))) + MW^6*MZ^8*\[Xi]w*(-6 + 238*\[Xi]z - 
+          4*a1mu*\[Xi]z - 303*\[Xi]z^2 + 8*a1mu*\[Xi]z^2 + 96*\[Xi]z^3 - 
+          3*a1mu*\[Xi]z^3 + 35*\[Xi]z^4 - a1mu*\[Xi]z^4 + 
+          \[Xi]w^2*(-114 - a1mu*(-2 + \[Xi]z) + 59*\[Xi]z - 8*\[Xi]z^2 + 
+            3*\[Xi]z^3) + 3*d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) - d^3*(-3 + 30*\[Xi]z + 
+            33*\[Xi]w^2*\[Xi]z + \[Xi]w*(30 + 63*\[Xi]z + 29*\[Xi]z^2)) + 
+          \[Xi]w*(66 + 312*\[Xi]z + 228*\[Xi]z^2 - 108*\[Xi]z^3 - 
+            58*\[Xi]z^4 + a1mu*(-1 - 5*\[Xi]z - 4*\[Xi]z^2 + 2*\[Xi]z^3 + 
+              \[Xi]z^4)) - d^2*(12 + (-140 + a1mu)*\[Xi]z + 30*\[Xi]z^2 - 
+            2*\[Xi]z^3 + 3*\[Xi]z^4 + \[Xi]w^2*(12 + (-120 + a1mu)*\[Xi]z + 
+              5*\[Xi]z^2) + \[Xi]w*(-117 - 271*\[Xi]z - 126*\[Xi]z^2 + 
+              19*\[Xi]z^3 + 13*\[Xi]z^4 + a1mu*(1 + \[Xi]z)^2)) + 
+          d*(15 + (-306 + 4*a1mu)*\[Xi]z + (213 - 4*a1mu)*\[Xi]z^2 + 
+            (-38 + a1mu)*\[Xi]z^3 - 2*\[Xi]z^4 + \[Xi]w^2*(81 - 149*\[Xi]z + 
+              13*\[Xi]z^2 - 3*\[Xi]z^3 + a1mu*(-1 + 2*\[Xi]z)) - 
+            \[Xi]w*(156 + 481*\[Xi]z + 283*\[Xi]z^2 - 97*\[Xi]z^3 - 
+              71*\[Xi]z^4 + a1mu*(-2 - 6*\[Xi]z - 4*\[Xi]z^2 + \[Xi]z^3 + 
+                \[Xi]z^4))))))/(4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*
+       (-MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)) - (el^6*MZ^6*((20 - 6*d + d^2)*MW^14*\[Xi]w^3*
+         (-1 + \[Xi]z) - (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*
+         \[Xi]z^2 + MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + 
+          d^3*(1 + \[Xi]w + \[Xi]z - 10*\[Xi]w*\[Xi]z) - 
+          20*\[Xi]w*(2 - \[Xi]z + 2*\[Xi]w*(1 + \[Xi]z)) - 
+          d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 3*(1 + \[Xi]z) + 
+            5*\[Xi]w^2*(1 + \[Xi]z)) + 2*d*(1 + \[Xi]z + 15*\[Xi]w^2*
+             (1 + \[Xi]z) - 8*\[Xi]w*(-2 + 3*\[Xi]z))) + 
+        MW^12*MZ^2*\[Xi]w^2*(19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+          \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+            21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+            \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+          d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+            2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+        MW^10*MZ^4*\[Xi]w*(-5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z - 
+          \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+            d*(2 + 5*\[Xi]z^2)) + \[Xi]w*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+            95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+              19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 
+              4*\[Xi]z^3)) + \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + 
+            d^2*(42 - 25*\[Xi]z + 7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 
+              34*\[Xi]z^2 + \[Xi]z^3) + 2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 
+              8*\[Xi]z^3))) + MW^8*MZ^6*\[Xi]w*((-1 + d)*d*\[Xi]w^3*\[Xi]z + 
+          \[Xi]z*(157 - 54*\[Xi]z - 43*\[Xi]z^2 - 2*d^2*(-9 + 3*\[Xi]z + 
+              \[Xi]z^2) + 5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) - 
+          \[Xi]w^2*(24 + 78*\[Xi]z - 22*\[Xi]z^2 - 40*\[Xi]z^3 + 
+            d^4*(1 + \[Xi]z) - d^3*(11 + 9*\[Xi]z) + 
+            d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 4*\[Xi]z^3) + 
+            d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 29*\[Xi]z^3)) - 
+          \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 77*\[Xi]z^3 + 19*\[Xi]z^4 + 
+            d^4*(1 + \[Xi]z) + d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + 
+            d^2*(47 + 25*\[Xi]z - 21*\[Xi]z^2 + 6*\[Xi]z^3) + 
+            d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 38*\[Xi]z^3 - 4*\[Xi]z^4))) + 
+        MW^6*MZ^8*\[Xi]w*(-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 
+          18*\[Xi]z^4 + \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 
+            19*\[Xi]z^4) + d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) - d^3*(-1 + 10*\[Xi]z + 
+            11*\[Xi]w^2*\[Xi]z + \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+          d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+            \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+            \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+              23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+            \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+            \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+              4*\[Xi]z^4))) + MW^4*MZ^10*(-(d*(2 - 3*d + d^2)*\[Xi]z) + 
+          5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z - \[Xi]w^2*(-38 - 21*\[Xi]z + 
+            18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+            d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 
+              39*\[Xi]z^2) - d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) - 
+          \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+            d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+            d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+            d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4))))*
+       Log[MZ])/(1024*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+     (el^6*MZ^6*\[Xi]z*((20 - 6*d + d^2)*MW^10*\[Xi]w^2 + 
+        2*(-1 + d)*MZ^10*(-1 + \[Xi]z)*(2 + \[Xi]w*(-2 + \[Xi]z) - 3*\[Xi]z - 
+          20*\[Xi]z^2 + d*(-1 + \[Xi]w + 2*\[Xi]z + 5*\[Xi]z^2)) - 
+        MW^8*MZ^2*\[Xi]w*(18 + 22*\[Xi]z - 2*\[Xi]w^2*(9 + \[Xi]z) + 
+          \[Xi]w*(76 + 44*\[Xi]z) + d^2*(\[Xi]z + \[Xi]w*(8 + 6*\[Xi]z)) + 
+          d*(-3 - 8*\[Xi]z + \[Xi]w^2*(3 + 2*\[Xi]z) - 
+            2*\[Xi]w*(27 + 10*\[Xi]z))) + MW^6*MZ^4*
+         (-1 + \[Xi]w^3*(2 - 21*\[Xi]z) + 21*\[Xi]z + 
+          2*\[Xi]w^2*(13 + 12*\[Xi]z + 6*\[Xi]z^2) + 
+          \[Xi]w*(69 + 118*\[Xi]z + 50*\[Xi]z^2) + d^2*\[Xi]w*
+           (4 + 12*\[Xi]z + 6*\[Xi]z^2 + \[Xi]w*(13 + 5*\[Xi]z - \[Xi]z^2)) + 
+          d*(1 - 6*\[Xi]z + \[Xi]w^3*(-2 + 6*\[Xi]z) + 2*\[Xi]w^2*
+             (-27 - 7*\[Xi]z + 2*\[Xi]z^2) - \[Xi]w*(43 + 70*\[Xi]z + 
+              26*\[Xi]z^2))) + MW^2*MZ^8*(-8 + 44*\[Xi]z + 44*\[Xi]z^2 + 
+          17*\[Xi]z^3 + \[Xi]w^2*(5 - 6*\[Xi]z + 2*\[Xi]z^2) + 
+          \[Xi]w*(7 + 42*\[Xi]z - 28*\[Xi]z^2 - 39*\[Xi]z^3) - 
+          d*(\[Xi]w^2*(7 - 8*\[Xi]z + 2*\[Xi]z^2) + 
+            4*(-3 + 14*\[Xi]z + 4*\[Xi]z^2) + \[Xi]w*(13 + 52*\[Xi]z - 
+              16*\[Xi]z^2 - 48*\[Xi]z^3)) + d^2*(-2*\[Xi]w^2*(-1 + \[Xi]z) + 
+            \[Xi]w*(6 + 10*\[Xi]z - 3*\[Xi]z^2 - 9*\[Xi]z^3) + 
+            2*(-2 + 6*\[Xi]z + \[Xi]z^2 - \[Xi]z^3))) + 
+        MW^4*MZ^6*(5 - \[Xi]w^3 - 74*\[Xi]z - 48*\[Xi]z^2 + 
+          \[Xi]w^2*(-13 - 12*\[Xi]z + 62*\[Xi]z^2) - 
+          \[Xi]w*(35 + 68*\[Xi]z + 58*\[Xi]z^2 + 18*\[Xi]z^3) + 
+          d^2*(2 - 6*\[Xi]z - 4*\[Xi]z^2 + \[Xi]w^2*(-8 - 5*\[Xi]z + 
+              9*\[Xi]z^2) + \[Xi]w*(-8 - 15*\[Xi]z - 3*\[Xi]z^2 + 
+              \[Xi]z^3)) + d*(-7 + \[Xi]w^3 + 50*\[Xi]z + 22*\[Xi]z^2 + 
+            \[Xi]w^2*(21 + 32*\[Xi]z - 56*\[Xi]z^2) + 
+            \[Xi]w*(43 + 68*\[Xi]z + 16*\[Xi]z^2 + 2*\[Xi]z^3))))*
+       Log[\[Xi]z])/(4096*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))) + 
+   Log[MZ]*((el^6*MZ^6*((a1mu - 2*(20 - 6*d + d^2))*MW^14*\[Xi]w^3*
+         (-1 + \[Xi]z) + (-2 + d)*MZ^14*(3*d^2 - (-60 + a1mu)*\[Xi]w - 
+          3*d*(1 + 5*\[Xi]w))*\[Xi]z^2 + MW^2*MZ^12*\[Xi]z*
+         (-3*d^4*\[Xi]w*\[Xi]z - (-60 + a1mu)*\[Xi]w*(2 - \[Xi]z + 
+            2*\[Xi]w*(1 + \[Xi]z)) + d^3*(-3*(1 + \[Xi]z) + 
+            \[Xi]w*(-3 + 30*\[Xi]z)) + d^2*(9*(1 + \[Xi]z) + 
+            15*\[Xi]w^2*(1 + \[Xi]z) + \[Xi]w*(24 + (-111 + a1mu)*\[Xi]z)) + 
+          d*(-6*(1 + \[Xi]z) + (-90 + a1mu)*\[Xi]w^2*(1 + \[Xi]z) + 
+            \[Xi]w*(-96 + a1mu + 144*\[Xi]z - 2*a1mu*\[Xi]z))) + 
+        MW^12*MZ^2*\[Xi]w^2*(-38 + a1mu - 316*\[Xi]w + 4*d^3*\[Xi]w - 
+          2*\[Xi]w^2 - 4*\[Xi]z + 112*\[Xi]w*\[Xi]z - 36*\[Xi]w^2*\[Xi]z + 
+          a1mu*\[Xi]w^2*\[Xi]z + 42*\[Xi]z^2 - a1mu*\[Xi]z^2 + 
+          84*\[Xi]w*\[Xi]z^2 - 2*\[Xi]w^2*\[Xi]z^2 + a1mu*\[Xi]w*
+           (8 + 2*d*(-2 + \[Xi]z) - 3*\[Xi]z - 2*\[Xi]z^2) - 
+          2*d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + \[Xi]w*(26 - 7*\[Xi]z - 
+              4*\[Xi]z^2)) + 2*d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + 
+            \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-61 + 24*\[Xi]z + 
+              8*\[Xi]z^2))) - MW^8*MZ^6*\[Xi]w*(2*(-1 + d)*d*\[Xi]w^3*
+           \[Xi]z + \[Xi]w*(-237 + 71*\[Xi]z + 254*\[Xi]z^2 - 131*\[Xi]z^3 - 
+            37*\[Xi]z^4 - 3*d^4*(1 + \[Xi]z) + d^3*(30 + 29*\[Xi]z - 
+              4*\[Xi]z^2) + d^2*(-141 - 102*\[Xi]z + 46*\[Xi]z^2 - 
+              5*\[Xi]z^3 + \[Xi]z^4) + d*(306 + 80*\[Xi]z - 206*\[Xi]z^2 + 
+              46*\[Xi]z^3 + 6*\[Xi]z^4) + a1mu*(4 - 4*\[Xi]z - 6*\[Xi]z^2 + 
+              4*\[Xi]z^3 + \[Xi]z^4 + d^2*(1 + \[Xi]z) - d*(-2 + \[Xi]z)^2*(
+                1 + \[Xi]z))) + \[Xi]z*(a1mu*(-8 - 2*d*(-2 + \[Xi]z) + 
+              3*\[Xi]z + 2*\[Xi]z^2) - 2*(-157 + 54*\[Xi]z + 43*\[Xi]z^2 + 
+              2*d^2*(-9 + 3*\[Xi]z + \[Xi]z^2) - 5*d*(-23 + 9*\[Xi]z + 
+                3*\[Xi]z^2))) + \[Xi]w^2*(-72 - 235*\[Xi]z + 48*\[Xi]z^2 + 
+            99*\[Xi]z^3 - 3*d^4*(1 + \[Xi]z) + d^3*(33 + 29*\[Xi]z) + 
+            d*(171 + 298*\[Xi]z - 27*\[Xi]z^2 - 82*\[Xi]z^3) + 
+            d^2*(-129 - 134*\[Xi]z + 9*\[Xi]z^2 + 13*\[Xi]z^3) + 
+            a1mu*(1 + 4*\[Xi]z - \[Xi]z^2 - 2*\[Xi]z^3 + d^2*(1 + \[Xi]z) + 
+              d*(-2 - 4*\[Xi]z + \[Xi]z^3)))) - MW^4*MZ^10*
+         (-3*d*(2 - 3*d + d^2)*\[Xi]z + (a1mu + 15*(-4 + d))*(-2 + d)*
+           \[Xi]w^3*\[Xi]z + \[Xi]w*(6 + (-69 + a1mu)*\[Xi]z + 
+            (-246 + 4*a1mu)*\[Xi]z^2 + 9*\[Xi]z^3 - (-60 + a1mu)*\[Xi]z^4 - 
+            3*d^4*\[Xi]z*(1 + \[Xi]z) + 3*d^3*(-1 + 9*\[Xi]z + 10*\[Xi]z^2) + 
+            d^2*(12 + (-108 + a1mu)*\[Xi]z + (-144 + a1mu)*\[Xi]z^2 + 
+              6*\[Xi]z^3 + 15*\[Xi]z^4) + d*(-15 + (153 - 2*a1mu)*\[Xi]z + 
+              (318 - 4*a1mu)*\[Xi]z^2 - 15*\[Xi]z^3 + (-75 + a1mu)*\[Xi]z^
+                4)) + \[Xi]w^2*(a1mu*(1 + \[Xi]z)*(-2 + d + \[Xi]z - 
+              2*d*\[Xi]z + d^2*\[Xi]z) - 3*(-38 - 21*\[Xi]z + 18*\[Xi]z^2 + 
+              \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - d^3*\[Xi]z*(10 + 
+                11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+              d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)))) + 
+        MW^10*MZ^4*\[Xi]w*((a1mu + 10*(-4 + d))*(-1 + \[Xi]z)*\[Xi]z + 
+          \[Xi]w^3*(2 - 2*\[Xi]z - (-40 + a1mu)*\[Xi]z^2 + 
+            2*d^2*(1 + \[Xi]z) - 2*d*(2 + 5*\[Xi]z^2)) + 
+          \[Xi]w^2*(-233 - 3*d^4 + d^3*(29 - 4*\[Xi]z) + 347*\[Xi]z - 
+            63*\[Xi]z^2 - 31*\[Xi]z^3 + d*(297 - 242*\[Xi]z + 41*\[Xi]z^2) + 
+            d^2*(-135 + 49*\[Xi]z - 8*\[Xi]z^2 + \[Xi]z^3) + 
+            a1mu*(4 + d^2 - d*(-2 + \[Xi]z)^2 - 9*\[Xi]z + 2*\[Xi]z^2 + 
+              \[Xi]z^3)) + \[Xi]w*(a1mu*(1 + \[Xi]z)*
+             (-8 - 2*d*(-2 + \[Xi]z) + 3*\[Xi]z + 2*\[Xi]z^2) - 
+            2*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 95*\[Xi]z^2 + 45*\[Xi]z^3 + 
+              d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 19*\[Xi]z^3) + 
+              d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 4*\[Xi]z^3)))) + 
+        MW^6*MZ^8*\[Xi]w*(6 - 238*\[Xi]z + 4*a1mu*\[Xi]z + 303*\[Xi]z^2 - 
+          8*a1mu*\[Xi]z^2 - 96*\[Xi]z^3 + 3*a1mu*\[Xi]z^3 - 35*\[Xi]z^4 + 
+          a1mu*\[Xi]z^4 + \[Xi]w^2*(114 + a1mu*(-2 + \[Xi]z) - 59*\[Xi]z + 
+            8*\[Xi]z^2 - 3*\[Xi]z^3) - 3*d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) + d^3*(-3 + 30*\[Xi]z + 
+            33*\[Xi]w^2*\[Xi]z + \[Xi]w*(30 + 63*\[Xi]z + 29*\[Xi]z^2)) + 
+          \[Xi]w*(-66 - 312*\[Xi]z - 228*\[Xi]z^2 + 108*\[Xi]z^3 + 
+            58*\[Xi]z^4 + a1mu*(1 + 5*\[Xi]z + 4*\[Xi]z^2 - 2*\[Xi]z^3 - 
+              \[Xi]z^4)) + d^2*(12 + (-140 + a1mu)*\[Xi]z + 30*\[Xi]z^2 - 
+            2*\[Xi]z^3 + 3*\[Xi]z^4 + \[Xi]w^2*(12 + (-120 + a1mu)*\[Xi]z + 
+              5*\[Xi]z^2) + \[Xi]w*(-117 - 271*\[Xi]z - 126*\[Xi]z^2 + 
+              19*\[Xi]z^3 + 13*\[Xi]z^4 + a1mu*(1 + \[Xi]z)^2)) + 
+          d*(-15 + (306 - 4*a1mu)*\[Xi]z + (-213 + 4*a1mu)*\[Xi]z^2 - 
+            (-38 + a1mu)*\[Xi]z^3 + 2*\[Xi]z^4 + \[Xi]w^2*(-81 + a1mu + 
+              149*\[Xi]z - 2*a1mu*\[Xi]z - 13*\[Xi]z^2 + 3*\[Xi]z^3) + 
+            \[Xi]w*(156 + 481*\[Xi]z + 283*\[Xi]z^2 - 97*\[Xi]z^3 - 
+              71*\[Xi]z^4 + a1mu*(-2 - 6*\[Xi]z - 4*\[Xi]z^2 + \[Xi]z^3 + 
+                \[Xi]z^4))))))/(4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*
+       (-MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)) + (el^6*MZ^6*\[Xi]z*((20 - 6*d + d^2)*MW^10*\[Xi]w^2 + 
+        2*(-1 + d)*MZ^10*(-1 + \[Xi]z)*(2 + \[Xi]w*(-2 + \[Xi]z) - 3*\[Xi]z - 
+          20*\[Xi]z^2 + d*(-1 + \[Xi]w + 2*\[Xi]z + 5*\[Xi]z^2)) - 
+        MW^8*MZ^2*\[Xi]w*(18 + 22*\[Xi]z - 2*\[Xi]w^2*(9 + \[Xi]z) + 
+          \[Xi]w*(76 + 44*\[Xi]z) + d^2*(\[Xi]z + \[Xi]w*(8 + 6*\[Xi]z)) + 
+          d*(-3 - 8*\[Xi]z + \[Xi]w^2*(3 + 2*\[Xi]z) - 
+            2*\[Xi]w*(27 + 10*\[Xi]z))) + MW^6*MZ^4*
+         (-1 + \[Xi]w^3*(2 - 21*\[Xi]z) + 21*\[Xi]z + 
+          2*\[Xi]w^2*(13 + 12*\[Xi]z + 6*\[Xi]z^2) + 
+          \[Xi]w*(69 + 118*\[Xi]z + 50*\[Xi]z^2) + d^2*\[Xi]w*
+           (4 + 12*\[Xi]z + 6*\[Xi]z^2 + \[Xi]w*(13 + 5*\[Xi]z - \[Xi]z^2)) + 
+          d*(1 - 6*\[Xi]z + \[Xi]w^3*(-2 + 6*\[Xi]z) + 2*\[Xi]w^2*
+             (-27 - 7*\[Xi]z + 2*\[Xi]z^2) - \[Xi]w*(43 + 70*\[Xi]z + 
+              26*\[Xi]z^2))) + MW^2*MZ^8*(-8 + 44*\[Xi]z + 44*\[Xi]z^2 + 
+          17*\[Xi]z^3 + \[Xi]w^2*(5 - 6*\[Xi]z + 2*\[Xi]z^2) + 
+          \[Xi]w*(7 + 42*\[Xi]z - 28*\[Xi]z^2 - 39*\[Xi]z^3) - 
+          d*(\[Xi]w^2*(7 - 8*\[Xi]z + 2*\[Xi]z^2) + 
+            4*(-3 + 14*\[Xi]z + 4*\[Xi]z^2) + \[Xi]w*(13 + 52*\[Xi]z - 
+              16*\[Xi]z^2 - 48*\[Xi]z^3)) + d^2*(-2*\[Xi]w^2*(-1 + \[Xi]z) + 
+            \[Xi]w*(6 + 10*\[Xi]z - 3*\[Xi]z^2 - 9*\[Xi]z^3) + 
+            2*(-2 + 6*\[Xi]z + \[Xi]z^2 - \[Xi]z^3))) + 
+        MW^4*MZ^6*(5 - \[Xi]w^3 - 74*\[Xi]z - 48*\[Xi]z^2 + 
+          \[Xi]w^2*(-13 - 12*\[Xi]z + 62*\[Xi]z^2) - 
+          \[Xi]w*(35 + 68*\[Xi]z + 58*\[Xi]z^2 + 18*\[Xi]z^3) + 
+          d^2*(2 - 6*\[Xi]z - 4*\[Xi]z^2 + \[Xi]w^2*(-8 - 5*\[Xi]z + 
+              9*\[Xi]z^2) + \[Xi]w*(-8 - 15*\[Xi]z - 3*\[Xi]z^2 + 
+              \[Xi]z^3)) + d*(-7 + \[Xi]w^3 + 50*\[Xi]z + 22*\[Xi]z^2 + 
+            \[Xi]w^2*(21 + 32*\[Xi]z - 56*\[Xi]z^2) + 
+            \[Xi]w*(43 + 68*\[Xi]z + 16*\[Xi]z^2 + 2*\[Xi]z^3))))*
+       Log[\[Xi]z])/(4096*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))) + 
+   ((el^6*MZ^6*(-((a1mu - 2*(20 - 6*d + d^2))*MW^14*\[Xi]w^3*(-1 + \[Xi]z)) - 
+        (-2 + d)*MZ^14*(3*d^2 - (-60 + a1mu)*\[Xi]w - 3*d*(1 + 5*\[Xi]w))*
+         \[Xi]z^2 + MW^2*MZ^12*\[Xi]z*(3*d^4*\[Xi]w*\[Xi]z + 
+          3*d^3*(1 + \[Xi]w + \[Xi]z - 10*\[Xi]w*\[Xi]z) + 
+          (-60 + a1mu)*\[Xi]w*(2 - \[Xi]z + 2*\[Xi]w*(1 + \[Xi]z)) - 
+          d^2*(9*(1 + \[Xi]z) + 15*\[Xi]w^2*(1 + \[Xi]z) + 
+            \[Xi]w*(24 + (-111 + a1mu)*\[Xi]z)) + 
+          d*(6*(1 + \[Xi]z) - (-90 + a1mu)*\[Xi]w^2*(1 + \[Xi]z) + 
+            \[Xi]w*(96 - a1mu - 144*\[Xi]z + 2*a1mu*\[Xi]z))) - 
+        MW^12*MZ^2*\[Xi]w^2*(-38 + a1mu - 316*\[Xi]w + 4*d^3*\[Xi]w - 
+          2*\[Xi]w^2 - 4*\[Xi]z + 112*\[Xi]w*\[Xi]z - 36*\[Xi]w^2*\[Xi]z + 
+          a1mu*\[Xi]w^2*\[Xi]z + 42*\[Xi]z^2 - a1mu*\[Xi]z^2 + 
+          84*\[Xi]w*\[Xi]z^2 - 2*\[Xi]w^2*\[Xi]z^2 + a1mu*\[Xi]w*
+           (8 + 2*d*(-2 + \[Xi]z) - 3*\[Xi]z - 2*\[Xi]z^2) - 
+          2*d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + \[Xi]w*(26 - 7*\[Xi]z - 
+              4*\[Xi]z^2)) + 2*d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + 
+            \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-61 + 24*\[Xi]z + 
+              8*\[Xi]z^2))) + MW^8*MZ^6*\[Xi]w*(2*(-1 + d)*d*\[Xi]w^3*
+           \[Xi]z + \[Xi]w*(-237 + 71*\[Xi]z + 254*\[Xi]z^2 - 131*\[Xi]z^3 - 
+            37*\[Xi]z^4 - 3*d^4*(1 + \[Xi]z) + d^3*(30 + 29*\[Xi]z - 
+              4*\[Xi]z^2) + d^2*(-141 - 102*\[Xi]z + 46*\[Xi]z^2 - 
+              5*\[Xi]z^3 + \[Xi]z^4) + d*(306 + 80*\[Xi]z - 206*\[Xi]z^2 + 
+              46*\[Xi]z^3 + 6*\[Xi]z^4) + a1mu*(4 - 4*\[Xi]z - 6*\[Xi]z^2 + 
+              4*\[Xi]z^3 + \[Xi]z^4 + d^2*(1 + \[Xi]z) - d*(-2 + \[Xi]z)^2*(
+                1 + \[Xi]z))) + \[Xi]z*(a1mu*(-8 - 2*d*(-2 + \[Xi]z) + 
+              3*\[Xi]z + 2*\[Xi]z^2) - 2*(-157 + 54*\[Xi]z + 43*\[Xi]z^2 + 
+              2*d^2*(-9 + 3*\[Xi]z + \[Xi]z^2) - 5*d*(-23 + 9*\[Xi]z + 
+                3*\[Xi]z^2))) + \[Xi]w^2*(-72 - 235*\[Xi]z + 48*\[Xi]z^2 + 
+            99*\[Xi]z^3 - 3*d^4*(1 + \[Xi]z) + d^3*(33 + 29*\[Xi]z) + 
+            d*(171 + 298*\[Xi]z - 27*\[Xi]z^2 - 82*\[Xi]z^3) + 
+            d^2*(-129 - 134*\[Xi]z + 9*\[Xi]z^2 + 13*\[Xi]z^3) + 
+            a1mu*(1 + 4*\[Xi]z - \[Xi]z^2 - 2*\[Xi]z^3 + d^2*(1 + \[Xi]z) + 
+              d*(-2 - 4*\[Xi]z + \[Xi]z^3)))) + MW^4*MZ^10*
+         (-3*d*(2 - 3*d + d^2)*\[Xi]z + (a1mu + 15*(-4 + d))*(-2 + d)*
+           \[Xi]w^3*\[Xi]z + \[Xi]w*(6 + (-69 + a1mu)*\[Xi]z + 
+            (-246 + 4*a1mu)*\[Xi]z^2 + 9*\[Xi]z^3 - (-60 + a1mu)*\[Xi]z^4 - 
+            3*d^4*\[Xi]z*(1 + \[Xi]z) + 3*d^3*(-1 + 9*\[Xi]z + 10*\[Xi]z^2) + 
+            d^2*(12 + (-108 + a1mu)*\[Xi]z + (-144 + a1mu)*\[Xi]z^2 + 
+              6*\[Xi]z^3 + 15*\[Xi]z^4) + d*(-15 + (153 - 2*a1mu)*\[Xi]z + 
+              (318 - 4*a1mu)*\[Xi]z^2 - 15*\[Xi]z^3 + (-75 + a1mu)*\[Xi]z^
+                4)) + \[Xi]w^2*(a1mu*(1 + \[Xi]z)*(-2 + d + \[Xi]z - 
+              2*d*\[Xi]z + d^2*\[Xi]z) - 3*(-38 - 21*\[Xi]z + 18*\[Xi]z^2 + 
+              \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - d^3*\[Xi]z*(10 + 
+                11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 39*\[Xi]z^2) - 
+              d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)))) + 
+        MW^10*MZ^4*\[Xi]w*(-((a1mu + 10*(-4 + d))*(-1 + \[Xi]z)*\[Xi]z) + 
+          \[Xi]w^3*(-2 + 2*\[Xi]z + (-40 + a1mu)*\[Xi]z^2 - 
+            2*d^2*(1 + \[Xi]z) + 2*d*(2 + 5*\[Xi]z^2)) - 
+          \[Xi]w^2*(-233 - 3*d^4 + d^3*(29 - 4*\[Xi]z) + 347*\[Xi]z - 
+            63*\[Xi]z^2 - 31*\[Xi]z^3 + d*(297 - 242*\[Xi]z + 41*\[Xi]z^2) + 
+            d^2*(-135 + 49*\[Xi]z - 8*\[Xi]z^2 + \[Xi]z^3) + 
+            a1mu*(4 + d^2 - d*(-2 + \[Xi]z)^2 - 9*\[Xi]z + 2*\[Xi]z^2 + 
+              \[Xi]z^3)) + \[Xi]w*(a1mu*(1 + \[Xi]z)*(8 + 2*d*(-2 + \[Xi]z) - 
+              3*\[Xi]z - 2*\[Xi]z^2) + 2*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+              95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+                19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 
+                4*\[Xi]z^3)))) + MW^6*MZ^8*\[Xi]w*(-6 + 238*\[Xi]z - 
+          4*a1mu*\[Xi]z - 303*\[Xi]z^2 + 8*a1mu*\[Xi]z^2 + 96*\[Xi]z^3 - 
+          3*a1mu*\[Xi]z^3 + 35*\[Xi]z^4 - a1mu*\[Xi]z^4 + 
+          \[Xi]w^2*(-114 - a1mu*(-2 + \[Xi]z) + 59*\[Xi]z - 8*\[Xi]z^2 + 
+            3*\[Xi]z^3) + 3*d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) - d^3*(-3 + 30*\[Xi]z + 
+            33*\[Xi]w^2*\[Xi]z + \[Xi]w*(30 + 63*\[Xi]z + 29*\[Xi]z^2)) + 
+          \[Xi]w*(66 + 312*\[Xi]z + 228*\[Xi]z^2 - 108*\[Xi]z^3 - 
+            58*\[Xi]z^4 + a1mu*(-1 - 5*\[Xi]z - 4*\[Xi]z^2 + 2*\[Xi]z^3 + 
+              \[Xi]z^4)) - d^2*(12 + (-140 + a1mu)*\[Xi]z + 30*\[Xi]z^2 - 
+            2*\[Xi]z^3 + 3*\[Xi]z^4 + \[Xi]w^2*(12 + (-120 + a1mu)*\[Xi]z + 
+              5*\[Xi]z^2) + \[Xi]w*(-117 - 271*\[Xi]z - 126*\[Xi]z^2 + 
+              19*\[Xi]z^3 + 13*\[Xi]z^4 + a1mu*(1 + \[Xi]z)^2)) + 
+          d*(15 + (-306 + 4*a1mu)*\[Xi]z + (213 - 4*a1mu)*\[Xi]z^2 + 
+            (-38 + a1mu)*\[Xi]z^3 - 2*\[Xi]z^4 + \[Xi]w^2*(81 - 149*\[Xi]z + 
+              13*\[Xi]z^2 - 3*\[Xi]z^3 + a1mu*(-1 + 2*\[Xi]z)) - 
+            \[Xi]w*(156 + 481*\[Xi]z + 283*\[Xi]z^2 - 97*\[Xi]z^3 - 
+              71*\[Xi]z^4 + a1mu*(-2 - 6*\[Xi]z - 4*\[Xi]z^2 + \[Xi]z^3 + 
+                \[Xi]z^4))))))/(16384*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*
+       (-MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)) + (el^6*MZ^6*((20 - 6*d + d^2)*MW^14*\[Xi]w^3*
+         (-1 + \[Xi]z) - (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*
+         \[Xi]z^2 + MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + 
+          d^3*(1 + \[Xi]w + \[Xi]z - 10*\[Xi]w*\[Xi]z) - 
+          20*\[Xi]w*(2 - \[Xi]z + 2*\[Xi]w*(1 + \[Xi]z)) - 
+          d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 3*(1 + \[Xi]z) + 
+            5*\[Xi]w^2*(1 + \[Xi]z)) + 2*d*(1 + \[Xi]z + 15*\[Xi]w^2*
+             (1 + \[Xi]z) - 8*\[Xi]w*(-2 + 3*\[Xi]z))) + 
+        MW^12*MZ^2*\[Xi]w^2*(19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+          \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+            21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+            \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+          d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+            2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+        MW^10*MZ^4*\[Xi]w*(-5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z - 
+          \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+            d*(2 + 5*\[Xi]z^2)) + \[Xi]w*(-152 - 108*\[Xi]z + 2*d^3*\[Xi]z + 
+            95*\[Xi]z^2 + 45*\[Xi]z^3 + d*(108 + 83*\[Xi]z - 59*\[Xi]z^2 - 
+              19*\[Xi]z^3) + d^2*(-16 - 22*\[Xi]z + 9*\[Xi]z^2 + 
+              4*\[Xi]z^3)) + \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + 
+            d^2*(42 - 25*\[Xi]z + 7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 
+              34*\[Xi]z^2 + \[Xi]z^3) + 2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 
+              8*\[Xi]z^3))) + MW^8*MZ^6*\[Xi]w*((-1 + d)*d*\[Xi]w^3*\[Xi]z + 
+          \[Xi]z*(157 - 54*\[Xi]z - 43*\[Xi]z^2 - 2*d^2*(-9 + 3*\[Xi]z + 
+              \[Xi]z^2) + 5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) - 
+          \[Xi]w^2*(24 + 78*\[Xi]z - 22*\[Xi]z^2 - 40*\[Xi]z^3 + 
+            d^4*(1 + \[Xi]z) - d^3*(11 + 9*\[Xi]z) + 
+            d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 4*\[Xi]z^3) + 
+            d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 29*\[Xi]z^3)) - 
+          \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 77*\[Xi]z^3 + 19*\[Xi]z^4 + 
+            d^4*(1 + \[Xi]z) + d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + 
+            d^2*(47 + 25*\[Xi]z - 21*\[Xi]z^2 + 6*\[Xi]z^3) + 
+            d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 38*\[Xi]z^3 - 4*\[Xi]z^4))) + 
+        MW^6*MZ^8*\[Xi]w*(-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 
+          18*\[Xi]z^4 + \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 
+            19*\[Xi]z^4) + d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) - d^3*(-1 + 10*\[Xi]z + 
+            11*\[Xi]w^2*\[Xi]z + \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+          d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+            \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+            \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+              23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+            \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+            \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+              4*\[Xi]z^4))) + MW^4*MZ^10*(-(d*(2 - 3*d + d^2)*\[Xi]z) + 
+          5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z - \[Xi]w^2*(-38 - 21*\[Xi]z + 
+            18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+            d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 
+              39*\[Xi]z^2) - d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) - 
+          \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+            d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+            d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+            d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4))))*
+       Log[MassiveTadpole`mu])/(4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*
+       (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*
+       (-MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)) + 
+     (el^6*MZ^6*(-((20 - 6*d + d^2)*MW^14*\[Xi]w^3*(-1 + \[Xi]z)) + 
+        (-2 + d)*MZ^14*(d^2 + 20*\[Xi]w - d*(1 + 5*\[Xi]w))*\[Xi]z^2 - 
+        MW^2*MZ^12*\[Xi]z*(d^4*\[Xi]w*\[Xi]z + d^3*(1 + \[Xi]w + \[Xi]z - 
+            10*\[Xi]w*\[Xi]z) - 20*\[Xi]w*(2 - \[Xi]z + 
+            2*\[Xi]w*(1 + \[Xi]z)) - d^2*(\[Xi]w*(8 - 37*\[Xi]z) + 
+            3*(1 + \[Xi]z) + 5*\[Xi]w^2*(1 + \[Xi]z)) + 
+          2*d*(1 + \[Xi]z + 15*\[Xi]w^2*(1 + \[Xi]z) - 
+            8*\[Xi]w*(-2 + 3*\[Xi]z))) - MW^12*MZ^2*\[Xi]w^2*
+         (19 - 2*d^3*\[Xi]w + 2*\[Xi]z - 21*\[Xi]z^2 + 
+          \[Xi]w^2*(1 + 18*\[Xi]z + \[Xi]z^2) - 2*\[Xi]w*(-79 + 28*\[Xi]z + 
+            21*\[Xi]z^2) + d^2*(\[Xi]w^2 - (-1 + \[Xi]z)*\[Xi]z + 
+            \[Xi]w*(26 - 7*\[Xi]z - 4*\[Xi]z^2)) - 
+          d*(4 + 3*\[Xi]z - 7*\[Xi]z^2 + \[Xi]w^2*(2 + 3*\[Xi]z + \[Xi]z^2) - 
+            2*\[Xi]w*(-61 + 24*\[Xi]z + 8*\[Xi]z^2))) + 
+        MW^10*MZ^4*\[Xi]w*(5*(-4 + d)*(-1 + \[Xi]z)*\[Xi]z + 
+          \[Xi]w^3*(1 - \[Xi]z + 20*\[Xi]z^2 + d^2*(1 + \[Xi]z) - 
+            d*(2 + 5*\[Xi]z^2)) - \[Xi]w^2*(d^4 + d^3*(-9 + 2*\[Xi]z) + 
+            d^2*(42 - 25*\[Xi]z + 7*\[Xi]z^2) - d*(95 - 122*\[Xi]z + 
+              34*\[Xi]z^2 + \[Xi]z^3) + 2*(38 - 87*\[Xi]z + 21*\[Xi]z^2 + 
+              8*\[Xi]z^3)) + \[Xi]w*(152 + 108*\[Xi]z - 2*d^3*\[Xi]z - 
+            95*\[Xi]z^2 - 45*\[Xi]z^3 + d^2*(16 + 22*\[Xi]z - 9*\[Xi]z^2 - 
+              4*\[Xi]z^3) + d*(-108 - 83*\[Xi]z + 59*\[Xi]z^2 + 
+              19*\[Xi]z^3))) + MW^8*MZ^6*\[Xi]w*
+         (-((-1 + d)*d*\[Xi]w^3*\[Xi]z) + \[Xi]z*(-157 + 54*\[Xi]z + 
+            43*\[Xi]z^2 + 2*d^2*(-9 + 3*\[Xi]z + \[Xi]z^2) - 
+            5*d*(-23 + 9*\[Xi]z + 3*\[Xi]z^2)) + \[Xi]w^2*(24 + 78*\[Xi]z - 
+            22*\[Xi]z^2 - 40*\[Xi]z^3 + d^4*(1 + \[Xi]z) - 
+            d^3*(11 + 9*\[Xi]z) + d^2*(43 + 42*\[Xi]z - 3*\[Xi]z^2 - 
+              4*\[Xi]z^3) + d*(-57 - 97*\[Xi]z + 10*\[Xi]z^2 + 
+              29*\[Xi]z^3)) + \[Xi]w*(79 - 77*\[Xi]z - 118*\[Xi]z^2 + 
+            77*\[Xi]z^3 + 19*\[Xi]z^4 + d^4*(1 + \[Xi]z) + 
+            d^3*(-10 - 9*\[Xi]z + 2*\[Xi]z^2) + d^2*(47 + 25*\[Xi]z - 
+              21*\[Xi]z^2 + 6*\[Xi]z^3) + d*(-102 + 15*\[Xi]z + 92*\[Xi]z^2 - 
+              38*\[Xi]z^3 - 4*\[Xi]z^4))) - MW^6*MZ^8*\[Xi]w*
+         (-2 + 78*\[Xi]z - 153*\[Xi]z^2 + 59*\[Xi]z^3 + 18*\[Xi]z^4 + 
+          \[Xi]w^2*(-38 + 20*\[Xi]z - 3*\[Xi]z^2 + \[Xi]z^3) + 
+          \[Xi]w*(22 + 105*\[Xi]z + 75*\[Xi]z^2 - 43*\[Xi]z^3 - 
+            19*\[Xi]z^4) + d^4*(\[Xi]z + \[Xi]w^2*\[Xi]z + 
+            \[Xi]w*(1 + \[Xi]z)^2) - d^3*(-1 + 10*\[Xi]z + 
+            11*\[Xi]w^2*\[Xi]z + \[Xi]w*(10 + 21*\[Xi]z + 9*\[Xi]z^2)) - 
+          d*(-5 + 100*\[Xi]z - 109*\[Xi]z^2 + 33*\[Xi]z^3 + 2*\[Xi]z^4 + 
+            \[Xi]w^2*(-27 + 50*\[Xi]z - 5*\[Xi]z^2 + \[Xi]z^3) + 
+            \[Xi]w*(52 + 162*\[Xi]z + 91*\[Xi]z^2 - 34*\[Xi]z^3 - 
+              23*\[Xi]z^4)) - d^2*(4 - 46*\[Xi]z + 16*\[Xi]z^2 - 4*\[Xi]z^3 + 
+            \[Xi]z^4 + 2*\[Xi]w^2*(2 - 20*\[Xi]z + \[Xi]z^2) + 
+            \[Xi]w*(-39 - 91*\[Xi]z - 39*\[Xi]z^2 + 6*\[Xi]z^3 + 
+              4*\[Xi]z^4))) + MW^4*MZ^10*(d*(2 - 3*d + d^2)*\[Xi]z - 
+          5*(8 - 6*d + d^2)*\[Xi]w^3*\[Xi]z + \[Xi]w^2*(-38 - 21*\[Xi]z + 
+            18*\[Xi]z^2 + \[Xi]z^3 + d^4*\[Xi]z*(1 + \[Xi]z) - 
+            d^3*\[Xi]z*(10 + 11*\[Xi]z) + d^2*(-4 + 32*\[Xi]z + 
+              39*\[Xi]z^2) - d*(-27 + 17*\[Xi]z + 47*\[Xi]z^2 + \[Xi]z^3)) + 
+          \[Xi]w*(-2 + 23*\[Xi]z + 82*\[Xi]z^2 - 3*\[Xi]z^3 - 20*\[Xi]z^4 + 
+            d^4*\[Xi]z*(1 + \[Xi]z) + d^3*(1 - 9*\[Xi]z - 10*\[Xi]z^2) + 
+            d^2*(-4 + 36*\[Xi]z + 48*\[Xi]z^2 - 2*\[Xi]z^3 - 5*\[Xi]z^4) + 
+            d*(5 - 51*\[Xi]z - 106*\[Xi]z^2 + 5*\[Xi]z^3 + 25*\[Xi]z^4))))*
+       Log[MZ])/(4096*(-1 + d)*d*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+     (el^6*MZ^6*\[Xi]z*(-((20 - 6*d + d^2)*MW^10*\[Xi]w^2) - 
+        2*(-1 + d)*MZ^10*(-1 + \[Xi]z)*(2 + \[Xi]w*(-2 + \[Xi]z) - 3*\[Xi]z - 
+          20*\[Xi]z^2 + d*(-1 + \[Xi]w + 2*\[Xi]z + 5*\[Xi]z^2)) + 
+        MW^8*MZ^2*\[Xi]w*(18 + 22*\[Xi]z - 2*\[Xi]w^2*(9 + \[Xi]z) + 
+          \[Xi]w*(76 + 44*\[Xi]z) + d^2*(\[Xi]z + \[Xi]w*(8 + 6*\[Xi]z)) + 
+          d*(-3 - 8*\[Xi]z + \[Xi]w^2*(3 + 2*\[Xi]z) - 
+            2*\[Xi]w*(27 + 10*\[Xi]z))) + MW^6*MZ^4*(1 - 21*\[Xi]z + 
+          \[Xi]w^3*(-2 + 21*\[Xi]z) - 2*\[Xi]w^2*(13 + 12*\[Xi]z + 
+            6*\[Xi]z^2) - \[Xi]w*(69 + 118*\[Xi]z + 50*\[Xi]z^2) + 
+          d^2*\[Xi]w*(\[Xi]w*(-13 - 5*\[Xi]z + \[Xi]z^2) - 
+            2*(2 + 6*\[Xi]z + 3*\[Xi]z^2)) + 
+          d*(-1 + \[Xi]w^3*(2 - 6*\[Xi]z) + 6*\[Xi]z + 
+            \[Xi]w^2*(54 + 14*\[Xi]z - 4*\[Xi]z^2) + 
+            \[Xi]w*(43 + 70*\[Xi]z + 26*\[Xi]z^2))) + 
+        MW^4*MZ^6*(-5 + \[Xi]w^3 + 74*\[Xi]z + 48*\[Xi]z^2 + 
+          \[Xi]w^2*(13 + 12*\[Xi]z - 62*\[Xi]z^2) + 
+          \[Xi]w*(35 + 68*\[Xi]z + 58*\[Xi]z^2 + 18*\[Xi]z^3) + 
+          d^2*(-2 + 6*\[Xi]z + 4*\[Xi]z^2 + \[Xi]w^2*(8 + 5*\[Xi]z - 
+              9*\[Xi]z^2) + \[Xi]w*(8 + 15*\[Xi]z + 3*\[Xi]z^2 - \[Xi]z^3)) - 
+          d*(-7 + \[Xi]w^3 + 50*\[Xi]z + 22*\[Xi]z^2 + 
+            \[Xi]w^2*(21 + 32*\[Xi]z - 56*\[Xi]z^2) + 
+            \[Xi]w*(43 + 68*\[Xi]z + 16*\[Xi]z^2 + 2*\[Xi]z^3))) + 
+        MW^2*MZ^8*(8 - 44*\[Xi]z - 44*\[Xi]z^2 - 17*\[Xi]z^3 + 
+          \[Xi]w^2*(-5 + 6*\[Xi]z - 2*\[Xi]z^2) + 
+          \[Xi]w*(-7 - 42*\[Xi]z + 28*\[Xi]z^2 + 39*\[Xi]z^3) + 
+          d*(\[Xi]w^2*(7 - 8*\[Xi]z + 2*\[Xi]z^2) + 
+            4*(-3 + 14*\[Xi]z + 4*\[Xi]z^2) + \[Xi]w*(13 + 52*\[Xi]z - 
+              16*\[Xi]z^2 - 48*\[Xi]z^3)) + d^2*(2*\[Xi]w^2*(-1 + \[Xi]z) + 
+            2*(2 - 6*\[Xi]z - \[Xi]z^2 + \[Xi]z^3) + 
+            \[Xi]w*(-6 - 10*\[Xi]z + 3*\[Xi]z^2 + 9*\[Xi]z^3))))*Log[\[Xi]z])/
+      (16384*(-1 + d)*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+       (QFTSymbols`MW^2 - MZ^2)^3*Pi^4*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)))/QFTSymbols`e + 
+   (el^6*MZ^10*(-1 + \[Xi]z)^2*(-((-1 + d)*MW^2*\[Xi]w*(2 + \[Xi]z)) + 
+      MZ^2*(2 + \[Xi]w*(-2 + \[Xi]z) - 3*\[Xi]z - \[Xi]z^2 + 
+        d*(-1 + \[Xi]w + 2*\[Xi]z + \[Xi]z^2)))*PolyLog[2, 1 - \[Xi]z^(-1)])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^4*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   ((-19 + 4*d)*el^6*MZ^10*(-1 + \[Xi]z)^2*PolyLog[2, 1 - \[Xi]z])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^4) - (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (1024*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (5*el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (2048*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (d*el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (1024*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (2048*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(1024*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(512*d*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d*el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d*el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(8192*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW, MW}, {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*sorttad[{0, MW, MW}, {0, 1, 1}])/(4096*d*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW, MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(4096*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (15*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (15*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(2048*d*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (17*d*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (17*d^2*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (3*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*d*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*d*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(2048*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(1024*d*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (11*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (7*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) - (15*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (7*d*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) - (d^2*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (3*el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*(MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (11*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (5*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (7*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (15*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (7*d*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*(MW^2 + MZ^2)*\[Xi]z*
+     sorttad[{0, MW, MZ}, {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) - (3*el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (3*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {0, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (d*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (3*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (5*d*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (d^3*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*d*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(2 + d)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(2 + d)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (d^2*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (d^3*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (d^2*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (d^3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(2 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(2 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (3*d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(256*d*(-2 + d + d^2)*MW^4*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (512*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/(1024*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/(512*d*(-2 + d + d^2)*MW^6*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*d*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(16384*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d^2*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (5*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*\[Xi]w) + 
+   (el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w) + 
+   (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w) - 
+   (d*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*MW^6*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w) + 
+   (el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*\[Xi]w) + 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (5*el^6*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - (el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (5*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*d*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d^2*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*d*el^6*MZ^6*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d^2*el^6*MZ^6*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^12*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d*el^6*MZ^12*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (el^6*MW^2*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*d*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (d^2*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (13*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (7*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (15*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (7*d*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (d^2*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*d*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (el^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) + (el^6*MZ^4*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) - (el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (d^2*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d*el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (13*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (15*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (7*d*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) - (el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) + (el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (3*d*el^6*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^12*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^6*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/(8192*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MZ}, 
+      {1, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (d*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (512*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (3*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (512*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^10*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - 
+   (3*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^6*\[Xi]w*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^6*\[Xi]w*
+     (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*\[Xi]w*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^6*\[Xi]w*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MZ^6*\[Xi]w*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MW^2*MZ^4*
+     (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^6*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MW^2*MZ^4*\[Xi]z*
+     (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^6*\[Xi]z*
+     (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (3*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (11*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (5*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (7*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (15*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (7*d*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (11*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (7*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (15*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (7*d*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (3*el^6*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^3*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*(MW^2 + MZ^2*\[Xi]z)*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*\[Xi]w*(MW^2 + MZ^2*\[Xi]z)*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*\[Xi]w*\[Xi]z^2*(MW^2 + MZ^2*\[Xi]z)*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (d^2*el^6*MW^2*MZ^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (9*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d^2*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) + (el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*\[Xi]w*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (d^2*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^2*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^2*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*d*el^6*MW^2*MZ^2*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (d^2*el^6*MW^2*MZ^2*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*d*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*d^2*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*\[Xi]w*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     \[Xi]w*(-1 + \[Xi]z)) - (el^6*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*d*el^6*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (d^2*el^6*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (el^6*MZ^4*\[Xi]z^2*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^4*\[Xi]z^2*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d*el^6*MZ^6*\[Xi]z^2*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^6*\[Xi]z^2*
+     sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (el^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*\[Xi]w*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)^2) + 
+   (3*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (5*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (3*d*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (d^2*el^6*MW^2*MZ^4*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)^2) - (3*el^6*MW^2*MZ^4*\[Xi]z*
+     (-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]z*
+     (-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z*
+     (-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+      (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)^2) - 
+   (3*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (5*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (3*d*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (d^2*el^6*MZ^6*\[Xi]z*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (el^6*MZ^6*\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)^2) + 
+   (3*el^6*MZ^6*\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (5*el^6*MZ^6*\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (3*d*el^6*MZ^6*\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) - 
+   (d^2*el^6*MZ^6*\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)^2) + 
+   (5*el^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8) + 
+   (d*el^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8) + 
+   (3*el^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(1024*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8) + 
+   (5*d*el^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8) + 
+   (el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(1024*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(1024*(2 + d)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (2048*(2 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/(512*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (3*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (512*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^8*sorttad[{0, MZ, MW}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)) + (d*el^6*MZ^6*(MW^2 + MZ^2)*
+     sorttad[{0, MZ, MW}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)) + (d*el^6*(MW^2 + MZ^2)*\[Xi]w*
+     sorttad[{0, MZ, MW}, {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)) + (el^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]z)) + (el^6*MZ^6*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/(4096*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (el^6*MZ^8*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2)*\[Xi]w*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2)*\[Xi]w*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (d*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (d*el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (3*el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + (el^6*MZ^8*(1 + \[Xi]w)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (d*el^6*MZ^8*(1 + \[Xi]w)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (el^6*MZ^8*(1 + \[Xi]w)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^8*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*(1 + \[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*(1 + \[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*(1 + \[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(1 + \[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (d*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (3*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {0, 1, 1}])/(16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - (el^6*MZ^4*\[Xi]w^2*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (5*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d^2*el^6*MZ^4*\[Xi]w^2*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*d*el^6*MZ^6*\[Xi]w^2*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d^2*el^6*MZ^6*\[Xi]w^2*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (el^6*MZ^4*\[Xi]w^3*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (5*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d^2*el^6*MZ^4*\[Xi]w^3*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^6*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^6*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - (3*el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^10*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + (el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^10*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (5*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (3*d*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (d^2*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (5*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*d*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (d^2*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^3*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)^2) + 
+   (3*el^6*MZ^6*\[Xi]w^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) + 
+   (5*el^6*MZ^6*\[Xi]w^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) - 
+   (3*d*el^6*MZ^6*\[Xi]w^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) - 
+   (d^2*el^6*MZ^6*\[Xi]w^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) - 
+   (el^6*MZ^6*\[Xi]w^3*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)^2) - 
+   (3*el^6*MZ^6*\[Xi]w^3*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) - 
+   (5*el^6*MZ^6*\[Xi]w^3*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) + 
+   (3*d*el^6*MZ^6*\[Xi]w^3*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) + 
+   (d^2*el^6*MZ^6*\[Xi]w^3*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+         {0, 1, 1}]) + (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)^2) - 
+   (3*el^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {0, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/(16384*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]z*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/(16384*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]z*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z^2*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z^2*(MW^2*\[Xi]w + MZ^2*\[Xi]z)*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {0, 1, 1}])/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^4*\[Xi]w^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^4*\[Xi]w^3*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (3*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (5*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*d*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (d^2*el^6*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (5*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (3*d*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (d^2*el^6*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+      {0, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^2 + MZ^2*\[Xi]z)*
+     sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(1024*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (3*d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(2 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*(2 + d)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(512*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(256*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(1024*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (3*d*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) + (el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*(2 + d)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (512*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (256*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (512*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8) - (3*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (512*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(2048*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (5*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d*el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2) - (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (d*el^6*MZ^10*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (el^6*MZ^12*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (d*el^6*MZ^12*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2) + (3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(1024*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*d*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(1024*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d*el^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (9*el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (3*d^2*el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + (3*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, 
+      {1, 1, 1}])/(2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (9*el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (1024*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (d*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^12*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^6*sorttad[{MW, MW, MZ}, 
+      {1, 1, 1}])/(4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^10*\[Xi]z*sorttad[{MW, MW, MZ}, 
+      {1, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^10*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (9*el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (d*el^6*MZ^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (d*el^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (9*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d^2*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z^2*
+     sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (3*el^6*MZ^8*\[Xi]z^2*
+     sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^8*\[Xi]w*\[Xi]z^2*
+     sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^3*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2) - (el^6*MZ^8*\[Xi]w^2*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MZ^8*\[Xi]w^2*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2) + (el^6*MZ^8*\[Xi]w^3*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^8*\[Xi]w^3*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^8*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^8*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MZ^8*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2) + (3*d*el^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^6*\[Xi]w^2*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*el^6*MZ^6*\[Xi]w^3*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^8*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MW^2*\[Xi]w^3*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^3*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (5*el^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*d*el^6*MZ^6*\[Xi]w^2*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*d*el^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w^3*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*\[Xi]w^3*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*\[Xi]w^2*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^6*\[Xi]w^2*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (5*el^6*\[Xi]w^3*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*MZ^6*\[Xi]w^3*\[Xi]z*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^3*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^3*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^6*\[Xi]w^2*\[Xi]z^2*
+     sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^3*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (512*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d^3*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(MZ^2 - MW^2*\[Xi]w)) - 
+   (d*el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)) - (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(MZ^2 - MW^2*\[Xi]w)) + 
+   (d*el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)) - (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (7*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (512*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(4096*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-MZ^2 + MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) - (el^6*MW^4*MZ^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (7*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (512*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*d*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - (3*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (5*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*d*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*
+     sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MW^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (15*el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(2048*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(256*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*d*el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(512*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (3*d*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(1024*(2 + d)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(2048*(2 + d)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(256*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8) - 
+   (d*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(2048*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(512*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(256*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (5*d*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(1024*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(512*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (d^3*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) + 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 + sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + ((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}] - 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (-(MW^2*MZ^4) + MZ^6) + (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (-(MW^2*MZ^2) + MZ^4)))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2) - 
+   (el^6*MZ^8*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^8*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^4*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^4*MZ^4*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (3*el^6*MZ^8*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (3*el^6*MZ^8*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (3*el^6*MW^4*MZ^2*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^4*MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - (5*el^6*MZ^8*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(1024*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (3*el^6*MZ^8*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (3*el^6*MZ^8*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)^2) - (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^4*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (3*el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^8*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (5*el^6*MZ^8*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) - (el^6*MW^2*\[Xi]z^2*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^8*\[Xi]z^3*
+     sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*\[Xi]z^3*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^3*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (11*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(1024*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (11*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(1024*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}]))/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) - 
+   (5*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (7*el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*
+     ((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)) + 
+   (el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(8192*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (3*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (5*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (3*d*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (d^2*el^6*MZ^2*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(16384*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]z*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(8192*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (3*el^6*MZ^2*\[Xi]z*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (5*el^6*MZ^2*\[Xi]z*(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^4*(-1 + \[Xi]z)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(2048*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (3*d*el^6*MZ^2*\[Xi]z*(sorttad[{0, MW, MW}, {0, 1, 1}]/
+       (MW^6 - MW^4*MZ^2) - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^4*(-1 + \[Xi]z)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (d^2*el^6*MZ^2*\[Xi]z*(sorttad[{0, MW, MW}, {0, 1, 1}]/
+       (MW^6 - MW^4*MZ^2) - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^4*(-1 + \[Xi]z)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/((MW^3 - MW*MZ^2)^2*
+        (-1 + \[Xi]z)) + (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MW^2*MZ^2*(-1 + \[Xi]z)) - 
+      (\[Xi]z^2*(-((-2 + d)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+           {1, 1, 1}]))/((-1 + \[Xi]z)*(MW^3 - MW*MZ^2*\[Xi]z)^2) + 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(-(MW^2*MZ^4) + MZ^6) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*
+        (-1 + \[Xi]z)) + (MZ^2*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/(MW^4*(MW^2 - MZ^2)*(-1 + \[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z))))/(16384*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MW^2*MZ^4*\[Xi]w^2*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MW^2*MZ^4*\[Xi]w^3*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MW^2*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MW^2*\[Xi]w^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MW^2*\[Xi]w^4*\[Xi]z*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (11*el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(1024*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^8*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(1024*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (11*el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^8*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+       {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^6*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^6*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*\[Xi]w*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^6*\[Xi]w*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*(-(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (el^6*MZ^6*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^6*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^6*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^6*\[Xi]w*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (el^6*MZ^6*\[Xi]w*
+     (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*\[Xi]w*(MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^2*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (8192*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) + (3*el^6*MZ^2*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/
+       (-MW^2 + MZ^2) - MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (4096*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^2*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (2048*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^2*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MZ^2*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (16384*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MZ^2*\[Xi]w*((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/
+       (-MW^2 + MZ^2) - MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (8192*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)) - (3*el^6*MZ^2*\[Xi]w*
+     ((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (4096*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) - (5*el^6*MZ^2*\[Xi]w*
+     ((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (2048*d*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (3*d*el^6*MZ^2*\[Xi]w*
+     ((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (8192*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + (d^2*el^6*MZ^2*\[Xi]w*
+     ((-2*MW^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(MW^2 - MZ^2) + 
+      (MZ^2*sorttad[{0, MW, MW}, {0, 1, 1}])/(-MW^2 + MZ^2) - 
+      MW^2*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}]))/
+       (MW^2 - MZ^2)^2 + (MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^2 - MZ^2) + (MW^2*(1 + \[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^2 - MZ^2) + (MW^4*sorttad[{0, MZ, MW}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) + (MW^4*(MW^2 + MZ^2)*sorttad[{0, MZ, MW}, 
+         {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) - 
+      (MW^4*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)) - (MW^4*(MZ^2 + MW^2*\[Xi]w)*
+        sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/(MZ^4*(MW^2 - MZ^2)) + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      (MW^2*MZ^2*(-((-2 + d)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}]) + 
+         (-3 + d)*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+           {1, 1, 1}]))/(MZ^2 - MW^2*\[Xi]w)^2 + 
+      (MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(-MW^2 + MZ^2) + 
+      (MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2) + 
+      (MW^4*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/(MW^2 - MZ^2) - 
+      (MW^4*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2 - MZ^2)))/
+    (16384*(-2 + d + d^2)*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^6*\[Xi]w*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d*el^6*MZ^6*\[Xi]w*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^6*\[Xi]w*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^6*\[Xi]w*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(4096*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(2048*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (5*el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(1024*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*d*el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (d^2*el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^6 - MW^4*MZ^2)) - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - sorttad[{0, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2) + (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + 
+        (-3 + d)*(MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}])/
+       (MW^3 - MW*MZ^2)^2 + (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(4096*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (3*el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^6 - MW^4*MZ^2)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/(MW^3 - MW*MZ^2)^2 + 
+      (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(2048*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (5*el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^6 - MW^4*MZ^2)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/(MW^3 - MW*MZ^2)^2 + 
+      (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(1024*d*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (3*d*el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^6 - MW^4*MZ^2)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/(MW^3 - MW*MZ^2)^2 + 
+      (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(4096*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) - 
+   (d^2*el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^6 - MW^4*MZ^2)) - sorttad[{0, MW, MZ}, {1, 1, 1}]/MW^4 - 
+      sorttad[{0, MW, MZ}, {1, 1, 1}]/(MW^2*MZ^2) + 
+      (-((-2 + d)*sorttad[{0, MW, MZ}, {0, 1, 1}]) + (-3 + d)*(MW^2 + MZ^2)*
+         sorttad[{0, MW, MZ}, {1, 1, 1}])/(MW^3 - MW*MZ^2)^2 + 
+      (\[Xi]w*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{0, MZ, MW}, {0, 1, 1}]/
+       (MW^2*MZ^4 - MZ^6) + (\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+         {0, 1, 1}])/(-(MW^2*MZ^4) + MZ^6) + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/MW^4 + 
+      (\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(MW^2*MZ^2) + 
+      ((-2 + d)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {0, 1, 1}] - 
+        (-3 + d)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], 
+           MZ}, {1, 1, 1}])/(MW*MZ^2 - MW^3*\[Xi]w)^2 + 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^4*(-MW^2 + MZ^2)) + 
+      (MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^6 - MW^4*MZ^2) + sorttad[{MZ, MW, MZ}, {1, 1, 1}]/
+       (MW^2*MZ^2 - MZ^4) + (\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/(-(MW^2*MZ^2) + MZ^4)))/(8192*(-2 + d + d^2)*
+     QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*MW^2*MZ^4*\[Xi]w^2*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (d^2*el^6*MW^2*MZ^4*\[Xi]w^3*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (5*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (d^2*el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(4096*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) - (5*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*(-2 + d + d^2)*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (d^2*el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*(-2 + d + d^2)*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2) + 
+   (el^6*MZ^6*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*\[Xi]z*(-(MW^2*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d*el^6*MZ^6*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] + sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] + \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d*el^6*MZ^6*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d*el^6*MZ^6*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (5*el^6*MZ^6*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d*el^6*MZ^6*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^6*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+       {1, 1, 1}] - \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]w*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (512*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (2048*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (4096*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^8*\[Xi]w*\[Xi]z*(-sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      \[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      \[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     (-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w*
+     ((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(512*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(1024*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (3*el^6*MZ^6*\[Xi]z*
+     ((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(1024*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (3*d*el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) - 
+   (d^2*el^6*MZ^6*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (3*d*el^6*MZ^6*\[Xi]w*\[Xi]z*
+     ((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + (d^2*el^6*MZ^6*\[Xi]w*\[Xi]z*
+     ((MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + 
+   (el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(512*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(1024*d*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w*\[Xi]z*
+     ((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(512*(-2 + d + d^2)*MW^2*
+     QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*\[Xi]z*((-MW^2 + MZ^2)*sorttad[{0, MW, MZ}, 
+        {1, 1, 1}] + (MW^2 - MZ^2)*\[Xi]z*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(1024*d*(-2 + d + d^2)*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w*
+     (-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*\[Xi]z*
+     (-(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + 
+   (el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]z*
+     (MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(1024*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (5*el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(2048*d*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)) + (el^6*MZ^6*\[Xi]w*\[Xi]z*
+     (MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*d*el^6*MZ^6*\[Xi]w*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] + (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (d^2*el^6*MZ^6*\[Xi]w*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] + (-(MW^2*MZ^2) + MZ^4)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(16384*(-2 + d + d^2)*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (d*el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (3*el^6*MZ^10*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^10*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + (el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^6*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) - 
+   (3*el^6*MZ^10*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^10*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)) + (3*el^6*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^12*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^4*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+      MZ^2*\[Xi]z)) - (el^6*MZ^8*\[Xi]w^2*\[Xi]z*
+     sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^3*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)) + 
+   (d*el^6*MZ^8*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)) - 
+   (d*el^6*MZ^8*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + MW^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] + MW^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (2048*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (d*el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] + MW^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (4096*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] + MW^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (2048*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (d*el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] + MW^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}]))/
+    (4096*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (3*el^6*MZ^6*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     \[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (3*el^6*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*MZ^6*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (3*el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+     (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^3*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z^3*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + (-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + (MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-(MZ^2*\[Xi]z) + MW^2*\[Xi]w*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-(MZ^2*\[Xi]z) + MW^2*\[Xi]w*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + (-(MZ^2*\[Xi]z) + MW^2*\[Xi]w*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*(-(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+        sorttad[{0, MW, MW}, {0, 1, 1}]) - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(-1 + \[Xi]z)*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*\[Xi]z^2*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*(-(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+        sorttad[{0, MW, MW}, {0, 1, 1}]) - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(-1 + \[Xi]z)*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*\[Xi]z^2*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*\[Xi]w*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*\[Xi]z*(-(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+        sorttad[{0, MW, MW}, {0, 1, 1}]) - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(-1 + \[Xi]z)*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*\[Xi]z^2*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+   (el^6*\[Xi]z*(-(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+        sorttad[{0, MW, MW}, {0, 1, 1}]) - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{0, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(-1 + \[Xi]z)*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*\[Xi]z^2*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*MW^4*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*\[Xi]w*
+     (-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^3*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^4*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^2*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]w^3*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w^4*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + MW^2*MZ^2*\[Xi]w*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]w*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*((MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      (-MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]w*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MW^2*MZ^2*\[Xi]w*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w^2*((MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] + (-MZ^2 + MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]w*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MW^2*MZ^2*\[Xi]w*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*MW^4*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*(2*MW^2*MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*\[Xi]w*(1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^4*(MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] - MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - 2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}]))/(8192*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*(2*MW^2*MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*\[Xi]w*(1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^4*(MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] - MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - 2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}]))/(16384*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*\[Xi]w*(2*MW^2*MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*\[Xi]w*(1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^4*(MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, 
+        {0, 1, 1}] - MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*(MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - 2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^6*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MW^4*MZ^4*(-1 + \[Xi]w)*\[Xi]w*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}]))/(16384*MW^6*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     (MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + \[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*\[Xi]w^2*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + \[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w^2*((-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] + (MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(16384*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      \[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*(-MW^2 + MZ^2)*Pi^8*(-1 + \[Xi]w)^2*
+     (MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*MZ^8*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (-MZ^2 + MW^2*\[Xi]w)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(8192*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)) - 
+   (el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] - MZ^2*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*\[Xi]w*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] - MZ^2*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*\[Xi]w*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)) + 
+   (el^6*\[Xi]w*(MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] - MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MZ}, {1, 1, 1}] - MZ^2*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^4*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^2*(MW^2 - MZ^2)*sorttad[{0, MW*Sqrt[\[Xi]w], MW}, 
+        {0, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*\[Xi]w*
+       (MZ^2 - MW^2*\[Xi]w)*sorttad[{0, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*sorttad[{0, MW*Sqrt[\[Xi]w], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w^2*(MZ^2 - MW^2*\[Xi]w)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^4*MZ^2*(-1 + \[Xi]w)*\[Xi]w^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*(-MW^2 + MZ^2)*\[Xi]w*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(MZ^2 - MW^2*\[Xi]w)) - 
+   (el^6*MZ^8*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (2048*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^8*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^8*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^8*\[Xi]z^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (5*el^6*MZ^10*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (5*el^6*MZ^10*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (2048*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^10*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^10*\[Xi]w*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*MW^2*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]z*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]))/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (3*el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]))/
+    (4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (3*el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      (MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      (-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]))/
+    (4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^2*(MW^2 - MZ^2)*
+         (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/(MW^2*(MW^2 - MZ^2)*
+         (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]w*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*\[Xi]z*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]z*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (4096*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(-(sorttad[{0, MW, MW}, {0, 1, 1}]/
+        (MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{0, MZ, MW}, {0, 1, 1}]/(MZ^2*(-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)) + 
+      sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}]/(MW^2*(-1 + \[Xi]w)*
+        (-MZ^2 + MW^2*\[Xi]w)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}]/(MZ^2*(-1 + \[Xi]z)*
+        (-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*sorttad[{MW, MW, MZ}, {1, 1, 1}])/(MW^2*(MW^2 - MZ^2)*
+        (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (MZ^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) + sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}]/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*
+         (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*
+         (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]w*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]w*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]z*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MZ^2*\[Xi]z*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) + 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(-(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+        ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z))) - 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*
+        (-1 + \[Xi]z)) + (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8) - 
+   (el^6*MW^4*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(2048*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^4*MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^4*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^6*\[Xi]w*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (2048*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^6*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w*\[Xi]z^3*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(4096*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MZ^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MZ^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z^2*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MZ^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MZ^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(2048*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z^2*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]z*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z^2*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z^2*(-(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}]) - 
+      MW^2*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*\[Xi]z^2*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/
+    (16384*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*(((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^2*\[Xi]w*
+     (((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^2*\[Xi]z*
+     (((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^2*\[Xi]w*\[Xi]z*
+     (((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (4096*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^2*\[Xi]z^2*
+     (((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^2*\[Xi]w*\[Xi]z^2*
+     (((-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      ((-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - (\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+         {1, 1, 1}])/((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW*Sqrt[\[Xi]w], MW, 
+          MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/((-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+      (\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + 
+   (el^6*MZ^2*((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^2*\[Xi]w*
+     ((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^2*\[Xi]z*
+     ((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^2*\[Xi]w*\[Xi]z*
+     ((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MZ^2*\[Xi]z^2*
+     ((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) - (el^6*MZ^2*\[Xi]w*\[Xi]z^2*
+     ((MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)) + 
+      sorttad[{MZ, MW, MZ}, {1, 1, 1}]/((-MW^2 + MZ^2)*
+        (MZ^2 - MW^2*\[Xi]w)) - sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]/
+       ((-MW^2 + MZ^2)*(MZ^2 - MW^2*\[Xi]w)) - 
+      (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, 
+         {1, 1, 1}])/(MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + (MW^2*\[Xi]w^2*(-1 + \[Xi]z)*
+        sorttad[{MW*Sqrt[\[Xi]w], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       (MZ^2*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + 
+         MZ^2*\[Xi]z)) - (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+      (\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+       ((MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z))))/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]z)^2) + (el^6*MW^2*\[Xi]w^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w^3*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*\[Xi]w^3*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*\[Xi]w^4*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+     (MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+      {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+       MZ}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+       MZ}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], 
+       MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z^2*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - MZ^2*\[Xi]z*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] - MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*
+     (-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW}, 
+        {0, 1, 1}] - MZ^2*(-1 + \[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^2*sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MZ^4*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MW, MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^4*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]z*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*\[Xi]z*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w^2*\[Xi]z*(2*MW^2*MZ^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW}, {0, 1, 1}] - MZ^4*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 + MZ^2)*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(-1 + \[Xi]w)*(MZ^2 + MW^2*\[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(1 + \[Xi]w)*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      2*MW^2*MZ^2*(MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       (MW^2*\[Xi]w + MZ^2*\[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^6*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MZ^6*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^6*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^6*(-MW^2 + MZ^2)*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^4*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (16384*d*MW^4*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w^2*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]z*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*\[Xi]w*\[Xi]z*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*\[Xi]w^2*\[Xi]z*(MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      MZ^2*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MW^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - MW^2*(-1 + \[Xi]w)*\[Xi]w*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      MW^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*\[Xi]w*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+        MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(-1 + \[Xi]w)*\[Xi]w*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(MW^2 - MZ^2)*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^4*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*(MW^2 - MZ^2)*(-1 + \[Xi]w)*\[Xi]w*(-MZ^2 + MW^2*\[Xi]w)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z*
+     (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z*
+     (-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}]))/(4096*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + 
+        MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]w*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*\[Xi]w^2*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (4096*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]w^2*\[Xi]z*((MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+       (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*sorttad[{0, MW, MW}, {0, 1, 1}] - 
+      (MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]w)*(MW^2 - MZ^2*\[Xi]z)*
+       (MW^2*\[Xi]w - MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{0, MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]w)*(-MZ^2 + MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^2*(MZ^2 - MW^2*\[Xi]w)*(-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^2*(MZ^2 - MW^2*\[Xi]w)*
+       (-1 + \[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-1 + \[Xi]w)*(-MW^2 + MZ^2*\[Xi]z)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*(1 - \[Xi]w)*
+       (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]w*(1 - \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]w*(-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*(-1 + \[Xi]w)*(MZ^2 - MW^2*\[Xi]w)*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]))/
+    (8192*d*MW^2*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*
+     Pi^8*(-1 + \[Xi]w)^2*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)*
+     (MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*
+        (MW^2 - MZ^2*\[Xi]z)) - sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^
+      3*Pi^8*(-1 + \[Xi]w)^2) - 
+   (el^6*MZ^2*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MZ^2*\[Xi]w^2*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^
+      3*Pi^8*(-1 + \[Xi]w)^2) - 
+   (el^6*MZ^2*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^
+      3*Pi^8*(-1 + \[Xi]w)^2) + (el^6*MZ^2*\[Xi]w*\[Xi]z*
+     (sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^3*
+     Pi^8*(-1 + \[Xi]w)^2) - (el^6*MZ^2*\[Xi]w^2*\[Xi]z*
+     (sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) - 
+      (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+         {1, 1, 1}])/(MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*
+        (MW^2*\[Xi]w - MZ^2*\[Xi]z)) + (MZ^2*(-1 + \[Xi]w)*\[Xi]z^2*
+        sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       (MW^2*(-1 + \[Xi]z)*(MW^2 - MZ^2*\[Xi]z)*(MW^2*\[Xi]w - 
+         MZ^2*\[Xi]z))))/(16384*d*QFTSymbols`MW^2*(1 - QFTSymbols`MW^2/MZ^2)^
+      3*Pi^8*(-1 + \[Xi]w)^2) - 
+   (el^6*MZ^2*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/((MW^2 - MZ^2)*
+        (MW^2 - MZ^2*\[Xi]z)) - (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+         {1, 1, 1}])/((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MZ^2*\[Xi]w*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(4096*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) - 
+   (el^6*MZ^2*\[Xi]w^2*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MZ^2*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) - 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(4096*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MZ^2*\[Xi]w^2*\[Xi]z*(sorttad[{MW, MW, MZ}, {1, 1, 1}]/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(MW^2 - MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*sorttad[{MZ, MW, MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      ((-1 + \[Xi]w)*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MW^2 - MZ^2)*(-MZ^2 + MW^2*\[Xi]w)*(-1 + \[Xi]z)) - 
+      (\[Xi]w*sorttad[{MW*Sqrt[\[Xi]w], MW, MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      (\[Xi]w^2*sorttad[{MW*Sqrt[\[Xi]w], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}])/
+       ((MZ^2 - MW^2*\[Xi]w)*(-(MW^2*\[Xi]w) + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}])/
+       ((-1 + \[Xi]z)*(MW^2*\[Xi]w - MZ^2*\[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)) + 
+      ((-1 + \[Xi]w)*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+          MZ}, {1, 1, 1}])/((-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+        (-(MW^2*\[Xi]w) + MZ^2*\[Xi]z))))/(8192*d*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*Pi^8*(-1 + \[Xi]w)^2) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(16384*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) - (el^6*MW^2*MZ^4*\[Xi]w^3*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+       MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/(8192*d*QFTSymbols`MW^2*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (-MW^2 + MZ^2*\[Xi]z)) + (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z*
+     sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (8192*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MW^2*MZ^4*\[Xi]w^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], 
+       MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) - 
+   (el^6*MW^2*MZ^4*\[Xi]w^3*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], 
+       MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}])/
+    (16384*d*QFTSymbols`MW^2*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(-MW^2 + MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*(-(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MZ^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^6*\[Xi]w*\[Xi]z*
+     (MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^6*\[Xi]w*\[Xi]z^2*
+     (MZ^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]w*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) - (el^6*MZ^6*\[Xi]w*\[Xi]z*
+     (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(4096*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z^2*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^6*\[Xi]w*\[Xi]z^2*
+     (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]w*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]w*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]w*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z*
+     (-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}]) + 
+      MW^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z^2*(-(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+         {1, 1, 1}]) + MW^2*(-1 + \[Xi]z)*\[Xi]z*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]w*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^8*\[Xi]z*(MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(4096*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + (el^6*MZ^8*\[Xi]w*\[Xi]z^2*
+     (MW^2*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^2*(-1 + \[Xi]z)*\[Xi]z*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*sorttad[{MZ, MW, MZ}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MW^2*\[Xi]z*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MZ^2*\[Xi]z*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MW^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*(MW^2 - MZ^2)*
+     (QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*(-1 + \[Xi]z)^2*
+     (MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]z*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^6*\[Xi]z^2*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^6*\[Xi]w*\[Xi]z^2*(MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, 
+        {1, 1, 1}] - MW^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] - 
+      MW^4*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^4*\[Xi]z*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MW^2*MZ^2*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MW^2*MZ^2*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*\[Xi]z*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, 
+        {1, 1, 1}] + MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - MZ^4*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MW^2*MZ^2*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] - MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ}, {1, 1, 1}] - MW^2*MZ^2*\[Xi]z^2*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^4*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (MW^2 - MZ^2)*(QFTSymbols`MW^2 - MZ^2)^3*Pi^8*(-1 + \[Xi]w)*
+     (-1 + \[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*(-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^4*(-1 + \[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]w*(-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z*(-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(8192*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) - 
+   (el^6*MZ^2*\[Xi]z^2*(-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, 
+         {0, 1, 1}]) + MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW}, {0, 1, 1}] - (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, 
+        {0, 1, 1}] - (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW, MZ}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, 
+        {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(-MW^2 + MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)) + 
+   (el^6*MZ^2*\[Xi]w*\[Xi]z^2*
+     (-(MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW}, {0, 1, 1}]) + 
+      MZ^2*(-1 + \[Xi]z)^2*sorttad[{0, MW, MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + 
+      (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ, MW}, {0, 1, 1}] - 
+      (-1 + \[Xi]z)*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{0, MZ, MW*Sqrt[\[Xi]w]}, 
+        {0, 1, 1}] + (MW^2 - MZ^2)*(-1 + \[Xi]z)*
+       sorttad[{0, MZ*Sqrt[\[Xi]z], MW}, {0, 1, 1}] - 
+      (MW^2 - MZ^2)*(-1 + \[Xi]z)*sorttad[{0, MZ*Sqrt[\[Xi]z], 
+         MW*Sqrt[\[Xi]w]}, {0, 1, 1}] + MZ^4*(-1 + \[Xi]z)*
+       sorttad[{MW, MW, MZ}, {1, 1, 1}] - MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*
+       sorttad[{MW, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] - 
+      MZ^4*(-1 + \[Xi]z)*sorttad[{MW, MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^4*(-1 + \[Xi]z)*\[Xi]z^2*sorttad[{MW, MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ}, {1, 1, 1}] + MZ^2*\[Xi]z^2*(-MW^2 + MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW, MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2*\[Xi]z)*sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ}, 
+        {1, 1, 1}] + MZ^2*\[Xi]z^2*(MW^2 - MZ^2*\[Xi]z)*
+       sorttad[{MZ, MW*Sqrt[\[Xi]w], MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*sorttad[{MZ*Sqrt[\[Xi]z], MW, MZ}, {1, 1, 1}] + 
+      MZ^2*(MW^2 - MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW, 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}] + MZ^2*(MW^2 - MZ^2)*
+       sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], MZ}, {1, 1, 1}] + 
+      MZ^2*(-MW^2 + MZ^2)*\[Xi]z^2*sorttad[{MZ*Sqrt[\[Xi]z], MW*Sqrt[\[Xi]w], 
+         MZ*Sqrt[\[Xi]z]}, {1, 1, 1}]))/(16384*d*MW^2*QFTSymbols`MW^2*
+     (1 - QFTSymbols`MW^2/MZ^2)^3*(MW^2 - MZ^2)*Pi^8*(-1 + \[Xi]w)*
+     (MZ - MZ*\[Xi]z)^2*(MW^2 - MZ^2*\[Xi]z)))
