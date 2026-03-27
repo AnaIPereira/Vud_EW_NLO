@@ -22,7 +22,7 @@ Get["/home/ana/.Mathematica/Applications/FeynCalc/FeynCalc.m"];
 $FAVerbose=0;
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  packages*)
 
 
@@ -178,7 +178,7 @@ amp4fg = amp4/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
 amp5=amp4fg/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};
 
 
-(*amp5=amp4fg/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};*)
+(*amp5=amp4/.{Lor1->1, Lor2->2, Lor3->3, Lor4->4, Lor5->5, Lor6->6};*)
 
 
 Union@Cases[amp5, _q, Infinity]
@@ -528,19 +528,27 @@ Collect[#, {Op, Ev3, EL^6, 1/e^2, 1/e, Log[__], Phi[__]}(*, Simplify*)]&;
 amp23//Length
 
 
-Union@Cases[amp23, \[Xi]z, Infinity]
-
-
 (*Table[If[Not@FreeQ[amp23[[i]], MH],i,0], {i, Length[amp22]}]*)
 
 
+(*FEYNMAN GAUGE -  NEEDS CORRECTIONG*)
 amp24 = Table[
   (*Print[i];*)
   res1=Normal[Series[amp23[[i]]/.d->4-2e/.rulesanalyt, {e, 0, 0}]];
   res2 = defoperm[res1];
-  res3 = res2//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]},Simplify]&(*;
+  res3 = res2//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}(*,Simplify*)]&(*;
   Export[direc <> "/Results/Renormalisation/2loop/feyn/counterterm" <> ToString[i] <> ".m", res3]*)
 , {i, Length[amp23]}];
+
+
+(*rxi*)
+(*amp24 = Table[
+  (*Print[i];*)
+  res1=Normal[Series[amp23[[i]]/.d->4-2e/.rulesanalyt, {e, 0, 0}]];
+  res2 = defoperm[res1];
+  res3 = res2//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}(*,Simplify*)]&;
+  Export[direc <> "/Results/Renormalisation/2loop/rxi/counterterm" <> ToString[i] <> ".m", res3]
+, {i, Length[amp23]}];*)
 
 
 amp25 = Total[amp24]//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}]&;
@@ -556,7 +564,7 @@ amp25 = Total[amp24]//Collect[#, {Op, Ev3, 1/e^2, 1/e, Log[__], Phi[__]}]&;
 
 
 (* ::Section:: *)
-(*comparison*)
+(*comparison feyn gauge*)
 
 
 Clear[ratio]
@@ -591,3 +599,23 @@ tomass@Coefficient[amp25, Ev3]//Collect[#, {1/e},Simplify]&
 
 
 Coefficient[kfeyn, Ev3]//Collect[#, {1/e},Simplify]&
+
+
+anaold =tomass@ Get["/home/ana/Desktop/ctmuonr.m"]/.flg[__]:>1/.Flag[__]:>1/.flag[__]:>1;
+
+
+Coefficient[anaold, Ev3]//Collect[#, {1/e},Simplify]&
+
+
+Coefficient[Coefficient[kfeyn, Op],1/e^2];
+Coefficient[Coefficient[amp25, Op],1/e^2];
+tomass[%/%%]//Simplify
+
+
+Coefficient[Coefficient[kfeyn, Op],1/e];
+Coefficient[Coefficient[amp25, Op],1/e];
+tomass[%+%%]//Simplify
+
+
+(* ::Section:: *)
+(*comparison rxi*)

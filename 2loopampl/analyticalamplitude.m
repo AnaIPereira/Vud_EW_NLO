@@ -5,14 +5,14 @@
 
 
 (*to run locally*)
-direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
+(*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
 
 
 (*to run in cluster*)
-(*direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];*)
+direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Load  packages*)
 
 
@@ -47,8 +47,12 @@ Get[direc <> "/code/integration_2loop.m"]
 (*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"]/.mass[x_]:>x;*)
 
 
-(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters*)
-diag22 = Get[direc <> "/Results/2loop/amplitmuonmasterswithtad.m"]/.mass[x_]:>x;
+(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
+(*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasterswithtad.m"]/.mass[x_]:>x;*)
+
+
+(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
+diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i, 952}]/.mass[x_]:>x;
 
 
 Length[diag22]
@@ -165,13 +169,26 @@ defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)O
 defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]
 
 
-Do[
+(*FEYNMAN GAUGE*)
+(*Do[
   diagram = Get[ direc <> "/Results/2loop/ampmastersmuonall/diag" <> ToString[i] <> ".m"];
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
   (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
   res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
   Export[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m",res1],
+  {i,1,Length[diag22]}
+];*)
+
+
+(*GENERAL GAUGE*)
+Do[
+  diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"];
+  diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
+  res = Normal[Series[diagram1, {e, 0, 0}]];
+  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  Export[direc <> "/Results/2loop/gengauge/analytampsmuonrxi/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[diag22]}
 ];
 
@@ -226,31 +243,31 @@ Union@Cases[%, _mtad, Infinity]
 *)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*comparison with 2 loop muon all diagrams*)
 
 
-ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];
+(*ana = Get["/home/ana/Desktop/code m/ampmuon_ana_fg_withtad.m"];*)
 
 
-ana//Length
+(*ana//Length*)
 
 
-ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,1,Length[diag22]}]/.
-sw->SW/.cw->CW/.el->EL;
+(*ana1 = Table[Get[direc <> "/Results/2loop/analytampsmuonall/diag" <> ToString[i] <> ".m"],{i,1,Length[diag22]}]/.
+sw->SW/.cw->CW/.el->EL;*)
 
 
-ana1//Length
+(*ana1//Length*)
 
 
 (*defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
 defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]*)
 
 
-diferenceev5=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev5]-Coefficient[ana1[[i]],Ev5]], {i,1,Length[diag22]}]
+(*diferenceev5=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev5]-Coefficient[ana1[[i]],Ev5]], {i,1,Length[diag22]}]*)
 
 
-diferenceev3=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev3]-Coefficient[ana1[[i]],Ev3]], {i,1,Length[diag22]}]
+(*diferenceev3=Table[(*Print[i];*)Simplify[Coefficient[ana[[i]],Ev3]-Coefficient[ana1[[i]],Ev3]], {i,1,Length[diag22]}]*)
 
 
-diferenceop=Table[Simplify[Coefficient[ana[[i]],Op]-Coefficient[ana1[[i]],Op]], {i,1,Length[diag22]}]
+(*diferenceop=Table[Simplify[Coefficient[ana[[i]],Op]-Coefficient[ana1[[i]],Op]], {i,1,Length[diag22]}]*)
