@@ -52,7 +52,7 @@ Get[direc <> "/code/integration_2loop.m"]
 
 
 (*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
-diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,10,15}]/.mass[x_]:>x;
+diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,1,952}]/.mass[x_]:>x;
 
 
 Length[diag22]
