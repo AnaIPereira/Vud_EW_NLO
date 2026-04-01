@@ -52,7 +52,7 @@ Get[direc <> "/code/integration_2loop.m"]
 
 
 (*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
-diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,1,952}]/.mass[x_]:>x;
+diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,10,20}]/.mass[x_]:>x;
 
 
 Length[diag22]
@@ -142,10 +142,10 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
-(*diag22=diag21/.mass[x_]:>x/.d->4-2e/.mtad->sorttad;*)
+diag22a=diag22/.mass[x_]:>x/.mtad->sorttad;
 
 
-rule1 = Union@Cases[diag22, _mtad, Infinity]/.mtad->sorttad;
+rule1 = Union@Cases[diag22a, _sorttad, Infinity];
 
 
 rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
