@@ -182,7 +182,7 @@ defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op 
 
 
 (*GENERAL GAUGE*)
-ParallelTable[
+Do[
   diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"]/.mass[x_]:>x/.sw->Sqrt[1-cw^2]/.cw->MW/MZ;
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res1 = defoperm2[diagram1]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__], _PolyLog},Simplify]&;
