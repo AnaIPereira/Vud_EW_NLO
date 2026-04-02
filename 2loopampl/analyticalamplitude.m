@@ -192,7 +192,7 @@ Do[
 
 
 ParallelDo[
-  diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"];
+  diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"]/.mass[x_]:>x;
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
   (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
