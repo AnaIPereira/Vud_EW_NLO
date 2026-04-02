@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*set up directory*)
 
 
@@ -69,7 +69,7 @@ Length[diag22]
 ];*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*analytical*)
 
 
@@ -191,14 +191,13 @@ Do[
 ];*)
 
 
-ParallelDo[
+Do[
   diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"]/.mass[x_]:>x;
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
-  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
-  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
-  Export[direc <> "/Results/2loop/gengauge/analytampsmuonrxi/diag" <> ToString[i] <> ".m",res1],
-  {i,1,Length[diag22]}
+(*  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  Export[direc <> "/Results/2loop/gengauge/analytampsmuonrxi/diag" <> ToString[i] <> ".m",res],
+  {i,1,Length[amp22]}
 ];
 
 
