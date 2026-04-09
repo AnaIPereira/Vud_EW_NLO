@@ -1,15 +1,15 @@
 (* ::Package:: *)
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*set up directory*)
 
 
-(*(*to run locally*)
-direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+(*to run locally*)
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
-(*to run in cluster*)
-direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
+(*(*to run in cluster*)
+direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];*)
 
 
 (* ::Section::Closed:: *)
@@ -88,7 +88,7 @@ Length[diag22]
 (*analytical*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*sort the integrals into standard order*)
 
 
@@ -159,7 +159,7 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*masters to analytical rules*)
 
 

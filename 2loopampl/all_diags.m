@@ -140,8 +140,7 @@ Table[If[Not@FreeQ[amp[[i]],ampden[0,0]],i,0], {i, Length[amp]}]
 (*there are ampden[0,0] which could cause divergences and
 due to how the code is written are set to 1 when doing simplifications, which is wrong
 Nevertheless here is ok since all the amplitudes where they appear go in fact to zero - 
-checked for muon, need to check for quark. A good solution whould be seeting them to zero from
-the begging but we need to check the amplitudes to make sure we can take this limit*)
+checked for muon, checked for quark. *)
 
 
 (*test = amp0[[1;;10]]*)
