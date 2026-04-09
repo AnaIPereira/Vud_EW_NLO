@@ -91,11 +91,11 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load  results*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*leptonic*)
 
 
@@ -112,10 +112,10 @@ Get[direc <> "/code/integration_2loop.m"]
 
 
 (*this are all amplitudes including tadpoles*)
-amp = Get[direc <> "/Results/2loopSL/ampconvertedpionwithtad.m"];
+amp = Get[direc <> "/Results/2loopSL/newpionampconverted.m"];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*some checks and simplifications*)
 
 
@@ -128,13 +128,15 @@ Union@Cases[amp, NF[__], Infinity]
 Union@Cases[amp, _ampden, Infinity]
 
 
-amp0 = amp/.{ampden[0, mass[x_]]:>-1/mass[x]^2};
+(*NOT SURE IF AMPDEN[0,0]->0 IS OK THINK ABOUT THIS*)
+
+amp0 = amp/.{ampden[0, mass[x_]]:>-1/mass[x]^2}/.{ampden[0, 0]:>0};
 
 
 Union@Cases[amp0, _ampden, Infinity]
 
 
-(*Table[If[Not@FreeQ[amp[[i]],ampden[0,0]],i,0], {i, Length[amp]}]*)
+Table[If[Not@FreeQ[amp[[i]],ampden[0,0]],i,0], {i, Length[amp]}]
 (*there are ampden[0,0] which could cause divergences and
 due to how the code is written are set to 1 when doing simplifications, which is wrong
 Nevertheless here is ok since all the amplitudes where they appear go in fact to zero - 
@@ -145,7 +147,7 @@ the begging but we need to check the amplitudes to make sure we can take this li
 (*test = amp0[[1;;10]]*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*dirac  line  and  traces  into  standard  order (choose xi here)*)
 
 
@@ -175,7 +177,7 @@ diag5=tracestandardorder1@diag4;
 diag6=tracestandardorder2@diag5;
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*denominators  into  standard  order*)
 
 
@@ -209,7 +211,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -384,7 +386,7 @@ mf14a=Table[
 ];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*substitution  in  the  amplitude*)
 
 
@@ -436,7 +438,7 @@ Table[
 ];*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*save results semi - leptonic*)
 
 
