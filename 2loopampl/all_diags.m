@@ -95,16 +95,28 @@ Get[direc <> "/code/integration_2loop.m"]
 (*load  results*)
 
 
+(* ::Subsection::Closed:: *)
+(*leptonic*)
+
+
 (*this are the amplitudes to compare with martin*)
 (*amp = Get[direc <> "/Results/2loop/convertednotfeyngauge.m"];*)
 
 
-(*this are all amplitudes including tadpoles - run locally*)
+(*this are all amplitudes including tadpoles*)
 (*amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];*)
 
 
-(*this are all amplitudes including tadpoles - run on cluster*)
-amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];
+(* ::Subsection::Closed:: *)
+(*semi - leptonic*)
+
+
+(*this are all amplitudes including tadpoles*)
+amp = Get[direc <> "/Results/2loopSL/ampconvertedpionwithtad.m"];
+
+
+(* ::Subsection::Closed:: *)
+(*some checks and simplifications*)
 
 
 Length[amp]
@@ -133,11 +145,11 @@ the begging but we need to check the amplitudes to make sure we can take this li
 (*test = amp0[[1;;10]]*)
 
 
-(* ::Section::Closed:: *)
-(*dirac  line  and  traces  into  standard  order*)
+(* ::Section:: *)
+(*dirac  line  and  traces  into  standard  order (choose xi here)*)
 
 
-diag=amp0(*/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1*);
+diag=amp0/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
 
 
 diag1=diag/.{gamma[Lor1]->gamma[1]}/.{gamma[Lor2]->gamma[2]}/.{gamma[Lor3]->gamma[3]}/.
@@ -372,7 +384,7 @@ mf14a=Table[
 ];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*substitution  in  the  amplitude*)
 
 
@@ -392,6 +404,10 @@ Union@Cases[diag21, mtad[__], Infinity];
 %/.mtad[__, {a_,b_,c_}]:>{a,b,c}
 
 
+(* ::Subsection::Closed:: *)
+(*save results leptonic*)
+
+
 (*this are the muon 2 loop amplitudes to compare with Martin*)
 (*Export[direc <> "/Results/2loop/amplitmuonmasters.m",diag21]*)
 
@@ -401,21 +417,40 @@ Union@Cases[diag21, mtad[__], Infinity];
 
 
 (*these are are all muon 2 loop amplitudes including tadpoles general gauge*)
-Export[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m",diag21]
+(*Export[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m",diag21]*)
 
 
-(*separate each element of the list into a seperate file*)
+(*diag21 = Get[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m"];*)
 
 
-diag21 = Get[direc <> "/Results/2loop/gengauge/amplitmuonmasterswithtadgauge.m"];
+(*diag21//Length*)
+
+
+(*(*separate each element of the list into a seperate file*)
+Table[
+  Export[
+    direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m",
+    diag21[[i]]
+  ],
+  {i, Length[diag21]}
+];*)
+
+
+(* ::Subsection::Closed:: *)
+(*save results semi - leptonic*)
+
+
+(*these are are all muon 2 loop amplitudes including tadpoles feynman gauge*)
+Export[direc <> "/Results/2loopSL/amplitpionmasterswithtad.m",diag21]
 
 
 diag21//Length
 
 
+(*separate each element of the list into a seperate file*)
 Table[
   Export[
-    direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m",
+    direc <> "/Results/2loopSL/ampmasterspionall/diag" <> ToString[i] <> ".m",
     diag21[[i]]
   ],
   {i, Length[diag21]}

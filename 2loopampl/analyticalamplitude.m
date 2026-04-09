@@ -1,11 +1,11 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
-(*to run locally*)
-(*direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+(*(*to run locally*)
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
 
 
 (*to run in cluster*)
@@ -39,8 +39,12 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load files*)
+
+
+(* ::Subsection::Closed:: *)
+(*leptonic*)
 
 
 (*list with diagrams to compare with Martin*)
@@ -51,11 +55,11 @@ Get[direc <> "/code/integration_2loop.m"]
 (*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasterswithtad.m"]/.mass[x_]:>x;*)
 
 
-(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
-diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,1,952}]/.mass[x_]:>x;
+(*(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
+diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,1,952}]/.mass[x_]:>x;*)
 
 
-Length[diag22]
+(*Length[diag22]*)
 
 
 (*separate each element of the list into a seperate file - this inly needs to be runned once and then commented*)
@@ -69,8 +73,23 @@ Length[diag22]
 ];*)
 
 
+(* ::Subsection::Closed:: *)
+(*semi - leptonic*)
+
+
+(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
+diag22 = Table[Get[direc <> "/Results/2loopSL/ampmasterspionall/diag" <> ToString[i] <> ".m"],{i,1,1222}]/.mass[x_]:>x;
+
+
+Length[diag22]
+
+
 (* ::Section:: *)
 (*analytical*)
+
+
+(* ::Subsection::Closed:: *)
+(*sort the integrals into standard order*)
 
 
 (*Clear[sorttad]
@@ -103,8 +122,6 @@ sorttad[{0,MZ,MW},{0,1,1}]:=sorttad[{0,MW,MZ},{0,1,1}];
 sorttad[{0,MZ,MW},{1,1,1}]:=sorttad[{0,MW,MZ},{1,1,1}];
 sorttad[{0,MW,MH},{1,1,1}]:=sorttad[{0,MH,MW},{1,1,1}];
 sorttad[{0,MZ,MH},{1,1,1}]:=sorttad[{0,MH,MZ},{1,1,1}];
-sorttad[{MW,MZ,MW},{1,1,1}]:=sorttad[{MW,MW,MZ},{1,1,1}];
-sorttad[{MZ,MZ,MW},{1,1,1}]:=sorttad[{MW,MZ,MZ},{1,1,1}];
 sorttad[{MZ,MW,MH},{1,1,1}]:=sorttad[{MW,MZ,MH},{1,1,1}];
 
 sorttad[{0,a_ MZ,MW},{0,1,1}]:=sorttad[{0,MW,a MZ},{0,1,1}];
@@ -142,6 +159,10 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
+(* ::Subsection::Closed:: *)
+(*masters to analytical rules*)
+
+
 diag22a=diag22/.mass[x_]:>x/.mtad->sorttad;
 
 
@@ -154,6 +175,18 @@ rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
 rule = Dispatch[Thread[rule1 -> rules2]];
 
 
+(* ::Subsection::Closed:: *)
+(*define operators*)
+
+
+defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
+defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]
+
+
+(* ::Subsection::Closed:: *)
+(*save results leptonic*)
+
+
 (*run this to comparison with Martin*)
 (*Do[
   diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
@@ -163,10 +196,6 @@ rule = Dispatch[Thread[rule1 -> rules2]];
   Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res1],
   {i, 1,20}
 ];*)
-
-
-defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
-defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]
 
 
 (*FEYNMAN GAUGE*)
@@ -191,17 +220,32 @@ Do[
 ];*)
 
 
-Do[
+(*Do[
   diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"]/.mass[x_]:>x;
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
   res1 = defoperm2[res](*//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&*);
   Export[direc <> "/Results/2loop/gengauge/analytampsmuonrxi/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[amp22]}
-];
+];*)
 
 
 (*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
+
+
+(* ::Subsection:: *)
+(*save results for semi - leptonic*)
+
+
+(*FEYNMAN GAUGE*)
+Do[
+  diagram = diag22a[[i]]/.d->4-2e/.rule;
+  res = Normal[Series[diagram, {e, 0, 0}]];
+  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  res1 = defoperq2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  Export[direc <> "/Results/2loopSL/analytampspionall/diag" <> ToString[i] <> ".m",res1],
+  {i,1,Length[diag22a]}
+];
 
 
 (* ::Section::Closed:: *)
