@@ -1,0 +1,38 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+Ev3*((5*el^6*MZ^2*Flag[tadpoleq])/(1536*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq])/(1536*cw^2*e^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq])/(9216*cw^2*MH^2*MW^2*Pi^2*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[mu]^2)/(192*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[MW]^2)/(768*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(256*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[MZ]^2)/(768*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   Log[mu]*((el^6*MZ^2*Flag[tadpoleq])/(128*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MW])/(192*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(192*cw^2*MH^2*MW^2*Pi^4*sw^4)) + 
+   ((el^6*MZ^2*Flag[tadpoleq])/(512*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[mu])/(384*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MW])/(768*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(768*cw^2*MH^2*MW^2*Pi^4*sw^4))/e + 
+   Log[MW]*(-1/256*(el^6*MZ^2*Flag[tadpoleq])/(cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(384*cw^2*MH^2*MW^2*Pi^4*sw^4))) + 
+ Op*((5*el^6*MZ^2*Flag[tadpoleq])/(96*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+   (a1q*el^6*MZ^2*Flag[tadpoleq])/(512*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq])/(96*cw^2*e^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq])/(576*cw^2*MH^2*MW^2*Pi^2*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[mu]^2)/(12*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[MW]^2)/(48*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   (-1/16*(el^6*MZ^2*Flag[tadpoleq])/(cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (a1q*el^6*MZ^2*Flag[tadpoleq])/(768*cw^2*MH^2*MW^2*Pi^4*sw^4))*Log[MZ] + 
+   (el^6*MZ^2*Flag[tadpoleq]*Log[MZ]^2)/(48*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+   Log[mu]*((el^6*MZ^2*Flag[tadpoleq])/(8*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (a1q*el^6*MZ^2*Flag[tadpoleq])/(384*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MW])/(12*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(12*cw^2*MH^2*MW^2*Pi^4*sw^4)) + 
+   ((el^6*MZ^2*Flag[tadpoleq])/(32*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (a1q*el^6*MZ^2*Flag[tadpoleq])/(1536*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[mu])/(24*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MW])/(48*cw^2*MH^2*MW^2*Pi^4*sw^4) - 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(48*cw^2*MH^2*MW^2*Pi^4*sw^4))/e + 
+   Log[MW]*(-1/16*(el^6*MZ^2*Flag[tadpoleq])/(cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (a1q*el^6*MZ^2*Flag[tadpoleq])/(768*cw^2*MH^2*MW^2*Pi^4*sw^4) + 
+     (el^6*MZ^2*Flag[tadpoleq]*Log[MZ])/(24*cw^2*MH^2*MW^2*Pi^4*sw^4)))
