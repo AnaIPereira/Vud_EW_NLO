@@ -91,7 +91,7 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  results*)
 
 
@@ -107,8 +107,12 @@ Get[direc <> "/code/integration_2loop.m"]
 (*amp = Get[direc <> "/Results/2loop/ampconvertedwithtad.m"];*)
 
 
-(*comparison Martin*)
-amp = Get[direc <> "/Results/2loop/comparison_Martin/convertednotfeyngauge.m"];
+(*(*comparison Martin for muon*)
+amp = Get[direc <> "/Results/2loop/comparison_Martin/convertednotfeyngauge.m"];*)
+
+
+(*comparison Martin for quark*)
+amp = Get["/home/ana/Desktop/generation of diagrams&amps/quark/ampquarkmynot.m"];
 
 
 Length[amp]
@@ -137,11 +141,11 @@ the begging but we need to check the amplitudes to make sure we can take this li
 (*test = amp0[[1;;10]]*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*dirac  line  and  traces  into  standard  order*)
 
 
-diag=amp0(*/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1*);
+diag=amp0/.\[Xi]w->1/.\[Xi]A->1/.\[Xi]z->1;
 
 
 diag1=diag/.{gamma[Lor1]->gamma[1]}/.{gamma[Lor2]->gamma[2]}/.{gamma[Lor3]->gamma[3]}/.
@@ -201,7 +205,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -256,9 +260,6 @@ rules = Thread[dens -> dens4];
 
 
 diag18 = diag17a/.rules;
-
-
-diag18[[1]]
 
 
 (* ::Section::Closed:: *)
@@ -395,10 +396,7 @@ tad[{i_,j_,Null},{a_,b_,c_}]:>tad[{i,j,0},{a,b,c}]/.tad->mtad;
 diag21 = diag20/.mf1a/.mf2a/.mf3a/.mf4a/.mf5a/.mf6a/.mf7a/.mf8a/.mf9a/.mf10a/.mf12a/.mf13a/.mf14a/.{mtad[{0,0,0},{a_,b_,c_}]->0};
 
 
-diag21
-
-
-Union@Cases[diag21, mtad[__], Infinity]
+Union@Cases[diag21, mtad[__], Infinity]/.mass[x_]:>x
 %/.mtad[__, {a_,b_,c_}]:>{a,b,c}
 
 
@@ -428,7 +426,7 @@ diag21//Length
 
 Table[
   Export[
-    direc <> "/Results/2loop/comparison_Martin/diagsmasters/diag" <> ToString[i] <> ".m",
+    direc <> "/Results/2loopSL/comparison_Martin/diagsmasters/diag" <> ToString[i] <> ".m",
     diag21[[i]]
   ],
   {i, Length[diag21]}

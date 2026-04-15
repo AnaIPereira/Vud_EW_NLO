@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
@@ -39,20 +39,12 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load files*)
 
 
-(*list with diagrams to compare with Martin*)
-(*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasters.m"]/.mass[x_]:>x;*)
-
-
-(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
-(*diag22 = Get[direc <> "/Results/2loop/amplitmuonmasterswithtad.m"]/.mass[x_]:>x;*)
-
-
-(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters general gauge*)
-diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"],{i,1,952}]/.mass[x_]:>x;
+(*list with all diagrams for quark 2 loop (with tadpoles) in terms of masters general gauge*)
+diag22 = Table[Get[direc <> "/Results/2loopSL/comparison_Martin/diagsmasters/diag" <> ToString[i] <> ".m"],{i,1,532}]/.mass[x_]:>x;
 
 
 Length[diag22]
@@ -69,8 +61,8 @@ Length[diag22]
 ];*)
 
 
-(* ::Section:: *)
-(*analytical*)
+(* ::Section::Closed:: *)
+(*sort masters*)
 
 
 (*Clear[sorttad]
@@ -142,6 +134,10 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
+(* ::Section:: *)
+(*analytical*)
+
+
 diag22a=diag22/.mass[x_]:>x/.mtad->sorttad;
 
 
@@ -155,18 +151,17 @@ rule = Dispatch[Thread[rule1 -> rules2]];
 
 
 (*run this to comparison with Martin*)
-(*Do[
-  diagram = Get[ direc <> "/Results/2loop/ampmasters/diag" <> ToString[i] <> ".m"];
-  diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
-  res = Normal[Series[diagram1, {e, 0, 0}]];
+Do[
+  diagram = diag22a[[i]]/.d->4-2e/.rule;
+  res = Normal[Series[diagram, {e, 0, 0}]];
   res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
-  Export[direc <> "/Results/2loop/analytampsmuon/diag" <> ToString[i] <> ".m",res1],
-  {i, 1,20}
-];*)
+  Export[direc <> "/Results/2loopSL/comparison_Martin/diagsanalyt/diag" <> ToString[i] <> ".m",res1],
+  {i,532}
+];
 
 
-defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
-defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]
+(*defoperm2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1mu e)Op}/.{Ev5->Ev5 + (256-b1mu e)Op + cmu1 Ev3},{e,0,0}]
+defoperq2[x_]:=Series[x/.{Ev3->Ev3 + (16 - a1q e)Op}/.{Ev5->Ev5 + (256-b1q e)Op + cq1 Ev3},{e,0,0}]*)
 
 
 (*FEYNMAN GAUGE*)
@@ -191,14 +186,14 @@ Do[
 ];*)
 
 
-Do[
+(*Do[
   diagram = Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> ToString[i] <> ".m"]/.mass[x_]:>x;
   diagram1 = diagram/.d->4-2e/.mtad->sorttad/.rule;
   res = Normal[Series[diagram1, {e, 0, 0}]];
-  res1 = defoperm2[res](*//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&*);
+  res1 = defoperq2[res](*//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&*);
   Export[direc <> "/Results/2loop/gengauge/analytampsmuonrxi/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[amp22]}
-];
+];*)
 
 
 (*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
