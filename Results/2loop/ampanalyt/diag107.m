@@ -1,0 +1,2 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+(el^6*Op)/(512*MW^2*Pi^4*sw^2)
