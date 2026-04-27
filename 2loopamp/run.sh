@@ -5,7 +5,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=100G
 #SBATCH --cpus-per-task=32
-#SBATCH --time 0-03:00:00
+#SBATCH --time 0-01:00:00
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 source /z/software/mathematica/14.0/env.sh

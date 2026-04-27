@@ -91,7 +91,7 @@ Get[direc <> "/code/integration_2loop.m"]
 (**)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load  results*)
 
 
@@ -119,14 +119,17 @@ amp = Get[direc <> "/Results/2loopSL/newpionampconverted.m"];*)
 (*leptonic penguins*)
 
 
-amp = Get[direc <> "/Results/2loop/penguins/ampmuonpengmynot.m"];
+(*amp = Get[direc <> "/Results/2loop/penguins/ampmuonpengmynot.m"];*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*semi - leptonic penguins*)
 
 
-(* ::Subsection:: *)
+amp = Get[direc <> "/Results/2loopSL/penguins/ampquarkpengmynot.m"];
+
+
+(* ::Subsection::Closed:: *)
 (*some checks and simplifications*)
 
 
@@ -187,7 +190,7 @@ diag5=tracestandardorder1@diag4;
 diag6=tracestandardorder2@diag5;
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*denominators  into  standard  order*)
 
 
@@ -473,15 +476,25 @@ Table[
 (*save result leptonic penguins*)
 
 
-(*separate each element of the list into a seperate file*)
+(*(*separate each element of the list into a seperate file*)
 Table[
   Export[
     direc <> "/Results/2loop/penguins/ampmastersmuon/diag" <> ToString[i] <> ".m",
     diag21[[i]]
   ],
   {i, Length[diag21]}
-];
+];*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save result semi - leptonic penguins*)
+
+
+(*separate each element of the list into a seperate file*)
+Table[
+  Export[
+    direc <> "/Results/2loopSL/penguins/ampmastersquark/diag" <> ToString[i] <> ".m",
+    diag21[[i]]
+  ],
+  {i, Length[diag21]}
+];

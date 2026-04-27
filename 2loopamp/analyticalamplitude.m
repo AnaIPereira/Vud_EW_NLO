@@ -39,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load files*)
 
 
@@ -88,22 +88,29 @@ diag22 = Table[Get[direc <> "/Results/2loopSL/ampmasterspionall/diag" <> ToStrin
 (*leptonic penguins*)
 
 
+(*(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
+diag22 = Table[Get[direc <> "/Results/2loop/penguins/ampmastersmuon/diag" <> ToString[i] <> ".m"],{i,1,999}]/.mass[x_]:>x;*)
+
+
+(*Length[diag22]*)
+
+
+(* ::Subsection::Closed:: *)
+(*semi - leptonic penguins*)
+
+
 (*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
-diag22 = Table[Get[direc <> "/Results/2loop/penguins/ampmastersmuon/diag" <> ToString[i] <> ".m"],{i,1,999}]/.mass[x_]:>x;
+diag22 = Table[Get[direc <> "/Results/2loopSL/penguins/ampmastersquark/diag" <> ToString[i] <> ".m"],{i,1,999}]/.mass[x_]:>x;
 
 
 Length[diag22]
-
-
-(* ::Subsection:: *)
-(*semi - leptonic penguins*)
 
 
 (* ::Section:: *)
 (*analytical*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*sort the integrals into standard order*)
 
 
@@ -174,7 +181,7 @@ sorttad[{MZ,a_ MW,MH},{1,1,1}]:=sorttad[{a MW,MZ,MH},{1,1,1}];
 sorttad[{b_ MZ,MW,MH},{1,1,1}]:=sorttad[{MW,b MZ,MH},{1,1,1}];
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*masters to analytical rules*)
 
 
@@ -190,7 +197,7 @@ rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
 rule = Dispatch[Thread[rule1 -> rules2]];
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*define operators*)
 
 
@@ -263,7 +270,7 @@ Do[
 ];*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save results for leptonic penguins*)
 
 
@@ -280,6 +287,17 @@ Do[
 
 (* ::Subsection:: *)
 (*save results for semi - leptonic penguins*)
+
+
+(*FEYNMAN GAUGE*)
+Do[
+  diagram = diag22a[[i]]/.d->4-2e/.rule;
+  res = Normal[Series[diagram, {e, 0, 0}]];
+  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  res1 = defoperm2[res]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]},Simplify]&;
+  Export[direc <> "/Results/2loopSL/penguins/ampanalyt/diag" <> ToString[i] <> ".m",res1],
+  {i,1,Length[diag22a]}
+];
 
 
 (* ::Section::Closed:: *)
