@@ -1,0 +1,11 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+Op*((el^6*MZ^4*NF[{ML}])/(1024*e^2*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  (el^6*MZ^4*(8 + Pi^2)*NF[{ML}])/(2048*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  (el^6*MZ^4*Log[mu]^2*NF[{ML}])/(128*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+  (el^6*MZ^4*Log[MW]*NF[{ML}])/(128*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  (el^6*MZ^4*Log[MW]^2*NF[{ML}])/(128*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  Log[mu]*((el^6*MZ^4*NF[{ML}])/(128*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+    (el^6*MZ^4*Log[MW]*NF[{ML}])/(64*(MW^3 - MW*MZ^2)^2*Pi^4)) + 
+  ((el^6*MZ^4*NF[{ML}])/(512*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+    (el^6*MZ^4*Log[mu]*NF[{ML}])/(256*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+    (el^6*MZ^4*Log[MW]*NF[{ML}])/(256*(MW^3 - MW*MZ^2)^2*Pi^4))/e)
