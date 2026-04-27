@@ -12,7 +12,7 @@ direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
 direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*Load  packages*)
 
 
@@ -39,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load files*)
 
 
@@ -95,12 +95,12 @@ diag22 = Table[Get[direc <> "/Results/2loop/penguins/ampmastersmuon/diag" <> ToS
 (*Length[diag22]*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*semi - leptonic penguins*)
 
 
 (*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
-diag22 = Table[Get[direc <> "/Results/2loopSL/penguins/ampmastersquark/diag" <> ToString[i] <> ".m"],{i,1,999}]/.mass[x_]:>x;
+diag22 = Table[Get[direc <> "/Results/2loopSL/penguins/ampmastersquark/diag" <> ToString[i] <> ".m"],{i,1,1217}]/.mass[x_]:>x;
 
 
 Length[diag22]

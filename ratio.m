@@ -151,10 +151,13 @@ alphacorr1L[x_]:=x + alphcor1 tree
 alphacorr2L[x_]:=x + 2 alphcor1 1Lcorr + alphcor2 tree
 
 
+Series[logs@rulesxyz@logs@alphcor1/.nc->3,{e,0,0}]//Normal
+
+
 Get["/home/ana/Documents/GitHub/Leptonic-and-Semileptonic-decays/results/treelevelmuon.m"]/.mw->MW/.mz->MZ;
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load  packages  and  notation*)
 
 
@@ -315,17 +318,17 @@ ampm = Total[%];
 
 ap=Get["/home/ana/Desktop/code m/amppion_ana_fg_withtad.m"]/.flag[__]:>1/.CW->cw/.SW->sw/.Log->ln;
 (*tadap = MapAt[Flag[tadp] # &, ap, 301 ;; 886];*)
-ampp = Total[%];
+ampp = Total[%]/.nc->1;
 
 
 (*Want to change this result with new computation from git but for
 Ev3 should be ok because poles agree in feynman gauge*)
 
 
-ct2lm= Get["/home/ana/Desktop/ctmuonr.m"](*/.sw->Sqrt[1-cw^2]/.cw->MW/MZ*);
+ct2lm= Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/2loop/muon/feyn/ctm2l.m"](*/.sw->Sqrt[1-cw^2]/.cw->MW/MZ*);
 
 
-ct2lq=Get["/home/ana/Desktop/ctquarkr.m"];
+ct2lq=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/Results/Renormalisation/2loop/muon/feyn/ctq2l.m"](*/.sw->Sqrt[1-cw^2]/.cw->MW/MZ*);
 
 
 (* ::Subsection::Closed:: *)
@@ -397,28 +400,46 @@ zeft1e1o0 = (24 + 8 a1mu - 1/4 b1mu);
 (*renormalization constants for external particles*)
 
 
-dzd2 = 3/4/e^2 + \[Xi]A^2 /162/e;
+dzd2 = 3/4/e + \[Xi]A^2 /162/e^2;
 
 
-dzu2 = 28/9/e^2 + 8 \[Xi]A^2 /81/e;
+dzu2 = 28/9/e + 8 \[Xi]A^2 /81/e^2;
 
 
 dze2= 89/(12 e)+\[Xi]A^2/(2 e^2);
 
 
-(* ::Section::Closed:: *)
+dzext2muon = dze2;
+
+
+dzext2q = (dzd2+dzu2+dze2)/2;
+
+
+dzext2muonep1=Coefficient[dzext2muon, e, -1]/e
+dzext2muonep2=Coefficient[dzext2muon, e, -2]/e^2
+
+
+dzext2quarkep1=Coefficient[dzext2q, e, -1]/e
+dzext2quarkep2=Coefficient[dzext2q, e, -2]/e^2
+
+
+(* ::Section:: *)
 (*plug  in  amplitudes  and  counterterms*)
 
 
 alphaorder=2;
 
 
-tree0=tree/.EL->1
+(*tree0=tree/.EL->1*)
 
 
 plugZ[x_]:=x/.{
 Zeft[L,op,op,1,1]:>0,
-z[L,extpart,1,1]:>flagextpartl (-\[Xi]A/e) ,
+z[L,extpart,1,1]:>flagextpartl (-\[Xi]A/e),
+z[L,extpart,2,1]:>flagext2 dzext2muonep1 ,
+z[L,extpart,2,2]:>flagext2 dzext2muonep2 ,
+z[SL,extpart,2,1]:>flagext2sl dzext2quarkep1 ,
+z[SL,extpart,2,2]:>flagext2sl dzext2quarkep2 ,
 LSZ[L,p,Op,1]:>flaglsz tree 1/2 lszmuon/EL^2 /.\[Mu]->mu,
 z[SL,extpart,1,1]:> flag[extpart] flagextpartsl (-7/9 \[Xi]A/e),
 Zeft[SL,op,op,1,1]:> (-2/e) flag[eft],
@@ -465,15 +486,15 @@ P[L,p,Op,1,0,1]:>  pengmep1op prefamp^2 flagpeng,
 P[L,b,Op,1]:>boxmep1op prefamp^2,
 P[L,b,Ev3,1]:> boxmep1ev prefamp^2,
 P[SL,b,Ev3,1]:>boxqep1ev prefamp^2,
-(*P[L,b,Op,2]:> ampm tree prefamp^3,*)
+P[L,b,Op,2]:> Coefficient[ampm,Op]Op  prefamp^3 (4 Pi) flagamp,
 P[SL,s,Op,1]-> selfqep1op prefamp^2,
 P[SL,p,Op,1,1,0]:>pengqqep1op prefamp^2,
 P[SL,p,Op,1,0,1]:>pengqeep1op prefamp^2,
 P[SL,b,Op,1]:> boxqep1op prefamp^2,
-(*P[SL,b,Op,2]:>ampp tree prefamp^3,*)
+P[SL,b,Op,2]:>Coefficient[ampp,Op]Op  prefamp^3 (4 Pi),
 P[SL,b,Ev5,2]:>  Coefficient[ampp,Ev5]Ev5  prefamp^3 (4 Pi) , 
 P[L,b,Ev5,2]:>  Coefficient[ampm,Ev5]Ev5  prefamp^3 (4 Pi),
-P[SL,b,Ev3,2]:>  Coefficient[ampp,Ev3]Ev3 prefamp^3 (4 Pi) AMPLIT,
+P[SL,b,Ev3,2]:>  Coefficient[ampp,Ev3]Ev3 prefamp^3 (4 Pi) ,
 P[L,b,Ev3,2]:>  flagsmev2 Coefficient[ampm,Ev3]Ev3 prefamp^3 (4 Pi)
 }
 
@@ -482,13 +503,13 @@ plugct[x_]:=x/.{
 CT[L,s,Op,1]:> ctmsl prefamp^2 flagself,
 CT[L,p,Op,1,0,0,0,1]:>ctmel prefamp^2 flagpeng,
 CT[L,p,Op,1,0,1,0,0]:> ctmql prefamp^2 flagpeng,
-CT[L,b,Op,2]:> Coefficient[ct2lm,Op] Op prefamp^3,
+CT[L,b,Op,2]:> Coefficient[ct2lm,Op] Op prefamp^3 (4 Pi) flagctt,
 CT[SL,s,Op,1]:> ctqsl prefamp^2 flagself,
 CT[SL,p,Op,1,0,0,0,1]:>ctqel prefamp^2 flagpeng,
 CT[SL,p,Op,1,0,1,0,0]:> ctqql prefamp^2 flagpeng,
 CT[SL,b,Op,2]:> Coefficient[ct2lq,Op] Op prefamp^3 (4 Pi),
 CT[L,b,Ev3,2]:> flagct Coefficient[ct2lm,Ev3] Ev3 prefamp^3 (4 Pi),
-CT[SL,b,Ev3,2]:> flagsct Coefficient[ct2lq,Ev3] Ev3 prefamp^3 (4 Pi) COUNTER
+CT[SL,b,Ev3,2]:> flagsct Coefficient[ct2lq,Ev3] Ev3 prefamp^3 (4 Pi) 
 }
 
 
@@ -636,18 +657,40 @@ LSZ[SL,p,Op,1](P[SL,b,Op,1]+P[SL,p,Op,1]+P[SL,s,Op,1]+P[SL,b,Ev3,1]+ CT[SL,p,Op,
 (*add 1 loop things + ct 1 loop things times LSZ factor correspondent to each diagram at 1 loop*)
 
 
-(*run this for matching of EV3*)
+(*(*run this for matching of EV3*)
 fullL =( P[L, Op ,0] + ampexpL + ctexpL + 
 alpha6f/(4 Pi) LSZ[L,p,Op,1] P[L, Op ,0] + 
 alpha6f^2/(4 Pi)^2((LSZ[L,p,Op,2])P[L, Op ,0]+
-LSZ[L,p,Op,1](P[L,b,Ev3,1]/tree0) P[L, Ev3 ,0] )) alpha6f;
+LSZ[L,p,Op,1](P[L,b,Ev3,1]/tree0) P[L, Ev3 ,0] )) alpha6f;*)
 
 
-(*run this for matching of EV3*)
+(*run this for matching*)
+fullL =( P[L, Op ,0] + ampexpL + ctexpL + 
+alpha6f/(4 Pi) LSZ[L,p,Op,1] P[L, Op ,0] + 
+alpha6f^2/(4 Pi)^2(LSZ[L,p,Op,2]P[L, Op ,0]+
+LSZ[L,p,Op,1]( P[L,b,Op,1]/tree0 P[L, Op ,0] + P[L,b,Ev3,1]/tree0 P[L, Ev3 ,0]) )) alpha6f;
+
+
+(*(*run this for matching of EV3*)
 fullSL =( P[SL, Op ,0] + ampexpSL + ctexpSL + 
 alpha6f/(4 Pi) LSZ[SL,p,Op,1] P[SL, Op ,0] + 
 alpha6f^2/(4 Pi)^2((LSZ[SL,p,Op,2])P[SL, Op ,0]+
-LSZ[SL,p,Op,1](P[SL,b,Ev3,1]/tree0) P[SL, Ev3 ,0] )) alpha6f;
+LSZ[SL,p,Op,1](P[SL,b,Ev3,1]/tree0) P[SL, Ev3 ,0] )) alpha6f;*)
+
+
+(*run this for matching*)
+fullSL =( P[SL, Op ,0] + ampexpSL + ctexpSL + 
+alpha6f/(4 Pi) LSZ[SL,p,Op,1] P[SL, Op ,0] + 
+alpha6f^2/(4 Pi)^2(LSZ[SL,p,Op,2]P[SL, Op ,0]+
+LSZ[SL,p,Op,1]( P[SL,b,Op,1]/tree0 P[SL, Op ,0] + P[SL,b,Ev3,1]/tree0 P[SL, Ev3 ,0]) )) alpha6f;
+
+(*
+fullSL = alpha6f^2 (tree(Op) + 1loop(Op,Ev1) + CT(1loop) + LSZ1lxtree(Op)) +
+         alpha6f^3 ( 2loop(Op,Ev1,Ev2) + CT(2loop,box) + LSZ2lxtree(Op) + LSZ1l*1loop(box))
+*)
+
+
+Series[Sqrt[1 + x alpha + y alpha^2]Sqrt[1 + xu alpha + yu alpha^2],{alpha,0,2}]/.x->xu/.y->yu//Normal
 
 
 Clear[alpha6to5]
@@ -670,7 +713,7 @@ from 6 to 5 flavour.*)
 (* EFT*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*functions for the eft*)
 
 
@@ -766,7 +809,7 @@ ampeftSL = t6/.d->SL;
 ampeftL = t6/.d->L;
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*ratio eft*)
 
 
@@ -776,22 +819,12 @@ eftl=Series[alpha5f ampeftL, {alpha5f, 0,3}]//Collect[#, {alpha5f, 1/eps}, Simpl
 eftsl=Series[alpha5f ampeftSL, {alpha5f, 0,3}]//Collect[#, {alpha5f, 1/eps}, Simplify]&;
 
 
-eftl1 = eftl + 
-
-
-Coefficient[eftl, alpha5f^2]
-
-
 ratioeft = Series[eftsl/eftl, {alpha5f,0,1}]/.Q[d_, op_, 0]:>Q[d,0]/.Q[d_,0]->Q[0]/.c[d_, 2,_]:>0//
 Collect[#, {alpha5f, 1/eps}, Simplify]&;
 
 
-(* ::Section:: *)
-(*SL  and  L  matching*)
-
-
-(* ::Subsection::Closed:: *)
-(*alpha  order*)
+(* ::Section::Closed:: *)
+(*matching equation*)
 
 
 SML=cutorder[fullL5f(*/.P->Prules/.CT->CTrules*), alpha5f,3]//Collect[#, {alpha},Simplify]&;
@@ -805,6 +838,10 @@ SMSL=cutorder[fullSL5f(*/.P->Prules/.CT->CTrules*), alpha5f,3]//Collect[#, {alph
 
 EFTSL=cutorder[eftsl, alpha5f, 3]//
 Collect[#, {alpha5f, 1/eps}, Expand]&;
+
+
+(* ::Section::Closed:: *)
+(*SL  matching tree level and 1 loop*)
 
 
 (* ::Subsection::Closed:: *)
@@ -919,21 +956,37 @@ Coefficient[SMSL,alpha5f^2]/.P[SL,Op,0]->0/.P[d_,t_,Op,___]:>0/.P[d_,t_,Ev3,___]
 csl31=Solve[%==%%,c[SL,3,1]]/.c[SL,2,0]:>0/.c[SL,3,0]:>0/.Zcc[d_,1,3,1,1]:>0/.Zcc->Zeft
 
 
+(* ::Section::Closed:: *)
+(*SL  matching 2 loop*)
+
+
 (* ::Subsection::Closed:: *)
 (*SL matching   at   order   alpha^2    projected   into   the   physical*)
 
 
-(*Coefficient[EFTSL,alpha5f^2]/.Qproj[d_,Ev3,0]:>0/.Qproj[d_,Ev5,0]:>0/.Qproj[d_,op_,1,op2_]:>0/.
-Qproj[d_,op_,2,op2_]:>0/.c[SL,2,0]:>0/.c[SL,3,0]:>0/.c[SL,3,1]:>0;
+Coefficient[EFTSL,alpha5f^3]/.Qproj[d_,Ev5,0]:>0/.Qproj[d_,Op,0]:>1/.
+Qproj[d_,op_,1,op2_]:>0/.Qproj[d_,op_,2,op2_]:>0/.c[SL,2,0]:>0/.c[SL,3,0]:>0/.c[SL,3,1]:>0/.
+Qproj[L_,Ev3,0]:>0;
 
-Coefficient[SMSL,alpha^2]/.P->Psimp/.CT->CTsimp/.CTsimp->CT/.Psimp->P/.
-P[d_,t_,Ev3,a_]:>0/.P[d_,t_,Ev5,a_]:>0/.CT[d_,t_,Ev3,a_]:>0;
+Coefficient[SMSL,alpha5f^3]/.P->Psimp/.CT->CTsimp/.Psimp->P/.CTsimp->CT/.
+P[d_,t_,Ev5,a_]:>0/.P[d_,t_,Ev3,a_]:>0/.P[d_, Op,0]:>1/.P[L_,Ev3,0]:>0/.
+CT[L_, p|s, Op, 1|2]:>0/.P[L_, s|p, Op, 1|2]:>0;
 
-Solve[%==%%,c[SL,1,2]]//Expand;
-cslnnlo11=%/.P[d_,Op,0]:>Qproj[d,Op,0]/.Zcc->Zeft/.P->Ppeng/.CT->CTpeng/.Ppeng->Prules/.CTpeng->CTrules//Simplify*)
+Solve[%==%%,c[SL,1,2]]/.Zcc->Zeft
+%/.c[SL,1,1]->CSL11 flagcl11/.c[SL,2,1]->CSL21 flagcl21/.c[SL,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
+%[[1,1,2]];
+resopS=plugZ@plugamp@plugct@%/.Log->ln/.\[Xi]A->1/.\[Xi]z->1/.\[Xi]w->1/.NF[{ME}]->1/.NF[{MM}]->1/.NF[{ML}]->1/.NF[__]->nc/.nc->3/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu/.\[Alpha]->EL^2/(4 Pi)/.flagself->1/.flagpeng->1//Collect[#, {1/e}]&;
+
+res1opS=Series[logs@rulesxyz[%/.delta1->alphcor1/.deltaalpha1->alphcor1]/.nc->3/.ln[1/Sqrt[x]]->-1/2 ln[x],{e,0,-1}]/.Op->1;
 
 
-(* ::Subsection:: *)
+flagtozero@tomass@Coefficient[res1opS, e, -2]/.flagextpartsl->1//Simplify
+
+
+flagtozero@tomass@Coefficient[res1opS, e, -1]/.flagextpartsl->1//Collect[#, {ln[__]}, Simplify]&
+
+
+(* ::Subsection::Closed:: *)
 (*SL matching    at    order    alpha^2     projected    into    the    ev3*)
 
 
@@ -945,57 +998,25 @@ Coefficient[SMSL,alpha5f^3]/.P->Psimp/.CT->CTsimp/.CTsimp->CT/.Psimp->P/.
 P[d_,t_,Ev5,a_]:>0/.P[d_,t_,Op,a_]:>0/.P[d_, Op,0]:>0/.P[L_,Ev3,0]:>1;
 
 Solve[%==%%,c[SL,2,2]]/.Zcc->Zeft
-%/.c[SL,1,1]->CSL11(*a*) /.c[SL,2,1]->CSL21 flagcsl21 /.c[SL,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
+%/.c[SL,1,1]->CSL11 /.c[SL,2,1]->CSL21 flagcsl21 /.c[SL,1,0]->1/(2 MW^2 (1-MW^2/MZ^2))/.tree0->1/(2 MW^2 (1-MW^2/MZ^2));
 %[[1,1,2]];
-res=plugZ@plugamp@plugct@%/.Log->ln(*/.Ev3->1*)(*/.\[Xi]A->1*)/.NF[{ME}]->1/nc/.NF[{MM}]->1/nc/.NF[{ML}]->1/nc/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
+res=plugZ@plugamp@plugct@%/.Log->ln/.Ev3->1/.\[Xi]A->1/.\[Xi]w->1/.\[Xi]z->1/.NF[{ME}]->1/.NF[{MM}]->1/.NF[{ML}]->1/.NF[__]->nc/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
 
-resS1=Series[logs@rulesxyz[%/.delta1->alphcor1/.deltaalpha1->alphcor1(*/.nc->3*)]/.ln[1/Sqrt[x]]->-1/2 ln[x],{e,0,-1}];
+resS1=Series[logs@rulesxyz[%/.delta1->alphcor1/.deltaalpha1->alphcor1/.nc->3]/.ln[1/Sqrt[x]]->-1/2 ln[x],{e,0,-1}];
 
 
 Union@Cases[res, NF[__], Infinity]
 
 
-(*a1l=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugct@CT[L,b,Ev3,2]/.Log->ln,e,-1],ln[z]]/.Ev3->1//Simplify//ExpandNumerator
-a2l=rulesxyz[Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ@plugamp[LSZ[L,p,Op,1] P[L,b,Ev3,1]]/.Log->ln,e,-1],ln[z]]]/.Ev3->1/.flaglsz->1/.\[Xi]z->1//Simplify//ExpandNumerator
-a3l=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugamp[P[L,b,Ev3,2]]/.Log->ln,e,-1],ln[z]]/.NF[__]:>1/.nc->3/.Ev3->1//Simplify//ExpandNumerator
-a4l=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[L,2,1] z[L,extpart,1,1]]/.c[L,2,1]->CL21/.Log->ln,e,-1],ln[z]]/.nc->3/.\[Xi]A->1//Simplify
-a5l=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[L,2,1]Zeft[L,ev3,ev3,1,1]]/.c[L,2,1]->CL21/.Log->ln,e,-1],ln[z]]//Simplify
-a6l=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[L,1,1] Zeft[L,op,ev3,1,1]]/.c[L,1,1]->CL11/.Log->ln,e,-1],ln[z]]/.flagself->1/.flagpeng->1//Simplify//ExpandNumerator*)
-
-
-(*contributions to ln[z]/ep*)
-a1=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugct@CT[SL,b,Ev3,2]/.Log->ln,e,-1],ln[z]]/.COUNTER->1/.Ev3->1//Simplify//ExpandNumerator
-a2=rulesxyz[Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ@plugamp[-2 MW^4/MZ^2 LSZ[SL,p,Op,1] P[SL,b,Ev3,1]]/.Log->ln,e,-1],ln[z]]]/.flaglsz->1/.Ev3->1/.\[Xi]z->1//Simplify//ExpandNumerator
-a3=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugamp[P[SL,b,Ev3,2]]/.Log->ln,e,-1],ln[z]]/.NF[ME]->1/nc/.NF[MM]->1/nc/.NF[ML]->1/nc/.NF[__]:>1/.nc->3/.AMPLIT->1/.Ev3->1//Simplify//ExpandNumerator
-a4=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,2,1] z[SL,extpart,1,1]]/.c[SL,2,1]->CSL21/.Log->ln,e,-1],ln[z]]/.nc->3/.flagextpartsl->1/.\[Xi]A->1//Simplify
-a5=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,2,1]Zeft[SL,ev3,ev3,1,1]]/.c[SL,2,1]->CSL21/.Log->ln,e,-1],ln[z]]//Simplify
-a6=rulesxyz@Coefficient[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,1,1] Zeft[SL,op,ev3,1,1]]/.c[SL,1,1]->CSL11/.Log->ln,e,-1],ln[z]]//Simplify//ExpandNumerator
-
-
-(a1 flaga1 + a2 flaga2 + a3 flaga3 + a4 flaga4 + a5 flaga5 + a6 flaga6)//Collect[#,{z},Simplify]&
-Coefficient[%, cq1]//Simplify
-
-
 flagtozero[x_] := x/.flageft2->1/.flagcl11->1/.flageft2->1/.flageftl1oe->1/.flagct->1/.flagsmev2->1/.
 flagcl21 ->1/.Flag[__]:>1/.flg[__]:>1/.flageftl1ee->1/.FLAG->1/.flagw[__]:>1/.flag[__]:>1/.flagextpartl->1/.
-flagsct->1/.flageft2->1
+flagsct->1/.flageft2->1/.flagsct->1/.flagself->1/.flagpeng->1/.flagcsl21->1/.flagextpartsl->1/.flaglsz->1
 
 
-Series[resS1/.Log->ln, {e,0,-1}]/.mw->MW/.mz->MZ/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
-flagtozero@Coefficient[%, e,-2]/.flagpeng->1/.flagself->1/.\[Xi]z->1/.\[Xi]w->1/.COUNTER->1/.\[Xi]A->1/.ln->Log/.NF[__]:>1/.nc->3/.AMPLIT->1/.Ev3->1//Simplify
+flagtozero[Coefficient[resS1, e, -2]]
 
 
-Series[resS1/.Log->ln, {e,0,-1}]/.mw->MW/.mz->MZ/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu;
-flagtozero@Coefficient[%, e,-1]/.flagpeng->1/.flagself->1(*/.\[Xi]z->1*)/.\[Xi]w->1/.\[Xi]A->1/.ln->Log;
-pole1sev3=flagtozero@rulesxyz@logs@%/.nc->3/.flaglsz->1/.flagextpartsl->1/.NF[__]:>1/.COUNTER->1/.AMPLIT->1/.Ev3->1/.flagcsl21->1/.\[Xi]z->1//Simplify//Expand
-
-
-(*a1=rulesxyz@flagtozero@tomass@logs@rulesxyz@Coefficient[plugct@CT[SL,b,Ev3,2]/.Log->ln,e,-1]/.COUNTER->1/.Ev3->1//Simplify//ExpandNumerator
-a2=rulesxyz[flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ@plugamp[LSZ[SL,p,Op,1] P[SL,b,Ev3,1]]/.Log->ln,e,-1]]/.flaglsz->1/.Ev3->1/.\[Xi]z->1//Simplify//ExpandNumerator
-a3=rulesxyz@flagtozero@tomass@logs@rulesxyz@Coefficient[plugamp[P[SL,b,Ev3,2]]/.Log->ln,e,-1]/.NF[ME]->1/nc/.NF[MM]->1/nc/.NF[ML]->1/nc/.NF[__]:>1/.nc->3/.AMPLIT->1/.Ev3->1//Simplify//ExpandNumerator
-a4=rulesxyz@flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,2,1] z[SL,extpart,1,1]]/.c[SL,2,1]->CSL21/.Log->ln,e,-1]/.nc->3/.flagextpartsl->1/.\[Xi]A->1//Simplify
-a5=rulesxyz@flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,2,1]Zeft[SL,ev3,ev3,1,1]]/.c[SL,2,1]->CSL21/.Log->ln,e,-1]//Simplify
-a6=rulesxyz@flagtozero@tomass@logs@rulesxyz@Coefficient[plugZ[ c[SL,1,1] Zeft[SL,op,ev3,1,1]]/.c[SL,1,1]->CSL11/.Log->ln,e,-1]//Simplify//ExpandNumerator*)
+flagtozero[Coefficient[resS1, e, -1]]//Simplify
 
 
 resmsl=Get["/home/ana/Desktop/comp/finalresults/ChatE1qu2loopBox.m"][[1]]/.rat->ratio/.pi->Pi/.DTPHI1->Phi/.Li2->convLi2/.
@@ -1029,6 +1050,10 @@ sw->Sqrt[1-cw^2]/.cw->MW/MZ]/.flag[__]:>1/.flagsl5->1/.FLAG->1//Collect[#, {EL^n
 
 
 (*Export["/home/ana/Desktop/comp/E2q.m",cqev5fin]*)
+
+
+(* ::Section::Closed:: *)
+(*L  matching tree level and 1 loop*)
 
 
 (* ::Subsection::Closed:: *)
@@ -1065,6 +1090,9 @@ cl30=Solve[%==%%,c[L,3,0]]
 (*L  matching  at  order  alpha   projected  into  the  physical*)
 
 
+Coefficient[SML,alpha5f^2]
+
+
 Coefficient[EFTL,alpha5f^2]/.Qproj[d_,Ev3,0]:>0/.Qproj[d_,Ev5,0]:>0/.Qproj[d_,op_,1,Ev3]:>0(*/.c[L,2,0]:>0/.c[L,3,0]:>0*);
 Coefficient[SML,alpha5f^2]/.P[d_,t_,Ev3,a_]:>0/.P[d_,t_,Ev5,a_]:>0;
 (*also alpha correction*)
@@ -1094,6 +1122,9 @@ CL11a/.flagpeng->1/.flagself->1//Collect[#, {ln[__]}, Simplify]&
 (*L  matching  at  order  alpha   projected  into  the  evanescent 3 gamma*)
 
 
+SMLaux=Coefficient[SML,alpha5f^2]+P[L,Ev3,0]/(4 Pi)deltaalpha1//Collect[#, {deltaalpha1},Simplify]&
+
+
 Coefficient[EFTL,alpha5f^2]/.Qproj[d_,Op,0]:>0/.Qproj[d_,Ev5,0]:>0/.
 Qproj[d_,op_,1,Op_]:>0/.c[L,2,0]:>0/.c[L,3,0]:>0/.c[L,3,1]:>0;
 Coefficient[SML,alpha5f^2]/.P[L,Op,0]->0/.P[d_,t_,Op,___]:>0/.CT[d_, t_, Op, ___]:>0/.
@@ -1103,11 +1134,25 @@ cl21=%[[1,1,2]]
 %/.c[L,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
 plugZ@plugamp@plugct@%/.flageftl1->1/.Ev3->1//Collect[#, {e,ln[__]},Simplify]&;
 (*Coefficient[%, 1/e]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ;*)
-
 Series[(*alphacorr*)%/.Log->ln, {e,0,0}]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {Op,1/e}, Simplify]&;
 logs@rulesxyz@%/.nc->3/.flageftl1oe->1//Collect[#, {EL,Op, 1/e,ln[__]}, Simplify]&;
 Collect[% /.ln[1/Sqrt[x]]->-1/2 ln[x], {Op, EL, c[__],e}, Together];
 CL21=%/.FLAG->1//Collect[#,{Op, EL, ln[__], c[__], 1/Pi^2},Simplify]&
+
+
+Coefficient[EFTL,alpha5f^2]/.Qproj[d_,Op,0]:>0/.Qproj[d_,Ev5,0]:>0/.
+Qproj[d_,op_,1,Op_]:>0/.c[L,2,0]:>0/.c[L,3,0]:>0/.c[L,3,1]:>0;
+SMLaux/.P[L,Op,0]->0/.P[d_,t_,Op,___]:>0/.CT[d_, t_, Op, ___]:>0/.
+LSZ[d_,p_,Op, ___]:>0;
+Simplify[Solve[%==%%,c[L,2,1]]/.Zcc->Zeft/.P[L,Ev3,0]:>1/.Qproj[L,Ev3,0]:>1]
+cl21aux=%[[1,1,2]]
+%/.c[L,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
+plugZ@plugamp@plugct@%/.flageftl1->1/.Ev3->1//Collect[#, {e,ln[__]},Simplify]&;
+(*Coefficient[%, 1/e]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ;*)
+Series[%/.deltaalpha1-> tree0 alphcor1 flagdelta/.Log->ln, {e,0,0}]/.tree0->1/(2 MW^2 (1-MW^2/MZ^2))/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {Op,1/e}, Simplify]&;
+logs@rulesxyz@%/.nc->3/.flageftl1oe->1//Collect[#, {EL,Op, 1/e,ln[__]}, Simplify]&;
+Collect[% /.ln[1/Sqrt[x]]->-1/2 ln[x], {Op, EL, c[__],e}, Together];
+CL21aux=%/.FLAG->1//Collect[#,{flagdelta},Simplify]&
 
 
 (* ::Subsection::Closed:: *)
@@ -1119,18 +1164,76 @@ Coefficient[SML,alpha5f^2]/.P[L,Op,0]->0/.P[d_,t_,Op,___]:>0/.P[d_,t_,Ev3,___]:>
 cl31=Solve[%==%%,c[L,3,1]]/.c[L,2,0]:>0/.c[L,3,0]:>0/.Zcc[d_,1,3,1,1]:>0/.Zcc->Zeft
 
 
-(* ::Subsection::Closed:: *)
+(* ::Section:: *)
+(*L  matching  2 loop*)
+
+
+Clear[simpl]
+simpl[x_]:=x/.\[Xi]A->1/.\[Xi]z->1/.\[Xi]w->1/.NF[__]:>1/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu/.\[Alpha]->EL^2/(4 Pi)/.tree0->1/(2 MW^2 (1-MW^2/MZ^2))/.flagself->1/.flagpeng->1
+
+
+(* ::Subsection:: *)
 (*L   matching   at   order   alpha^2    projected   into   the   physical*)
 
 
-(*Coefficient[EFTL,alpha5f^2]/.Qproj[d_,Ev3,0]:>0/.Qproj[d_,Ev5,0]:>0/.Qproj[d_,op_,1,op2_]:>0/.
-Qproj[d_,op_,2,op2_]:>0/.c[L,2,0]:>0/.c[L,3,0]:>0/.c[L,3,1]:>0;
+Coefficient[EFTL,alpha5f^3]/.Qproj[d_,Ev5,0]:>0/.Qproj[d_,Op,0]:>1/.
+Qproj[d_,op_,1,op2_]:>0/.Qproj[d_,op_,2,op2_]:>0/.c[L,2,0]:>0/.c[L,3,0]:>0/.c[L,3,1]:>0(*/.P[L_,Ev3,0]:>1*)/.
+Qproj[L_,Ev3,0]:>0;
 
-Coefficient[SML,alpha^2]/.P->Psimp/.CT->CTsimp/.CTsimp->CT/.Psimp->P/.
-P[d_,t_,Ev3,a_]:>0/.P[d_,t_,Ev5,a_]:>0/.CT[d_,t_,Ev3,a_]:>0;
+Coefficient[SML,alpha5f^3]/.P->Psimp/.CT->CTsimp/.Psimp->P/.CTsimp->CT/.
+P[d_,t_,Ev5,a_]:>0/.P[d_,t_,Ev3,a_]:>0/.P[d_, Op,0]:>1/.P[L_,Ev3,0]:>0/.CT[L_, s, Op, 1|2]:>0/.
+CT[L_, p|s, Op, 1|2]:>0/.P[L_, s|p, Op, 1|2]:>0;
 
-Solve[%==%%,c[L,1,2]](*/.c[SL,1,0]->csl10[[1,1,2]]*)//Expand;
-clnnlo11=%/.P[d_,Op,0]:>Qproj[d,Op,0]/.Zcc->Zeft/.P->Ppeng/.CT->CTpeng/.Ppeng->Prules/.CTpeng->CTrules//Simplify*)
+sol=Solve[%==%%,c[L,1,2]]/.Zcc->Zeft
+%/.c[L,1,1]->CL11 flagcl11/.c[L,2,1]->CL21 flagcl21/.c[L,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
+%[[1,1,2]];
+resop=plugZ@plugamp@plugct@%/.Log->ln/.\[Xi]A->1/.\[Xi]z->1/.\[Xi]w->1/.
+NF[__]:>1/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu/.\[Alpha]->EL^2/(4 Pi)/.tree0->1/(2 MW^2 (1-MW^2/MZ^2))/.flagself->0/.flagpeng->0//Collect[#, {1/e}]&;
+
+res1op=Series[logs@rulesxyz[%/.delta1->alphcor1 flagalpha1/.deltaalpha1->alphcor1 flagalpha/.nc->3]/.ln[1/Sqrt[x]]->-1/2 ln[x],{e,0,-1}]/.Op->1;
+
+
+flagtozero[tomass@Coefficient[res1op,e,-2]]/.flagext2->1/.flagamp->1/.flagctt->1//Simplify
+
+
+rulesxyz@flagtozero@tomass[Coefficient[res1op,e,-1]]//Simplify;
+%/.flagext2->1/.ln->Log/.FLAG->1(*/.flagcl11->1*)(*/.flagextpartl->1*)/.flagamp->1/.Flag[__]:>1/.
+flagctt->1/.flageft2->1/.flaglsz->1 /.flagcl11->1/. flagextpartl->1//Simplify
+Coefficient[%, Log[x]] /.flagalpha->1//Simplify
+
+
+rulesxyz[ CL11 1/(2 MW^2 (1-MW^2/MZ^2))]/.flagself->1/.flagpeng->1//Simplify
+Coefficient[%, ln[x]]//Simplify//Expand
+
+
+-94/2
+
+
+sol[[1,1,2]]//Expand
+
+
+logs@rulesxyz@logs@alphcor1
+Coefficient[%, ln[x]]
+
+
+a1=logs[ rulesxyz@flagtozero@simpl@Coefficient[plugct[CT[L,b,Op,2]],e,-1]/.ln->Log/.Log->ln]//Simplify
+a2=logs[rulesxyz@flagtozero@simpl@Coefficient[plugamp[2 deltaalpha1 P[L,b,Op,1]],e,-1]/.ln->Log/.Log->ln]//Simplify
+a3=logs[ rulesxyz@flagtozero@simpl@Coefficient[plugZ@plugamp[(LSZ[L,p,Op,1] P[L,b,Op,1])/tree0/.tree0->1/(2 MW^2 (1-MW^2/MZ^2))],e,-1]/.ln->Log/.Log->ln]//Simplify
+a4=logs[ rulesxyz@flagtozero@simpl@Coefficient[plugamp[P[L,b,Op,2]],e,-1]/.ln->Log/.Log->ln]//Simplify
+a5=logs[ rulesxyz@flagtozero@simpl@Coefficient[plugZ[c[L,1,1] z[L,extpart,1,1]/.c[L,1,1]->CL11],e,-1]/.ln->Log/.Log->ln]//Simplify
+
+
+Coefficient[a3,ln[x]]
+Series[Coefficient[logs[rulesxyz[a2/.deltaalpha1->alphcor1]]/.ln[1/Sqrt[x]]->-1/2 ln[x],ln[x]]/.nc->3,{e,0,0}]//Normal
+Series[Coefficient[logs[rulesxyz[a5/.delta1->alphcor1]]/.ln[1/Sqrt[x]]->-1/2 ln[x]/.nc->3,ln[x]],{e,0,0}]//Normal
+t=%+%%/.Op->1//Simplify//ExpandNumerator
+
+
+a1+a4/.flagamp->1/.flagctt->1/.nc->3/.Op->1//Simplify;
+t1=Coefficient[%, ln[x]]//Simplify//ExpandNumerator
+
+
+t-t1//Simplify
 
 
 (* ::Subsection:: *)
@@ -1145,10 +1248,10 @@ Coefficient[SML,alpha5f^3]/.P->Psimp/.CT->CTsimp/.CTsimp->CT/.Psimp->P/.
 P[d_,t_,Ev5,a_]:>0/.P[d_,t_,Op,a_]:>0/.P[d_, Op,0]:>0/.P[L_,Ev3,0]:>1(*/.Qproj[L_,Ev3,0]:>tree*);
 
 Solve[%==%%,c[L,2,2]]/.Zcc->Zeft
-%/.c[L,1,1]->CL11 flagcl11/.c[L,2,1]->CL21 flagcl21/.c[L,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
+%/.c[L,1,1]->CL11 flagcl11/.c[L,2,1]->(CL21)flagcl21/.c[L,1,0]->1/(2 MW^2 (1-MW^2/MZ^2));
 %[[1,1,2]];
 res=plugZ@plugamp@plugct@%/.Log->ln/.Ev3->1(*/.\[Xi]A->1*)/.
-NF[__]:>1/.nc->3/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
+NF[__]:>1/.nc->3/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu/.tree0->1/(2 MW^2 (1-MW^2/MZ^2))//Collect[#, {1/e}]&;
 
 res1=Series[logs@rulesxyz[%/.delta1->alphcor1/.deltaalpha1->alphcor1/.nc->3]/.ln[1/Sqrt[x]]->-1/2 ln[x],{e,0,-1}];
 
@@ -1158,17 +1261,12 @@ flagcl21 ->1/.Flag[__]:>1/.flg[__]:>1/.flageftl1ee->1/.FLAG->1/.flagw[__]:>1/.fl
 
 
 Series[res1/.Log->ln, {e,0,-1}]/.mw->MW/.mz->MZ/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
-flagtozero@Coefficient[%, 1/e^2](*/.flagpeng->0/.flagself->0*)/.\[Xi]z->1/.\[Xi]w->1/.\[Xi]A->1/.ln->Log//Simplify
+flagtozero@Coefficient[%,e,-2](*/.flagpeng->0/.flagself->0*)/.\[Xi]z->1/.\[Xi]w->1/.\[Xi]A->1/.ln->Log//Simplify
 
 
 Series[res1/.Log->ln, {e,0,-1}]/.mw->MW/.mz->MZ/.sw->Sqrt[1-cw^2]/.cw->MW/MZ/.\[Mu]->mu//Collect[#, {1/e}]&;
-flagtozero@Coefficient[%, 1/e]/.flagpeng->1/.flagself->1/.\[Xi]z->1/.\[Xi]w->1/.\[Xi]A->1/.ln->Log;
-pole1ev3=Simplify[rulesxyz@logs@%]/.flaglsz->1
-
-
-rulesxyz[flagtozero@Coefficient[plugct@CT[L,b,Ev3,2],1/e]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ]//Simplify
-Coefficient[plugamp@ P[L,b,Ev3,1],1/e]
-Coefficient[logs@rulesxyz[flagtozero@Coefficient[plugamp@P[L,b,Ev3,2],1/e]/.NF[__]:>1/.sw->Sqrt[1-cw^2]/.cw->MW/MZ],ln[x]]/.nc->3//Simplify
+flagtozero@Coefficient[%, e,-1]/.flagpeng->1/.flagself->1/.\[Xi]z->1/.\[Xi]w->1/.\[Xi]A->1/.ln->Log;
+pole1ev3=Simplify[rulesxyz@logs@%]/.flaglsz->1//Simplify
 
 
 (* ::Subsubsection::Closed:: *)
