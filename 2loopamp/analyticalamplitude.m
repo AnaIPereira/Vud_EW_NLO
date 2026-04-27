@@ -272,8 +272,8 @@ Do[
   diagram = diag22a[[i]]/.d->4-2e/.rule;
   res = Normal[Series[diagram, {e, 0, 0}]];
   (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
-  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
-  Export[direc <> "/Results/2loop/ampanalyt/diag" <> ToString[i] <> ".m",res1],
+  res1 = defoperm2[res]/.sw->Sqrt[1-cw^2]/.cw->MW/MZ//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]},Simplify]&;
+  Export[direc <> "/Results/2loop/penguins/ampanalyt/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[diag22a]}
 ];
 
