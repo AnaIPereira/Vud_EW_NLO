@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*set up directory*)
 
 
@@ -39,7 +39,7 @@ Get[direc <> "/code/tensred.m"]
 Get[direc <> "/code/integration_2loop.m"]
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*load files*)
 
 
@@ -77,11 +77,26 @@ diag22 = Table[Get[direc <> "/Results/2loop/gengauge/ampmastersmuonall/diag" <> 
 (*semi - leptonic*)
 
 
+(*(*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
+diag22 = Table[Get[direc <> "/Results/2loopSL/ampmasterspionall/diag" <> ToString[i] <> ".m"],{i,1,1222}]/.mass[x_]:>x;*)
+
+
+(*Length[diag22]*)
+
+
+(* ::Subsection::Closed:: *)
+(*leptonic penguins*)
+
+
 (*list with all diagrams for muon 2 loop (with tadpoles) in terms of masters feynman gauge*)
-diag22 = Table[Get[direc <> "/Results/2loopSL/ampmasterspionall/diag" <> ToString[i] <> ".m"],{i,1,1222}]/.mass[x_]:>x;
+diag22 = Table[Get[direc <> "/Results/2loop/penguins/ampmastersmuon/diag" <> ToString[i] <> ".m"],{i,1,999}]/.mass[x_]:>x;
 
 
 Length[diag22]
+
+
+(* ::Subsection:: *)
+(*semi - leptonic penguins*)
 
 
 (* ::Section:: *)
@@ -175,7 +190,7 @@ rules2 = Normal[Series[rule1/.sorttad->analyticTad,{e,0,0}]];
 rule = Dispatch[Thread[rule1 -> rules2]];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*define operators*)
 
 
@@ -233,11 +248,11 @@ Do[
 (*ana=Series[#, {e, 0, 0}] & /@ diag23;*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save results for semi - leptonic*)
 
 
-(*FEYNMAN GAUGE*)
+(*(*FEYNMAN GAUGE*)
 Do[
   diagram = diag22a[[i]]/.d->4-2e/.rule;
   res = Normal[Series[diagram, {e, 0, 0}]];
@@ -245,7 +260,26 @@ Do[
   res1 = defoperq2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
   Export[direc <> "/Results/2loopSL/analytampspionall/diag" <> ToString[i] <> ".m",res1],
   {i,1,Length[diag22a]}
+];*)
+
+
+(* ::Subsection:: *)
+(*save results for leptonic penguins*)
+
+
+(*FEYNMAN GAUGE*)
+Do[
+  diagram = diag22a[[i]]/.d->4-2e/.rule;
+  res = Normal[Series[diagram, {e, 0, 0}]];
+  (*res1 = res//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;*)
+  res1 = defoperm2[res]//Collect[#, {Op, Ev3, Ev5, 1/e, Log[__]}]&;
+  Export[direc <> "/Results/2loop/ampanalyt/diag" <> ToString[i] <> ".m",res1],
+  {i,1,Length[diag22a]}
 ];
+
+
+(* ::Subsection:: *)
+(*save results for semi - leptonic penguins*)
 
 
 (* ::Section::Closed:: *)
