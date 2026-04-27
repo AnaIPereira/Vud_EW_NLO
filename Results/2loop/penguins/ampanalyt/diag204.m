@@ -1,27 +1,11 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-Op*((el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*NF[{MD}, {MU}])/
-   (12288*e^2*MW^4*(MW^2 - MZ^2)^3*Pi^4) + 
-  (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*(8 + Pi^2)*NF[{MD}, {MU}])/
-   (24576*MW^4*(MW^2 - MZ^2)^3*Pi^4) + 
-  (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[mu]^2*NF[{MD}, {MU}])/
-   (1536*MW^4*(MW^2 - MZ^2)^3*Pi^4) - 
-  (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[MW]*NF[{MD}, {MU}])/
-   (1536*MW^2*(MW^2 - MZ^2)^4*Pi^4) + 
-  (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[MW]^2*NF[{MD}, {MU}])/
-   (1536*MW^2*(MW^2 - MZ^2)^4*Pi^4) + 
-  (el^6*MZ^8*(-4*MW^2 + MZ^2)*nc*Log[MZ]*NF[{MD}, {MU}])/
-   (1536*MW^4*(MW^2 - MZ^2)^4*Pi^4) - 
-  (el^6*MZ^8*(-4*MW^2 + MZ^2)*nc*Log[MZ]^2*NF[{MD}, {MU}])/
-   (1536*MW^4*(MW^2 - MZ^2)^4*Pi^4) + 
-  ((el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*NF[{MD}, {MU}])/(6144*MW^4*(MW^2 - MZ^2)^3*
-      Pi^4) + (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[mu]*NF[{MD}, {MU}])/
-     (3072*MW^4*(MW^2 - MZ^2)^3*Pi^4) - 
-    (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[MW]*NF[{MD}, {MU}])/
-     (3072*MW^2*(MW^2 - MZ^2)^4*Pi^4) + 
-    (el^6*MZ^8*(-4*MW^2 + MZ^2)*nc*Log[MZ]*NF[{MD}, {MU}])/
-     (3072*MW^4*(MW^2 - MZ^2)^4*Pi^4))/e + 
-  Log[mu]*((el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*NF[{MD}, {MU}])/
-     (1536*MW^4*(MW^2 - MZ^2)^3*Pi^4) - 
-    (el^6*MZ^6*(-4*MW^2 + MZ^2)*nc*Log[MW]*NF[{MD}, {MU}])/
-     (768*MW^2*(MW^2 - MZ^2)^4*Pi^4) + (el^6*MZ^8*(-4*MW^2 + MZ^2)*nc*Log[MZ]*
-      NF[{MD}, {MU}])/(768*MW^4*(MW^2 - MZ^2)^4*Pi^4)))
+Op*((9*el^6*MZ^4)/(2048*e^2*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  (9*el^6*MZ^4*Log[mu]^2)/(256*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+  (39*el^6*MZ^4*Log[MW])/(1024*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  (9*el^6*MZ^4*Log[MW]^2)/(256*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+  Log[mu]*((39*el^6*MZ^4)/(1024*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+    (9*el^6*MZ^4*Log[MW])/(128*(MW^3 - MW*MZ^2)^2*Pi^4)) + 
+  ((39*el^6*MZ^4)/(4096*(MW^3 - MW*MZ^2)^2*Pi^4) + 
+    (9*el^6*MZ^4*Log[mu])/(512*(MW^3 - MW*MZ^2)^2*Pi^4) - 
+    (9*el^6*MZ^4*Log[MW])/(512*(MW^3 - MW*MZ^2)^2*Pi^4))/e + 
+  (el^6*MZ^4*(145 + 9*Pi^2 - 81*Phi[1/4]))/(8192*(MW^3 - MW*MZ^2)^2*Pi^4))
