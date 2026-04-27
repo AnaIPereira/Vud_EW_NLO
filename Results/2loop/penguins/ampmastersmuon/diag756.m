@@ -1,6 +1,30 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(el^6*Op*auxdensimp[{0, 0, 1}, {{0, 2}, {mass[MH], 1}, {mass[MW], 1}}, 
-    {{mass[MW], 1}}, {{mass[MW], 1}}]*mass[MH]^2)/
-  (1024*Pi^8*sw^4*mass[MW]^2) - 
- (el^6*Op*auxdensimp[{0, 1, 0}, {{0, 2}, {mass[MH], 1}, {mass[MW], 1}}, 
-    {{mass[MW], 1}}, {{mass[MW], 1}}]*mass[MH]^2)/(1024*Pi^8*sw^4*mass[MW]^2)
+-1/1024*(el^6*Op*mass[MH]^2*
+    (((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+      (4*(-5 + d)*mass[MH]^2*mass[MW]^4) + 
+     ((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+      (2*(-3 + d)*mass[MH]^2*mass[MW]^4) + 
+     ((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+      (2*(-3 + d)*mass[MH]^4*mass[MW]^2) + 
+     mtad[{mass[MH], 0, mass[MW]}, {1, 0, 1}]/
+      (mass[MH]^4*(mass[MH]^2 - mass[MW]^2)) + 
+     (mass[MW]^2*mtad[{mass[MH], mass[MW], mass[MW]}, {1, 1, 1}])/
+      (mass[MH]^4*(mass[MH]^2 - mass[MW]^2)) + 
+     mtad[{mass[MW], 0, mass[MW]}, {1, 0, 1}]/
+      (mass[MW]^4*(-mass[MH]^2 + mass[MW]^2)) + 
+     mtad[{mass[MW], mass[MW], mass[MW]}, {1, 1, 1}]/
+      (mass[MW]^2*(-mass[MH]^2 + mass[MW]^2))))/(Pi^8*sw^4*mass[MW]^2) + 
+ (el^6*Op*mass[MH]^2*(((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+     (4*(-5 + d)*mass[MH]^2*mass[MW]^4) + 
+    ((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+     (2*(-3 + d)*mass[MH]^2*mass[MW]^4) + 
+    ((-2 + d)*mtad[{0, mass[MW], mass[MW]}, {0, 1, 1}])/
+     (2*(-3 + d)*mass[MH]^4*mass[MW]^2) + 
+    mtad[{mass[MH], mass[MW], 0}, {1, 1, 0}]/
+     (mass[MH]^4*(mass[MH]^2 - mass[MW]^2)) + 
+    (mass[MW]^2*mtad[{mass[MH], mass[MW], mass[MW]}, {1, 1, 1}])/
+     (mass[MH]^4*(mass[MH]^2 - mass[MW]^2)) + 
+    mtad[{mass[MW], mass[MW], 0}, {1, 1, 0}]/
+     (mass[MW]^4*(-mass[MH]^2 + mass[MW]^2)) + 
+    mtad[{mass[MW], mass[MW], mass[MW]}, {1, 1, 1}]/
+     (mass[MW]^2*(-mass[MH]^2 + mass[MW]^2))))/(1024*Pi^8*sw^4*mass[MW]^2)

@@ -4,16 +4,16 @@
 (*set up directory*)
 
 
-(*(*to run locally*)
-direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];*)
+(*to run locally*)
+direc=SetDirectory["/home/ana/Documents/GitHub/Vud_EW_NLO"];
 
 
 (*ERROR - running this exact same file locally and on lcuster gives different results. locally is ok, but cluster
 has bug and output comes in terms of auxdensimp*)
 
 
-(*to run in cluster*)
-direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];
+(*(*to run in cluster*)
+direc=SetDirectory["/z/users/acpereira/Vud_EW_NLO"];*)
 
 
 (* ::Section::Closed:: *)
@@ -126,7 +126,7 @@ amp = Get[direc <> "/Results/2loop/penguins/ampmuonpengmynot.m"];
 (*semi - leptonic penguins*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*some checks and simplifications*)
 
 
@@ -141,7 +141,7 @@ Union@Cases[amp, _ampden, Infinity]
 
 (*NOT SURE IF AMPDEN[0,0]->0 IS OK THINK ABOUT THIS*)
 
-amp0 = amp/.{ampden[0, mass[x_]]:>-1/mass[x]^2}/.{ampden[0, 0]:>0};
+amp0 = amp/.{ampden[0, x_]:>-1/x^2}/.{ampden[0, 0]:>0};
 
 
 Union@Cases[amp0, _ampden, Infinity]
@@ -221,7 +221,7 @@ diag8 = Table[
 Union@Cases[diag8,_sampden,Infinity]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*tensor  reduction  and  metric*)
 
 
@@ -278,7 +278,7 @@ rules = Thread[dens -> dens4];
 diag18 = diag17a/.rules;
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*load the rules generated in FIRE*)
 
 
@@ -326,7 +326,7 @@ mf13=Get[direc <> "/masters/mastersf13.m"]/.
 {G[a_,b_]->mtad[{m1,m2,m3},b]};
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*definition  of  the  rules*)
 
 
@@ -396,7 +396,7 @@ mf14a=Table[
 ];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*substitution  in  the  amplitude*)
 
 
@@ -448,7 +448,7 @@ Table[
 ];*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save results semi - leptonic*)
 
 
@@ -469,7 +469,7 @@ Table[
 ];*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save result leptonic penguins*)
 
 
