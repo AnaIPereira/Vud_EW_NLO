@@ -469,7 +469,7 @@ term2 = Coefficient[wRaw, ae, 2];
 
 
 (*Apply the shift only to the 1-loop term and expand - MZ is the only mass that generates an O(ae^2) *)
-shiftRule = MZ -> flagshift MZos * (1 - 1/2 * ae/(4 Pi * sw^2) * XZ1);
+shiftRule = MZ ->  MZos * (1 - 1/2 * ae/(4 Pi * (1-MWos^2/MZos^2)) * XZ1);
 term1Shifted = Normal[Series[term1 /. shiftRule, {ae, 0, 1}]];
 term1Shifted = Normal[Series[term1 /. shiftRule, {ae, 0, 1}]];
 
@@ -507,8 +507,8 @@ Union@Cases[uJCos, Log[__],Infinity]
 Union@Cases[uJCos, Log[__]^n_,Infinity]
 
 
-Coefficient[uJCos, Log[mu]]/.sw->Sqrt[1-MWos^2/MZos^2]/.alpha[__]:>1//Simplify
-%/.flagshift->1//ExpandNumerator
+Coefficient[uJCos, Log[mu]]//Simplify
+Coefficient[uJCos, Log[mu]^2]
 
 
 (* Check the explicit mu-dependence of your shift *)
