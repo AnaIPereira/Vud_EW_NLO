@@ -271,7 +271,7 @@ phi2[x_,y_]:=2/Sqrt[-(lambda[x, y])^2] (
      Cl2[2 ArcCos[(1 - x + y)/(2 Sqrt[y])]])
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*scheme independent WC MSbar*)
 
 
@@ -326,7 +326,7 @@ Coefficient[%, Mt^2]
 Coefficient[wcoef, Log[mu]^2]/.nc->3//Simplify*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*save chat*)
 
 
@@ -377,7 +377,7 @@ Union@Cases[Chat, DTPHI2[___],Infinity]/.MW->80/.MZ->90/.MH->125/.Mt->170/.DTPHI
 wcoefms=wc/.muH->mu/.pi->Pi//Collect[#, {alpha},Simplify]&;
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*function XZ with B0 from Denner section 4.3.2*)
 
 
@@ -388,7 +388,7 @@ B1/: B1[m1_,m2_,p_]:=(Integrate[Log[m1/mu^2 x + m2/mu^2 (1-x) - p/mu^2 x (1-x)],
 (Integrate[Log[m1/mu^2 x + m2/mu^2 (1-x) - p/mu^2 x (1-x)],x]/.x->0)*)
 
 
-ClearAll[r, B0, ep, mu, alpha, sw]
+ClearAll[r, B0, ep, mu, delta]
 
 (* r function *)
 r[m0_, m1_, p_] := Module[{A, r1, r2},
@@ -398,7 +398,8 @@ r[m0_, m1_, p_] := Module[{A, r1, r2},
   r1
 ]
 
-delta = (2/(4 - d) + Log[4 Pi] - EulerGamma) /. d -> 4 - 2 ep;
+(*delta = (2/(4 - d) + Log[4 Pi] - EulerGamma) /. d -> 4 - 2 ep;*)
+delta = 0;
 
 (* B0 function *)
 B0/: B0[m0_, m1_, p_] := -(delta + 2 - Log[m0 m1 / mu^2] + 
@@ -456,7 +457,7 @@ XZ1fermion = 1/3 nF (-2 + MZos^2/MWos^2 + 1/2 MZos^2/MWos^2 B0[0, 0, MZos] + 4/3
  XZ1 = XZ1boson+XZ1fermion;
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*wilson coefficient On - Shell scheme*)
 
 
@@ -487,7 +488,7 @@ Union@Cases[wcoefos,Log[__]^n_, Infinity]
 Union@Cases[wcoefos,Log[__], Infinity]
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Scheme independent On Shell Wilson Coefficient*)
 
 
@@ -497,8 +498,8 @@ alphalsOs = alphals/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f]
 uOs = u/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f]
 
 
-JCos=Series[Jexp*wcoefos/.alphalsOs, {alpha[MZ,5],0,2}];
-uJCos = Normal[Series[uOs JCos, {alpha[MZ,5],0,2}]]/.g0->-4/.g1->gaux1/.a1qu->8/.nc->3//logs//Expand;
+JCos=Normal[Series[Series[Jexp*wcoefos/.alphalsOs, {alpha[MZ,5],0,2}],{ep,0,0}]]/.g0->-4/.g1->gaux1/.a1qu->8/.nc->3//logs//Expand;
+uJCos = Normal[Series[uOs JCos, {alpha[MZ,5],0,2}]]//logs//Expand;
 
 
 Union@Cases[uJCos, Log[__],Infinity]
@@ -515,6 +516,23 @@ Coefficient[uJCos, Log[mu]^2]
 Simplify[mu D[XZ1, mu]]/sw^2/.MHos->MH/.MWos->MW/.MZos->MZ/.Mtos->MT/.sw->Sqrt[1-MW^2/MZ^2]//Simplify
 adm0//Simplify
 %/%%//Simplify
+
+
+(* ::Subsection:: *)
+(*export 2 loop On Shell Wilson Coefficient*)
+
+
+Chatos=Series[JCos, {alpha[mu,5],0,2}]/.Li2[x_]:>PolyLog[2,x]/.a1qu->8/.g0->-4/.g1->gaux1/.nc->3/.
+a2mu->4/.b1mu->(2 b2mu+832)/5/.(*S2->clausen/.*)
+DTPHI1->phi1a/.DTPHI2->phi2/.
+{beta[2]->0, gamma[2]->0, a2qu->0, b1qu->0, b2mu->0, b2qu->0}(*/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[___],Log[__], PolyLog[a_,b_]},Simplify]&;
+
+
+Chatincos=CForm[Chatos];
+
+
+Export["/home/ana/Documents/GitHub/gv_project/src/expressionos.txt",Chatincos]
 
 
 (* ::Section::Closed:: *)
