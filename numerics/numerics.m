@@ -69,7 +69,7 @@ gaux1 = (16/9 nl + 64/81 nc nu + 16/81 nc nd )/8 (a1qu-8) /. nc->3/.nd->3/.nl->3
 clausen=4/9/Sqrt[3]*ResourceFunction["ClausenCl"][2, Pi/3]//N
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Wilson coeficients*)
 
 
@@ -179,7 +179,7 @@ ad /: ad[2]:= g2 (*(-((14016 + 1016*a1qu + 6*a1qu^2 - 192*a2qu - 63*b1qu + 6*b2q
 alphaexp/:alphaexp[mu_,5] := alpha[MZ,5](1 + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu]) + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu])^2)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*check cancelation of logs of high scale - evolution from high scale from low scale*)
 
 
@@ -292,7 +292,14 @@ Clear[massls]
 massls={MZ->MZ (1 - flagmass adm0 alpha[MZ,5]/(4 Pi) Log[mu/MZ](*+flagmass(alpha[MZ,5]/(4 Pi))^2 (((ad[0])^2/2 + beta[0] ad[0])(Log[mu/MZ])^2 - ad[1] Log[mu/MZ] )*))};
 
 
-Jexp//Simplify
+adm0
+
+
+s1[1,1]
+s2[1,1]//Expand
+
+
+J2[mu,5]//Expand
 
 
 adm0//Simplify
@@ -338,8 +345,34 @@ Union@Cases[uJC, qe, Infinity]
 40849/3969//N
 
 
-Coefficient[JC,alpha[MZ,5]^2]
+Coefficient[JC,alpha[MZ,5]^2];
 Coefficient[%, a1qu]/.nc->3//Simplify
+
+
+simplifymass={x->Mt^2/MW^2,y->MH^2/MW^2,z->MZ^2/MW^2};
+
+
+martin1l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat1.m"];
+
+
+martin1l/.ae[_,_]:>1/.m->mu^2/MW^2/.simplifymass//logs//Simplify
+
+
+4 Pi Coefficient[JC,alpha[MZ,5]]//Expand
+
+
+martin2l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat2.m"];
+
+
+Coefficient[m2l,Zeta[3]]
+Coefficient[Coefficient[JC,alpha[MZ,5]^2],Zeta[3]]
+%/%%
+
+
+JC
+
+
+m2l=martin2l/.m->mu^2/MW^2/.simplifymass/.pi->Pi//logs//Simplify;
 
 
 (* ::Subsection::Closed:: *)
@@ -376,7 +409,7 @@ Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[
 wcoefms=wc/.muH->mu/.pi->Pi//Collect[#, {alpha},Simplify]&;
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*function XZ with B0 from Denner section 4.3.2*)
 
 
@@ -489,7 +522,7 @@ Union@Cases[wcoefos,Log[__], Infinity]
 wcoefos/.MHos->125/.Mtos->173/.MZos->90/.MWos->80/.ep->0//N;
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Scheme independent On Shell Wilson Coefficient*)
 
 
