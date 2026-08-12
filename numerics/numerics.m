@@ -1,57 +1,7 @@
 (* ::Package:: *)
 
 (* ::Section::Closed:: *)
-(*others*)
-
-
-(*lambsqddt[x_, y_] := (1 - x - y)^2 - 4 x y;
-phi1ddt[x_, y_] := 1/Sqrt[lambsqddt[x, y]]*
-   (2*Log[(1 + x - y - Sqrt[lambsqddt[x, y]])/2]*
-      Log[(1 - x + y - Sqrt[lambsqddt[x, y]])/2] -
-     Log[x] Log[y] -
-     2 PolyLog[2, (1 + x - y - Sqrt[lambsqddt[x, y]])/2] -
-     2 PolyLog[2, (1 - x + y - Sqrt[lambsqddt[x, y]])/2] + Pi^2/3);
-phi2ddt[x_, y_] := Block[{cl2},
-  cl2[z_] := I/2 (PolyLog[2, Exp[-I z]] - PolyLog[2, Exp[I z]]);
-  2/Sqrt[-lambsqddt[x, y]] (
-    cl2[2 ArcCos[(-1 + x + y)/(2 Sqrt[x y])]] +
-     cl2[2 ArcCos[(1 + x - y)/(2 Sqrt[x])]] +
-     cl2[2 ArcCos[(1 - x + y)/(2 Sqrt[y])]]
-    )
-  ];
-phi1ddt[x_] := Block[{cl2},
-   cl2[z_] := I/2 (PolyLog[2, Exp[-I z]] - PolyLog[2, Exp[I z]]);
-   4 Sqrt[x/(1 - x)] cl2[2 ArcSin[Sqrt[x]]]
-   ];
-   
-phi2ddt[x_] := Block[{lam},
-  lam = Sqrt[1 - 1/x];
-  1/lam (-4 PolyLog[2, (1 - lam)/2] + 2 Log[(1 - lam)/2]^2 -
-     Log[4 x]^2 + Pi^2/3)
-  ];
-PhiN[x_] :=
-  If[x > 1,
-   Chop[phi2ddt[x]],
-   Chop[phi1ddt[x]]
-   ];
-PhiN[x_, y_] :=
-  If[(lambsqddt[x, y]) < 0,
-   Chop[phi2ddt[x, y]],
-   Chop[phi1ddt[x, y]]
-   ]
-   
-PhiN[x_]:=phi2ddt[x]*)
-
-
-(* ::Section::Closed:: *)
-(*definitions and auxiliary functions*)
-
-
-(*
-M - pole mass
-m - renormalized mass in \bar{MS}
-XVi - defined in appendix B of 0105304
-*)
+(*phi functions and auxiliary functions*)
 
 
 Clear[logs]
@@ -63,194 +13,11 @@ Clear[ratio]
 ratio[a_,b_]:=a/b;
 
 
-gaux1 = (16/9 nl + 64/81 nc nu + 16/81 nc nd )/8 (a1qu-8) /. nc->3/.nd->3/.nl->3/.nu->2
-
-
 clausen=4/9/Sqrt[3]*ResourceFunction["ClausenCl"][2, Pi/3]//N
 
 
-(* ::Section::Closed:: *)
-(*Wilson coeficients*)
-
-
-clo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CLOfinal_noflags.m"][[1]]/.rat->ratio;
-
-
-cnlo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CNLOfinal_noflags.m"][[1]]/.rat->ratio;
-
-
-cnnlo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CNNLOfinal_noflags.m"][[1]]/.rat->ratio;
-
-
-cnlo
-
-
-Clear[CLO,CNLO, CNNLO,Cr]
-CLO = 1;
-CNLO[mu_, f_] :=(*(-5 + a1mu/4 + a1q/12 - 2 Log[mu^2/mZ^2])*) cnlo;
-CNNLO[mu_,5] := cnnlo;
-Cr[mu_,f_] := CLO + alpha[mu, f]/(4 Pi) CNLO[mu,f] + (alpha[mu, f]/(4 Pi))^2 CNNLO[mu,5];
-
-
-cnnlo/.MW->80/.MZ->90/.MH->125/.Mt->172//N
-
-
-(* ::Section:: *)
-(*RGE*)
-
-
-(* ::Subsection::Closed:: *)
-(*derivation of J (s)*)
-
-
-Clear[s1,beta, G1,G2, a, gamma]
-s1[i_,j_]:=beta[1]/beta[0]a[i]KroneckerDelta[i,j] - G1/(2 beta[0] (1+a[i]-a[j]))/.gamma[0]->g0/.gamma[1]->g1;
-s2[i_,j_]:=beta[2]/(2 beta[0])a[i]KroneckerDelta[i,j]+
-Sum[(1+a[i]-a[k])/(2+a[i]-a[j])*(s1[i,k]s1[k,j]-beta[1]/beta[0]s1[i,j]KroneckerDelta[j,k]),{k,1}]-
-G2/(2 beta[0](2+a[i]-a[j]))/.gamma[0]->g0/.gamma[1]->g1/.gamma[2]->g2;
-
-a[k_]:=gamma[0]/(2 beta[0]);
-G1:=gamma[1];
-G2:=gamma[2];
-
-
-(* ::Subsection::Closed:: *)
-(*WC scheme indpendence*)
-
-
-(*
-mu ->scale
-f -> number of flavours
-Q[5] ->sum of all charges for 5 flavour
-*)
-
-
-Clear[Cind]
-Cind[mu_,f_] := u[mu,f]J[mu,f]Ci[mu,f];
-
-
-(* ::Subsection::Closed:: *)
-(*J , U , Q*)
-
-
-Clear[ui,Q,uinv,J1,J1inv,J2]
-ui /: ui[mu_,f_]:= (alpha[mu,f]/alpha[MZ,f])^(-3/2/Q[f])
-uinv /: uinv[mu_,f_]:= 1/ui[mu,f]
-
-ui1 /: ui1[mu_,f_]:= (alpha[mu,f]/alpha[MZ,f])^(ad[0]/(2 beta[0]))
-uinv1 /: uinv1[mu_,f_]:= 1/ui1[mu,f]
-
-Q /: Q[5]:= nc(nu qu^2 + nd qd^2) + ne qe^2 /. {nc->3,qu->2/3,qd->-1/3,qe->-1, nu->2, nd->3,ne->3}
-
-J1 /: J1[mu_,f_]:= ad[0] beta[1]/(2 (beta[0])^2) - ad[1]/(2 beta[0])
-J1inv /: J1inv[mu_,f_]:= 1/J1[mu,f]
-
-J2 /: J2[mu_,f_]:=ad[0] beta[2]/(2 beta[0])^2 + 1/2 ((J1[mu,5])^2 - beta[1]/beta[0] J1[mu,5])- ad[2]/(4 beta[0])
-
-
-(*Clear[s1,ad,beta,J1]
-s2[1,1]/.s1[1,1]->J1[mu,5]/.gamma->ad
-J2[mu,5]/.ad[0]->g0
-%-%%//Simplify*)
-
-
-(*Series[ui1[mu,5]/.alpha[mu,5]->alphaexp[mu,5],{alpha[MZ,5],0,2}]//Normal
-Series[uinv1[mu,5]/.alpha[mu,5]->alphaexp[mu,5],{alpha[MZ,5],0,2}]//Normal*)
-
-
-(* ::Subsection:: *)
-(*beta, anomalous dimension,alpha*)
-
-
-Clear[beta,ad, alphaexp]
-
-beta /: beta[0]:= 4/3 (ne qe^2 + nd nc qd^2 + nu nc qu^2)/.nc->3/.ne->3/.nu->2/.nd->3/.qd->-1/3/.qe->-1/.qu->2/3;
-beta /: beta[1]:= 4 (ne qe^4 + nd nc qd^4 + nu nc qu^4)/.nc->3/.ne->3/.nu->2/.nd->3/.qd->-1/3/.qe->-1/.qu->2/3;
-beta /: beta[2] := (-2 (ne qe^6 + nd nc qd^6 + nu nc qu^6) - 
-44/9 (ne qe^2 + nd nc qd^2 + nu nc qu^2) * (ne qe^4 + nd nc qd^4 + nu nc qu^4))/. 
-nc -> 3 /. ne -> 3 /. nu -> 2 /. nd -> 3 /. qd -> -1/3 /. qe -> -1 /. qu -> 2/3;
-
-ad /: ad[0]:= g0(*-4*);
-ad /: ad[1]:= g1 (*gaux1*);
-ad /: ad[2]:= g2 (*(-((14016 + 1016*a1qu + 6*a1qu^2 - 192*a2qu - 63*b1qu + 6*b2qu)*(ne qe^2 + nd nc qd^2 + nu nc qu^2)) - 
-  16*(a1qu - 6*(40 + a2qu))*(ne qe^2 + nd nc qd^2 + nu nc qu^2)^2 + 
-  24*(-562 + 9*(ne qe^4 + nd nc qd^4 + nu nc qu^4)*(62 + a1qu - 96*N[Zeta[3]])))/324/.nc->3/.ne->3/.nu->2/.nd->3/.qd->-1/3/.qe->-1/.qu->2/3*);
-  
-alphaexp/:alphaexp[mu_,5] := alpha[MZ,5](1 + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu]) + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu])^2)
-
-
-(* ::Section::Closed:: *)
-(*check cancelation of logs of high scale - evolution from high scale from low scale*)
-
-
-dzmz = (*\[Alpha]/4/Pi/e*) (MZ^2)(29/6/cw^2 - 11/12/sw^2/cw^2 + 
-11/3 sw^2/cw^2 - 3/2/sw^2/cw^2 MT^2/MZ^2 - 3/4/sw^2/cw^2 MH^2/MZ^2 + 6/sw^2/cw^2 MT^4/MZ^2/MH^2 -
-3/2/sw^2/cw^2 MZ^2/MH^2 - 3/sw^2 MZ^2/MH^2 + 3 MZ^2/MH^2)/.sw->Sqrt[1-cw^2]/.cw->MW/MZ;
-
-
-adm0=-dzmz/MZ^2;
-
-
-(*Clear[beta]*)
-
-
-Clear[alphals]
-alphals={alpha[mu,5]->alpha[MZ,5](1-beta[0]*alpha[MZ,5]/(2 Pi)Log[mu/MZ])};
-
-(*alphals = {alpha[mu,5] ->
-alpha[MZ,5]*(1- beta[0] alpha[MZ,5]/(2 Pi) Log[mu/MZ]+ (alpha[MZ,5]/(2 Pi))^2(beta[0]^2 Log[mu/MZ]^2- beta[1] Log[mu/MZ]))};*)
-
-Clear[massls]
-massls={MZ->MZ (1 - adm[0] alpha[MZ,5]/(4 Pi) Log[mu/MZ] +
-(alpha[MZ,5]/(4 Pi))^2 (((adm[0])^2/2 + beta[0] adm[0])(Log[mu/MZ])^2 - adm[1] Log[mu/MZ] ))};
-
-Clear[U]
-U =1-(alpha[muH,5] ad[0]/(4 Pi)) Log[muH/muL]+ (alpha[muH,5]/(4 Pi))^2 (-ad[1] Log[muH/muL]+(ad[0]^2/2 - beta[0] ad[0])Log[muH/muL]^2);
-
-
-wc;
-
-
-wc=Series[Cr[mu,5],{alpha[mu,5],0,2}]/.mu->muH/.a1mu->4//Normal;
-
-
-wcls = Expand[U wc, {alpha[muH,5],0,2}]/.muH->mu/.muL->MZ//logs//Normal;
-
-
-wcsub = wcls/.massls/.alphals;
-
-
-wcind = Series[wcsub, {alpha[MZ,5],0,2}]//Normal;
-
-
-Coefficient[wcind, alpha[MZ,5]]/.g0->-4
-%/.a1qu->8//Simplify
-
-
-Coefficient[wcind, alpha[MZ,5]^2]/.adm->ad/.g0->-4/.nc->3/.g1->gaux1//logs;
-Coefficient[%, Log[mu]]/.beta[0]->-80/9/.adm[0]->adm0/.MT->Mt//Simplify
-
-
-Coefficient[wcind, alpha[MZ,5]^2]/.adm->ad/.g0->-4/.beta[0]->-80/9/.nc->3//logs//logs//Collect[#, {Log[__]},Simplify]&;
-Coefficient[%, Log[mu]^2]//Simplify
-
-
-Coefficient[wcind, alpha[MZ,5]^2]/.adm->ad/.g0->-4/.nc->3/.g1->gaux1//logs//Simplify;
-
-
-(*Union@Cases[wc, Log[__]^n_, Infinity]
-Union@Cases[wc, Log[__], Infinity]
-Union@Cases[wc, DTPHI1[__], Infinity]
-Union@Cases[wc,Li2[__], Infinity]
-
-Union@Cases[wcls, Log[__]^n_, Infinity]
-Union@Cases[wcls, Log[__], Infinity]
-Union@Cases[wcls, DTPHI1[__], Infinity]
-Union@Cases[wcls,Li2[__], Infinity]*)
-
-
-(* ::Section::Closed:: *)
-(*phi functions*)
+Clear[charges]
+charges = {nc->3,ne->3,nu->2,nd->3,qd->-1/3,qe->-1,qu->2/3,nl->3};
 
 
 Clear[lambda,z,Cl2,phi1a,phi1b,phi2]
@@ -272,43 +39,214 @@ phi2[x_,y_]:=2/Sqrt[-(lambda[x, y])^2] (
      Cl2[2 ArcCos[(1 - x + y)/(2 Sqrt[y])]])
 
 
+(* ::Section::Closed:: *)
+(*Wilson coeficients*)
+
+
+clo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CLOfinal_noflags.m"][[1]]/.rat->ratio;
+
+
+cnlo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CNLOfinal_noflags.m"][[1]]/.rat->ratio;
+
+
+cnnlo = Get["/home/ana/Documents/GitHub/Vud_EW_NLO/CNNLOfinal_noflags.m"][[1]]/.rat->ratio;
+
+
+Clear[CLO,CNLO, CNNLO,Cr]
+CLO = 1;
+CNLO[mu_, f_] := cnlo;
+CNNLO[mu_,5] := cnnlo;
+Cr[mu_,f_] := CLO + alpha[mu, f]/(4 Pi) CNLO[mu,f] + (alpha[mu, f]/(4 Pi))^2 CNNLO[mu,5];
+
+
+wc=Series[Cr[mu,5],{alpha[mu,5],0,2}]/.mu->muH//Normal;
+
+
+wc/.MW->80/.MZ->90/.MH->125/.Mt->172//N
+
+
+(* ::Section::Closed:: *)
+(*RGE, beta, ads and Js*)
+
+
+(* ::Subsection::Closed:: *)
+(*derivation of J (s) from Martin theses - this has sign differences compares to the draft result that I use bellow*)
+
+
+Clear[s1,beta, G1,G2, a, gamma]
+s1[i_,j_]:=beta[1]/beta[0]a[i]KroneckerDelta[i,j] - G1/(2 beta[0] (1+a[i]-a[j]))/.gamma[0]->g0/.gamma[1]->g1;
+s2[i_,j_]:=beta[2]/(2 beta[0])a[i]KroneckerDelta[i,j]+
+Sum[(1+a[i]-a[k])/(2+a[i]-a[j])*(s1[i,k]s1[k,j]-beta[1]/beta[0]s1[i,j]KroneckerDelta[j,k]),{k,1}]-
+G2/(2 beta[0](2+a[i]-a[j]))/.gamma[0]->g0/.gamma[1]->g1/.gamma[2]->g2;
+
+a[k_]:=gamma[0]/(2 beta[0]);
+G1:=gamma[1];
+G2:=gamma[2];
+
+
+(* ::Subsection::Closed:: *)
+(*J , U , Q defined - using draft+ Martin paper*)
+
+
+Clear[ui,ui1,Q5,J1,J2,J1l,J2l]
+
+ui /: ui[mu_,f_]:= (alpha[mu,f]/alpha[MZ,f])^(-3/2/Q5[2])
+ui1 /: ui1[mu_,f_]:= (alpha[mu,f]/alpha[MZ,f])^(ad[0]/(2 beta[0]))
+
+Q5 /: Q5[n_]:= nc(nu qu^n + nd qd^n) + ne qe^n /. {nc->3,qu->2/3,qd->-1/3,qe->-1, nu->2, nd->3,ne->3};
+
+J1 /: J1[f_]:= -ad[0] beta[1]/(2 (beta[0])^2) + ad[1]/(2 beta[0]);
+
+J2 /: J2[f_]:=-ad[0] beta[2]/(2 beta[0])^2 + 1/2 ((J1[5])^2 - beta[1]/beta[0] J1[5])+ ad[2]/(4 beta[0]);
+
+J1l /: J1l[f_]:= -adl[0] beta[1]/(2 (beta[0])^2) + adl[1]/(2 beta[0]);
+
+J2l /: J2l[f_]:=-adl[0] beta[2]/(2 beta[0])^2 + 1/2 ((J1l[5])^2 - beta[1]/beta[0] J1l[5])+ adl[2]/(4 beta[0]);
+
+
+(* ::Subsection::Closed:: *)
+(*beta, anomalous dimension*)
+
+
+Clear[beta,ad, adl]
+
+beta /: beta[0]:= 4/3 Q5[2]/.charges;
+beta /: beta[1]:= 4 Q5[4]/.charges;
+beta /: beta[2] := (-2 Q5[6] - 44/9 Q5[2] * Q5[4])/.charges;
+
+ad /: ad[0]:= -4;
+ad /: ad[1]:= (16/9 nl + 64/81 nc nu + 16/81 nc nd )/8 (a1qu-8) /.charges;
+ad /: ad[2]:= -1124/27-Q5[2]/324(14016+6 b2qu-63 b1qu -192 a2qu+1016 a1qu +6 (a1qu)^2) +
+2/3 Q5[4] (62 +a1qu - 96 Zeta[3])+4/81 (Q5[2])^2 (240+6 a2qu-a1qu);
+  
+adl /: adl[0]:= 0;
+adl /: adl[1]:= 2/3*Q5[2]*(4-a1mu)/.charges;
+adl /: adl[2]:= 1/12 Q5[2] (152*(4-a1mu)-64*(4-a2mu)-2*(4-a1mu)^2+5*b1mu-2b2mu-832)+
+2 Q5[4]*(4-a1mu)-4/27*(Q5[2])^2*((4-a1mu)-6*(4-a2mu));
+
+(*alphaexp/:alphaexp[mu_,5] := alpha[MZ,5](1 + 
+(beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu]) + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu])^2);*)
+
+
+(* ::Subsection::Closed:: *)
+(*Z mass anomalous dimension and mass running*)
+
+
+dzmz = (*\[Alpha]/4/Pi/e*) (MZ^2)(29/6/cw^2 - 11/12/sw^2/cw^2 + 
+11/3 sw^2/cw^2 - 3/2/sw^2/cw^2 Mt^2/MZ^2 - 3/4/sw^2/cw^2 MH^2/MZ^2 + 6/sw^2/cw^2 Mt^4/MZ^2/MH^2 -
+3/2/sw^2/cw^2 MZ^2/MH^2 - 3/sw^2 MZ^2/MH^2 + 3 MZ^2/MH^2)/.sw->Sqrt[1-cw^2]/.cw->MW/MZ;
+
+
+adm0=-dzmz/MZ^2;
+
+
+Clear[massls]
+massls={MZ->MZ (1 - (*flagmass*) adm0 alpha[MZ,5]/(4 Pi) Log[mu/MZ](*+flagmass(alpha[MZ,5]/(4 Pi))^2 (((ad[0])^2/2 + beta[0] ad[0])(Log[mu/MZ])^2 - ad[1] Log[mu/MZ] )*))};
+
+
+(* ::Subsection::Closed:: *)
+(*alpha running and mass running*)
+
+
+Clear[alphals]
+alphals = {alpha[mu,5] ->alpha[MZ,5] (1 + 2 beta[0] alpha[MZ,5]/(4 Pi) Log[mu/MZ]+ 
+2(alpha[MZ,5]/(4 Pi))^2 (2 beta[0]^2 Log[mu/MZ]^2 + beta[1] Log[mu/MZ]) + 
+    2 (alpha[MZ, 5]/(4 Pi))^3 (4 beta[0]^3 Log[mu/MZ]^3 + 5 beta[0] beta[1] Log[mu/MZ]^2 + beta[2] Log[mu/MZ]) )};
+
+
+(* ::Subsubsection::Closed:: *)
+(*check alpha running*)
+
+
+aaaa = alpha[mu, 5] /. alphals;
+
+Series[
+  mu D[aaaa, mu] -
+   2 aaaa (
+     beta[0]/(4 Pi) aaaa +
+     beta[1]/(4 Pi)^2 aaaa^2 +
+     beta[2]/(4 Pi)^3 aaaa^3
+   ),
+  {alpha[MZ, 5], 0, 4}
+]
+
+
+ClearAll[alpha2Loop, alpha3Loop, mu];
+
+alpha2Loop[mu_] := 
+  alpha[MZ, 5] (
+    1 
+    + 2 beta[0] alpha[MZ, 5]/(4 Pi) Log[mu/MZ]
+    + 2 (alpha[MZ, 5]/(4 Pi))^2 (
+        2 beta[0]^2 Log[mu/MZ]^2 
+        + beta[1] Log[mu/MZ]
+      )
+  ) /. 
+    alpha[MZ, 5] -> 1/127.95 /. 
+    MZ -> 91.1876;
+
+
+alpha3Loop[mu_] := 
+  alpha2Loop[mu] + 
+  alpha[MZ, 5] *
+    2 (alpha[MZ, 5]/(4 Pi))^3 (
+      4 beta[0]^3 Log[mu/MZ]^3 
+      + 5 beta[0] beta[1] Log[mu/MZ]^2 
+      + beta[2] Log[mu/MZ]
+    ) /. 
+      alpha[MZ, 5] -> 1/127.95 /. 
+      MZ -> 91.1876;
+
+
+Plot[
+  {alpha2Loop[mu], alpha3Loop[mu]},
+  {mu, 40, 300},
+  PlotStyle -> {
+    {Yellow, Solid},
+    {Blue,Dashed}
+  },
+  PlotLegends -> {"2-loop", "3-loop"},
+  Frame -> True,
+  FrameLabel -> {"\[Mu] [GeV]", "\[Alpha](\[Mu])"},
+  PlotRange -> All,
+  GridLines -> Automatic,
+  ImageSize -> Small
+]
+
+
+(* ::Section::Closed:: *)
+(*check cancelation of logs of high scale - evolution from high scale from low scale*)
+
+
+(*U = J U_LO J^-1
+U_LO = (alpha(mu)/alpha(MZ)^(-3/2/Q^2)) for QED*)
+(*this only contains 1 loop J, so we can only check the mu cancelation at
+1 loop order*)
+Clear[U]
+U =1-(alpha[muH,5] ad[0]/(4 Pi)) Log[muH/muL]+ (alpha[muH,5]/(4 Pi))^2 (-ad[1] Log[muH/muL]+(ad[0]^2/2 - beta[0] ad[0])Log[muH/muL]^2);
+
+
+wcls = Expand[U wc, {alpha[muH,5],0,2}]/.muH->mu/.muL->MZ//logs//Normal;
+
+
+wcsub = wcls/.massls/.alphals/.flagmass->1;
+
+
+wcind = Series[wcsub, {alpha[MZ,5],0,2}]//Normal;
+
+
+Coefficient[wcind, Log[mu]^2]//Simplify
+
+
+Coefficient[wcind, Log[mu]]//Simplify
+
+
 (* ::Section:: *)
 (*scheme independent WC MSbar*)
 
 
-(* ::Subsection:: *)
-(*wilson coefficient*)
-
-
-Clear[alphals]
-alphals = {alpha[mu,5] ->alpha[MZ,5] (1 + 2 flagalpha1 beta[0] alpha[MZ,5]/(4 Pi) Log[mu/MZ]+ 
-2(alpha[MZ,5]/(4 Pi))^2 (2 flagalpha1^2 beta[0]^2 Log[mu/MZ]^2 + flagalphabeta1 beta[1] Log[mu/MZ]) )}/.flagalpha1->1/.flagalphabeta1->1;
-
-Jexp=1 + alpha[mu,5]/(4 Pi)s1[1,1] + flagj2 (alpha[mu,5]/(4 Pi))^2 s2[1,1]/.g1->gaux1/.g0->-4/.
-g2-> (-2 (ne qe^6 + nd nc qd^6 + nu nc qu^6) - 
-44/9 (ne qe^2 + nd nc qd^2 + nu nc qu^2) * (ne qe^4 + nd nc qd^4 + nu nc qu^4))//Expand;
-
-Clear[massls]
-massls={MZ->MZ (1 - flagmass adm0 alpha[MZ,5]/(4 Pi) Log[mu/MZ](*+flagmass(alpha[MZ,5]/(4 Pi))^2 (((ad[0])^2/2 + beta[0] ad[0])(Log[mu/MZ])^2 - ad[1] Log[mu/MZ] )*))};
-
-
-adm0
-
-
-s1[1,1]
-s2[1,1]//Expand
-
-
-J2[mu,5]//Expand
-
-
-adm0//Simplify
-
-
-aaaa=alpha[mu,5]/.alphals;
-
-
-Series[mu D[aaaa,mu]-aaaa 2(beta[0]/(4 Pi) aaaa+beta[1]/(4 Pi)^2 aaaa^2)/.{flagalpha1->1,flagalphabeta1->1,flagalphabeta0->1},{alpha[MZ,5],0,3}]
+(* ::Subsection::Closed:: *)
+(*chat MSbar*)
 
 
 wcaux=wc/.muH->mu/.pi->Pi;
@@ -317,85 +255,116 @@ wc2 = Coefficient[wcaux,alpha[mu,5]^2]alpha[mu,5]^2;
 wcoef= 1 + wc1 + wc2//Collect[#, {alpha},Simplify]&;
 
 
-(*Series[Uevol*wcoef, {alpha[mu,5],0,1}]//logs//Simplify//Normal*)
+Clear[Jexp,Jexpl]
+(*Jexp=1 + alpha[mu,5]/(4 Pi)s1[1,1] + flagj2 (alpha[mu,5]/(4 Pi))^2 s2[1,1]/.g1->gaux1/.g0->-4/.
+g2-> (-2 (ne qe^6 + nd nc qd^6 + nu nc qu^6) - 
+44/9 (ne qe^2 + nd nc qd^2 + nu nc qu^2) * (ne qe^4 + nd nc qd^4 + nu nc qu^4))//Expand;*)
+
+(*commented because s1 and s2 derived from Martin theses do not
+agree with the signs in the paper. J1 and J2 are
+hardcodded to have the same values as in the paper, and we
+are using these to check the mu independence of Chat*)
+
+Jexp = 1 + alpha[mu,5]/(4 Pi) J1[5]+ (alpha[mu,5]/(4 Pi))^2 J2[5];
+Jexpl = 1 + alpha[mu,5]/(4 Pi) J1l[5]+ (alpha[mu,5]/(4 Pi))^2 J2l[5];
 
 
-Series[uinv[mu,5]/.alphals,{ flagalpha,0,2}]//Normal
 
+JC=Series[Jexpl/Jexp*wcoef/.alphals, {alpha[MZ,5],0,2}]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu},Simplify]&;
 
-JC=Series[Jexp*wcoef/.alphals, {alpha[MZ,5],0,2}];
-u=Normal[Series[uinv[mu,5]/.alphals, {alpha[MZ,5],0,2}]]//logs;
-uJC = Normal[Series[u JC, {alpha[MZ,5],0,2}]]/.g0->-4(*/.g1->gaux1*)/.nc->3//logs//Expand;
+u=Normal[Series[1/(ui[mu,5])/.alphals, {alpha[MZ,5],0,2}]]//logs;
+uJC = Normal[Series[u JC, {alpha[MZ,5],0,2}]]/.nc->3//logs//Expand;
+
 
 Union@Cases[Simplify[uJC/.flagwc1->1/.flagwc2->1/.flagjg0->1/.MT->Mt/.flagmass->1], Log[__],Infinity]
 Union@Cases[uJC/.flagwc1->1/.flagwc2->1, Log[__]^n_,Infinity]
 
-
-(*Export["/home/ana/Documents/GitHub/gv_project_2L/src/Chat2loop.m",JC]*)
-
-
 Coefficient[uJC, Log[mu]]/.flagwc1->1/.flagwc2->1/.flagjg0->1/.MT->Mt/.flagmass->1//Simplify
-
 Coefficient[uJC, Log[mu]^2]/.flagwc1->1/.flagwc2->1//Simplify
 
 
-Union@Cases[uJC, qe, Infinity]
+u/.mu->300/.alpha[MZ,5]->1/127.951/.MZ->91.1876//N
 
 
-40849/3969//N
+JCsimp1=Coefficient[JC,alpha[MZ,5]];
 
 
-Coefficient[JC,alpha[MZ,5]^2];
-Coefficient[%, a1qu]/.nc->3//Simplify
+JCsimp2=Coefficient[JC,alpha[MZ,5]^2];
+
+
+JCsimp2;
+Union@Cases[JCsimp2, Log[__], Infinity]
+Union@Cases[JCsimp2, Log[__]^2, Infinity]
+
+Coefficient[JCsimp2, a1qu]
+Coefficient[JCsimp2, a2qu]
+Coefficient[JCsimp2, b1qu]
+Coefficient[JCsimp2, b2qu]
+
+Coefficient[JCsimp2, a1mu]
+Coefficient[JCsimp2, a2mu]
+Coefficient[JCsimp2, b1mu]
+Coefficient[JCsimp2, b2mu]
+
+
+(* ::Subsection::Closed:: *)
+(*comparison with Martin results - 1 loop agrees, 2 loop no*)
 
 
 simplifymass={x->Mt^2/MW^2,y->MH^2/MW^2,z->MZ^2/MW^2};
 
 
-martin1l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat1.m"];
+martin1l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat1.m"]/.
+ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;
 
 
-martin1l/.ae[_,_]:>1/.m->mu^2/MW^2/.simplifymass//logs//Simplify
+JCsimp1(4 Pi);
+martin1l;
+%-%%//Simplify
 
 
-4 Pi Coefficient[JC,alpha[MZ,5]]//Expand
+martin2l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat2.m"]/.pi->Pi/.
+ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;
 
 
-martin2l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat2.m"];
+A=JCsimp2 (4Pi)^2//Simplify;
+B=martin2l//Simplify;
 
 
-Coefficient[m2l,Zeta[3]]
-Coefficient[Coefficient[JC,alpha[MZ,5]^2],Zeta[3]]
-%/%%
+Coefficient[Coefficient[A, Log[MZ]],MW^2]//Simplify;
+Coefficient[Coefficient[B, Log[MZ]],MW^2]//Simplify;
+%/%%//Simplify
 
 
-JC
+(* ::Subsection:: *)
+(*save chat for c++ code*)
 
 
-m2l=martin2l/.m->mu^2/MW^2/.simplifymass/.pi->Pi//logs//Simplify;
+(*Export["/home/ana/Documents/GitHub/gv_project_2L/src/Chat2loop.m",JC]*)
 
 
-(* ::Subsection::Closed:: *)
-(*save chat*)
+(*currently giving as input J^(-1)(mu) C(mu) with no changes
+code in c++ should do running of the masses and running of alpha*)
 
 
-(*JCplot = Series[Jexp*wcoef/.flagmass->0, {alpha[MZ,5],0,2}];*)
+JCcpp=Series[Jexpl/Jexp*wcaux, {alpha[mu,5],0,2}]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu},Simplify]&;
 
 
-(*Chat=Series[JCplot(*/.flagmass->1*), {alpha[mu,5],0,2}]/.MT->Mt/.Li2[x_]:>PolyLog[2,x]/.a1qu->8/.g0->-4/.g1->gaux1/.nc->3/.
-a2mu->4/.b1mu->(2 b2mu+832)/5/.(*S2->clausen/.*)
-DTPHI1->phi1a/.DTPHI2->phi2/.
-{beta[2]->0, gamma[2]->0, a2qu->0, b1qu->0, b2mu->0, b2qu->0}(*/.
-Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[___]},Simplify]&;*)
+Chat=Series[JCcpp, {alpha[mu,5],0,2}]/.MT->Mt/.Li2[x_]:>PolyLog[2,x]/.nc->3/.
+(*S2->clausen/.*)Zeta[3]->N[Zeta[3]]/.
+DTPHI1->phi1a/.DTPHI2->phi2(*/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[___]},Simplify]&;
 
 
-(*Chataux = Coefficient[Chat, alpha[mu,5]^2]alpha[mu,5]^2;*)
+Chataux = Coefficient[Chat, alpha[mu,5]^2]alpha[mu,5]^2;
 
 
-(*Chatinc=CForm[Chataux];*)
+Chatinc=CForm[Chataux];
 
 
-(*Export["/home/ana/Documents/GitHub/GV/gv/src/expression.txt",Chatinc]*)
+Export["/home/ana/Documents/GitHub/GV/gv/src/expression.txt",Chatinc]
 
 
 (* ::Section:: *)
@@ -409,7 +378,7 @@ Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[
 wcoefms=wc/.muH->mu/.pi->Pi//Collect[#, {alpha},Simplify]&;
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*function XZ with B0 from Denner section 4.3.2*)
 
 
@@ -522,7 +491,7 @@ Union@Cases[wcoefos,Log[__], Infinity]
 wcoefos/.MHos->125/.Mtos->173/.MZos->90/.MWos->80/.ep->0//N;
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Scheme independent On Shell Wilson Coefficient*)
 
 
@@ -577,62 +546,3 @@ Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[
 
 
 (*Export["/home/ana/Documents/GitHub/GV/gv/src/expressionos.txt", Chatincos]*)
-
-
-(* ::Section::Closed:: *)
-(*plots*)
-
-
-(*Clear[beta,ad, alphaexp]
-
-beta /: beta[0]:= 4/3 (ne qe^2 + nd nc qd^2 + nu nc qu^2)/.nc->3/.ne->3/.nu->2/.nd->3/.qd->-1/3/.qe->-1/.qu->2/3;
-beta /: beta[1]:= 4 (ne qe^4 + nd nc qd^4 + nu nc qu^4)/.nc->3/.ne->3/.nu->2/.nd->3/.qd->-1/3/.qe->-1/.qu->2/3;
-ad /: ad[0]:= g0(*-4*);
-ad /: ad[1]:= g1 (*gaux1*);
-
-alphaexp/:alphaexp[mu_,5] := alpha[MZ,5](1 + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu]) + (beta[0] alpha[MZ,5]/(2 Pi) Log[mZ/mu])^2)*)
-
-
-(*Clear[beta, ad, alphaexp, WC]
-
-(* beta-function coefficients *)
-beta[0] := 4/3 (ne qe^2 + nd nc qd^2 + nu nc qu^2) /. {
-    nc -> 3, ne -> 3, nu -> 2, nd -> 3,
-    qd -> -1/3, qe -> -1, qu -> 2/3
-};
-
-beta[1] := 4 (ne qe^4 + nd nc qd^4 + nu nc qu^4) /. {
-    nc -> 3, ne -> 3, nu -> 2, nd -> 3,
-    qd -> -1/3, qe -> -1, qu -> 2/3
-};
-
-(* Input parameters *)
-MZ = 91.1876;
-alpha[MZ, 5] = 1/127.95;
-
-(* Running alpha expanded around MZ *)
-alphaexp[mu_, 5] :=
-  alpha[MZ, 5]*
-   (1 +
-     beta[0] alpha[MZ, 5]/(2 Pi) Log[MZ/mu] +
-     (beta[0] alpha[MZ, 5]/(2 Pi) Log[MZ/mu])^2);
-
-(* Wilson coefficient *)
-WC[mu_] :=
-  1 + alphaexp[mu, 5]*
-      (-40 - 48 Log[mu] + 48 Log[MZ])/(48 Pi);
-
-(* Plot *)
-Plot[
-  {1, WC[mu]},
-  {mu, 50, 300},
-  PlotStyle -> {
-    {Black, Dashed},   (* LO *)
-    {Red, Thick}       (* NLO *)
-  },
-  PlotLegends -> {"CLO", "CNLO"},
-  AxesLabel -> {"\[Mu] (GeV)", "C(\[Mu])"},
-  GridLines -> Automatic,
-  PlotRange -> All,
-  ImageSize -> Large
-]*)
