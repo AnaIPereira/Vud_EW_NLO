@@ -65,6 +65,9 @@ wc=Series[Cr[mu,5],{alpha[mu,5],0,2}]/.mu->muH//Normal;
 wc/.MW->80/.MZ->90/.MH->125/.Mt->172//N
 
 
+wcaux=wc/.muH->mu/.pi->Pi;
+
+
 (* ::Section::Closed:: *)
 (*RGE, beta, ads and Js*)
 
@@ -102,6 +105,20 @@ J2 /: J2[f_]:=-ad[0] beta[2]/(2 beta[0])^2 + 1/2 ((J1[5])^2 - beta[1]/beta[0] J1
 J1l /: J1l[f_]:= -adl[0] beta[1]/(2 (beta[0])^2) + adl[1]/(2 beta[0]);
 
 J2l /: J2l[f_]:=-adl[0] beta[2]/(2 beta[0])^2 + 1/2 ((J1l[5])^2 - beta[1]/beta[0] J1l[5])+ adl[2]/(4 beta[0]);
+
+
+Clear[Jexp,Jexpl]
+(*Jexp=1 + alpha[mu,5]/(4 Pi)s1[1,1] + flagj2 (alpha[mu,5]/(4 Pi))^2 s2[1,1]/.g1->gaux1/.g0->-4/.
+g2-> (-2 (ne qe^6 + nd nc qd^6 + nu nc qu^6) - 
+44/9 (ne qe^2 + nd nc qd^2 + nu nc qu^2) * (ne qe^4 + nd nc qd^4 + nu nc qu^4))//Expand;*)
+
+(*commented because s1 and s2 derived from Martin theses do not
+agree with the signs in the paper. J1 and J2 are
+hardcodded to have the same values as in the paper, and we
+are using these to check the mu independence of Chat*)
+
+Jexp = 1 + alpha[mu,5]/(4 Pi) J1[5]+ (alpha[mu,5]/(4 Pi))^2 J2[5];
+Jexpl = 1 + alpha[mu,5]/(4 Pi) J1l[5]+ (alpha[mu,5]/(4 Pi))^2 J2l[5];
 
 
 (* ::Subsection::Closed:: *)
@@ -241,7 +258,7 @@ Coefficient[wcind, Log[mu]^2]//Simplify
 Coefficient[wcind, Log[mu]]//Simplify
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*scheme independent WC MSbar*)
 
 
@@ -249,25 +266,9 @@ Coefficient[wcind, Log[mu]]//Simplify
 (*chat MSbar*)
 
 
-wcaux=wc/.muH->mu/.pi->Pi;
 wc1 = Coefficient[wcaux,alpha[mu,5]]alpha[mu,5]/.massls;
 wc2 = Coefficient[wcaux,alpha[mu,5]^2]alpha[mu,5]^2;
 wcoef= 1 + wc1 + wc2//Collect[#, {alpha},Simplify]&;
-
-
-Clear[Jexp,Jexpl]
-(*Jexp=1 + alpha[mu,5]/(4 Pi)s1[1,1] + flagj2 (alpha[mu,5]/(4 Pi))^2 s2[1,1]/.g1->gaux1/.g0->-4/.
-g2-> (-2 (ne qe^6 + nd nc qd^6 + nu nc qu^6) - 
-44/9 (ne qe^2 + nd nc qd^2 + nu nc qu^2) * (ne qe^4 + nd nc qd^4 + nu nc qu^4))//Expand;*)
-
-(*commented because s1 and s2 derived from Martin theses do not
-agree with the signs in the paper. J1 and J2 are
-hardcodded to have the same values as in the paper, and we
-are using these to check the mu independence of Chat*)
-
-Jexp = 1 + alpha[mu,5]/(4 Pi) J1[5]+ (alpha[mu,5]/(4 Pi))^2 J2[5];
-Jexpl = 1 + alpha[mu,5]/(4 Pi) J1l[5]+ (alpha[mu,5]/(4 Pi))^2 J2l[5];
-
 
 
 JC=Series[Jexpl/Jexp*wcoef/.alphals, {alpha[MZ,5],0,2}]/.nc->3//logs//
@@ -337,8 +338,8 @@ Coefficient[Coefficient[B, Log[MZ]],MW^2]//Simplify;
 %/%%//Simplify
 
 
-(* ::Subsection:: *)
-(*save chat for c++ code*)
+(* ::Subsection::Closed:: *)
+(*save chat MSbar for c++ code*)
 
 
 (*Export["/home/ana/Documents/GitHub/gv_project_2L/src/Chat2loop.m",JC]*)
@@ -364,18 +365,11 @@ Chataux = Coefficient[Chat, alpha[mu,5]^2]alpha[mu,5]^2;
 Chatinc=CForm[Chataux];
 
 
-Export["/home/ana/Documents/GitHub/GV/gv/src/expression.txt",Chatinc]
+(*Export["/home/ana/Documents/GitHub/GV/gv/src/expression.txt",Chatinc]*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*scheme independent OS*)
-
-
-(* ::Subsection::Closed:: *)
-(*wilson coefficient in MSbar*)
-
-
-wcoefms=wc/.muH->mu/.pi->Pi//Collect[#, {alpha},Simplify]&;
 
 
 (* ::Subsection::Closed:: *)
@@ -461,7 +455,7 @@ XZ1fermion = 1/3 nF (-2 + MZos^2/MWos^2 + 1/2 MZos^2/MWos^2 B0[0, 0, MZos] + 4/3
 (*convert run masses to on shell masses*)
 
 
-wRaw = Normal[wcoefms] /. alpha[mu, 5] -> ae;
+wRaw = Normal[wcaux] /. alpha[mu, 5] -> ae;
 
 (*Isolate the Tree, 1-loop, and 2-loop coefficients *)
 term0 = Coefficient[wRaw, ae, 0];
@@ -470,9 +464,8 @@ term2 = Coefficient[wRaw, ae, 2];
 
 
 (*Apply the shift only to the 1-loop term and expand - MZ is the only mass that generates an O(ae^2) *)
-shiftRule = MZ ->  MZos * (1 - 1/2 * ae/(4 Pi * (1-MWos^2/MZos^2)) * XZ1);
-term1Shifted = Normal[Series[term1 /. shiftRule, {ae, 0, 1}]];
-term1Shifted = Normal[Series[term1 /. shiftRule, {ae, 0, 1}]];
+shiftRule=MZ -> MZos*(1-1/2*ae/(4 Pi*(1-MWos^2/MZos^2))*XZ1);
+term1Shifted=Normal[Series[term1/.shiftRule,{ae, 0, 1}]];
 
 
 (*at 2 loop theres no correction cause the correction is O(ae^3)*)
@@ -485,64 +478,397 @@ wcoefos = Normal[Series[term0 + ae * term1Shifted + ae^2 * term2Shifted, {ae, 0,
 
 
 Union@Cases[wcoefos,Log[__]^n_, Infinity];
-Union@Cases[wcoefos,Log[__], Infinity]
+Union@Cases[wcoefos,Log[__], Infinity];
 
 
 wcoefos/.MHos->125/.Mtos->173/.MZos->90/.MWos->80/.ep->0//N;
 
 
 (* ::Subsection::Closed:: *)
-(*Scheme independent On Shell Wilson Coefficient*)
+(*running of alpha and u for on - shell scheme*)
 
 
-alphalsOs = alphals/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f]
+alphalsOs = alphals/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f];
 
 
-uOs = u/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f]
-
-
-JCos=Normal[Series[Series[Jexp*wcoefos/.alphalsOs, {alpha[MZ,5],0,2}],{ep,0,0}]]/.g0->-4/.g1->gaux1/.a1qu->8/.nc->3//logs//Expand;
-uJCos = Normal[Series[uOs JCos, {alpha[MZ,5],0,2}]]//logs//Expand;
-
-
-(*JCos/.a2mu->0/.b1mu->0/.a2qu->0/. b1qu->0/.b2qu->0/.Log[__]:>0/.Li2[__]:>0/.
-DTPHI1[a_]:>0/.DTPHI2[a_,b_]:>0/.b2mu->0/.Complex[0,x_]:>0//Simplify*)
-
-
-nummasses@Union@Cases[uJCos, Log[__],Infinity]
-
-
-Union@Cases[uJCos, Log[__]^n_,Infinity]
-
-
-Coefficient[uJCos, Log[mu]]//Simplify
-Coefficient[uJCos, Log[mu]^2]
-
-
-(* Check the explicit mu-dependence of your shift *)
-Simplify[mu D[XZ1, mu]]/sw^2/.MHos->MH/.MWos->MW/.MZos->MZ/.Mtos->MT/.sw->Sqrt[1-MW^2/MZ^2]//Simplify
-adm0//Simplify
-%/%%//Simplify
+uOs = u/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f];
 
 
 (* ::Subsection::Closed:: *)
-(*export 2 loop On Shell Wilson Coefficient to do the plot in numerics*)
+(*chat on - shell*)
 
 
-(*Chatos=Series[Jexp*wcoefos, {alpha[mu,5],0,2}]/.Li2[x_]:>PolyLog[2,x]/.a1qu->8/.g0->-4/.g1->gaux1/.nc->3/.
-a2mu->4/.b1mu->(2 b2mu+832)/5/.(*S2->clausen/.*)
-DTPHI1->phi1a/.DTPHI2->phi2/.
-{beta[2]->0, gamma[2]->0, a2qu->0, b1qu->0, b2mu->0, b2qu->0}(*/.
-Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//Collect[#, {alpha[___],Log[__], PolyLog[a_,b_]},Simplify]&;*)
+JCos=Normal[Series[Series[Jexpl/Jexp*wcoefos/.alphalsOs, {alpha[MZ,5],0,2}],{ep,0,0}]]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu},Simplify]&;
 
 
-(*Chatosaux = Coefficient[Simplify[Chatos],alpha[mu,5]^2]alpha[mu,5]^2;*)
+uJCos = Normal[Series[uOs JCos, {alpha[MZ,5],0,2}]]//logs//
+Collect[#, {Log[__], Log[__]^n_},Simplify]&;
 
 
-(*Union@Cases[Chatosaux, SW,Infinity]*)
+Union@Cases[uJCos, Log[__]^n_,Infinity]
+Union@Cases[uJCos, Log[__],Infinity]
 
 
-(*Chatincos = CForm[Chatosaux/.MHos->MH/.Mtos->Mt/.MZos->MZ/.MWos->MW];*)
+Coefficient[uJCos, Log[mu]]
+Coefficient[uJCos, Log[mu]^2]
 
 
-(*Export["/home/ana/Documents/GitHub/GV/gv/src/expressionos.txt", Chatincos]*)
+JCossimp1=Coefficient[JCos,alpha[MZ,5]];
+
+
+JCossimp2=Coefficient[JCos,alpha[MZ,5]^2];
+
+
+JCossimp2;
+
+Coefficient[JCossimp2, a1qu]
+Coefficient[JCossimp2, a2qu]
+Coefficient[JCossimp2, b1qu]
+Coefficient[JCossimp2, b2qu]
+
+Coefficient[JCossimp2, a1mu]
+Coefficient[JCossimp2, a2mu]
+Coefficient[JCossimp2, b1mu]
+Coefficient[JCossimp2, b2mu]
+
+
+(* ::Subsection::Closed:: *)
+(*check Jegherlener B against admMZ*)
+
+
+(* Check the explicit mu-dependence of shift *)
+Simplify[mu D[XZ1, mu]]/sw^2/.MHos->MH/.MWos->MW/.MZos->MZ/.Mtos->MT/.sw->Sqrt[1-MW^2/MZ^2]//Simplify
+adm0//Simplify
+%/%%/.MT->Mt//Simplify
+
+
+
+(* ::Subsection:: *)
+(*save chat MSbar for c++ code*)
+
+
+JCoscpp=Series[Series[Jexpl/Jexp*wcoefos, {alpha[mu,5],0,2}],{ep,0,0}]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu, Log[__], Log[__]^n_},Simplify]&;
+
+
+(*Coefficient[JCoscpp, a1qu]
+Coefficient[JCoscpp, a2qu]
+Coefficient[JCoscpp, b1qu]
+Coefficient[JCoscpp, b2qu]
+
+Coefficient[JCoscpp, a1mu]
+Coefficient[JCoscpp, a2mu]
+Coefficient[JCoscpp, b1mu]
+Coefficient[JCoscpp, b2mu]*)
+
+
+Chatos=JCoscpp/.nc->3/.Zeta[x_]:>N[Zeta[x]]/.Li2[x_]:>PolyLog[2,x]/.(*S2->clausen/.*)
+DTPHI1->phi1a/.DTPHI2->phi2(*/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]*)//logs//Normal//
+Collect[#, {alpha[__],Log[__],Log[__]^n_},Simplify]&;
+
+
+Chatosaux = Coefficient[Chatos,alpha[mu,5]^2]alpha[mu,5]^2;
+
+
+Chatincos = CForm[Chatosaux/.MHos->MH/.Mtos->Mt/.MZos->MZ/.MWos->MW];
+
+
+Export["/home/ana/Documents/GitHub/GV/gv/src/expressionos.txt", Chatincos]
+
+
+(* ::Section::Closed:: *)
+(*plot jegherlener (*when running this part comment out the mr*)*)
+
+
+(* ::Subsection::Closed:: *)
+(*renormalization constants*)
+
+
+(* 1-Loop Bosonic Mass Renormalization Constants *)
+
+Clear[Z11H, Z11W, Z11Z]
+
+(* Paper I eq 4.7*)
+Z11H[t_] := -3/2-(3/4)*(MZ2[t]/MW2[t])+(3/4)*(MH2[t]/MW2[t]);
+
+(*Paper I eq 4.8*)
+Z11W[t_] := -(3/4)*(MH2[t]/MW2[t])-3*(MW2[t]/MH2[t]) - 
+            (3/2)*(MZ2[t]^2/(MH2[t]*MW2[t]))+(3/4)*(MZ2[t]/MW2[t])-17/3;
+
+(*Paper I eq 4.9*)
+Z11Z[t_] := -(3/4)*(MH2[t]/MW2[t])-3*(MW2[t]/MH2[t])- 
+            (3/2)*(MZ2[t]^2/(MW2[t]*MH2[t]))+(11/12)*(MZ2[t]/MW2[t])- 
+            7*(MW2[t]/MZ2[t])+7/6;
+
+
+(* ::Subsection::Closed:: *)
+(*adms, beta functions 1 loop*)
+
+
+Clear[cw, sw, numbers]
+numbers = {nc -> 3, nf -> 3};
+
+cw[t_] := Sqrt[MW2[t]/MZ2[t]];
+sw[t_] := Sqrt[1 - MW2[t]/MZ2[t]];
+e[t_]  := (g[t] * gp[t])/Sqrt[g[t]^2 + gp[t]^2];
+
+
+(*1loop Beta functions*)
+Clear[betaG, betaGp, betaE, betaLam, betaYt, gammaGF]
+(*arXiv 0212319 page 17 (combined fermionic and bosonic part)*)
+betaG[t_] := (g[t]^3 / (16 Pi^2)) * (-43/12 + 2/3 nf) /.numbers;
+betaGp[t_] := (gp[t]^3 / (16 Pi^2)) * (1/12 + 10/9 nf) /. numbers;
+(*arXiv 0105304 eq 4.5*)
+betaE[t_] := e[t]^3 * (betaG[t]/g[t]^3 + betaGp[t]/gp[t]^3) // Simplify;
+(*not defined in Jegherlerner TODO - look where I can take them from*)
+betaLam[t_] := 0;
+betaYt[t_]  := 0;
+
+
+(* 1-Loop ADM for GF (From Paper I, Eq 4.24) - I am using atm their renormalization constants, 
+need to check if is the same as mines - TODO LATER*)
+gammaGF[t_] := (g[t]^2/(16 Pi^2))*(1/(4 MW2[t])) * (
+    (2/MH2[t])*(3*(2 MW2[t]^2 +MZ2[t]^2)+MH2[t]^2-4*Mt2[t]^2) 
+    - (3*(2 MW2[t]+MZ2[t])-MH2[t]-2*Mt2[t])); 
+
+
+(*Masses adms*)
+Clear[gammaW, gammaZ, gammaV2, gammaH, gammaT, g]
+
+(*paper I, eq 4.24*)
+gammaW[t_] := 2 * betaG[t] / g[t] - gammaGF[t];
+
+
+gammaZ[t_] := gammaW[t] - (2 / (g[t]^2 * cw[t]^2)) * 
+    (g[t] * betaG[t] * sw[t]^2 - e[t]^4 * (betaG[t]/g[t]^3 + betaGp[t]/gp[t]^3)) // Simplify;
+  
+     
+gammaV2[t_] := gammaW[t] - (cw[t]^2 / sw[t]^2) * (gammaW[t] - gammaZ[t]) - 2 * betaE[t] / e[t] // Simplify;
+
+
+gammaH[t_] := gammaV2[t] + betaLam[t] / lam[t] // Simplify;
+
+
+gammaT[t_] := 2 * betaYt[t] / yt[t] + gammaV2[t] // Simplify;
+
+
+(* ::Subsection::Closed:: *)
+(*running 1 loop*)
+
+
+(*RGE System*)
+
+Clear[massODEs, couplingODEs, allODEs]
+
+massODEs = {
+  D[MW2[t], t] == gammaW[t] * MW2[t],
+  D[MZ2[t], t] == gammaZ[t] * MZ2[t],
+  D[MH2[t], t] == gammaH[t] * MH2[t],
+  D[Mt2[t], t] == gammaT[t] * Mt2[t]
+};
+
+couplingODEs = {
+  D[g[t], t]   == betaG[t],
+  D[gp[t], t]  == betaGp[t],
+  D[e[t], t]   == betaE[t],
+  D[lam[t], t] == betaLam[t],
+  D[yt[t], t]  == betaYt[t]
+};
+
+allODEs = Join[massODEs, couplingODEs];
+
+
+(* ::Section:: *)
+(*plot based no mr  (*when running this part comment out the jegherlener*)*)
+
+
+ClearAll[loop2, qcd, rge,
+betaG1,betaG2,betaG3,betaYt,betaYb,betaLam]
+
+(* Beta Functions *)
+betaG1[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := (41/10) * g1^3; (*JHEP01(2013)17*)
+betaG2[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := -(19/6) * g2^3; (*JHEP01(2013)17*)
+betaG3[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := 0; (*placeholder for qcd gauge coupl*)
+
+betaLam[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := 
+  24*lam^2 + lam*(12*yt^2 - 9*g2^2 - (9/5)*g1^2) - 6*yt^4 + (9/8)*g2^4 + (27/200)*g1^4 + (9/20)*g1^2*g2^2;
+
+betaYt[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := 
+  yt * ((9/2)*yt^2 - (17/20)*g1^2 - (9/4)*g2^2 - qcd*8*g3^2);
+
+betaYb[g1_, g2_, g3_, yt_, yb_, ytau_, lam_] := 
+  yb  * ((9/2)*yb^2 + (3/2)*yt^2 - (9/4)*g2^2 - (1/4)*g1^2 - qcd*8*g3^2);
+
+(* Coupled ODEs - yb and ytau set to 0 for approximation *)
+rge = {
+  D[g1[t], t]   == (1/2) * (1/(16*Pi^2)) * betaG1[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]],
+  D[g2[t], t]   == (1/2) * (1/(16*Pi^2)) * betaG2[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]],
+  D[g3[t], t]   == (1/2) * (1/(16*Pi^2)) * betaG3[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]],
+  D[yt[t], t]   == (1/2) * (1/(16*Pi^2)) * betaYt[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]],
+  D[yb[t], t]   == (1/2) * (1/(16*Pi^2)) * betaYb[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]],
+  D[lam[t], t]  == (1/2) * (1/(16*Pi^2)) * betaLam[g1[t], g2[t], g3[t], yt[t], yb[t], 0, lam[t]]
+};
+
+
+betaG1[g1, g2, g3, yt, yb, ytau, lam]
+betaG2[g1, g2, g3, yt, yb, ytau, lam]
+betaYt[g1, g2, g3, yt, yb, ytau, lam]
+betaYb[g1, g2, g3, yt, yb, ytau, lam]
+betaLam[g1, g2, g3, yt, yb, ytau, lam]//Expand
+%/.lam->lam/2
+
+
+Clear[initConds, g1, g2, g3, yt, yb, lam]
+muToT[mu_] := Log[mu / 173.2];
+
+tMin = -2; 
+t0 = 0;    
+tMax = 35; 
+
+(* Initial Conditions mr paper*)
+initConds = {
+  g1[muToT[173.2]] == 0.462(*/Sqrt[3/5]*),
+  g2[muToT[173.2]] == 0.648,
+  g3[t0] == 1.22,
+  yt[muToT[173.2]] == 0.937,
+  yb[muToT[173.2]] == 0.023,
+  lam[muToT[173.2]] == 0.126
+};
+
+
+Sqrt[3/5]//N
+
+
+(* Solution*)
+Clear[allrge, vars, sol]
+allrge = Join[rge, initConds];
+vars = {g1, g2, g3,yb, yt, lam, m2};
+sol = NDSolve[allrge, vars, {t, tMin, tMax}];
+
+
+(* Test the Standard Model at \[Mu] = 160 GeV *)
+Evaluate[g2[muToT[160]] /. sol[[1]]]
+Evaluate[Sqrt[3/5] g1[muToT[160]] /. sol[[1]]]
+Evaluate[lam[muToT[160]] /. sol[[1]]]
+Evaluate[yt[muToT[160]] /. sol[[1]]]
+
+
+at[[13]]
+
+
+kt2[[13]]
+
+
+3 3 11/45
+%+9/5+1/10
+
+
+lambda1 = 12 lam^2 - (9/5 g1^2 + 9 g2^2) lam +9/4 (3/25 g1^4 +2/5 g1^2 g2^2 + g2^4) + 4 lam 3 yt^2 - 4 3 yt^4
+
+
+lambda2 = -ytau^4 - (yb^4)/3 + (9/16)*g2^4 + (3/8)*g1^2*g2^2 + (3/16)*g1^4 + 
+              2*lam*ytau^2 + 6*lam*yb^2 - (9/2)*lam*g2^2 - (3/2)*lam*g1^2 + 
+              12*lam^2 + 6*yt^2*lam - 3*yt^4;
+
+
+lambda1/.yt->1/Sqrt[2] yt/. g1->Sqrt[5/3]1/Sqrt[2] g1/.g2->1/Sqrt[2] g2//Expand
+lambda2/.ytau->0/.yb->0//Expand
+%-%%//Simplify
+
+
+(* ::Section::Closed:: *)
+(*check table*)
+
+
+(*(* mu, MW, MZ, MH, Mt, e6 *)
+
+kt = {
+  {40, 73.8182, 84.3964, 129.242, 155.052, 0.312345},
+  {50, 75.0207, 85.8336, 129.731, 158.547, 0.312503},
+  {60, 76.0782, 87.0954, 130.132, 161.595, 0.312632},
+  {70, 77.0304, 88.2301, 130.472, 164.321, 0.312742},
+  {80, 77.9024, 89.268, 130.767, 166.803, 0.312837},
+  {90, 78.7108, 90.2294, 131.028, 169.093, 0.31292},
+  {100, 79.4677, 91.1286, 131.261, 171.228, 0.312995},
+  {110, 80.1813, 91.9759, 131.473, 173.232, 0.313063},
+  {120, 80.8583, 92.7792, 131.666, 175.127, 0.313125},
+  {130, 81.5042, 93.5451, 131.844, 176.929, 0.313182},
+  {140, 82.1228, 94.2782, 132.009, 178.65, 0.313235},
+  {150, 82.7174, 94.9826, 132.162, 180.3, 0.313284},
+  {160, 83.2908, 95.6616, 132.306, 181.887, 0.313331}
+};*)
+
+
+(*Gf=Table[kt[[i,6]]^2/(4 Sqrt[2] kt[[i,2]]^2 (1- kt[[i,2]]^2/kt[[i,3]]^2)),{i,13}];*)
+
+
+(*v=1/(Sqrt[Sqrt[2] Gf]);*)
+
+
+(*g=Table[2* kt[[i,2]]/v[[i]],{i,13}];*)
+
+
+(*gp=Table[2/v[[i]]*(Sqrt[kt[[i,3]]^2-kt[[i,2]]^2]),{i,13}];*)
+
+
+(*lambda=Table[(kt[[i,4]]^2)/2/v[[i]]^2,{i,13}];*)
+
+
+(*yt=Table[Sqrt[2] * kt[[i,5]]/v[[i]],{i,13}];*)
+
+
+(*(* mu, MW, MZ, MH, Mt, e6 *)
+
+kt2 = Table[
+  {kt[[i, 1]], g[[i]], gp[[i]], v[[i]], lambda[[i]], yt[[i]]}, 
+  {i, 13}
+]*)
+
+
+(*(* Headers: mu, g, gp, v, lambda, yt *)
+
+at = {
+  {40.0000, 0.6558, 0.3569, 216.3407, 0.1678, 0.9619},
+  {50.0000, 0.6545, 0.3573, 223.8743, 0.1618, 0.9666},
+  {60.0000, 0.6534, 0.3576, 229.8568, 0.1568, 0.9705},
+  {70.0000, 0.6525, 0.3579, 234.8031, 0.1526, 0.9738},
+  {80.0000, 0.6518, 0.3582, 239.0101, 0.1490, 0.9766},
+  {90.0000, 0.6511, 0.3584, 242.6644, 0.1457, 0.9791},
+  {100.0000, 0.6505, 0.3586, 245.8902, 0.1429, 0.9814},
+  {110.0000, 0.6499, 0.3588, 248.7748, 0.1403, 0.9834},
+  {120.0000, 0.6494, 0.3590, 251.3813, 0.1379, 0.9853},
+  {130.0000, 0.6489, 0.3591, 253.7571, 0.1357, 0.9870},
+  {140.0000, 0.6485, 0.3593, 255.9385, 0.1337, 0.9886},
+  {150.0000, 0.6481, 0.3594, 257.9539, 0.1318, 0.9901},
+  {160.0000, 0.6477, 0.3595, 259.8262, 0.1300, 0.9915}
+}*)
+
+
+(*Table[(kt2[[i,j]]-at[[i,j]])/(kt2[[i,j]]+at[[i,j]]),{i,13},{j, 6}]//TableForm*)
+
+
+(*(* Headers: mu, g, gp, v, lambda, yt *)*)
+
+
+(*kt2//TableForm*)
+
+
+(*at//TableForm*)
+
+
+(*atn=Transpose[Transpose[at]/at[[10]]];
+kt2n=Transpose[N@Transpose[kt2]/kt2[[10]]];*)
+
+
+(*TableForm[(at-kt2)/(at+kt2)]*)
+
+
+(*TableForm[(atn-kt2n)/(atn+kt2n)]*)
+
+
+(*at/0.1429//TableForm*)
+
+
+(*kt2/0.13947059723438696//TableForm*)

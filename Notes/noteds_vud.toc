@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}The effective theory prior to $G_{\rm F}$ normalisation}{1}{section.1}%
+\contentsline {section}{\numberline {2}The effective theory normalised to $G_{\rm F}$}{2}{section.2}%
+\contentsline {section}{\numberline {3}Anomalous dimensions}{3}{section.3}%
+\contentsline {section}{\numberline {4}Wilson coefficients prior to $G_{\rm F}$ normalisation}{3}{section.4}%
+\contentsline {section}{\numberline {5}QED renormalisation constants}{5}{section.5}%
+\contentsline {section}{\numberline {6}Operator basis}{6}{section.6}%
+\contentsline {section}{References}{6}{equation.6.64}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
