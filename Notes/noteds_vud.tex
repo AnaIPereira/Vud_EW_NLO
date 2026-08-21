@@ -1,9 +1,5 @@
-\documentclass[a4paper,11pt,DIV=12]{scrartcl}
-\pdfoutput=1
-\usepackage[bitstream-charter]{mathdesign}
-\let\circledS\undefined
-\usepackage{XCharter}
-\usepackage[protrusion=true,expansion,kerning=true,tracking=true,final]{microtype}
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
 \usepackage{mathrsfs}
 \usepackage[intlimits]{amsmath}
 \usepackage{amssymb}
@@ -19,435 +15,41 @@
 \usepackage{pdflscape}
 %\usepackage{lscape}
 \usepackage{booktabs}
-\usepackage[%backref,
-	        colorlinks=true,
-	        linkcolor=hblue,
-	        citecolor=hgreen,
-	        filecolor=hblue,
-	        urlcolor=hred
-	        ]{hyperref}
-\usepackage[dvipsnames,x11names]{xcolor}
-\definecolor{hgreen}{rgb}{0,.3,0}
-\definecolor{hred}{rgb}{.3,0,0}
-\definecolor{orange}{rgb}{1,0.5,0}
-\definecolor{hblue}{rgb}{0,0,.3}
-\definecolor{LightGray}{gray}{0.95}
-\definecolor{gray}{gray}{0.6}
 
-\makeatletter
-\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
-\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
-\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
-\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
-\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
-\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
-\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
-
-
-\AtBeginDocument{
-\heavyrulewidth=1.0pt
-\lightrulewidth=0.5pt
-\cmidrulewidth=.03em
-\belowrulesep=.4ex
-\belowbottomsep=0pt
-\aboverulesep=.4ex
-\abovetopsep=0pt
-\cmidrulesep=\doublerulesep
-\cmidrulekern=.5em
-\defaultaddspace=.5em
-}
-
-\newcolumntype{`}{!{\vrule width 0.5pt}}
-
-\pagestyle{scrheadings}
-
-\allowdisplaybreaks
-\setcapindent{1em}
-
-\setkomafont{captionlabel}{\bfseries}
-\setkomafont{titlehead}{\normalsize\sffamily}
-\addtokomafont{title}{\boldmath}
-\addtokomafont{section}{\boldmath}
-
-\KOMAoptions{headinclude=false,
-             footinclude=false,
-             twoside=false,
-             parskip=false,
-             draft=false,
-%             overfullrule=false,
-             abstract=true,
-             numbers=noenddot,
-             DIV=12}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-\newcommand{\Lag}{\mathscr{L}}
-\newcommand{\GF}{G_{\rm F}}
-\newcommand{\LO}{{\rm LO}}
-\newcommand{\NLO}{{\rm NLO}}
-\newcommand{\NNLO}{{\rm NNLO}}
-\newcommand{\aeF}{{\alpha^{(f\!)}}}
-\newcommand{\aef}{{\alpha^{(5)}}}
-\newcommand{\aes}{{\alpha^{(6)}}}
-\newcommand{\sw}{s_{\rm w}}
-\newcommand{\cw}{c_{\rm w}}
-\newcommand{\MW}{M_W}
-\newcommand{\MZ}{M_Z}
-\newcommand{\MH}{M_H}
-\newcommand{\mt}{m_t}
-
-\title{$V_{ud}$ at next-to-next-to-leading order in the electroweak interactions}
-
-\date{\today}
-
+\title{$V_{ud}$ project notes}
+\author{}
+\date{}
 
 \begin{document}
 
 \maketitle
 
+\section{Beta functions}
+\subsection{Beta functions defined in Arason}
 
-\tableofcontents
+The beta functions at NLO for EW theory before symmetry breaking are defined as:
 
-%\pdfbookmark[1]{Table of Contents}{tableofcontents}
-\setcounter{page}{1}
-%\tableofcontents
-%    \the\textwidth\\
-%    \printinunitsof{cm}\prntlen{\textwidth}\\
-%    \printinunitsof{in}\prntlen{\textwidth}
+\begin{align*}
+  \beta_{g_1} &= \frac{41}{10} g_1(t)^3 \\
+  \beta_{g_2} &= -\frac{19}{6} g_2(t)^3 \\
+  \beta_{y_t} &= y_t(t) \left( \frac{9}{2} y_t(t)^2 - \left( \frac{17}{20} g_1(t)^2 + \frac{9}{4} g_2(t)^2 \right) \right) \\
+  \beta_{\lambda} &= 12 \lambda(t)^2 - \lambda(t) \left( \frac{9}{5} g_1(t)^2 + 9 g_2(t)^2 \right) + \frac{9}{4} \left( \frac{3}{25} g_1(t)^4 + \frac{2}{5} g_1(t)^2 g_2(t)^2 + g_2(t)^4 \right) \\
+  &+ 12 \lambda(t) y_t(t)^2 - 12 y_t(t)^4
+\end{align*}
 
-
-
-\section{The effective theory prior to $\GF$ normalisation}
-\begin{equation}
-  \Lag_{\text{no-}\GF} =  \widehat{C}_{\mu}Q_\mu +V_{ud}\widehat{C}_{q} Q_q  + \rm{h.c.}
-\end{equation}
-The Wilson coefficients admit an expansion in terms the electromagnetic coupling
-in the five-flavour theory, $\aef$,
-\begin{align}
-  \widehat{C}_X = 4\pi\aef\left(
-                        \widehat{C}^\LO_{X} 
-    + \frac{\aef}{4\pi} \widehat{C}^\NLO_{X} 
-    + \bigg(\frac{\aef}{4\pi}\bigg)^2 \widehat{C}^\NNLO_{X} 
-  + {\cal O}\big(\aef^3\big)\right)
-  \quad\text{with}\quad X=\{\mu,q\}\,.
-\end{align}
-The value of the leading-order (LO) Wilson coefficients are
-\begin{align}
-  \widehat{C}^\LO_{X} = - \frac{1}{2\sw^2 \MW^2}
-  \quad\text{with}\quad X=\{\mu,q\}\,.
-  \label{<+label+>}
-\end{align}
+with $SU(2) \times U(1)_Y$ and $t=\ln(\mu)$.
 
 
-\section{The effective theory normalised to $\GF$}
-Next we use $\GF$ as input and thus normalise the effective Lagrangian in terms of
-the Wilson coefficient of the leptonic operator, i.e., we identify its 
-Wilson coefficient with $\GF$,
-\begin{equation}
-  \Lag_{\GF} = -\frac{\GF}{\sqrt{2}} Q_\mu -\frac{\GF}{\sqrt{2}} V_{ud} C_{q} Q_q +\rm{h.c.}
-\end{equation}
-As before, $C_{q}$ admits an expansion in terms of $\aef$:
-\begin{equation*}
-  C_q = C_q^{\rm{LO}} + \frac{\aef}{4\pi} C_q^{\rm{NLO}} + \left(\frac{\aef}{4\pi}\right)^2 C_q^{\rm{NNLO}} + \dots
-\end{equation*}
-Comparing the two effective theories 
-in perturbation theory in $\aef$ we readily find the relations
-\begin{align}
-   C_{q}^{\rm{LO}}   = 1\,,&
-  &C_{q}^{\rm{NLO}}  = \frac{\widehat{C}_q^{\rm{NLO}} - \widehat{C}_\mu^{\rm{NLO}}}{\widehat{C}_\mu^{\rm{LO}}}\,,& 
-  &C_{q}^{\rm{NNLO}} = \frac{
-                             \widehat{C}_\mu^{\rm{LO}}\widehat{C}_q^{\rm{NNLO}} 
-                            -\widehat{C}_\mu^{\rm{LO}}\widehat{C}_\mu^{\rm{NNLO}} 
-                            -\widehat{C}_\mu^{\rm{NLO}}\widehat{C}_q^{\rm{NLO}} 
-                            +(\widehat{C}_\mu^{\rm{NLO}})^2 
-                          }{(\widehat{C}_\mu^{\rm{LO}})^2}\,,& 
-  \label{<+label+>}
-\end{align}
-where we already used the relation $\widehat{C}_{\mu}^{\rm{LO}}=\widehat{C}_{q}^{\rm{LO}}$.
+The running of the fundamental parameters is given by
 
+\begin{align*}
+  \frac{d g_1(t)}{dt} &= \frac{1}{16\pi^2} \beta_{g_1} \\
+  \frac{d g_2(t)}{dt} &= \frac{1}{16\pi^2} \beta_{g_2} \\
+  \frac{d y_t(t)}{dt} &= \frac{1}{16\pi^2} \beta_{y_t} \\
+  \frac{d \lambda(t)}{dt} &= \frac{1}{16\pi^2} \beta_{\lambda}
+\end{align*}
 
-The above Wilson coefficient is scheme and scale dependent.
-As this scale dependence only cancels after folding the result with the evolution kernel, we will define a regularisation independent Wilson coefficient.
-This will result in manifest scheme and residual scale independent coefficient that has two obvious benefits:
-It directly matches to the Fermi constant extracted from muon decay, and its scale dependence and perturbative converegence can be assessed independent form contributions at different scales.
-Extending the definition of [GMJ] by including the renormalisation of the Fermi operator and three-loop QED running effects, we write
-\begin{equation}
-  \label{eq:chat-definition}
-  \widehat{C}(\mu_h)= u_{5}^{-1}(\mu_h) J_{q,5}^{-1}J_{\mu,5}(\mu_h) C_q(\mu_h)\,,
-\end{equation}
-where the 
-\begin{equation}
-  \label{eq:chat-definition}
-  J_{q,f}^{-1}J_{\mu,f}(\mu_h) = 
-        1 
-        + \frac{\aeF(\mu_h)}{4\pi}          \left[ J_{\mu,f}^{(1)}-J_{q,f}^{(1)} \right] 
-        + \left(\frac{\aeF(\mu_h)}{4\pi}\right)^2 \left[ J_{\mu,f}^{(2)}-J_{q,f}^{(2)} - J_{\mu,f}^{(1)} J_{q,f}^{(1)} + \left( J_{q,f}^{(1)} \right)^2 \right]
-  \,,
-\end{equation}
-with
-\begin{equation}
-  \label{eq:u-lo}
-  u_f(\mu_h) =
-  \left( \frac{\aeF(\mu_h)}{\aeF(M_Z^{\rm OS})} \right)^{-\frac{3}{2\overline{Q^2}}}
-%  \left( \frac{\alpha^{(f)}_s(\mu)}{\alpha_s(M_Z)} \right)^{-\frac{\alpha}{4\pi}\frac{6}{33 - 2 n_f}}
-\end{equation}
-\begin{equation}
-  \label{eq:j1}
-  J_{x,f}^{(1)} = \frac{\gamma_x^{(1)}}{2 \beta_0}-\frac{\beta_1 \gamma_x^{(0)}}{2 \beta_0^2}
-\end{equation}
-and 
-\begin{equation}
-  \label{eq:j2}
-  J_{x,f}^{(2)} = -\frac{\beta_2 \gamma_x^{(0)}}{4 \beta_0^2}+\frac{\gamma_x^{(2)}}{4
-   \beta_0}-\frac{\beta_1 J_{x,1}^{(1)}}{2 \beta_0}+\frac{\left(J_{x,f}^{(1)} \right)^2}{2}
-\end{equation}
+Using as initial conditions for $mu=40GeV$
 
-Directly evaluating the NLO contribution leads to the very compact result
-\begin{equation}
-  C^{\rm NLO}_q = -5 +\frac{a^1_\mu}{4}+\frac{a^1_q}{12} - 2\log\left( \frac{\mu^2}{\MZ^2} \right)\,.
-\end{equation}
-
-
-
-
-\section{Anomalous dimensions\label{sec:adms}}
-
-From the mixing constants computed in App.~\ref{sec:mixingconstants} 
-we compute the anomalous dimension of the physical
-operators:
-\begin{equation}
-  \frac{dC(\mu)}{d\log\mu} = C(\mu)\gamma\qquad\text{with}\qquad \gamma=\sum_{l=1}\left(\frac{\aef}{4\pi}\right)^l \gamma^{(l-1)}\,.
-\end{equation}
-We find for the leptonic and semileptonic operator 
-\begin{align}
-  \gamma^{(0)}_\mu &= 0\,,  & &
-  \gamma^{(1)}_\mu = \frac{2}{3} \overline{Q^{2}}(4-a^1_\mu)
-  \,,\\
-  \gamma^{(0)}_q   &= -4\,, & &
-  \gamma^{(1)}_q = \frac{2}{9} \overline{Q^{2}}(a_q^1-8)
-  \,.
-\end{align}
-with
-\begin{equation}
-  \overline{Q^{n}} \equiv Q_\ell^n N_\ell +  n_c \left(Q_u^n N_u +  Q_d^n N_d\right)\,.
-  \label{<+label+>}
-\end{equation}
-
-At three-loop order we find
-\ES{check for typos}
-\begin{align}
-%  \gamma_\mu^{(2)}  = 
-%  & -\frac{1}{6} \left(4-a^1_\mu\right)^2 \overline{Q^2} 
-%    +\frac{1}{27}\left(4-a^1_\mu\right) \left(54 \overline{Q^4}+342 \overline{Q^2}
-%                                           - 4\left(\overline{Q^2}\right)^2\right)\nonumber\\
-%  & +\frac{8}{9} \left(4-a^2_\mu\right) \overline{Q^2} \left(\overline{Q^2}-6 \right)
-%    +\frac{1}{12} \overline{Q^2} \left(5 b^1_\mu-2 b^2_\mu - 832 \right)\,,\\
-%
-  \gamma_\mu^{(2)}  = 
-     & + \frac{1}{12}\overline{Q^2} \left(
-            152 (4-a^1_\mu)
-            - 64 (4-a^2_\mu)
-            - 2 (4-a^1_\mu)^2
-            + 5b^1_\mu-2b^2_\mu-832
-        \right)\\
-     & 
-       + 2 \overline{Q^4} (4-a^1_\mu) 
-       - \frac{4}{27}\left(\overline{Q^2}\right)^2 \left(
-            (4-a^1_\mu)
-          - 6 (4-a^2_\mu)
-          \right)
-       \\
-%
-  \gamma_q^{(2)}  = 
-   &-\frac{1124}{27}
-    -\frac{1}{324}\overline{Q^2} \left(
-           14016
-         + 6 b^2_q
-         - 63 b^1_q
-         - 192 a^2_q
-         + 1016 a^1_q
-         + 6 \left(a^1_q\right)^2
-         \right)\\
-   &+ \frac{2}{3}\overline{Q^4} \left(
-            62
-          + a^1_q
-          - 96 \zeta_3
-          \right)
-    + \frac{4}{81} \left(\overline{Q^2}\right)^2 \left(
-            240
-          + 6 a^2_q
-          - a^1_q
-          \right)
-\end{align}
-
-
-
-\section{Wilson coefficients prior to $\GF$ normalisation\label{sec:WChat}}
-
-\es{We can compare all the following Wilson coefficients
-\begin{align}
-  \widehat{C}_{Q_X  }^{(1,-1)}&=\ast \,, & \widehat{C}_{Q_X  }^{(1, 0)}&=\ast \,, & \widehat{C}_{Q_X  }^{(1, 1)}&=\ast \,, &\\
-  \widehat{C}_{E^1_X}^{(1,-1)}&=0    \,, & \widehat{C}_{E^1_X}^{(1, 0)}&=\ast \,, & \widehat{C}_{E^1_X}^{(1, 1)}&=\ast \,, &\\
-  \widehat{C}_{E^2_X}^{(1,-1)}&=0    \,, & \widehat{C}_{E^2_X}^{(1, 0)}&=0    \,, & \widehat{C}_{E^2_X}^{(1, 1)}&=0    \,, &\\[0.5em]
-  \widehat{C}_{Q_X  }^{(2,-2)}&=0    \,, & \widehat{C}_{Q_X  }^{(2,-1)}&=\ast \,, & \widehat{C}_{Q_X  }^{(2, 0)}&=\ast \,, &\\
-  \widehat{C}_{E^1_X}^{(2,-2)}&=0    \,, & \widehat{C}_{E^1_X}^{(2,-1)}&=0    \,, & \widehat{C}_{E^1_X}^{(2, 0)}&=\ast \,, &\\
-  \widehat{C}_{E^2_X}^{(2,-2)}&=0    \,, & \widehat{C}_{E^2_X}^{(2,-1)}&=0    \,, & \widehat{C}_{E^2_X}^{(2, 0)}&=\ast \,, &
-  \label{<+label+>}
-\end{align}
-for $X=\{\mu,q\}$. My results for the evanescent operators are all gauge-parameter independent.
-}
-\ES{In Ana's email from the  5/2/26, Ana sent me her results for 
-$\widehat{C}_{E^2_\mu}^{(2, 0)}$ and $\widehat{C}_{E^2_q}^{(2, 0)}$ and we have full agreement.}
-
-We have computed the NLO Wilson coefficients ($\widehat{C}^\NLO_X$) including all 
-box and penguin contributions in generic $R_\xi$ for all gauge bosons.
-
-The final result for the NLO Wilson coefficients takes the form
-\begin{align}
-  \widehat{C}^\NLO_{X} &= \widehat{C}^\LO_{X}\left[ 
-  A_{X}^r 
-+ A_{X}^t   \log\left(\frac{\mt^2}{\MW^2} \right)
-+ A_{X}^H   \log\left(\frac{\MH^2}{\MW^2} \right)
-+ A_{X}^Z   \log\left(\frac{\MZ^2}{\MW^2} \right)
-+ A_{X}^\mu \log\left(\frac{\mu^2}{\MW^2} \right)
-\right]\,,
-\end{align}
-with $X=\{\mu,q\}$ and the explicit form of the $A_X^Y$ functions written for brevity 
-in terms of the mass ratios
-\begin{align}
-  x=\frac{\mt^2}{\MW^2}\,,&&
-  y=\frac{\MH^2}{\MW^2}\,,&&
-  z=\frac{\MZ^2}{\MW^2}\,.
-\end{align}
-\es{The notation is inspired by Ref.~\cite{Brod:2021qvc} but we have 
-chosen different ratios because they are nuts -- even if correct.}
-
-In terms of these ratios we find for the leptonic operator
-\begin{align}
-A_\mu^r &=\frac{-6 a^1_\mu y z+6 a^1_\mu y+144 x^2 z-18 x y z-21 y^2 z+15 y z^2+38 y z-8 y-12 z^3-24 z}{24 y (z-1)}
-\,,\\
-A_\mu^t &=\frac{-108 x^2 z+27 x y z-32 y z+32 y}{18 y (z-1)}
-\,,\\
-A_\mu^H &=\frac{3 (y-2) y z}{4 (y-1) (z-1)}
-\,,\\
-A_\mu^Z &=\frac{-3y z^3+6 y z^2+6 z^4-6 z^3}{4 y (z-1)^2}
-\,,\\
-A_\mu^\mu &=\frac{216 x^2 z-54 x y z-27 y^2 z+27 y z^2-134 y z+188 y-54 z^3-108 z}{36 y (z-1)}
-\,.
-\end{align}
-This result agrees exactly with Ref.~\cite{Brod:2021qvc}. We have computed it 
-in generic $R_{\xi}$ for all gauge bosons and renormalised tadpoles in $\overline{\text{MS}}$.
-We find explicitly that all gauge-parameter dependence exactly cancels in the sum
-of different contributions, i.e., box- and penguin-type graphs.
-
-For the semileptonic operator we find
-\begin{align}
-A_q^r &=\frac{2 a^1_q y z-2 a^1_q y+144 x^2 z-18 x y z-21 y^2 z+15 y z^2-82 y z+112 y-12 z^3-24 z}{24 y (z-1)}
-\,,\\
-A_q^t &=A_\mu^t
-\,,\\
-A_q^H &=A_\mu^H
-\,,\\
-A_q^Z &=\frac{-3 y z^3+14 y z^2-16 y z+8 y+6 z^4-6 z^3}{4 y (z-1)^2}
-\,,\\
-A_q^\mu &=\frac{216 x^2 z-54 x y z-27 y^2 z+27 y z^2-206 y z+260 y-54 z^3-108 z}{36 y (z-1)}
-\,.
-\end{align}
-Also here all gauge-parameter dependence cancels in the sum of different contributions.
-
-For the matching to be finite and lead to gauge-parameter independent results 
-the threshold correction in the value of the electromagnetic coupling between the 
-six- and the five-flavour must be included.
-
-
-
-\subsubsection*{Acknowledgments}
-%\clearpage
-\section{QED renormalisation constants}
-\ES{check the 3loop field renormalisation constant / or cross-check with the literature}
-\begin{align}
-  Z_f^{(1,1)} &= - Q_f^2 \xi_\gamma\,,\\
-  Z_A^{(1,1)} &= Z_{\xi_\gamma}^{(1,1)} = -2Z_e^{(1,1)}= -\frac{4}{3} \overline{Q^2}\,,\\
-  Z_{u_\gamma}^{(1,1)} &= 0\,,\\
-  Z_{m_{\text{IRA}}^2}^{(1,1)} &= - 4  \overline{Q^2}\,,\\[1em]
-  Z_f^{(2,2)} &= \frac{1}{2}Q_f^4 \xi_\gamma^2\,,\\
-  Z_f^{(2,1)} &= \frac{3}{4}Q_f^4 + Q_f^2 \overline{Q^2} ,,\\
-  Z_A^{(2,2)} &= 0\,,\\
-  Z_A^{(2,1)} &= Z_{\xi_\gamma}^{(2,1)} = -2 Z_e^{(2,1)} = -2 \overline{Q^4}\,,\\
-  Z_e^{(2,2)} &= \frac{2}{3}\left(\overline{Q^2}\right)^2\,,\\
-  Z_{m_{\text{IRA}}^2}^{(2,2)} &= - 2\xi_\gamma  \overline{Q^4}\,,\\
-  Z_{m_{\text{IRA}}^2}^{(2,1)} &= \xi_\gamma  \overline{Q^4}\,,\\[1em]
-  Z_f^{(3,1)} &= -\frac{1}{2}Q_f^6 -3 Q_f^4\overline{Q^2}   -\frac{20}{27} Q_f^2 \left(\overline{Q^2}\right)^2 + 2Q_f^2\overline{Q^4}
-\end{align}
-with
-\begin{equation}
-  \overline{Q^{n}} \equiv Q_\ell^n N_\ell +  n_c \left(Q_u^n N_u +  Q_d^n N_d\right)\,.
-\end{equation}
-The corresponding terms of the QED $\beta$ function are:
-\begin{align}
-  \frac{d \alpha}{d\log\mu} &= \beta = 2\alpha \sum_{i=1}^{\infty}\left(\frac{\alpha}{4\pi}\right)^{i} \beta_{i-1}\qquad \text{with}\\
-  \beta_0&=\frac{4}{3} \overline{Q^2}\,,\\
-  \beta_1&=4 \overline{Q^4}\,,\\
-  \beta_2&=-2 \overline{Q^6} - \frac{44}{9} \overline{Q^2}\,\overline{Q^4}\,.
-\end{align}
-\ES{add citation with which we have confirmed this}
-
-
-The IRA counterterm corresponds to including the term
-\begin{equation}
-  \Lag_{\textrm{IRA}} = \frac{1}{2}m_{\text{IRA}}^2 Z_{m_{\text{IRA}}^2} G_\mu^a G^{a,\mu}
-\end{equation}
-in the renormalised QED Lagrangian.
-
-\section{Operator basis\label{sec:operatorbasis}}
-\begin{align}
-Q_\mu   =& (\overline{\nu}_\mu\gamma^{\mu_1}P_L \mu)
-           (\overline{\nu}_e\gamma_{\mu_1}P_L e)\,,\\ 
-Q_q     =& (\overline{u}\gamma^{\mu_1}P_L d)
-           (\overline{\nu}_e\gamma_{\mu_1}P_L e)\,,\\[0.5em]
-E^1_\mu =& (\overline{\nu}_\mu\gamma^{\mu_1\mu_2\mu_3}P_L \mu)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3}P_L e) 
-           - \left(16 - \sum_{k=1} a^k_\mu \epsilon^k\right) Q_\mu\,,\\
-E^1_q   =& (\overline{u}\gamma^{\mu_1\mu_2\mu_3}P_L d)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3}P_L e) 
-           - \left(16 - \sum_{k=1} a^k_q \epsilon^k\right) Q_q\,,\\[0.5em]
-E^2_\mu =& (\overline{\nu}_\mu\gamma^{\mu_1\mu_2\mu_3\mu_4\mu_5} P_L \mu)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3\mu_4\mu_5} P_L e) 
-           - \left(256 - \sum_{k=1}b^k_\mu \epsilon^k\right) Q_\mu 
-           +\sum_{k=0}c_\mu^k E^1_\mu\,,\\
-E^2_q   =& (\overline{u}\gamma^{\mu_1\mu_2\mu_3\mu_4\mu_5} P_L d)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3\mu_4\mu_5} P_L e) 
-         - \left(256 - \sum_{k=1}b^k_q \epsilon^k\right) Q_q 
-           +\sum_{k=0}c_q^k E^1_q\,,\\[0.5em]
-E^3_\mu =& (\overline{\nu}_\mu\gamma^{\mu_1\mu_2\mu_3\mu_4\mu_5\mu_6\mu_7}P_L \mu)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3\mu_4\mu_5\mu_6\mu_7}P_L e)\nonumber\\
-          &\qquad\qquad
-          - \left(4096 - \sum_{k=1}d^k_\mu \epsilon^k\right) Q_\mu 
-          +\sum_{k=0} e_\mu^k \epsilon^k E^1_\mu
-          +\sum_{k=0} f_\mu^k \epsilon^k E^2_\mu
-           \,,\\
-E^3_q  =& (\overline{u}\gamma^{\mu_1\mu_2\mu_3\mu_4\mu_5\mu_6\mu_7}P_L d)
-           (\overline{\nu}_e\gamma_{\mu_1\mu_2\mu_3\mu_4\mu_5\mu_6\mu_7}P_L e)\nonumber\\
-          &\qquad\qquad
-          - \left(4096 - \sum_{k=1}d^k_q \epsilon^k\right) Q_q 
-          +\sum_{k=0} e_q^k \epsilon^k E^1_q
-          +\sum_{k=0} f_q^k \epsilon^k E^2_q
-          \,,
-\label{eqn:evaops}
-\end{align}
-with the shorthand notation
-\begin{equation}
-  \gamma^{\mu_1\dots\mu_n} = \gamma^{\mu_1}\dots\gamma^{\mu_n}\,.
-  \label{<+label+>}
-\end{equation}
-
-
-
-%\clearpage
-\addcontentsline{toc}{section}{References}
-\bibliographystyle{JHEP}
-\bibliography{references}
 \end{document}
 
