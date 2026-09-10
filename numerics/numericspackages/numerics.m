@@ -13,7 +13,7 @@ Get["/home/ana/Documents/GitHub/Vud_EW_NLO/numerics/numericspackages/ostomsbar.m
 Get["/home/ana/Documents/GitHub/Vud_EW_NLO/numerics/numericspackages/phifunctions.m"]
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*auxiliary functions*)
 
 
@@ -26,7 +26,7 @@ Clear[ratio]
 ratio[a_,b_]:=a/b;
 
 
-clausen=4/9/Sqrt[3]*ResourceFunction["ClausenCl"][2, Pi/3]//N
+clausen=4/9/Sqrt[3]*ResourceFunction["ClausenCl"][2, Pi/3]//N;
 
 
 Clear[charges]
@@ -62,7 +62,7 @@ wc/.MW->80/.MZ->90/.MH->125/.Mt->172//N
 wcaux=wc/.muH->mu/.pi->Pi;
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*RGE, beta, ads and Js*)
 
 
@@ -115,7 +115,7 @@ Jexp = 1 + alpha[mu,5]/(4 Pi) J1[5]+ (alpha[mu,5]/(4 Pi))^2 J2[5];
 Jexpl = 1 + alpha[mu,5]/(4 Pi) J1l[5]+ (alpha[mu,5]/(4 Pi))^2 J2l[5];
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*beta, anomalous dimension*)
 
 
@@ -252,11 +252,11 @@ U =1-(alpha[muH,5] ad[0]/(4 Pi)) Log[muH/muL]+ (alpha[muH,5]/(4 Pi))^2 (-ad[1] L
 (*Coefficient[wcind, Log[mu]]//Simplify*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*scheme independent WC MSbar*)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*chat MSbar*)
 
 
@@ -304,32 +304,32 @@ Coefficient[JCsimp2, b2mu]
 
 
 (* ::Subsection::Closed:: *)
-(*comparison with Martin results - 1 loop agrees, 2 loop no*)
+(*comparison with Martin results - 1 loop agrees, 2 loop no (*commented out*)*)
 
 
-simplifymass={x->Mt^2/MW^2,y->MH^2/MW^2,z->MZ^2/MW^2};
+(*simplifymass={x->Mt^2/MW^2,y->MH^2/MW^2,z->MZ^2/MW^2};*)
 
 
-martin1l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat1.m"]/.
-ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;
+(*martin1l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat1.m"]/.
+ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;*)
 
 
-JCsimp1(4 Pi);
+(*JCsimp1(4 Pi);
 martin1l;
-%-%%//Simplify
+%-%%//Simplify*)
 
 
-martin2l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat2.m"]/.pi->Pi/.
-ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;
+(*martin2l=Get["/home/ana/Documents/GitHub/Vud_EW_NLO/chat2.m"]/.pi->Pi/.
+ae[__]:>1/.simplifymass/.m->mu^2/MW^2//logs//Simplify;*)
 
 
-A=JCsimp2 (4Pi)^2//Simplify;
-B=martin2l//Simplify;
+(*A=JCsimp2 (4Pi)^2//Simplify;
+B=martin2l//Simplify;*)
 
 
-Coefficient[Coefficient[A, Log[MZ]],MW^2]//Simplify;
+(*Coefficient[Coefficient[A, Log[MZ]],MW^2]//Simplify;
 Coefficient[Coefficient[B, Log[MZ]],MW^2]//Simplify;
-%/%%//Simplify
+%/%%//Simplify*)
 
 
 (* ::Subsection::Closed:: *)
@@ -362,87 +362,8 @@ Chatinc=CForm[Chataux];
 (*Export["/home/ana/Documents/GitHub/GV/gv/src/expression.txt",Chatinc]*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*scheme independent OS*)
-
-
-(* ::Subsection::Closed:: *)
-(*function XZ with B0 from Denner section 4.3.2*)
-
-
-(*functions B0 (B1) Jegerlehner*)
-
-(*Clear[B1]
-B1/: B1[m1_,m2_,p_]:=(Integrate[Log[m1/mu^2 x + m2/mu^2 (1-x) - p/mu^2 x (1-x)],x]/.x->1)-
-(Integrate[Log[m1/mu^2 x + m2/mu^2 (1-x) - p/mu^2 x (1-x)],x]/.x->0)*)
-
-
-ClearAll[r, B0, ep, mu, delta]
-
-(* r function *)
-r[m0_, m1_, p_] := Module[{A, r1, r2},
-  A = (m0^2 + m1^2 - p^2 - I*ep)/(m0 m1); 
-  r1 = (A + Sqrt[A^2 - 4])/2;
-  r2 = (A - Sqrt[A^2 - 4])/2;
-  r1
-]
-
-delta = 0;
-
-(* B0 function *)
-B0/: B0[m0_, m1_, p_] := -(delta + 2 - Log[m0 m1 / mu^2] + 
-  (m0^2 - m1^2)/p^2 Log[m1/m0] - 
-  m0 m1/p^2 (1/r[m0, m1, p] - r[m0, m1, p]) Log[r[m0, m1, p]] )/; (m0 =!= 0 && m1 =!= 0)
-
-B0/: B0[0, 0, p_] :=-( delta + 2 - Log[p^2 / mu^2]); (*I am not sure of this definition*)
-
-
-(* XZ1 in terms of On-Shell masses. *)
-XZ1boson = 13/18 - 1/6 Log[MWos^2/mu^2] + 4/3 B0[MWos, MWos, MZos] + 
-  MHos^4/(MWos^2 MZos^2) (1/12 - 1/12 Log[MHos^2/mu^2] + 1/12 B0[MHos, MZos, MZos]) + 
-  MHos^2/MWos^2 (7/12 + 1/12 Log[MZos^2/mu^2] - 1/2 Log[MHos^2/mu^2] - 1/3 B0[MHos, MZos, MZos]) + 
-  MZos^2/MWos^2 (2/9 - 1/6 Log[MZos^2/mu^2] + 1/12 B0[MWos, MWos, MZos] + B0[MHos, MZos, MZos]) + 
-  MWos^2/MZos^2 (-4/3 Log[MWos^2/mu^2] - 17/3 B0[MWos, MWos, MZos]) + 
-  MWos^4/MZos^4 (4 Log[MWos^2/mu^2] - 4 B0[MWos, MWos, MZos]) + 
-  MWos^2/MHos^2 (1 - 3 Log[MWos^2/mu^2]) + 
-  MZos^4/(MWos^2 MHos^2) (1/2 - 3/2 Log[MZos^2/mu^2]);
-
-
-(*XZ1fermionaux = 1/3 nF (-2 + MZos^2/MWos^2 + 1/2 MZos^2/MWos^2 B0[0, 0, MZos] + 4/3 MWos^2/MZos^2 + Nc (11/27 MZos^2/MWos^2 + 20/27 MWos^2/MZos^2 - 22/27)) + 
-  Sum[4 ml^2/MZos^2 (1 - 2/3 MWos^2/MZos^2) (Log[ml^2/mu^2] - B0[ml, ml, MZos]) - 
-    ml^2/MWos^2 (5/3 Log[ml^2/mu^2] - 7/6 B0[ml, ml, MZos]) - 
-    2 ml^4/(MHos^2 MWos^2) (1 - Log[ml^2/mu^2]) + 
-    B0[ml, ml, MZos] (5/6 MZos^2/MWos^2 + 4/3 MWos^2/MZos^2 - 2), {ml, leptons}] + 
-  Nc Sum[2 muq^4/(MHos^2 MWos^2) (Log[muq^2/mu^2] - 1) + 
-    (17/54 MZos^2/MWos^2 + 16/27 MWos^2/MZos^2 - 20/27) B0[muq, muq, MZos] - 
-    muq^2/MWos^2 (17/27 Log[muq^2/mu^2] - 7/54 B0[muq, muq, MZos]) + 
-    (40/27 muq^2/MZos^2 - 32/27 (muq^2 MWos^2)/MZos^4) (Log[muq^2/mu^2] - B0[muq, muq, MZos]), {muq, uquarks}] + 
-  Nc Sum[2 md^4/(MHos^2 MWos^2) (Log[md^2/mu^2] - 1) + 
-    (5/54 MZos^2/MWos^2 + 4/27 MWos^2/MZos^2 - 2/27) B0[md, md, MZos] - 
-    md^2/MWos^2 (5/27 Log[md^2/mu^2] + 17/54 B0[md, md, MZos]) + 
-    (4/27 md^2/MZos^2 - 8/27 (md^2 MWos^2)/MZos^4) (Log[md^2/mu^2] - B0[md, md, MZos]), {md, dquarks}];*)
-
-
-(* constants for generations and colors*)
-nF = 3; 
-Nc = 3;
-
-XZ1fermion = 1/3 nF (-2 + MZos^2/MWos^2 + 1/2 MZos^2/MWos^2 B0[0, 0, MZos] + 4/3 MWos^2/MZos^2 + 
-  Nc (11/27 MZos^2/MWos^2 + 20/27 MWos^2/MZos^2 - 22/27)) + 
-  (* lepton part *)
-  3 * B0[0, 0, MZos] * (5/6 MZos^2/MWos^2 + 4/3 MWos^2/MZos^2 - 2) + 
-  (* quark down part *)
-  Nc * 3 * B0[0, 0, MZos] * (5/54 MZos^2/MWos^2 + 4/27 MWos^2/MZos^2 - 2/27) +
-  (* top-Quark *)
-  Nc * (2 Mtos^4/(MHos^2 MWos^2) (Log[Mtos^2/mu^2] - 1) + 
-    (17/54 MZos^2/MWos^2 + 16/27 MWos^2/MZos^2 - 20/27) B0[Mtos, Mtos, MZos] - 
-    Mtos^2/MWos^2 (17/27 Log[Mtos^2/mu^2] - 7/54 B0[Mtos, Mtos, MZos]) + 
-    (40/27 Mtos^2/MZos^2 - 32/27 (Mtos^2 MWos^2)/MZos^4) (Log[Mtos^2/mu^2] - B0[Mtos, Mtos, MZos])) +
-  (* up and charm *)
-  Nc * 2 * (17/54 MZos^2/MWos^2 + 16/27 MWos^2/MZos^2 - 20/27) B0[0, 0, MZos];
-
-
- XZ1 = XZ1boson+XZ1fermion;
 
 
 (* ::Subsection::Closed:: *)
@@ -489,7 +410,7 @@ uOs = u/.massRules2Loop/.alpha[MZos,f_]:>alpha[MZ,f];
 
 
 (* ::Subsection::Closed:: *)
-(*chat on - shell*)
+(*chat on - shell *)
 
 
 JCos=Normal[Series[Series[Jexpl/Jexp*wcoefos/.alphalsOs, {alpha[MZ,5],0,2}],{ep,0,0}]]/.nc->3//logs//
@@ -506,6 +427,13 @@ Union@Cases[uJCos, Log[__],Infinity]
 
 Coefficient[uJCos, Log[mu]]
 Coefficient[uJCos, Log[mu]^2]
+
+
+(*All logs dependent on mu in uJCos have cancelled*)
+
+
+(* ::Subsection::Closed:: *)
+(*checks of independence of evanescent definition*)
 
 
 JCossimp1=Coefficient[JCos,alpha[MZ,5]];
@@ -538,7 +466,7 @@ adm0//Simplify
 
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*save chat MSbar for c++ code*)
 
 
@@ -569,4 +497,252 @@ Chatosaux = Coefficient[Chatos,alpha[mu,5]^2]alpha[mu,5]^2;
 Chatincos = CForm[Chatosaux/.MHos->MH/.Mtos->Mt/.MZos->MZ/.MWos->MW];
 
 
-Export["/home/ana/Documents/GitHub/GV/gv/src/expressionos.txt", Chatincos]
+(*Export["/home/ana/Documents/GitHub/GV/gv/src/expressionos.txt", Chatincos]*)
+
+
+(* ::Section::Closed:: *)
+(*PLOT Onshell*)
+
+
+pdgmasses = {MWos->80.377, MZos->91.1876, MHos->125.25,Mtos->172.69, alpha[MZ,5]->1/127.93};
+
+
+JCosplt=Normal[Series[Series[Jexpl/Jexp*wcoefos, {alpha[mu,5],0,2}],{ep,0,0}]]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu},Simplify]&;
+
+
+JCosplt1l=Normal[Series[JCosplt,{alpha[mu,5],0,1}]];
+
+
+uJCosplt = 1/(ui[mu,5])* JCosplt//logs//
+Collect[#, {Log[__], Log[__]^n_},Simplify]&;
+
+
+uJCosplt1 = 1/(ui[mu,5])* JCosplt1l//logs//
+Collect[#, {Log[__], Log[__]^n_},Simplify]&;
+
+
+Cosplt=uJCosplt/.nc->3/.Zeta[x_]:>N[Zeta[x]]/.Li2[x_]:>PolyLog[2,x]/.S2->clausen/.
+DTPHI1->phi1a/.DTPHI2->phi2/.pdgmasses/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]//N//Chop//Simplify
+
+
+Cosplt1=uJCosplt1/.nc->3/.Zeta[x_]:>N[Zeta[x]]/.Li2[x_]:>PolyLog[2,x]/.S2->clausen/.
+DTPHI1->phi1a/.DTPHI2->phi2/.pdgmasses/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]//N//Chop//Simplify
+
+
+(*test*)
+Cosplt1/.alpha->alphaf/.pdgmasses/.mu->40//Simplify
+
+
+Clear[alphaf]
+alphaf[mu_,a_]:=alpha[MZ,5]/ (1 - (alpha[MZ,5] / (2 * Pi)) * beta[0] * Log[mu / MZos]);
+
+
+Plot[
+  {Cosplt/.alpha->alphaf/.pdgmasses, Cosplt1/.alpha->alphaf/.pdgmasses},
+  {mu, 40, 300},
+  Frame -> True,
+  FrameLabel -> {"\[Mu] [GeV]", "C(\[Mu])"},
+  PlotStyle -> {
+    {Thick, Red},
+    {Thick, Dashed, Red}
+  },
+  PlotLegends -> {"Cos2l", "Cos1l"},
+  GridLines -> Automatic,
+  PlotRange -> All
+]
+
+
+(* ::Section:: *)
+(*PLOT MSbar*)
+
+
+(* ::Subsection::Closed:: *)
+(*original fixed scale code*)
+
+
+(*(* 1. Define OS Parameters and Initial Scale *)
+MZosVal = 91.1876; MWosVal = 80.379; MHosVal = 125.1; MtosVal = 172.5;
+mu0 = MZosVal; (* Typically choose MZ or Mt as the starting scale *)
+aeVal = 1/127.95; (* Alpha EW at mu0 *)
+
+(* 2. Convert OS to MSbar masses at mu0 *)
+(* Using shift structures from numerics.m and variables from ostomsbar.m *)
+shiftFactor = aeVal / (4 Pi);
+
+(* Note: You must define the correct algebraic prefactors for W, H, t shifts *)
+MZmsbar0 = MZosVal * (1 - 1/2 * shiftFactor / (1 - MWosVal^2/MZosVal^2) * XZ1) /. 
+    {MZos -> MZosVal, MWos -> MWosVal, MHos -> MHosVal, Mtos -> MtosVal, mu -> mu0};
+MWmsbar0 = MWosVal * (1 - shiftFactor * (* PREFACTOR *) * XW1) /. 
+    {MZos -> MZosVal, MWos -> MWosVal, MHos -> MHosVal, Mtos -> MtosVal, mu -> mu0};
+MHmsbar0 = MHosVal * (1 - shiftFactor * (* PREFACTOR *) * XH1) /. 
+    {MZos -> MZosVal, MWos -> MWosVal, MHos -> MHosVal, Mtos -> MtosVal, mu -> mu0};
+Mtmsbar0 = MtosVal * (1 - shiftFactor * (* PREFACTOR *) * Xtfermionaux) /. 
+    {MZos -> MZosVal, MWos -> MWosVal, MHos -> MHosVal, Mtos -> MtosVal, mu -> mu0};
+
+(* 3. Map MSbar masses to fundamental parameters at mu0 *)
+v0 = 2 * MWmsbar0 / Sqrt[4 * Pi * aeVal / (1 - MWmsbar0^2/MZmsbar0^2)]; (* or from GF *)
+g2Init = 2 * MWmsbar0 / v0;
+g1Init = 2 * Sqrt[MZmsbar0^2 - MWmsbar0^2] / v0;
+lamInit = MHmsbar0^2 / (2 * v0^2);
+ytInit = Sqrt[2] * Mtmsbar0 / v0;
+mpInit = lamInit * v0^2; (* Assuming mp[t] corresponds to the mass parameter m^2 *)
+
+(* 4. Setup and Solve RGEs *)
+tInit = Log[mu0^2];
+myInitConds = {
+  g1[tInit] == g1Init,
+  g2[tInit] == g2Init,
+  yt[tInit] == ytInit,
+  yb[tInit] == 0, (* Using rgeyboff where yb is turned off *)
+  lam[tInit] == lamInit,
+  mp[tInit] == mpInit
+};
+
+targetMu = 160.0;
+tTarget = Log[targetMu^2];
+
+(* Using rgeyboff defined in rge.m *)
+sol = NDSolve[
+  Join[rgeyboff, myInitConds], 
+  {g1, g2, mp, yt, yb, lam}, 
+  {t, tInit, tTarget}
+];
+
+(* 5. Reconstruct MSbar masses at the target scale targetMu *)
+vTarget = Sqrt[mp[tTarget] / lam[tTarget]] /. sol[[1]];
+MWmsbarTarget = g2[tTarget] * vTarget / 2 /. sol[[1]];
+MZmsbarTarget = Sqrt[g1[tTarget]^2 + g2[tTarget]^2] * vTarget / 2 /. sol[[1]];
+MHmsbarTarget = Sqrt[2 * lam[tTarget]] * vTarget /. sol[[1]];
+MtmsbarTarget = yt[tTarget] * vTarget / Sqrt[2] /. sol[[1]];
+
+(* 6. Evaluate the Wilson Coefficient *)
+(* wcaux is your MSbar Wilson Coefficient expression from numerics.m *)
+finalWC = wcaux /. {
+  MW -> MWmsbarTarget, 
+  MZ -> MZmsbarTarget, 
+  MH -> MHmsbarTarget, 
+  Mt -> MtmsbarTarget, 
+  mu -> targetMu
+};*)
+
+
+(* ::Subsection:: *)
+(*rge at mass pole for each mass*)
+
+
+pdgmasses
+
+
+GF = 1.1663787*10^(-5);
+
+
+(*initial conditions for the masses*)
+MZmsbar0=N[Normal[Series[MZos*(1-1/2*ae/(4 Pi*(1-MWos^2/MZos^2))*XZ1),{ep,0,0}]]/.ae->alphaf[mu,5]/.mu->MZos/.pdgmasses]//Chop;
+MWmsbar0=N[Normal[Series[MWos*(1-1/2*ae/(4 Pi*(1-MWos^2/MZos^2))*XW1),{ep,0,0}]]/.ae->alphaf[mu,5]/.mu->MWos/.pdgmasses]//Chop;
+MHmsbar0=N[Normal[Series[MHos*(1-1/2*ae/(4 Pi*(1-MWos^2/MZos^2))*XH1),{ep,0,0}]]/.ae->alphaf[mu,5]/.mu->MHos/.pdgmasses]//Chop;
+Mtmsbar0=ComplexExpand[Re[N[Normal[Series[Mtos*(1-1/2*ae/(4 Pi*(1-MWos^2/MZos^2))*Xt1),{ep,0,0}]]/.ae->alphaf[mu,5]/.mu->Mtos/.pdgmasses]]]//Chop;
+
+
+(*initial conditions for the fundamental parameters *)
+v0 = 1 / Sqrt[Sqrt[2] * GF]; 
+g2Init = 2 * MWmsbar0 / v0;
+g1Init = 2 * Sqrt[MZmsbar0^2 - MWmsbar0^2] / v0;
+lamInit = MHmsbar0^2 / (2 * v0^2);
+ytInit = Sqrt[2] * Mtmsbar0 / v0;
+mpInit = lamInit * v0^2;
+
+
+(*v0 
+g2Init
+g1Init
+lamInit 
+ytInit 
+mpInit 
+Sqrt[%]*)
+
+
+(*solve RGEs*)
+myInitConds = {
+  g1[tInit] == g1Init,
+  g2[tInit] == g2Init,
+  yt[tInit] == ytInit,
+  yb[tInit] == 0, (* Using rgeyboff where yb is turned off *)
+  lam[tInit] == lamInit,
+  mp[tInit] == mpInit
+};
+
+solver = NDSolve[
+  Join[rgeyboff, myInitConds], 
+  {g1, g2, mp, yt, yb, lam}, 
+  {t, muToT[40],muToT[300]}
+];
+
+
+(*  Reconstruct MSbar masses  *)
+vmu[mu_] := Sqrt[mp[muToT[mu]] / lam[muToT[mu]]] /. solver[[1]];
+MWmu[mu_] := (g2[muToT[mu]] /. solver[[1]]) * vmu[mu] / 2;
+MZmu[mu_] := Sqrt[(g1[muToT[mu]] /. solver[[1]])^2 + (g2[muToT[mu]] /. solver[[1]])^2] * vmu[mu] / 2;
+MHmu[mu_] := Sqrt[2 * (lam[muToT[mu]] /. solver[[1]])] * vmu[mu];
+Mtmu[mu_] := (yt[muToT[mu]] /. solver[[1]]) * vmu[mu] / Sqrt[2];
+
+
+(*alpha??*)
+
+
+MWmu[80]
+MZmu[90]
+MHmu[125]
+Mtmu[173]
+
+
+(* ::Subsection::Closed:: *)
+(*prep the WC*)
+
+
+JCplt=Normal[Series[Series[Jexpl/Jexp*wcoef, {alpha[mu,5],0,2}],{ep,0,0}]]/.nc->3//logs//
+Collect[#, {a1qu, a2qu, b1qu, b2qu, a1mu, a2mu, b1mu, b2mu},Simplify]&;
+
+
+JCplt1l=Normal[Series[JCplt,{alpha[mu,5],0,1}]];
+
+
+uJCplt = 1/(ui[mu,5])* JCplt//logs//
+Collect[#, {Log[__], Log[__]^n_},Simplify]&;
+
+
+uJCplt1 = 1/(ui[mu,5])* JCplt1l//logs//
+Collect[#, {Log[__], Log[__]^n_},Simplify]&;
+
+
+Cplt=uJCplt/.nc->3/.Zeta[x_]:>N[Zeta[x]]/.Li2[x_]:>PolyLog[2,x]/.S2->clausen/.
+DTPHI1->phi1a/.DTPHI2->phi2/.
+Cl2[x_]:>ResourceFunction["ClausenCl"][2, x]//N//Chop//Simplify;
+
+
+Cplt/.MW->80/.MZ->90/.MH->125/.Mt->173//Simplify
+
+
+(*test*)
+Cosplt1/.alpha->alphaf/.pdgmasses/.mu->40//Simplify
+
+
+(*Clear[alphaf]
+alphaf[mu_,a_]:=alpha[MZ,5]/ (1 - (alpha[MZ,5] / (2 * Pi)) * beta[0] * Log[mu / MZos]);*)
+
+
+(*Plot[
+  {Cosplt/.alpha->alphaf/.pdgmasses, Cosplt1/.alpha->alphaf/.pdgmasses},
+  {mu, 40, 300},
+  Frame -> True,
+  FrameLabel -> {"\[Mu] [GeV]", "C(\[Mu])"},
+  PlotStyle -> {
+    {Thick, Red},
+    {Thick, Dashed, Red}
+  },
+  PlotLegends -> {"Cos2l", "Cos1l"},
+  GridLines -> Automatic,
+  PlotRange -> All
+]*)

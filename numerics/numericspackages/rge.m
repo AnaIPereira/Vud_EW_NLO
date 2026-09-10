@@ -85,11 +85,67 @@ kaift=TableForm[kt2,
  TableHeadings -> {None, {"mu", "g2", "g1", "v", "lam", "yt"}}];
 
 
-kaift
+kaift;
 anaft;
 
 
 (* ::Section::Closed:: *)
+(*running alpha QED*)
+
+
+Clear[charges]
+charges = {nc->3,ne->3,nu->2,nd->3,qd->-1/3,qe->-1,qu->2/3,nl->3};
+
+
+Clear[Q5]
+Q5 /: Q5[n_]:= nc(nu qu^n + nd qd^n) + ne qe^n /. {nc->3,qu->2/3,qd->-1/3,qe->-1, nu->2, nd->3,ne->3};
+Clear[beta]
+beta /: beta[0]:= 4/3 Q5[2]/.charges;
+beta /: beta[1]:= 4 Q5[4]/.charges;
+beta /: beta[2] := (-2 Q5[6] - 44/9 Q5[2] * Q5[4])/.charges;
+
+
+ClearAll[ betaE2Loop, e, muToT, rgeQED, initCondsQED, solQED]
+
+betaE2Loop[e_] := beta[0] * (e^3 / (16*Pi^2)) + beta[1] * (e^5 / (16*Pi^2)^2);
+
+rgeQED = {
+  D[e[t], t] == 1/2 * betaE2Loop[e[t]]
+};
+
+muToT[mu_] := Log[mu^2];
+
+tInit = muToT[40]; 
+(* Initialize e directly from Kai's table data at mu = 40 *)
+eInit = kt[[1, 6]]; 
+
+initCondsQED = {
+  e[tInit] == eInit
+};
+
+(* Solve from electron mass scale up to the Z boson mass (91.1876 GeV) *)
+solQED = NDSolve[
+  Join[rgeQED, initCondsQED],
+  {e},
+  {t, muToT[40], muToT[300]}
+];
+
+(* table of results *)
+tableQED = Table[
+  {mu, 
+   e[muToT[mu]] /. solQED[[1]], 
+   (e[muToT[mu]]^2)/(4*Pi) /. solQED[[1]]}, 
+  {mu, 40, 160, 10}
+];
+
+TableForm[tableQED, 
+ TableHeadings -> {None, {"mu", "e", "alphaQED"}}]
+
+
+kt//TableForm
+
+
+(* ::Section:: *)
 (*running fundamental parameters Pikelner*)
 
 
@@ -214,15 +270,15 @@ initCondsmr = {
 };
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*solution*)
 
 
 (* Solve from mu = 40 GeV to mu = 160 GeV *)
 sol = NDSolve[
-  Join[rge, initCondsmr],
+  Join[rge, initCondskai],
   {g1, g2, mp, yt, yb, lam},
-  {t, muToT[40], muToT[160]}
+  {t, muToT[40], muToT[300]}
 ];
 
 
@@ -237,7 +293,7 @@ tablerge = Table[
    mp[muToT[mu]]/. sol[[1]]*)}, {mu, 40, 160, 10}];
 
 trunmath=TableForm[tablerge, 
- TableHeadings -> {None, {"mu", "g2", "g1", "lam", "yt"}}]
+ TableHeadings -> {None, {"mu", "g2", "g1", "lam", "yt"}}];
 
 
 (*kaift;
@@ -250,8 +306,26 @@ anaft*)
 (*Export["/home/ana/Documents/GitHub/Vud_EW_NLO/numerics/ana_results_from_mr.pdf", anaft]*)
 
 
+(* ::Subsection:: *)
+(*alpha6flavour running*)
+
+
+tableQEDFromEW = Table[
+  {mu, 
+   (g2[muToT[mu]] * g1[muToT[mu]] / 
+    Sqrt[g2[muToT[mu]]^2 + g1[muToT[mu]]^2]) /. sol[[1]]}, 
+  {mu, 40, 160, 10}
+];
+
+TableForm[tableQEDFromEW, 
+ TableHeadings -> {None, {"mu", "e"}}];
+
+
+kt//TableForm;
+
+
 (* ::Section::Closed:: *)
-(*running fundamental parameters Arason*)
+(*running fundamental parameters Arason (*commented out*)*)
 
 
 (* ::Subsection::Closed:: *)
